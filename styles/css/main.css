@@ -296,7 +296,7 @@ a[href*="app.seve-up.com"]::after {
   background-color: currentcolor;
 }
 
-a:not([href=""]):not([href*="#"]):not([href="/"]):not([href*="#pll_switcher"]):not([href*="SOUSDOMAINE.ocade-server.fr"]):not([href^="tel:"]):not([href^="fax:"]):not([href^="mailto:"]):not([href*="app.seve-up.com"])::after {
+a:not([href=""]):not([href*="#"]):not([href="/"]):not([href*="#pll_switcher"]):not([href*="SOUSDOMAINE.ocade.eu"]):not([href^="tel:"]):not([href^="fax:"]):not([href^="mailto:"]):not([href*="app.seve-up.com"])::after {
   mask-image: url("../../_icons/exit.svg");
   -webkit-mask-image: url("../../_icons/exit.svg");
   content: "";
