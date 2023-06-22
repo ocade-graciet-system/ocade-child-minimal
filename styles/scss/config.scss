@@ -1,0 +1,309 @@
+@charset "UTF-8";
+
+@use "sass:math";
+@use "sass:map";
+@use "sass:color";
+
+@import "./mixins.scss";
+@import "./load.scss";
+
+* { box-sizing: border-box; }
+
+$aligncontent: 1280px;
+$alignwide: 1440px;
+$alignfull: 100vw;
+
+$espacement-1: .5rem; /** 8px */
+$espacement-2: 1rem; /** 16px */
+$espacement-3: 1.5rem; /** 24px */
+$espacement-4: 2rem; /** 32px */
+$espacement-5: 2.5rem; /** 40px */
+$espacement-6: 3rem; /** 48px */
+$espacement-7: 3.5rem; /** 56px */
+$espacement-8: 4rem; /** 64px */
+$espacement-9: 4.5rem; /** 72px */
+$espacement-10: 5rem; /** 80px */
+
+/*
+ * TYPO
+ */
+
+$fonts: (
+  "keys": "font-family" "font-weight" "font-style" "font-size" "line-height" "letter-spacing" "text-transform",
+  "title-xxl-sm": (
+    "font-family": "Wix Madefor Display",
+    "font-weight": 700,
+    "font-size": $espacement-4,
+    "line-height": 150%,
+    "letter-spacing": calc(0.02 * $espacement-4)
+  ),
+  "title-xxl": (
+    "font-family": "Wix Madefor Display",
+    "font-weight": 700,
+    "font-size": $espacement-5,
+    "line-height": 150%,
+    "letter-spacing": calc(0.02 * $espacement-5)
+  ),
+  "title-xl-sm": (
+    "font-family": "Wix Madefor Display",
+    "font-weight": 700,
+    "font-size": 1.875rem,
+    "line-height": 150%,
+    "letter-spacing": calc(0.02 * 1.875rem)
+  ),
+  "title-xl": (
+    "font-family": "Wix Madefor Display",
+    "font-weight": 700,
+    "font-size": $espacement-4,
+    "line-height": 150%,
+    "letter-spacing": calc(0.02 * $espacement-4)
+  ),
+  "title-l": (
+    "font-family": "Wix Madefor Display",
+    "font-weight": 700,
+    "font-size": 1.675rem,
+    "line-height": 150%,
+    "letter-spacing": calc(0.01 * 1.675rem)
+  ),
+  "title-m": (
+    "font-family": "Wix Madefor Display",
+    "font-weight": 700,
+    "font-size": $espacement-3,
+    "line-height": 150%,
+    "letter-spacing": calc(0.01 * $espacement-3)
+  ),
+  "title-s": (
+    "font-family": "Wix Madefor Display",
+    "font-weight": 700,
+    "font-size": 1.375rem,
+    "line-height": 150%,
+    "letter-spacing": calc(0.01 * 1.375rem)
+  ),
+  "title-xs": (
+    "font-family": "Wix Madefor Display",
+    "font-weight": 700,
+    "font-size": 1.25rem,
+    "line-height": 150%,
+    "letter-spacing": calc(0.01 * 1.25rem)
+  ),
+  "body-l": (
+    "font-family": "Wix Madefor Display",
+    "font-weight": 400,
+    "font-size": 1.25rem,
+    "line-height": 150%,
+    "letter-spacing": calc(0.03 * 1.25rem)
+  ),
+  "body-m": (
+    "font-family": "Wix Madefor Display",
+    "font-weight": 400,
+    "font-size": $espacement-2,
+    "line-height": 150%,
+    "letter-spacing": calc(0.04 * $espacement-2)
+  ),
+  "body-s": (
+    "font-family": "Wix Madefor Display",
+    "font-weight": 400,
+    "font-size": 0.875rem,
+    "line-height": 150%,
+    "letter-spacing": calc(0.04 * 0.875rem)
+  ),
+  "quote-l": (
+    "font-family": "Wix Madefor Display",
+    "font-weight": 400,
+    "font-size": 1.25rem,
+    "font-style": italic,
+    "line-height": 150%,
+    "letter-spacing": calc(0.03 * 1.25rem)
+  ),
+  "quote-m": (
+    "font-family": "Wix Madefor Display",
+    "font-weight": 400,
+    "font-size": $espacement-2,
+    "font-style": italic,
+    "line-height": 150%,
+    "letter-spacing": calc(0.04 * $espacement-2)
+  ),
+  "quote-s": (
+    "font-family": "Wix Madefor Display",
+    "font-weight": 400,
+    "font-size": 0.875rem,
+    "font-style": italic,
+    "line-height": 150%,
+    "letter-spacing": calc(0.04 * 0.875rem)
+  ),
+  "caption": (
+    "font-family": "Wix Madefor Display",
+    "font-weight": 700,
+    "font-size": 0.75rem,
+    "line-height": 150%,
+    "letter-spacing": calc(0.035 * 0.75rem)
+  ),
+  "overline": (
+    "font-family": "Wix Madefor Display",
+    "font-weight": 400,
+    "font-size": 0.875rem,
+    "line-height": 150%,
+    "letter-spacing": calc(0.02 * 0.875rem)
+  ),
+  "button": (
+    "font-family": "Wix Madefor Display",
+    "font-weight": 700,
+    "font-size": $espacement-2,
+    "line-height": 150%,
+    "letter-spacing": calc(0.01 * $espacement-2)
+  ),
+);
+
+/** CLEMUX DESIGN SYSTEM */
+$cds: (
+  "section": (
+    "sm": 5vw,
+    "md": 5vw,
+    "lg": 2.08vw,
+    "xl": 2.5vw,
+    "xxl": 3.33vw,
+  ),
+  "block-x": (
+    "sm": 5vw,
+    "md": 5vw,
+    "lg": 8.33vw,
+    "xl": 8.75vw,
+    "xxl": max(8.9vw, calc((100vw - 1280px) / 2))
+  ),
+  "block-y": (
+    "sm": 5vw,
+    "md": 5vw,
+    "lg": 4.16vw,
+    "xl": 3.75vw,
+    "xxl": 3.33vw
+  ),
+  "col": (
+    "sm": $espacement-3,
+    "md": $espacement-3,
+    "lg": $espacement-4,
+    "xl": $espacement-4,
+    "xxl": 3rem
+  ),
+  "item": (
+    "sm": $espacement-3,
+    "md": $espacement-3,
+    "lg": $espacement-3,
+    "xl": $espacement-3,
+    "xxl": $espacement-3
+  ),
+);
+
+/* Breakpoints */
+$bp-xs: 450px;
+$bp-sm: 576px;
+$bp-md: 768px;
+$bp-lg: 992px;
+$bp-xl: 1280px;
+$bp-xxl: 1440px;
+$bp: (
+  "xs": $bp-xs,
+  "sm": $bp-sm,
+  "md": $bp-md,
+  "lg": $bp-lg,
+  "xl": $bp-xl,
+  "xxl": $bp-xxl,
+);
+
+/* Colors
+* Les couleurs --wp-preset--color--* sont définies dans le fichier functions.php. On peut les faire variées directement dans Thèmes -> Personnaliser -> Couleurs
+* Ici on associe ces valeurs présent dans le BO à des variables plus parlantes
+*/
+
+/** Black */
+$black: var(--wp--preset--color--black);
+
+/** White */
+$white: var(--wp--preset--color--white);
+
+/** Primary */
+$primary-100:  var(--wp--preset--color--primary-100);
+$primary-200:  var(--wp--preset--color--primary-200);
+$primary-300:  var(--wp--preset--color--primary-300);
+$primary-400:  var(--wp--preset--color--primary-400);
+$primary-500:  var(--wp--preset--color--primary-500);
+$primary-600:  var(--wp--preset--color--primary-600);
+$primary-700:  var(--wp--preset--color--primary-700);
+$primary-800:  var(--wp--preset--color--primary-800);
+$primary-900:  var(--wp--preset--color--primary-900);
+$primary-1000: var(--wp--preset--color--primary-1000);
+
+/** Secondary */
+$secondary-100: var(--wp--preset--color--secondary-100);
+$secondary-200: var(--wp--preset--color--secondary-200);
+$secondary-300: var(--wp--preset--color--secondary-300);
+$secondary-400: var(--wp--preset--color--secondary-400);
+$secondary-500: var(--wp--preset--color--secondary-500);
+$secondary-600: var(--wp--preset--color--secondary-600);
+$secondary-700: var(--wp--preset--color--secondary-700);
+$secondary-800: var(--wp--preset--color--secondary-800);
+$secondary-900: var(--wp--preset--color--secondary-900);
+$secondary-1000: var(--wp--preset--color--secondary-1000);
+
+/** Tertiary */
+$ternary-100: var(--wp--preset--color--ternary-100);
+$ternary-200: var(--wp--preset--color--ternary-200);
+$ternary-300: var(--wp--preset--color--ternary-300);
+$ternary-400: var(--wp--preset--color--ternary-400);
+$ternary-500: var(--wp--preset--color--ternary-500);
+$ternary-600: var(--wp--preset--color--ternary-600);
+$ternary-700: var(--wp--preset--color--ternary-700);
+$ternary-800: var(--wp--preset--color--ternary-800);
+$ternary-900: var(--wp--preset--color--ternary-900);
+$ternary-1000: var(--wp--preset--color--ternary-1000);
+
+/** Supports */
+$supports-100: var(--wp--preset--color--supports-100);
+$supports-200: var(--wp--preset--color--supports-200);
+$supports-300: var(--wp--preset--color--supports-300);
+$supports-400: var(--wp--preset--color--supports-400);
+$supports-500: var(--wp--preset--color--supports-500);
+$supports-600: var(--wp--preset--color--supports-600);
+$supports-700: var(--wp--preset--color--supports-700);
+$supports-800: var(--wp--preset--color--supports-800);
+$supports-900: var(--wp--preset--color--supports-900);
+$supports-1000: var(--wp--preset--color--supports-1000);
+
+
+$primary: (
+  var(--wp--preset--color--primary-100),
+  var(--wp--preset--color--primary-200),
+  var(--wp--preset--color--primary-300),
+  var(--wp--preset--color--primary-400),
+  var(--wp--preset--color--primary-500),
+  var(--wp--preset--color--primary-600),
+  var(--wp--preset--color--primary-700),
+  var(--wp--preset--color--primary-800),
+  var(--wp--preset--color--primary-900),
+  var(--wp--preset--color--primary-1000)
+);
+
+$secondary: (
+  var(--wp--preset--color--secondary-100),
+  var(--wp--preset--color--secondary-200),
+  var(--wp--preset--color--secondary-300),
+  var(--wp--preset--color--secondary-400),
+  var(--wp--preset--color--secondary-500),
+  var(--wp--preset--color--secondary-600),
+  var(--wp--preset--color--secondary-700),
+  var(--wp--preset--color--secondary-800),
+  var(--wp--preset--color--secondary-900),
+  var(--wp--preset--color--secondary-1000)
+);
+
+$ternary: (
+  var(--wp--preset--color--ternary-100),
+  var(--wp--preset--color--ternary-200),
+  var(--wp--preset--color--ternary-300),
+  var(--wp--preset--color--ternary-400),
+  var(--wp--preset--color--ternary-500),
+  var(--wp--preset--color--ternary-600),
+  var(--wp--preset--color--ternary-700),
+  var(--wp--preset--color--ternary-800),
+  var(--wp--preset--color--ternary-900),
+  var(--wp--preset--color--ternary-1000)
+);

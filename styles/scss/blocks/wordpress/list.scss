@@ -1,0 +1,92 @@
+@import "../../config.scss";
+
+ul {
+  $decalage: 1.5rem;
+  $line-height: 1.5rem;
+
+  padding-left: 0;
+  width: 100%;
+  max-width: 100%;
+
+  li {
+    cursor: default;
+    position: relative;
+    color: currentColor;
+    margin-left: calc( 1rem + $decalage);
+    margin-bottom: .5rem;
+    line-height: $line-height;
+    list-style-type: none;
+
+    &::before {
+      @include icon-base();
+      
+      display: none !important;
+      position: absolute;
+      top: calc(($line-height - 1rem) / 2);
+      left: calc(-1 * $decalage - 0.25rem);
+      width: 1rem !important;
+      height: 1rem !important;
+      margin-right: 0;
+      background-color: currentColor;
+    }
+
+    &.is-style-star { 
+      &::before { 
+        @include icon("star-3"); 
+        
+        display: inline-block !important;
+      }
+    }
+
+    &.is-style-square { 
+      &::before { 
+        @include icon("square-1"); 
+        
+        display: inline-block !important;
+      }
+    }
+
+    &.is-style-circle {
+      &::before { 
+        @include icon("circle-1"); 
+        
+        display: inline-block !important;
+        top: .55rem;
+        left: -1.45rem;
+        width: .5rem !important;
+        height: .5rem !important;
+      }
+    }
+
+    &.is-style-checked {
+      &::before {
+        @include icon("check-10");
+
+        display: inline-block !important;
+        background-color: green;
+      }
+    }
+
+    &.is-style-disabled {
+      color: rgb(192, 0, 0);
+      cursor: not-allowed;
+  
+      &::before {
+        @include icon("disabled");
+
+        display: inline-block !important;
+        background-color: rgb(192, 0, 0);
+      }
+    }
+  }
+}
+
+/** Pour avoir les icones dans l'éditeur */
+.editor-styles-wrapper {
+  ul {
+    li {
+      &.is-style-checked { &::before { @include icon("checked", "svg", '../../../../_icons/'); } }
+      &.is-style-disabled { &::before { @include icon("disabled", "svg", '../../../../_icons/'); } }
+    }
+  }
+}

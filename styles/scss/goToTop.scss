@@ -1,0 +1,59 @@
+@import "./config.scss";
+
+// Ajoutez la déclaration d'animation avec les keyframes ici
+@keyframes chevron-bounce {
+  0%,
+  100% {
+    transform: translate(-50%, -50%);
+  }
+
+  50% {
+    transform: translate(-50%, -55%);
+  }
+}
+
+#go-to-top {
+  display: flex; /** Apparait automatiquement au scroll avec JS */
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  right: 2rem;
+  z-index: 999;
+  width: 3.125rem;
+  height: 3.125rem;
+  background-color: $supports-200;
+  border-radius: 100%;
+  border: 6px outset $supports-600;
+  cursor: pointer; 
+  opacity: 0.75;
+
+  @media (min-width:600px) { bottom: 2rem; }
+
+  &::before {
+    @include icon-base();
+    @include icon("fleche-29");
+
+    background-color: $white;
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    width: 1.5625rem;
+    height: 1.5625rem;
+    margin: 0;
+    transform: translate(-50%, -50%);
+  }  
+
+  &::after { display: none !important; }
+  
+  &:hover {
+    background-color: $supports-300;
+    border-color: $primary-700;
+    opacity: 1;
+    box-shadow: rgba(50, 50, 93, 0.25) 0 50px 100px -20px, rgba(0, 0, 0, 0.3) 0 30px 60px -30px;
+
+    /** Animation sur after ou le chevron monte et descend en boucle */
+    &::before {
+      animation: chevron-bounce 1s infinite;
+    }
+  }
+}

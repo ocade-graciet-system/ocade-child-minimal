@@ -1,0 +1,186 @@
+@import "./config.scss";
+
+footer {
+  .wp-block-group {
+    padding-top: 4rem;
+    padding-bottom: 6rem;
+
+    @media (min-width: 600px) { padding-bottom: 4rem; }
+
+    .wp-block-columns {
+      justify-content: center;
+      column-gap: 3.5rem;
+      flex-wrap: wrap !important;
+
+      .wp-block-column {
+        display: flex;
+        flex: 0 0 max-content;
+        flex-direction: column;
+        align-items: center;
+
+        .wp-block-group {
+          align-items: center;
+          padding-top: 0;
+          padding-bottom: 0;
+
+          @media (min-width: 600px) { align-items: flex-start; }
+
+          .wp-block-ocade-blocks-icon {
+            width: 1.5rem !important;
+            height: 1.5rem !important;
+            background-color: transparent !important;
+            border: none !important;
+          }
+        }
+
+        .wp-block-ocade-blocks-mailto {
+          color: $white;
+
+          @media (min-width: 782px) { 
+            margin-left: 0; 
+            padding: 0;
+          }
+
+          &::before {
+            mask-image: url("../../_icons/arobase-2.svg");
+            -webkit-mask-image: url("../../_icons/arobase-2.svg");
+            width: 1rem;
+            height: 1rem;
+            color: $secondary-700;
+          }
+        }
+
+        p {
+          margin-top: 0;
+          margin-bottom: 0;
+
+          @media (min-width: 600px) { margin-bottom: .5rem; }
+
+          @media (min-width: 782px) { align-self: flex-start; }
+    
+          strong {
+            color: $white;
+            font-weight: 700;
+            font-size: 1.25rem;
+          }
+    
+          a { 
+            color: $white; 
+            min-height: 1rem;
+          }
+
+          time { color: inherit; }
+    
+          .content { color: inherit; }
+
+          &.seve-up {
+            color: $white;
+            font-size: 3rem; 
+            font-weight: 700; 
+
+            strong { 
+              color: $secondary-700; 
+              font-size: 3rem; 
+              font-weight: 700; 
+            }
+          }
+
+          &.wp-block-site-tagline { 
+            font-weight: 600;
+            text-align: center;
+
+            @media (min-width: 782px) { text-align: left; }
+          }
+        }
+
+        p, 
+        .wp-block-group { max-width: 250px; }
+    
+        time + p {
+          margin-top: 0;
+          margin-bottom: 0;
+        } 
+    
+        .wp-block-ocade-blocks-footer-menu a[href="#header"] {
+          filter: grayscale(100%);
+          cursor: default;
+    
+          &.no-top {
+            filter: grayscale(0%);
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}
+
+/* stylelint-disable-next-line no-descending-specificity */
+.footer-flag-nav {
+  position: relative;
+  z-index: 999;
+  width: 50px;
+  height: 50px;
+
+  .footer-flag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+    background-color: $supports-200;
+    border-radius: 100%;
+    border: 6px outset $supports-600;
+
+    img {
+      width: 24px; /** Garder pour opti google speed insights */
+      height: 17px; /** Garder pour opti google speed insights */
+    }
+  
+    + .footer-flags-list  {
+      display: none;
+      position: absolute;
+      left: calc(100% + .5rem);
+      bottom: 2.5rem;
+      flex-wrap: wrap;
+      gap: .25rem;
+      width: 300px;
+  
+      /* stylelint-disable-next-line no-descending-specificity */
+      li {
+        
+        /* stylelint-disable-next-line no-descending-specificity */
+        a {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 0;
+          min-height: 44px;
+          min-width: 44px;
+          background-color: $supports-300;
+          border-radius: 100%;
+          border: .25rem inset $supports-600;
+  
+          &:hover {
+            background-color: $supports-300;
+          }
+
+          img {
+            width: 24px; /** Garder pour opti google speed insights */
+            height: 17px; /** Garder pour opti google speed insights */
+          }      
+        }
+      }
+    }
+  }
+
+  &:hover { 
+    cursor: pointer;
+    
+    .footer-flag { background-color: $supports-200; }
+  }
+
+  &.open {
+    .footer-flag { background-color: $supports-200; }
+    .footer-flags-list { display: flex !important; }
+  }
+}

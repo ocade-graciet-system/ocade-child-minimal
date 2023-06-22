@@ -1,0 +1,287 @@
+@import "../../config.scss";
+
+nav.wp-block-navigation {
+  position: absolute;
+  right: 1.5rem;
+  bottom: var(--hauteur-breadcrumb); /** 🆘 Hauteur breadcrumb est fournit par le javascript et permet de placer correctement le bouton burger peut import si on à un breadcrumb ou pas (ex: page accueil ou autre page ) */
+  z-index: 1000;
+  height: 92px; /** 🆘 Cette valeur est important pour le positionnement sticky. Elle doit être égale à la hauteur du bandeau sur petit écran (si que formulaire alors hauteur du formulaire par exemple. */
+
+  @media(min-width: 600px) {
+    position: relative;
+    right: 0;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 100vw;
+    height: auto;
+    background-color: $supports-1000;
+  }
+
+  .has-child:not(.open-on-click):hover > .wp-block-navigation-submenu.wp-block-navigation__submenu-container { min-width: max-content; }
+
+  /** Bouton Burger */
+  button.wp-block-navigation__responsive-container-open {
+    display: none !important; /** On cache le bouton burger de base de wordpress */
+    position: relative;
+    
+
+    &::before {
+      @include icon-base;
+      @include icon("menu-burger");
+      
+      height: 2.5rem;
+      width: 2.5rem;
+      margin-right: 0;
+      background-color: $black;
+    }
+
+    &:hover {
+      &::before {
+        background-color: $primary-700;
+      }
+    }
+
+    svg {
+      display: none;
+    }
+  }
+
+  /** Navigation Principale */
+  div.wp-block-navigation__responsive-container-content {
+    ul {
+      gap: 0;
+
+      li {
+        margin-left: 0;
+        margin-bottom: 0;
+
+        &::before { display: none !important; }
+
+        /** li polylang switcher */
+        &.wp-block-polylang-navigation-language-switcher.current-menu-item {
+          background-color: transparent;
+  
+          a, 
+          span {
+            color: $black !important;
+          }
+  
+          &:hover {
+            > a span { color: $white !important; }
+            > a path { stroke: $white; }
+  
+            .wp-block-polylang-navigation-language-switcher.current-menu-item { 
+              background-color: $primary-700; 
+            
+              a, span { color: $white !important; }
+            }
+          }
+        }
+
+        @media (max-width: 600px) {
+          a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+        }
+      }
+
+      ul {
+        border: none !important;
+
+        @media (min-width: 600px) { box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0; }
+      }
+
+      li {
+        &.has-child { padding-right: .3rem !important; }
+
+        /* stylelint-disable-next-line no-descending-specificity */
+        a, 
+        span {
+          color: $black !important;
+          border-bottom: 2px solid transparent;
+        }
+
+        &.current-menu-item,
+        &.current-menu-item:hover {
+          background-color: $primary-700;
+        }
+  
+        &:hover {
+          background-color: $primary-900;
+          
+          /* stylelint-disable-next-line no-descending-specificity */
+          > a {
+            color: $black; 
+
+            /* stylelint-disable-next-line no-descending-specificity */
+            span {
+              border-bottom: 2px solid $primary-900;
+            }
+          }
+        }
+  
+        /* stylelint-disable-next-line no-descending-specificity */
+        a {
+          padding: 1rem;
+
+          &[aria-current="page"] {
+            color: $white !important;
+
+            /* stylelint-disable-next-line no-descending-specificity */
+            span {
+              color: $white !important;
+              border-bottom: 2px solid transparent;
+            }
+
+            /* stylelint-disable-next-line no-descending-specificity */
+            + button path {
+              stroke: $white;
+            }
+          }
+  
+          &+button.wp-block-navigation__submenu-icon {
+            margin-right: 0.25rem;
+          }
+        }
+      }
+    }
+  }
+
+  /** Menu Open */
+  div.wp-block-navigation__responsive-container.is-menu-open {
+    div.wp-block-navigation__responsive-container-content {
+      align-items: flex-start;
+
+      ul {
+        padding-top: 0;
+        align-items: flex-start;
+
+        li {
+          align-items: flex-start;
+
+          &.current-menu-item {
+
+            /* stylelint-disable-next-line no-descending-specificity */
+            > a {
+              padding: 0.5rem;
+              background-color: $primary-700;
+              border-radius: 4px;
+              
+              /* stylelint-disable-next-line no-descending-specificity */
+              span {
+                color: $white;
+              }
+            }
+          }
+        }
+
+        /** li polylang switcher */
+        /* stylelint-disable-next-line no-descending-specificity */
+        li.wp-block-polylang-navigation-language-switcher.current-menu-item {
+          
+          /* stylelint-disable-next-line no-descending-specificity */
+          a { cursor: pointer; }
+
+          /* stylelint-disable-next-line no-descending-specificity */
+          > a { 
+            background-color: $supports-1000; 
+          }
+
+          /* stylelint-disable-next-line no-descending-specificity */
+          ul {
+            padding-left: 3rem !important;
+
+            li.wp-block-polylang-navigation-language-switcher.current-menu-item {
+              a:hover {
+                background-color: $primary-700 !important;
+
+                span {
+                  color: $white !important;
+                }
+              }
+            }
+
+            li {
+              width: 100%;
+              margin-top: .2rem;
+            }
+
+            /* stylelint-disable-next-line no-descending-specificity */
+            a {
+              align-items: center;
+              width: 100%;
+              min-height: 44px;
+              padding: 0.25rem 1rem;
+              border-radius: 4px;
+
+                  /* stylelint-disable-next-line no-descending-specificity */
+                  span { 
+                    padding-left: .5rem;
+                    font-size: .8rem !important; 
+                  }
+              /* stylelint-disable-next-line no-descending-specificity */
+              &:hover {
+                background-color: $primary-700 !important;
+                /* stylelint-disable-next-line no-descending-specificity */
+                span {
+                  color: $white !important;
+                }
+              }
+            }
+
+            &:last-child {
+              margin-bottom: 4rem;
+            }
+          }
+
+          /* stylelint-disable-next-line no-descending-specificity */
+          a, 
+          span { color: $black !important; }
+
+          /* stylelint-disable-next-line no-descending-specificity */
+          &:hover {
+
+            /* stylelint-disable-next-line no-descending-specificity */ 
+            > a span { color: $black !important; }
+
+            .wp-block-polylang-navigation-language-switcher.current-menu-item {       
+              
+              /* stylelint-disable-next-line no-descending-specificity */
+              a, span { color: $black !important; }
+            }
+          }
+        }
+      }
+    }
+
+    /** Bouton Close */
+    button.wp-block-navigation__responsive-container-close {
+      padding: 0.3rem;
+      border: 1px dotted transparent;
+      border-radius: 4px;
+
+      svg {
+        width: 2.5rem;
+        height: 2.5rem;
+      }
+
+      &:hover {
+        border-color: $primary-700;
+
+        svg {
+          fill: $primary-700;
+        }
+      }
+    }
+  }
+}
+
+/** Navigation custom Polylang */
+.wp-block-polylang-navigation-language-switcher a::after { display: none !important; }
+
+a[href='#pll_switcher'] + button {
+  display: none !important;
+}

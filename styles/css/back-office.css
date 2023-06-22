@@ -1,0 +1,72 @@
+@charset "UTF-8";
+/* CLEMUX DESIGN SYSTEM */
+/* TYPOGRAPHY
+Utilisation de la mixin :
+exemple d'utilisation simple :
+  @include typo("title-xxl");
+avec un breakpoint : (les règles associées à title-xxl-sm sont déclarées pour une taille d'écran > $bp-sm)
+  @include typo("title-xxl-sm", "sm");
+avec un override simple : (la propriété déclarée en override est omise)
+  @include typo("title-xxl", 0, "font-family");
+avec un override composé (toutes les propriétés listées sont omises) :
+  @include typo("title-xxl", 0, "font-family" "font-size"); // les propriétés à omettre sont séparées par une espace
+*/
+/** Générer des classes border-primary-200 ou encore border-ternary-500 */
+/** Génère des classes border-radius */
+* {
+  box-sizing: border-box;
+}
+
+/** 8px */
+/** 16px */
+/** 24px */
+/** 32px */
+/** 40px */
+/** 48px */
+/** 56px */
+/** 64px */
+/** 72px */
+/** 80px */
+/*
+ * TYPO
+ */
+/** CLEMUX DESIGN SYSTEM */
+/* Breakpoints */
+/* Colors
+* Les couleurs --wp-preset--color--* sont définies dans le fichier functions.php. On peut les faire variées directement dans Thèmes -> Personnaliser -> Couleurs
+* Ici on associe ces valeurs présent dans le BO à des variables plus parlantes
+*/
+/** Black */
+/** White */
+/** Primary */
+/** Secondary */
+/** Tertiary */
+/** Supports */
+* {
+  caret-color: auto !important;
+}
+
+/** Case ajouter un block dans les blocks */
+/* stylelint-disable-next-line no-descending-specificity */
+.block-editor-default-block-appender .block-editor-inserter__toggle.components-button.has-icon,
+.block-editor-block-list__block .block-list-appender .block-editor-inserter__toggle.components-button.has-icon,
+.block-editor-block-list__block .block-list-appender .block-list-appender__toggle {
+  background-color: var(--wp-admin-theme-color); /** Bleu  primary de Wordpress */
+  opacity: 0.8;
+  /* stylelint-disable-next-line no-descending-specificity */
+}
+.block-editor-default-block-appender .block-editor-inserter__toggle.components-button.has-icon svg,
+.block-editor-block-list__block .block-list-appender .block-editor-inserter__toggle.components-button.has-icon svg,
+.block-editor-block-list__block .block-list-appender .block-list-appender__toggle svg {
+  fill: white; /** Bleu  primary de Wordpress */
+}
+
+/** Eviter que les block alignfull dépasse dans le BO sur les bords */
+.wp-block.alignfull {
+  width: 100%;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*# sourceMappingURL=back-office.css.map */

@@ -1,0 +1,76 @@
+@charset "UTF-8";
+/* CLEMUX DESIGN SYSTEM */
+/* TYPOGRAPHY
+Utilisation de la mixin :
+exemple d'utilisation simple :
+  @include typo("title-xxl");
+avec un breakpoint : (les règles associées à title-xxl-sm sont déclarées pour une taille d'écran > $bp-sm)
+  @include typo("title-xxl-sm", "sm");
+avec un override simple : (la propriété déclarée en override est omise)
+  @include typo("title-xxl", 0, "font-family");
+avec un override composé (toutes les propriétés listées sont omises) :
+  @include typo("title-xxl", 0, "font-family" "font-size"); // les propriétés à omettre sont séparées par une espace
+*/
+/** Générer des classes border-primary-200 ou encore border-ternary-500 */
+/** Génère des classes border-radius */
+* {
+  box-sizing: border-box;
+}
+
+/** 8px */
+/** 16px */
+/** 24px */
+/** 32px */
+/** 40px */
+/** 48px */
+/** 56px */
+/** 64px */
+/** 72px */
+/** 80px */
+/*
+ * TYPO
+ */
+/** CLEMUX DESIGN SYSTEM */
+/* Breakpoints */
+/* Colors
+* Les couleurs --wp-preset--color--* sont définies dans le fichier functions.php. On peut les faire variées directement dans Thèmes -> Personnaliser -> Couleurs
+* Ici on associe ces valeurs présent dans le BO à des variables plus parlantes
+*/
+/** Black */
+/** White */
+/** Primary */
+/** Secondary */
+/** Tertiary */
+/** Supports */
+.wp-block-kadence-testimonials {
+  padding: 2rem;
+}
+.wp-block-kadence-testimonials .kt-testimonial-item-wrap .kt-testimonial-text-wrap {
+  border-radius: 100px 8px;
+  background-color: var(--wp--preset--color--primary-900);
+  border: none;
+}
+.wp-block-kadence-testimonials .kt-testimonial-item-wrap .kt-testimonial-text-wrap .kt-testimonial-media-wrap {
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: translate3d(50%, -50%, 0);
+}
+.wp-block-kadence-testimonials .kt-testimonial-item-wrap .kt-testimonial-text-wrap .kt-testimonial-media-wrap .kt-testimonial-media-inner-wrap {
+  margin: 0;
+}
+.wp-block-kadence-testimonials .kt-testimonial-item-wrap .kt-testimonial-text-wrap .kt-testimonial-title-wrap .kt-testimonial-title {
+  font-size: 1rem;
+  padding: 0 1.75rem;
+}
+.wp-block-kadence-testimonials .kt-testimonial-item-wrap .kt-testimonial-text-wrap .kt-testimonial-content-wrap {
+  padding: 0 1.75rem;
+}
+.wp-block-kadence-testimonials .kt-testimonial-item-wrap .kt-testimonial-text-wrap::after {
+  display: none;
+}
+.wp-block-kadence-testimonials .kt-testimonial-item-wrap .kt-testimonial-meta-wrap {
+  padding-left: 0;
+}
+
+/*# sourceMappingURL=testimonials.css.map */

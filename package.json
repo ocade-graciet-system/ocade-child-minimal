@@ -1,0 +1,39 @@
+{
+  "mini-documentation": {
+    "commande-developpement": "$domaine doit pointer sur l'url du projet localhost pour ne pas voir les icons lien externe"
+  },
+  "scripts": {
+    "init": "npm install && npm run icons && npm run fonts && npm run build:editor-css && git add . && git commit . -m '🚀 Initialisaton du projet' && git push origin master --force",
+    "start": "npm-run-all --parallel developpement fonts icons watch:* build:editor-css build",
+    "developpement": "echo '' > styles/scss/load.scss && echo '$domaine: \"SOUSDOMAINE.docker.localhost\";' > styles/scss/load.scss",
+    "production": "echo '' > styles/scss/load.scss && echo '$domaine: \"SOUSDOMAINE.ocade.eu\";' > styles/scss/load.scss && npm run scss-to-css && npm run build",
+    "build": "find styles/css/ -type f -name '*.css' ! -name '*.min.css' -exec sh -c 'cleancss -o \"${1%.css}.min.css\" \"$1\"' _ {} \\;",
+    "build:editor-css": "postcss styles/css/main.css -o styles/css/main-editor.css && npm run build",
+    "icons": "node scripts/icons.js",
+    "fonts": "node scripts/fonts.js",
+    "watch:scss": "sass --watch styles/scss/:styles/css/ --load-path=styles/scss/load.scss",
+    "watch:minify": "chokidar 'styles/css/**/*.css' '!styles/css/**/*.min.css' -c 'npm run build'",
+    "scss-to-css": "sass styles/scss/:styles/css/ --load-path=styles/scss/load.scss",
+    "lint:scss": "npm run lint:scss-fix && npx stylelint 'styles/scss/*.scss'",
+    "lint:scss-fix": "npx stylelint 'styles/scss/*.scss' --fix",
+    "pull": "git pull origin master && git checkout --ours styles/css/main.css && git checkout --ours styles/css/main.min.css",
+    "push": "./push.sh"
+  },  
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint:scss"
+    }
+  },
+  "devDependencies": {
+    "chokidar-cli": "^3.0.0",
+    "clean-css-cli": "^5.6.2",
+    "husky": "^8.0.3",
+    "npm-run-all": "^4.1.5",
+    "postcss-cli": "^10.1.0",
+    "postcss-prefixwrap": "^1.39.1",
+    "postcss-scss": "^4.0.6",
+    "sass": "^1.59.2",
+    "stylelint": "^15.6.2",
+    "stylelint-config-standard": "^33.0.0"
+  }
+}

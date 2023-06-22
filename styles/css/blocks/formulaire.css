@@ -1,0 +1,79 @@
+@charset "UTF-8";
+/* CLEMUX DESIGN SYSTEM */
+/* TYPOGRAPHY
+Utilisation de la mixin :
+exemple d'utilisation simple :
+  @include typo("title-xxl");
+avec un breakpoint : (les règles associées à title-xxl-sm sont déclarées pour une taille d'écran > $bp-sm)
+  @include typo("title-xxl-sm", "sm");
+avec un override simple : (la propriété déclarée en override est omise)
+  @include typo("title-xxl", 0, "font-family");
+avec un override composé (toutes les propriétés listées sont omises) :
+  @include typo("title-xxl", 0, "font-family" "font-size"); // les propriétés à omettre sont séparées par une espace
+*/
+/** Générer des classes border-primary-200 ou encore border-ternary-500 */
+/** Génère des classes border-radius */
+* {
+  box-sizing: border-box;
+}
+
+/** 8px */
+/** 16px */
+/** 24px */
+/** 32px */
+/** 40px */
+/** 48px */
+/** 56px */
+/** 64px */
+/** 72px */
+/** 80px */
+/*
+ * TYPO
+ */
+/** CLEMUX DESIGN SYSTEM */
+/* Breakpoints */
+/* Colors
+* Les couleurs --wp-preset--color--* sont définies dans le fichier functions.php. On peut les faire variées directement dans Thèmes -> Personnaliser -> Couleurs
+* Ici on associe ces valeurs présent dans le BO à des variables plus parlantes
+*/
+/** Black */
+/** White */
+/** Primary */
+/** Secondary */
+/** Tertiary */
+/** Supports */
+.wp-block-ocade-blocks-formulaire .ocade-blocks-formulaire-title {
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+.wp-block-ocade-blocks-formulaire .ocade-blocks-formulaire-title h1, .wp-block-ocade-blocks-formulaire .ocade-blocks-formulaire-title h2, .wp-block-ocade-blocks-formulaire .ocade-blocks-formulaire-title h3, .wp-block-ocade-blocks-formulaire .ocade-blocks-formulaire-title h4, .wp-block-ocade-blocks-formulaire .ocade-blocks-formulaire-title h5, .wp-block-ocade-blocks-formulaire .ocade-blocks-formulaire-title h6 {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  font-size: 1.3rem;
+  text-align: center;
+}
+.wp-block-ocade-blocks-formulaire .ocade-blocks-formulaire-title h1::before, .wp-block-ocade-blocks-formulaire .ocade-blocks-formulaire-title h2::before, .wp-block-ocade-blocks-formulaire .ocade-blocks-formulaire-title h3::before, .wp-block-ocade-blocks-formulaire .ocade-blocks-formulaire-title h4::before, .wp-block-ocade-blocks-formulaire .ocade-blocks-formulaire-title h5::before, .wp-block-ocade-blocks-formulaire .ocade-blocks-formulaire-title h6::before {
+  content: "";
+  position: absolute;
+  top: calc(100% + 0.3rem);
+  left: 50%;
+  transform: translateX(-50%);
+  display: block;
+  height: 4px;
+  width: 75%;
+  background-color: var(--wp--preset--color--primary-700);
+  margin-bottom: 1rem;
+}
+.wp-block-ocade-blocks-formulaire textarea:hover, .wp-block-ocade-blocks-formulaire textarea:focus, .wp-block-ocade-blocks-formulaire textarea:focus-visible, .wp-block-ocade-blocks-formulaire textarea:focus-within,
+.wp-block-ocade-blocks-formulaire input:hover,
+.wp-block-ocade-blocks-formulaire input:focus,
+.wp-block-ocade-blocks-formulaire input:focus-visible,
+.wp-block-ocade-blocks-formulaire input:focus-within {
+  border-color: var(--wp--preset--color--primary-700) !important;
+}
+.wp-block-ocade-blocks-formulaire .ocade-blocks-formulaire-content input:not([type=checkbox], [type=radio])[type=submit] {
+  background-color: var(--wp--preset--color--primary-700);
+}
+
+/*# sourceMappingURL=formulaire.css.map */

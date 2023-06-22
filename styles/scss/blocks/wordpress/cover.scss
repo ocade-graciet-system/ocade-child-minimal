@@ -1,0 +1,26 @@
+@import "../../config.scss";
+
+.wp-block-cover {
+  h1, h2, h3, h4, h5, h6 {
+    margin-bottom: $espacement-2;
+    
+    strong {  color: $secondary-700; }
+  }
+
+  p { 
+    max-width: min($bp-xl, 100%);
+    margin: 1rem auto;
+
+    strong { color: $secondary-700; }
+  }
+
+  ul {
+    li { 
+      color: $white; 
+
+      &::before { background-color: $white; }
+
+      &.is-style-checked { &::before { background-color: $white; } }
+    }
+  }
+}

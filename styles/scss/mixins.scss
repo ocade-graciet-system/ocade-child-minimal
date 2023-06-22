@@ -1,0 +1,141 @@
+@use "sass:math";
+@use "sass:map";
+
+
+/* CLEMUX DESIGN SYSTEM */
+@mixin cds($property, $target, $important:0, $sum:0, $multiplicator: 1) {
+  @each $bp-lvl, $bp-value in $bp {
+    @if $sum == 0 {
+      @if $important == 1 {
+        @if $bp-lvl == "sm" {
+          #{$property}: calc($multiplicator * map.get(map.get($cds, $target), $bp-lvl)) !important;
+        }
+
+        @media (min-width: $bp-value) {
+          #{$property}: calc($multiplicator * map.get(map.get($cds, $target), $bp-lvl)) !important;
+        }
+      } 
+      
+      @else {
+        @if $bp-lvl == "sm" {
+          #{$property}: calc($multiplicator * map.get(map.get($cds, $target), $bp-lvl));
+        }
+
+        @media (min-width: $bp-value) {
+          #{$property}: calc($multiplicator * map.get(map.get($cds, $target), $bp-lvl));
+        }
+      }
+    } 
+    
+    @else { 
+      @if $important == 1 {
+        @if $bp-lvl == "sm" {
+          #{$property}: calc($multiplicator * (map.get(map.get($cds, $target), $bp-lvl) + map.get(map.get($cds, $sum), $bp-lvl))) !important; /* stylelint-disable-line */
+        }
+
+        @media (min-width: $bp-value) {
+          #{$property}: calc($multiplicator * (map.get(map.get($cds, $target), $bp-lvl) + map.get(map.get($cds, $sum), $bp-lvl))) !important; /* stylelint-disable-line */
+        }
+      } 
+      
+      @else {
+        @if $bp-lvl == "sm" {
+          #{$property}: calc($multiplicator * (map.get(map.get($cds, $target), $bp-lvl) + map.get(map.get($cds, $sum), $bp-lvl))); /* stylelint-disable-line */
+        }
+
+        @media (min-width: $bp-value) {
+          #{$property}: calc($multiplicator * (map.get(map.get($cds, $target), $bp-lvl) + map.get(map.get($cds, $sum), $bp-lvl))); /* stylelint-disable-line */
+        }
+      }
+    }
+  }
+}
+
+/* TYPOGRAPHY
+Utilisation de la mixin :
+exemple d'utilisation simple :
+  @include typo("title-xxl");
+avec un breakpoint : (les règles associées à title-xxl-sm sont déclarées pour une taille d'écran > $bp-sm)
+  @include typo("title-xxl-sm", "sm");
+avec un override simple : (la propriété déclarée en override est omise)
+  @include typo("title-xxl", 0, "font-family");
+avec un override composé (toutes les propriétés listées sont omises) :
+  @include typo("title-xxl", 0, "font-family" "font-size"); // les propriétés à omettre sont séparées par une espace
+*/
+@mixin typo($name, $bp:0, $override:0) {
+  @each $property in map.get($fonts, "keys") {
+    @if $override == 0 or not ($override == $property or index($override, $property)) {
+      @if $bp == 0 {
+        #{$property}: map.get(map.get($fonts, $name), $property);
+      } 
+      
+      @else {
+        @media (min-width: $bp) {
+          #{$property}: map.get(map.get($fonts, $name), $property);
+        }
+      }
+    }
+  }
+}
+
+
+@mixin icon-base() {
+  $icon-size: 1.3rem;
+  
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  mask-repeat: no-repeat;
+  -webkit-mask-repeat: no-repeat;
+  mask-size: 100%;
+  -webkit-mask-size: 100%;
+  mask-position: center center;
+  -webkit-mask-position: center center;
+  width: $icon-size;
+  height: $icon-size;
+  font-size: 0;
+  background-color: $primary-700;
+  margin-right: 0.5rem;
+}
+
+@mixin icon($name, $suffix:"svg", $path:'../../_icons/') {
+  mask-image: url("#{$path}#{$name}.#{$suffix}");
+  -webkit-mask-image: url("#{$path}#{$name}.#{$suffix}");
+}
+
+
+/** Générer des classes border-primary-200 ou encore border-ternary-500 */
+@mixin color-add-classes($property, $base, $primary: null, $secondary: null, $ternary: null, $values: 700) {
+  @if type-of($values) != "list" {
+    $values: ($values);
+  }
+
+  @each $value in $values {
+    @if $primary {
+      .#{$property}-primary-#{$value} {
+        #{$property}: #{$base} #{nth($primary, math.div($value, 100))} !important;
+      }
+    }
+
+    @if $secondary {
+      .#{$property}-secondary-#{$value} {
+        #{$property}: #{$base} #{nth($secondary, math.div($value, 100))} !important;
+      }
+    }
+
+    @if $ternary {
+      .#{$property}-ternary-#{$value} {
+        #{$property}: #{$base} #{nth($ternary, math.div($value, 100))} !important;
+      }
+    }
+  }
+}
+
+/** Génère des classes border-radius */
+@mixin border-radius-add-classes($start, $end, $unit: "px") {
+  @for $i from $start through $end {
+    .border-radius-#{$i} {
+      border-radius: #{$i}#{$unit} !important;
+    }
+  }
+}

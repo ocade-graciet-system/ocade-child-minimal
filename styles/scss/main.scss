@@ -1,0 +1,51 @@
+/** 🚀 Si le design de votre block n'est pas présent dans le back-office, il faut l'ajouter dans le thème enfant, functions.php */
+@charset "UTF-8";
+
+@use "sass:map";
+@use "sass:color";
+
+@import "./breadcrumb.scss";
+@import "./config.scss";
+@import "./bootstrap.scss";
+@import "./external_links.scss";
+@import "./footer.scss";
+@import "./goToTop.scss";
+@import "./header.scss";
+@import "./layout.scss";
+@import "./misc.scss";
+@import "./mixins.scss";
+@import "./normalize.scss"; 
+@import "./typographie.scss";
+@import "./back-office.scss";
+
+/** Blocks */
+@import "./blocks/formulaire.scss";
+@import "./blocks/install-app.scss";
+
+/** Blocks Kadence */
+@import "./blocks/kadence/accordion.scss";
+@import "./blocks/kadence/advancedgallery.scss";
+@import "./blocks/kadence/testimonials.scss";
+
+/** Blocks Ocade */
+@import "./blocks/ocade/install-app.scss";
+
+/** Blocks Wordpress */
+@import "./blocks/wordpress/buttons.scss";
+@import "./blocks/wordpress/categories.scss";
+@import "./blocks/wordpress/columns.scss";
+@import "./blocks/wordpress/cover.scss";
+@import "./blocks/wordpress/group.scss";
+@import "./blocks/wordpress/image.scss";
+@import "./blocks/wordpress/list.scss";
+@import "./blocks/wordpress/media-text.scss";
+@import "./blocks/wordpress/navigation.scss";
+
+/** IOS */
+@import "./ios/form.scss";
+
+/** Automatic Génération By Script */
+@import "./icons.scss";
+
+/** Templates */
+@import "./templates/category.scss";

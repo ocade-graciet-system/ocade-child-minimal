@@ -1,0 +1,27 @@
+@import "./config.scss";
+@import "./load.scss";
+
+// Définition de la mixin
+@mixin linkStyle {
+  @include icon("exit");
+  @include icon-base;
+  
+  display: inline-flex;
+  position: relative;
+  top: 0;
+  vertical-align: unset;
+  width: .75rem;
+  height: .75rem;  
+  margin-left: 0.2rem;
+  background-color: currentcolor;
+}
+
+// Règle pour gérer les liens contenant "app.seve-up.com"
+a[href*="app.seve-up.com"]::after {
+  @include linkStyle;
+}
+
+// Règle pour gérer tous les autres liens
+a:not([href=""]):not([href*="#"]):not([href="/"]):not([href*="#pll_switcher"]):not([href*="#{$domaine}"]):not([href^="tel:"]):not([href^="fax:"]):not([href^="mailto:"]):not([href*="app.seve-up.com"])::after {
+  @include linkStyle;
+}

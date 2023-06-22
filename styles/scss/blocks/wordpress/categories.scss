@@ -1,0 +1,15 @@
+@import "../../config.scss";
+
+.wp-block-categories {
+  select {
+    width: max-content;
+    padding: 1rem;
+    background-color: $secondary-700;
+    border-radius: 10px;
+    font-weight: 500;
+    cursor: pointer;
+    opacity: .9;
+
+    &:hover { opacity: 1; } 
+  }
+}

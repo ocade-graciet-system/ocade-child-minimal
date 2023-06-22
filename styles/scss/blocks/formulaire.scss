@@ -1,0 +1,48 @@
+@import "../config.scss";
+
+.wp-block-ocade-blocks-formulaire {
+  .ocade-blocks-formulaire-title {
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+
+    h1,h2,h3,h4,h5,h6 {
+      position: relative;
+      margin: 0;
+      padding: 0;
+      font-size: 1.3rem;
+      text-align: center;
+
+      &::before {
+        content: "";
+        position: absolute;
+        top: calc(100% + .3rem);
+        left: 50%;
+        transform: translateX(-50%);
+        display: block;
+        height: 4px;
+        width: 75%;
+        background-color: $primary-700;
+        margin-bottom: 1rem;
+      }
+    }
+  }
+
+
+  textarea,
+  input {
+    &:hover,
+    &:focus,
+    &:focus-visible,
+    &:focus-within {
+      border-color: $primary-700 !important;
+    }
+  }
+
+  .ocade-blocks-formulaire-content {
+    input:not([type="checkbox"], [type="radio"]){
+      &[type="submit"] {
+        background-color: $primary-700;
+      }
+    }
+  }
+}

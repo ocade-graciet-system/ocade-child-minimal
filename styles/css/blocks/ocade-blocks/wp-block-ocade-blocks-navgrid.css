@@ -1,0 +1,72 @@
+@charset "UTF-8";
+/* CLEMUX DESIGN SYSTEM */
+/* TYPOGRAPHY
+Utilisation de la mixin :
+exemple d'utilisation simple :
+  @include typo("title-xxl");
+avec un breakpoint : (les règles associées à title-xxl-sm sont déclarées pour une taille d'écran > $bp-sm)
+  @include typo("title-xxl-sm", "sm");
+avec un override simple : (la propriété déclarée en override est omise)
+  @include typo("title-xxl", 0, "font-family");
+avec un override composé (toutes les propriétés listées sont omises) :
+  @include typo("title-xxl", 0, "font-family" "font-size"); // les propriétés à omettre sont séparées par une espace
+*/
+/** Générer des classes border-primary-200 ou encore border-ternary-500 */
+/** Génère des classes border-radius */
+* {
+  box-sizing: border-box;
+}
+
+/*
+ * TYPO
+ */
+/** CLEMUX DESIGN SYSTEM */
+/* Breakpoints */
+/* Colors
+* Les couleurs --wp-preset--color--* sont définies dans le fichier functions.php. On peut les faire variées directement dans Thèmes -> Personnaliser -> Couleurs
+* Ici on associe ces valeurs présent dans le BO à des variables plus parlantes
+*/
+/** Black */
+/** White */
+/** Primary */
+/** Secondary */
+/** Tertiary */
+/** Supports */
+.wp-block-ocade-blocks-navgrid {
+  justify-content: space-around;
+}
+.wp-block-ocade-blocks-navgrid a.wp-block-ocade-blocks-navgrid-item {
+  position: relative;
+  flex-basis: max-content !important;
+  padding: 0;
+  opacity: 0.8;
+  transition: 0.2s;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.wp-block-ocade-blocks-navgrid a.wp-block-ocade-blocks-navgrid-item:hover {
+  opacity: 1;
+}
+.wp-block-ocade-blocks-navgrid a.wp-block-ocade-blocks-navgrid-item:hover figcaption {
+  opacity: 1;
+}
+.wp-block-ocade-blocks-navgrid a.wp-block-ocade-blocks-navgrid-item::after {
+  display: none !important;
+}
+.wp-block-ocade-blocks-navgrid a.wp-block-ocade-blocks-navgrid-item figure {
+  margin: 0;
+}
+.wp-block-ocade-blocks-navgrid a.wp-block-ocade-blocks-navgrid-item figure figcaption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0;
+  padding: 0.5rem 0.3rem;
+  background-color: var(--wp--preset--color--primary-700);
+  height: auto;
+  color: var(--wp--preset--color--white);
+  font-size: 1rem;
+  opacity: 0.65;
+}
+
+/*# sourceMappingURL=wp-block-ocade-blocks-navgrid.css.map */

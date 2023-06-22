@@ -1,0 +1,1 @@
+@charset "UTF-8";*{box-sizing:border-box}.wp-block-media-text{margin:auto}.wp-block-media-text+.wp-block-media-text{margin-top:2rem}@media (max-width:600px){.wp-block-media-text{grid-row-gap:2rem}.wp-block-media-text .wp-block-media-text__content{grid-row:1!important}.wp-block-media-text .wp-block-media-text__media{grid-row:2!important}}

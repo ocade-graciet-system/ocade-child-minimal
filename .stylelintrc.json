@@ -1,0 +1,17 @@
+{
+  "extends": "stylelint-config-standard",
+  "rules": {
+    "color-function-notation": null,
+    "no-empty-source": null,
+    "function-no-unknown": null,
+    "custom-property-pattern": null,
+    "selector-class-pattern": null,
+    "at-rule-no-unknown": null,
+    "property-no-vendor-prefix": null,
+    "media-feature-range-notation": null,
+    "import-notation": null,
+    "alpha-value-notation": null,
+    "no-invalid-position-at-import-rule": null
+  },
+  "customSyntax": "postcss-scss"
+}

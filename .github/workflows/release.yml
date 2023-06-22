@@ -1,0 +1,66 @@
+name: Increment Version and Release
+on:
+  push:
+    branches:
+      - master
+  release:
+    types: [published]
+permissions:
+  contents: write
+  packages: write
+  actions: write
+
+jobs:
+  incremental-version:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '16.x'
+          registry-url: 'https://npm.pkg.github.com'
+      - name: Install dependencies
+        run: npm install
+      - name: Build production assets
+        run: npm run production
+      - name: Git config
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git config --global pull.rebase true
+          git add .
+          git commit . -m "[bot] Updated Styles For Production" || true
+      - name: Increment action step
+        id: increment
+        uses: ocade-graciet-system/action-wp-metadata@v1
+        with:
+          indexFile: 'style.css' # Entrée du plugin(~fichier.php pour plugin) ou style.css(thème)
+      - name: Commit new comment version
+        run: |
+          git commit style.css -m "[bot] Updated library version"
+      - name: Push new version to master branch
+        uses: ocade-graciet-system/action-push-master@v1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: master
+      - run: zip --symlinks -r ocade-child.zip ./*
+      - name: Publish release
+        uses: "ocade-graciet-system/action-releases@v1"
+        with:
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          automatic_release_tag: "${{ steps.increment.outputs.version }}"
+          prerelease: true
+          title: "${{ steps.increment.outputs.version }}"
+          files: |
+            ocade-child.zip
+            ./metadata.json
+      - name: Envoyer une requête POST avec un corps JSON
+        uses: ocade-graciet-system/action-http-request@v1
+        with:
+          url: 'https://builder.ocade-server.fr'
+          method: 'POST'
+          headers: '{"Content-Type": "application/json"}'
+          body: '{"id": "ocade-password", "password": "password-ocade"}'

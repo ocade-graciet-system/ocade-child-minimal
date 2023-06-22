@@ -1,0 +1,109 @@
+@import "./config.scss";
+
+* {
+  @include typo("body-m");
+
+  caret-color: $primary-700;
+  accent-color: $primary-700;
+  color: $black;
+}
+
+::selection {
+  background-color: $primary-700;
+  color: $white;
+}
+
+html { scroll-padding-top: 125px; } /* décalage du scroll de 50px */
+
+a {
+  display: inline-flex;  
+  align-items: center;
+  padding: 0 .3rem;
+  color: $primary-700;
+  text-decoration: underline;
+
+  @media (max-width: $bp-lg) {
+    min-height: 3rem; /** Height mobile friendly */
+    padding: 0 1rem;
+  }
+
+  &:hover { color: $primary-600; }
+
+  &.wp-block-mailto {
+    &::before {
+      background-color: $primary-700;
+    }
+  }
+}
+
+p {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  margin-bottom: $espacement-4;
+
+  &:not(.tab-title) {
+    &,
+    a {
+      @include typo("title-xxl-sm");
+    }
+  }
+}
+
+h2 {
+  margin-bottom: $espacement-3;
+  
+  &:not(.tab-title) {
+    &,
+    a {
+      @include typo("title-xl");
+      @include typo("title-xl-sm", $bp-sm);
+    }
+  }
+}
+
+h3 {
+  margin-bottom: $espacement-2;
+  
+  &:not(.tab-title) {
+    &,
+    a {
+      @include typo("title-l");
+    }
+  }
+}
+
+h4 {
+  margin-bottom: $espacement-1;
+  
+  &:not(.tab-title) {
+    &,
+    a {
+      @include typo("title-m");
+    }
+  }
+}
+
+h5 {
+  margin-bottom: $espacement-1;
+  
+  &:not(.tab-title) {
+    &,
+    a {
+      @include typo("title-s");
+    }
+  }
+}
+
+h6 {
+  margin-bottom: $espacement-1;
+  
+  &:not(.tab-title) {
+    &,
+    a {
+      @include typo("title-xs");
+    }
+  }
+}

@@ -1,0 +1,21 @@
+@import "./config.scss";
+
+/* Définit la taille maximale du contenu du site */
+.container-body {
+  max-width: min(95vw, $aligncontent);
+  margin: 0 auto;
+}
+
+/* Définit la largeur maximale des blocs alignwide et alignfull */
+.alignwide {
+  max-width: $alignwide;
+  margin-left: calc((($alignwide - $aligncontent) / 2) * -1); /* décalage pour centrer */
+  margin-right: calc((($alignwide - $aligncontent) / 2) * -1); /* décalage pour centrer */
+}
+
+/* Si vous souhaitez que les blocs alignfull occupent 100% de la largeur de l'écran, utilisez ce code à la place */
+.alignfull {
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  max-width: $alignfull;
+}

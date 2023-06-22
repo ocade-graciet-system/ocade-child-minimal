@@ -1,0 +1,41 @@
+@import "../../config.scss";
+
+.wp-block-group {
+  padding-top: $espacement-4;
+  padding-bottom: $espacement-4;
+
+  + .wp-block-group { 
+    margin-top: $espacement-4; 
+    margin-bottom: $espacement-4; 
+  }
+
+  &.is-style-espacement-0 { 
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  &.is-style-espacement-1 { 
+    margin-top: $espacement-2;
+    margin-bottom: $espacement-2;
+  }
+
+  &.is-style-espacement-2 { 
+    margin-top: $espacement-4;
+    margin-bottom: $espacement-4;
+  }
+
+  &.is-style-espacement-3 { 
+    margin-top: $espacement-6;
+    margin-bottom: $espacement-6;
+  }
+
+  &.is-style-espacement-4 { 
+    margin-top: $espacement-8;
+    margin-bottom: $espacement-8;
+  }
+
+  &.is-style-espacement-5 { 
+    margin-top: $espacement-10;
+    margin-bottom: $espacement-10;
+  }
+}

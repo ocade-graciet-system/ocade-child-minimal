@@ -1,0 +1,191 @@
+@charset "UTF-8";
+/* CLEMUX DESIGN SYSTEM */
+/* TYPOGRAPHY
+Utilisation de la mixin :
+exemple d'utilisation simple :
+  @include typo("title-xxl");
+avec un breakpoint : (les règles associées à title-xxl-sm sont déclarées pour une taille d'écran > $bp-sm)
+  @include typo("title-xxl-sm", "sm");
+avec un override simple : (la propriété déclarée en override est omise)
+  @include typo("title-xxl", 0, "font-family");
+avec un override composé (toutes les propriétés listées sont omises) :
+  @include typo("title-xxl", 0, "font-family" "font-size"); // les propriétés à omettre sont séparées par une espace
+*/
+/** Générer des classes border-primary-200 ou encore border-ternary-500 */
+/** Génère des classes border-radius */
+* {
+  box-sizing: border-box;
+}
+
+/** 8px */
+/** 16px */
+/** 24px */
+/** 32px */
+/** 40px */
+/** 48px */
+/** 56px */
+/** 64px */
+/** 72px */
+/** 80px */
+/*
+ * TYPO
+ */
+/** CLEMUX DESIGN SYSTEM */
+/* Breakpoints */
+/* Colors
+* Les couleurs --wp-preset--color--* sont définies dans le fichier functions.php. On peut les faire variées directement dans Thèmes -> Personnaliser -> Couleurs
+* Ici on associe ces valeurs présent dans le BO à des variables plus parlantes
+*/
+/** Black */
+/** White */
+/** Primary */
+/** Secondary */
+/** Tertiary */
+/** Supports */
+header {
+  /** 🧙‍♂️ --hauteur-au-dessus-navigation-principale est fournit en javascript pas header.php */
+  top: calc(-1 * var(--hauteur-au-dessus-navigation-principale)); /** Si position sticky: ajuster en fonction des taille d'écran pour que le menu soit positionner sur le bandeau des pages */
+  position: sticky;
+  z-index: 9999;
+  right: 0;
+  left: 50%;
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  background-color: var(--wp--preset--color--white);
+}
+header > .wp-block-columns {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  margin-bottom: 0;
+}
+@media (min-width: 768px) {
+  header > .wp-block-columns {
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+}
+@media (min-width: 992px) {
+  header > .wp-block-columns {
+    width: 100%;
+    display: inline-flex;
+  }
+}
+header > .wp-block-columns .wp-block-navigation__responsive-container-open.wp-block-ocade-blocks-burger-btn {
+  margin-right: 1rem;
+}
+@media (min-width: 600px) {
+  header > .wp-block-columns .wp-block-navigation__responsive-container-open.wp-block-ocade-blocks-burger-btn {
+    display: none !important;
+  }
+}
+header > .wp-block-columns .wp-block-column {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 1rem;
+  row-gap: 0;
+  align-items: center;
+  justify-content: space-between;
+}
+header > .wp-block-columns .wp-block-column .wp-block-site-logo a {
+  display: inline-flex;
+}
+header > .wp-block-columns .wp-block-column .wp-block-site-logo img {
+  max-width: 100px;
+}
+@media (min-width: 450px) {
+  header > .wp-block-columns .wp-block-column .wp-block-site-logo img {
+    max-width: 100%;
+  }
+}
+header > .wp-block-columns .wp-block-column .wp-block-columns {
+  margin-left: 0;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+@media (min-width: 768px) {
+  header > .wp-block-columns .wp-block-column .wp-block-columns {
+    margin-right: 0;
+  }
+}
+header > .wp-block-columns .wp-block-column .wp-block-columns a::before {
+  background-color: var(--wp--preset--color--primary-700);
+}
+header > .wp-block-columns .wp-block-column .wp-block-columns a:hover::before {
+  background-color: var(--wp--preset--color--primary-900);
+}
+header > .wp-block-columns .wp-block-column .wp-block-columns:first-child {
+  flex: 1 1 auto;
+}
+header > .wp-block-columns .wp-block-column .wp-block-columns:first-child .wp-block-column {
+  justify-content: center;
+}
+@media (min-width: 600px) {
+  header > .wp-block-columns .wp-block-column .wp-block-columns:first-child .wp-block-column {
+    justify-content: space-between;
+  }
+}
+header > .wp-block-columns .wp-block-column .wp-block-columns:first-child .wp-block-column > div {
+  margin-right: 0;
+}
+header > .wp-block-columns .wp-block-column .wp-block-columns:first-child .wp-block-column a {
+  margin: 0;
+  margin-right: 1rem;
+}
+header > .wp-block-columns .wp-block-column .wp-block-columns:nth-child(2) {
+  margin-right: 0;
+  width: 100%;
+}
+@media (min-width: 992px) {
+  header > .wp-block-columns .wp-block-column .wp-block-columns:nth-child(2) {
+    width: auto;
+  }
+}
+header > .wp-block-columns .wp-block-column form {
+  width: calc(100% - 6rem);
+  margin-left: 0.5rem;
+  margin-right: 1rem;
+  margin-bottom: 0 !important;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+@media (min-width: 600px) {
+  header > .wp-block-columns .wp-block-column form {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0.5rem;
+  }
+}
+@media (min-width: 992px) {
+  header > .wp-block-columns .wp-block-column form {
+    width: auto;
+    min-width: 300px;
+    margin-left: 1rem;
+  }
+}
+header > .wp-block-columns .wp-block-column form .wp-block-search__inside-wrapper {
+  position: relative;
+  padding: 0.5rem;
+  border: 1px solid var(--wp--preset--color--supports-700);
+  border-top-left-radius: 4px;
+}
+header > .wp-block-columns .wp-block-column form .wp-block-search__inside-wrapper button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0 1rem;
+  background-color: var(--wp--preset--color--primary-700);
+  border-top: none;
+  border-right: none;
+  border-bottom: none;
+}
+header > .wp-block-columns .wp-block-column form .wp-block-search__inside-wrapper button:hover {
+  background-color: var(--wp--preset--color--primary-900);
+}
+header > .wp-block-columns .wp-block-column form .wp-block-search__inside-wrapper button svg {
+  fill: var(--wp--preset--color--white);
+}
+
+/*# sourceMappingURL=header.css.map */

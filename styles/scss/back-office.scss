@@ -1,0 +1,23 @@
+@import "./config.scss";
+
+* { caret-color: auto !important; }
+
+/** Case ajouter un block dans les blocks */
+/* stylelint-disable-next-line no-descending-specificity */
+.block-editor-default-block-appender .block-editor-inserter__toggle.components-button.has-icon,
+.block-editor-block-list__block .block-list-appender .block-editor-inserter__toggle.components-button.has-icon,
+.block-editor-block-list__block .block-list-appender .block-list-appender__toggle {
+  background-color: var(--wp-admin-theme-color); /** Bleu  primary de Wordpress */
+  opacity: .8;
+
+  /* stylelint-disable-next-line no-descending-specificity */
+  svg { fill: white; /** Bleu  primary de Wordpress */ }
+} 
+
+/** Eviter que les block alignfull dépasse dans le BO sur les bords */
+.wp-block.alignfull {
+  width: 100%;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}

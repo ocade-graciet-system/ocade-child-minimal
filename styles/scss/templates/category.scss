@@ -1,0 +1,49 @@
+@import "../config.scss";
+
+.template-category {
+  h1 {
+    margin-bottom: 5rem;
+    text-transform: uppercase;
+    padding: 6rem 0;
+  }
+
+  .wp-block-ocade-blocks-post {
+    &.horizontal  {
+      margin-top: 0;
+
+      .title {
+        text-transform: capitalize;
+        margin-bottom: 0;
+      }
+
+      .category {
+        margin-left: 2rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+      }
+
+      .read-more {
+        margin-right: 2rem;
+        width: calc(100% - 4rem);
+      }
+    }
+  }
+
+  h2 { margin-bottom: 1rem; }
+
+  .title-remontees-categories { text-align: left; }
+
+  .wp-block-ocade-blocks-remontees-categories {
+    list-style-type: none;
+    padding-left: 0;
+
+    @media (min-width: 782px) {  text-align: left; } 
+
+    li {
+      a {
+        text-transform: capitalize;
+      }
+    }
+  }
+
+}

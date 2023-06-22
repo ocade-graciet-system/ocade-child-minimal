@@ -1,0 +1,1 @@
+@charset "UTF-8";#page-progress-bar{position:fixed;top:0;left:0;width:var(--scroll-progress,0);height:3px;background-color:#007cba;z-index:99999}
