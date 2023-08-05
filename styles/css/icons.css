@@ -14,8 +14,16 @@ avec un override composé (toutes les propriétés listées sont omises) :
 */
 /** Générer des classes border-primary-200 ou encore border-ternary-500 */
 /** Génère des classes border-radius */
+:root {
+  --fond-du-site: #fff;
+}
+
 * {
   box-sizing: border-box;
+}
+
+html, body {
+  background-color: var(--fond-du-site);
 }
 
 /** 8px */

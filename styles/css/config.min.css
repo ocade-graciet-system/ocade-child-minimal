@@ -1,1 +1,1 @@
-@charset "UTF-8";*{box-sizing:border-box}
+@charset "UTF-8";:root{--fond-du-site:#fff}*{box-sizing:border-box}body,html{background-color:var(--fond-du-site)}

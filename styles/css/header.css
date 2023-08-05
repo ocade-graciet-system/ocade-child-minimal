@@ -13,8 +13,16 @@ avec un override composé (toutes les propriétés listées sont omises) :
 */
 /** Générer des classes border-primary-200 ou encore border-ternary-500 */
 /** Génère des classes border-radius */
+:root {
+  --fond-du-site: #fff;
+}
+
 * {
   box-sizing: border-box;
+}
+
+html, body {
+  background-color: var(--fond-du-site);
 }
 
 /** 8px */
@@ -45,7 +53,7 @@ avec un override composé (toutes les propriétés listées sont omises) :
 header {
   /** 🧙‍♂️ --hauteur-au-dessus-navigation-principale est fournit en javascript pas header.php */
   top: calc(-1 * var(--hauteur-au-dessus-navigation-principale)); /** Si position sticky: ajuster en fonction des taille d'écran pour que le menu soit positionner sur le bandeau des pages */
-  position: sticky;
+  position: unset;
   z-index: 9999;
   right: 0;
   left: 50%;
@@ -53,6 +61,9 @@ header {
   margin-left: calc(50% - 50vw);
   margin-right: calc(50% - 50vw);
   background-color: var(--wp--preset--color--white);
+}
+header.is-sticky {
+  position: sticky;
 }
 header > .wp-block-columns {
   padding-left: 1rem;
