@@ -7,7 +7,13 @@
 @import "./mixins.scss";
 @import "./load.scss";
 
+:root {
+  --fond-du-site: #fff; // Couleur de la fond du site. Sert pour déterminer la couleur de body, html mais aussi pour le bloc ocade-blocks/table lorsqu'il à des arrondie de bordures élever + effet sticky de sa première ligne.
+}
+
 * { box-sizing: border-box; }
+
+html, body { background-color: var(--fond-du-site); }
 
 $aligncontent: 1280px;
 $alignwide: 1440px;

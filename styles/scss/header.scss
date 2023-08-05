@@ -4,7 +4,7 @@ header {
   /** 🧙‍♂️ --hauteur-au-dessus-navigation-principale est fournit en javascript pas header.php */
 
   top: calc(-1 * var(--hauteur-au-dessus-navigation-principale)); /** Si position sticky: ajuster en fonction des taille d'écran pour que le menu soit positionner sur le bandeau des pages */
-  position: sticky;
+  position: unset;
   z-index: 9999;
   right: 0;
   left: 50%;
@@ -12,6 +12,8 @@ header {
   margin-left: calc(50% - 50vw);
   margin-right: calc(50% - 50vw);
   background-color: $white;
+
+  &.is-sticky { position: sticky; }
 
   > .wp-block-columns {
     padding-left: 1rem;
