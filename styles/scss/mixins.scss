@@ -78,7 +78,6 @@ avec un override composé (toutes les propriétés listées sont omises) :
   }
 }
 
-
 @mixin icon-base() {
   $icon-size: 1.3rem;
   
@@ -96,13 +95,27 @@ avec un override composé (toutes les propriétés listées sont omises) :
   font-size: 0;
   background-color: $primary-700;
   margin-right: 0.5rem;
+
+  .is-style-couleurs-originales & {
+    mask-image: none;
+    -webkit-mask-image: none;
+    background-image: none;
+    background-color: transparent !important;
+  }
 }
 
 @mixin icon($name, $suffix:"svg", $path:'../../_icons/') {
   mask-image: url("#{$path}#{$name}.#{$suffix}");
   -webkit-mask-image: url("#{$path}#{$name}.#{$suffix}");
-}
 
+  .is-style-couleurs-originales & {
+    mask-image: none;
+    -webkit-mask-image: none;
+    background-image: url("#{$path}#{$name}.#{$suffix}");
+    background-size: 100%;
+    background-position: center center;
+  }
+} 
 
 /** Générer des classes border-primary-200 ou encore border-ternary-500 */
 @mixin color-add-classes($property, $base, $primary: null, $secondary: null, $ternary: null, $values: 700) {
