@@ -101,6 +101,19 @@ nav.wp-block-navigation button.wp-block-navigation__responsive-container-open::b
   margin-right: 0;
   background-color: var(--wp--preset--color--black);
 }
+.is-style-couleurs-originales nav.wp-block-navigation button.wp-block-navigation__responsive-container-open::before {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: none;
+  background-color: transparent !important;
+}
+.is-style-couleurs-originales nav.wp-block-navigation button.wp-block-navigation__responsive-container-open::before {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/menu-burger.svg");
+  background-size: 100%;
+  background-position: center center;
+}
 nav.wp-block-navigation button.wp-block-navigation__responsive-container-open:hover::before {
   background-color: var(--wp--preset--color--primary-700);
 }
