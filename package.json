@@ -17,7 +17,8 @@
     "lint:scss": "npm run lint:scss-fix && npx stylelint 'styles/scss/*.scss'",
     "lint:scss-fix": "npx stylelint 'styles/scss/*.scss' --fix",
     "pull": "git pull origin master && git checkout --ours styles/css/main.css && git checkout --ours styles/css/main.min.css",
-    "push": "./push.sh"
+    "push": "./push.sh",
+    "prepare": "husky install"
   },
   "husky": {
     "hooks": {
