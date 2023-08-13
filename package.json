@@ -4,6 +4,7 @@
   },
   "scripts": {
     "init": "npm install && npm run icons && npm run fonts && npm run build:editor-css && git add . && git commit . -m '🚀 Initialisaton du projet' && git push origin master --force",
+    "init-clone": "npm install && npm run icons && npm run fonts && npm run build:editor-css",
     "start": "npm-run-all --parallel developpement fonts icons watch:* build:editor-css build",
     "developpement": "echo '' > styles/scss/load.scss && echo '$domaine: \"SOUSDOMAINE.docker.localhost\";' > styles/scss/load.scss",
     "production": "echo '' > styles/scss/load.scss && echo '$domaine: \"SOUSDOMAINE.ocade.eu\";' > styles/scss/load.scss && npm run scss-to-css && npm run build",
@@ -18,11 +19,6 @@
     "lint:scss-fix": "npx stylelint 'styles/scss/*.scss' --fix",
     "pull": "git pull origin master && git checkout --ours styles/css/main.css && git checkout --ours styles/css/main.min.css",
     "push": "./push.sh"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run lint:scss"
-    }
   },
   "devDependencies": {
     "chokidar-cli": "^3.0.0",
