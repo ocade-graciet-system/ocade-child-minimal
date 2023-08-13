@@ -5,6 +5,10 @@
   @include icon-base();
 
   
+  &.ampoule-1, &.ampoule-1::after {
+    @include icon("ampoule-1");
+  }
+  
   &.app-1, &.app-1::after {
     @include icon("app-1");
   }
@@ -13,96 +17,40 @@
     @include icon("app-2");
   }
   
-  &.app-5, &.app-5::after {
-    @include icon("app-5");
-  }
-  
-  &.archive-1, &.archive-1::after {
-    @include icon("archive-1");
-  }
-  
-  &.archive-3, &.archive-3::after {
-    @include icon("archive-3");
-  }
-  
-  &.arobase-1, &.arobase-1::after {
-    @include icon("arobase-1");
-  }
-  
-  &.arobase-2, &.arobase-2::after {
-    @include icon("arobase-2");
-  }
-  
   &.attention-1, &.attention-1::after {
     @include icon("attention-1");
   }
   
-  &.attention-4, &.attention-4::after {
-    @include icon("attention-4");
+  &.attention-2, &.attention-2::after {
+    @include icon("attention-2");
   }
   
-  &.bold-1, &.bold-1::after {
-    @include icon("bold-1");
+  &.bdd-1, &.bdd-1::after {
+    @include icon("bdd-1");
   }
   
-  &.bold-3, &.bold-3::after {
-    @include icon("bold-3");
+  &.bdd-2, &.bdd-2::after {
+    @include icon("bdd-2");
   }
   
-  &.book-1, &.book-1::after {
-    @include icon("book-1");
+  &.bouclier-1, &.bouclier-1::after {
+    @include icon("bouclier-1");
   }
   
-  &.book-11, &.book-11::after {
-    @include icon("book-11");
+  &.bouclier-2, &.bouclier-2::after {
+    @include icon("bouclier-2");
   }
   
-  &.book-13, &.book-13::after {
-    @include icon("book-13");
+  &.bouclier-3, &.bouclier-3::after {
+    @include icon("bouclier-3");
   }
   
-  &.book-14, &.book-14::after {
-    @include icon("book-14");
+  &.bouclier-4, &.bouclier-4::after {
+    @include icon("bouclier-4");
   }
   
-  &.book-15, &.book-15::after {
-    @include icon("book-15");
-  }
-  
-  &.book-17, &.book-17::after {
-    @include icon("book-17");
-  }
-  
-  &.book-18, &.book-18::after {
-    @include icon("book-18");
-  }
-  
-  &.book-20, &.book-20::after {
-    @include icon("book-20");
-  }
-  
-  &.book-3, &.book-3::after {
-    @include icon("book-3");
-  }
-  
-  &.book-5, &.book-5::after {
-    @include icon("book-5");
-  }
-  
-  &.book-6, &.book-6::after {
-    @include icon("book-6");
-  }
-  
-  &.book-8, &.book-8::after {
-    @include icon("book-8");
-  }
-  
-  &.book-9, &.book-9::after {
-    @include icon("book-9");
-  }
-  
-  &.bord-2, &.bord-2::after {
-    @include icon("bord-2");
+  &.bouclier-5, &.bouclier-5::after {
+    @include icon("bouclier-5");
   }
   
   &.boul-1, &.boul-1::after {
@@ -145,136 +93,92 @@
     @include icon("boul-9");
   }
   
-  &.box-1, &.box-1::after {
-    @include icon("box-1");
-  }
-  
-  &.browser-16, &.browser-16::after {
-    @include icon("browser-16");
-  }
-  
   &.bug-1, &.bug-1::after {
     @include icon("bug-1");
   }
   
-  &.buisness, &.buisness::after {
-    @include icon("buisness");
+  &.cadeau-1, &.cadeau-1::after {
+    @include icon("cadeau-1");
   }
   
-  &.cache-1, &.cache-1::after {
-    @include icon("cache-1");
+  &.cadeau-2, &.cadeau-2::after {
+    @include icon("cadeau-2");
   }
   
-  &.cache-2, &.cache-2::after {
-    @include icon("cache-2");
+  &.cadenas-1, &.cadenas-1::after {
+    @include icon("cadenas-1");
   }
   
-  &.calendar-1, &.calendar-1::after {
-    @include icon("calendar-1");
+  &.cadenas-2, &.cadenas-2::after {
+    @include icon("cadenas-2");
   }
   
-  &.card-1, &.card-1::after {
-    @include icon("card-1");
+  &.calendrier-1, &.calendrier-1::after {
+    @include icon("calendrier-1");
   }
   
-  &.card-3, &.card-3::after {
-    @include icon("card-3");
+  &.carre-1, &.carre-1::after {
+    @include icon("carre-1");
   }
   
-  &.card-4, &.card-4::after {
-    @include icon("card-4");
+  &.carre-2, &.carre-2::after {
+    @include icon("carre-2");
+  }
+  
+  &.carre-3, &.carre-3::after {
+    @include icon("carre-3");
+  }
+  
+  &.carre-4, &.carre-4::after {
+    @include icon("carre-4");
+  }
+  
+  &.carre-5, &.carre-5::after {
+    @include icon("carre-5");
+  }
+  
+  &.carre-6, &.carre-6::after {
+    @include icon("carre-6");
+  }
+  
+  &.carte-1, &.carte-1::after {
+    @include icon("carte-1");
+  }
+  
+  &.carte-2, &.carte-2::after {
+    @include icon("carte-2");
+  }
+  
+  &.carte-3, &.carte-3::after {
+    @include icon("carte-3");
   }
   
   &.chapeau-1, &.chapeau-1::after {
     @include icon("chapeau-1");
   }
   
-  &.check-10, &.check-10::after {
-    @include icon("check-10");
-  }
-  
-  &.check-11, &.check-11::after {
-    @include icon("check-11");
-  }
-  
-  &.check-13, &.check-13::after {
-    @include icon("check-13");
-  }
-  
-  &.check-15, &.check-15::after {
-    @include icon("check-15");
-  }
-  
-  &.check-17, &.check-17::after {
-    @include icon("check-17");
-  }
-  
-  &.check-19, &.check-19::after {
-    @include icon("check-19");
-  }
-  
-  &.check-3, &.check-3::after {
-    @include icon("check-3");
-  }
-  
-  &.check-5, &.check-5::after {
-    @include icon("check-5");
-  }
-  
-  &.check-8, &.check-8::after {
-    @include icon("check-8");
-  }
-  
-  &.checked, &.checked::after {
-    @include icon("checked");
-  }
-  
-  &.circle-1, &.circle-1::after {
-    @include icon("circle-1");
+  &.cible-1, &.cible-1::after {
+    @include icon("cible-1");
   }
   
   &.cle-1, &.cle-1::after {
     @include icon("cle-1");
   }
   
+  &.cle-2, &.cle-2::after {
+    @include icon("cle-2");
+  }
+  
   &.cloche-1, &.cloche-1::after {
     @include icon("cloche-1");
   }
   
+  &.cloche-2, &.cloche-2::after {
+    @include icon("cloche-2");
+  }
+  
   &.cloche-3, &.cloche-3::after {
     @include icon("cloche-3");
-  }
-  
-  &.cloche-5, &.cloche-5::after {
-    @include icon("cloche-5");
-  }
-  
-  &.clock-1, &.clock-1::after {
-    @include icon("clock-1");
-  }
-  
-  &.clock-3, &.clock-3::after {
-    @include icon("clock-3");
-  }
-  
-  &.clock-5, &.clock-5::after {
-    @include icon("clock-5");
-  }
-  
-  &.clock-7, &.clock-7::after {
-    @include icon("clock-7");
-  }
-  
-  &.clock-8, &.clock-8::after {
-    @include icon("clock-8");
-  }
-  
-  &.cloud-1, &.cloud-1::after {
-    @include icon("cloud-1");
-  }
-  
-  &.cloud-3, &.cloud-3::after {
-    @include icon("cloud-3");
   }
   
   &.code-1, &.code-1::after {
@@ -285,120 +189,76 @@
     @include icon("code-2");
   }
   
+  &.code-3, &.code-3::after {
+    @include icon("code-3");
+  }
+  
   &.code-4, &.code-4::after {
     @include icon("code-4");
   }
   
-  &.code-6, &.code-6::after {
-    @include icon("code-6");
+  &.coeur-1, &.coeur-1::after {
+    @include icon("coeur-1");
+  }
+  
+  &.coeur-2, &.coeur-2::after {
+    @include icon("coeur-2");
+  }
+  
+  &.coeur-3, &.coeur-3::after {
+    @include icon("coeur-3");
+  }
+  
+  &.coeur-4, &.coeur-4::after {
+    @include icon("coeur-4");
   }
   
   &.coffre-1, &.coffre-1::after {
     @include icon("coffre-1");
   }
   
+  &.coller-1, &.coller-1::after {
+    @include icon("coller-1");
+  }
+  
   &.colonnes-1, &.colonnes-1::after {
     @include icon("colonnes-1");
   }
   
-  &.colonnes-3, &.colonnes-3::after {
-    @include icon("colonnes-3");
+  &.colonnes-2, &.colonnes-2::after {
+    @include icon("colonnes-2");
   }
   
   &.comment-1, &.comment-1::after {
     @include icon("comment-1");
   }
   
-  &.comment-11, &.comment-11::after {
-    @include icon("comment-11");
-  }
-  
-  &.comment-13, &.comment-13::after {
-    @include icon("comment-13");
-  }
-  
-  &.comment-15, &.comment-15::after {
-    @include icon("comment-15");
+  &.comment-2, &.comment-2::after {
+    @include icon("comment-2");
   }
   
   &.comment-3, &.comment-3::after {
     @include icon("comment-3");
   }
   
+  &.comment-4, &.comment-4::after {
+    @include icon("comment-4");
+  }
+  
   &.comment-5, &.comment-5::after {
     @include icon("comment-5");
+  }
+  
+  &.comment-6, &.comment-6::after {
+    @include icon("comment-6");
   }
   
   &.comment-7, &.comment-7::after {
     @include icon("comment-7");
   }
   
-  &.comment-9, &.comment-9::after {
-    @include icon("comment-9");
-  }
-  
-  &.commit-10, &.commit-10::after {
-    @include icon("commit-10");
-  }
-  
-  &.commit-12, &.commit-12::after {
-    @include icon("commit-12");
-  }
-  
-  &.commit-14, &.commit-14::after {
-    @include icon("commit-14");
-  }
-  
-  &.commit-16, &.commit-16::after {
-    @include icon("commit-16");
-  }
-  
-  &.commit-18, &.commit-18::after {
-    @include icon("commit-18");
-  }
-  
-  &.commit-19, &.commit-19::after {
-    @include icon("commit-19");
-  }
-  
-  &.commit-2, &.commit-2::after {
-    @include icon("commit-2");
-  }
-  
-  &.commit-21, &.commit-21::after {
-    @include icon("commit-21");
-  }
-  
-  &.commit-23, &.commit-23::after {
-    @include icon("commit-23");
-  }
-  
-  &.commit-4, &.commit-4::after {
-    @include icon("commit-4");
-  }
-  
-  &.commit-6, &.commit-6::after {
-    @include icon("commit-6");
-  }
-  
-  &.commit-8, &.commit-8::after {
-    @include icon("commit-8");
-  }
-  
-  &.container-1, &.container-1::after {
-    @include icon("container-1");
-  }
-  
-  &.copilot-1, &.copilot-1::after {
-    @include icon("copilot-1");
-  }
-  
-  &.copilot-5, &.copilot-5::after {
-    @include icon("copilot-5");
-  }
-  
-  &.copilot-6, &.copilot-6::after {
-    @include icon("copilot-6");
+  &.comment-8, &.comment-8::after {
+    @include icon("comment-8");
   }
   
   &.copy-1, &.copy-1::after {
@@ -409,116 +269,136 @@
     @include icon("coupe-1");
   }
   
-  &.diam-1, &.diam-1::after {
-    @include icon("diam-1");
+  &.diamant-1, &.diamant-1::after {
+    @include icon("diamant-1");
   }
   
-  &.disabled-1, &.disabled-1::after {
-    @include icon("disabled-1");
-  }
-  
-  &.disabled-11, &.disabled-11::after {
-    @include icon("disabled-11");
-  }
-  
-  &.disabled-14, &.disabled-14::after {
-    @include icon("disabled-14");
-  }
-  
-  &.disabled-3, &.disabled-3::after {
-    @include icon("disabled-3");
-  }
-  
-  &.disabled-4, &.disabled-4::after {
-    @include icon("disabled-4");
-  }
-  
-  &.disabled-6, &.disabled-6::after {
-    @include icon("disabled-6");
-  }
-  
-  &.disabled-8, &.disabled-8::after {
-    @include icon("disabled-8");
+  &.dieze-1, &.dieze-1::after {
+    @include icon("dieze-1");
   }
   
   &.disabled, &.disabled::after {
     @include icon("disabled");
   }
   
-  &.dot-1, &.dot-1::after {
-    @include icon("dot-1");
+  &.dossier-1, &.dossier-1::after {
+    @include icon("dossier-1");
   }
   
-  &.dot-3, &.dot-3::after {
-    @include icon("dot-3");
+  &.dossier-2, &.dossier-2::after {
+    @include icon("dossier-2");
   }
   
-  &.dot-5, &.dot-5::after {
-    @include icon("dot-5");
+  &.dossier-3, &.dossier-3::after {
+    @include icon("dossier-3");
+  }
+  
+  &.dossier-4, &.dossier-4::after {
+    @include icon("dossier-4");
+  }
+  
+  &.dossier-5, &.dossier-5::after {
+    @include icon("dossier-5");
+  }
+  
+  &.dossier-6, &.dossier-6::after {
+    @include icon("dossier-6");
+  }
+  
+  &.dossier-7, &.dossier-7::after {
+    @include icon("dossier-7");
+  }
+  
+  &.dossier-8, &.dossier-8::after {
+    @include icon("dossier-8");
+  }
+  
+  &.drapeau-1, &.drapeau-1::after {
+    @include icon("drapeau-1");
   }
   
   &.eclair-1, &.eclair-1::after {
     @include icon("eclair-1");
   }
   
-  &.elips-1, &.elips-1::after {
-    @include icon("elips-1");
+  &.ecureuil-1, &.ecureuil-1::after {
+    @include icon("ecureuil-1");
   }
   
   &.etandard, &.etandard::after {
     @include icon("etandard");
   }
   
+  &.etiquette-1, &.etiquette-1::after {
+    @include icon("etiquette-1");
+  }
+  
+  &.etoile-1, &.etoile-1::after {
+    @include icon("etoile-1");
+  }
+  
+  &.etoile-2, &.etoile-2::after {
+    @include icon("etoile-2");
+  }
+  
+  &.etoile-3, &.etoile-3::after {
+    @include icon("etoile-3");
+  }
+  
+  &.etoile-4, &.etoile-4::after {
+    @include icon("etoile-4");
+  }
+  
+  &.etoile-5, &.etoile-5::after {
+    @include icon("etoile-5");
+  }
+  
+  &.etoile-6, &.etoile-6::after {
+    @include icon("etoile-6");
+  }
+  
   &.exit, &.exit::after {
     @include icon("exit");
   }
   
-  &.eye-1, &.eye-1::after {
-    @include icon("eye-1");
+  &.fichier-1, &.fichier-1::after {
+    @include icon("fichier-1");
   }
   
-  &.eye-3, &.eye-3::after {
-    @include icon("eye-3");
+  &.fichier-10, &.fichier-10::after {
+    @include icon("fichier-10");
   }
   
-  &.file-1, &.file-1::after {
-    @include icon("file-1");
+  &.fichier-2, &.fichier-2::after {
+    @include icon("fichier-2");
   }
   
-  &.file-11, &.file-11::after {
-    @include icon("file-11");
+  &.fichier-3, &.fichier-3::after {
+    @include icon("fichier-3");
   }
   
-  &.file-12, &.file-12::after {
-    @include icon("file-12");
+  &.fichier-4, &.fichier-4::after {
+    @include icon("fichier-4");
   }
   
-  &.file-13, &.file-13::after {
-    @include icon("file-13");
+  &.fichier-5, &.fichier-5::after {
+    @include icon("fichier-5");
   }
   
-  &.file-15, &.file-15::after {
-    @include icon("file-15");
+  &.fichier-6, &.fichier-6::after {
+    @include icon("fichier-6");
   }
   
-  &.file-3, &.file-3::after {
-    @include icon("file-3");
+  &.fichier-7, &.fichier-7::after {
+    @include icon("fichier-7");
   }
   
-  &.file-4, &.file-4::after {
-    @include icon("file-4");
+  &.fichier-8, &.fichier-8::after {
+    @include icon("fichier-8");
   }
   
-  &.file-5, &.file-5::after {
-    @include icon("file-5");
-  }
-  
-  &.file-7, &.file-7::after {
-    @include icon("file-7");
-  }
-  
-  &.file-9, &.file-9::after {
-    @include icon("file-9");
+  &.fichier-9, &.fichier-9::after {
+    @include icon("fichier-9");
   }
   
   &.film-1, &.film-1::after {
@@ -529,48 +409,68 @@
     @include icon("film-2");
   }
   
+  &.film-3, &.film-3::after {
+    @include icon("film-3");
+  }
+  
   &.film-4, &.film-4::after {
     @include icon("film-4");
-  }
-  
-  &.film-6, &.film-6::after {
-    @include icon("film-6");
-  }
-  
-  &.flag-1, &.flag-1::after {
-    @include icon("flag-1");
   }
   
   &.flamme-1, &.flamme-1::after {
     @include icon("flamme-1");
   }
   
-  &.fleche-1-81, &.fleche-1-81::after {
-    @include icon("fleche-1-81");
-  }
-  
   &.fleche-1, &.fleche-1::after {
     @include icon("fleche-1");
+  }
+  
+  &.fleche-10, &.fleche-10::after {
+    @include icon("fleche-10");
   }
   
   &.fleche-11, &.fleche-11::after {
     @include icon("fleche-11");
   }
   
+  &.fleche-12, &.fleche-12::after {
+    @include icon("fleche-12");
+  }
+  
   &.fleche-13, &.fleche-13::after {
     @include icon("fleche-13");
+  }
+  
+  &.fleche-14, &.fleche-14::after {
+    @include icon("fleche-14");
   }
   
   &.fleche-15, &.fleche-15::after {
     @include icon("fleche-15");
   }
   
+  &.fleche-16, &.fleche-16::after {
+    @include icon("fleche-16");
+  }
+  
   &.fleche-17, &.fleche-17::after {
     @include icon("fleche-17");
   }
   
+  &.fleche-18, &.fleche-18::after {
+    @include icon("fleche-18");
+  }
+  
   &.fleche-19, &.fleche-19::after {
     @include icon("fleche-19");
+  }
+  
+  &.fleche-2, &.fleche-2::after {
+    @include icon("fleche-2");
+  }
+  
+  &.fleche-20, &.fleche-20::after {
+    @include icon("fleche-20");
   }
   
   &.fleche-21, &.fleche-21::after {
@@ -581,12 +481,28 @@
     @include icon("fleche-22");
   }
   
+  &.fleche-23, &.fleche-23::after {
+    @include icon("fleche-23");
+  }
+  
   &.fleche-24, &.fleche-24::after {
     @include icon("fleche-24");
   }
   
+  &.fleche-25, &.fleche-25::after {
+    @include icon("fleche-25");
+  }
+  
   &.fleche-26, &.fleche-26::after {
     @include icon("fleche-26");
+  }
+  
+  &.fleche-27, &.fleche-27::after {
+    @include icon("fleche-27");
+  }
+  
+  &.fleche-28, &.fleche-28::after {
+    @include icon("fleche-28");
   }
   
   &.fleche-29, &.fleche-29::after {
@@ -601,6 +517,14 @@
     @include icon("fleche-30");
   }
   
+  &.fleche-31, &.fleche-31::after {
+    @include icon("fleche-31");
+  }
+  
+  &.fleche-32, &.fleche-32::after {
+    @include icon("fleche-32");
+  }
+  
   &.fleche-33, &.fleche-33::after {
     @include icon("fleche-33");
   }
@@ -609,152 +533,84 @@
     @include icon("fleche-34");
   }
   
+  &.fleche-35vg, &.fleche-35vg::after {
+    @include icon("fleche-35vg", "undefined");
+  }
+  
+  &.fleche-36, &.fleche-36::after {
+    @include icon("fleche-36");
+  }
+  
+  &.fleche-37, &.fleche-37::after {
+    @include icon("fleche-37");
+  }
+  
+  &.fleche-38, &.fleche-38::after {
+    @include icon("fleche-38");
+  }
+  
+  &.fleche-39, &.fleche-39::after {
+    @include icon("fleche-39");
+  }
+  
+  &.fleche-4, &.fleche-4::after {
+    @include icon("fleche-4");
+  }
+  
   &.fleche-40, &.fleche-40::after {
     @include icon("fleche-40");
+  }
+  
+  &.fleche-41, &.fleche-41::after {
+    @include icon("fleche-41");
   }
   
   &.fleche-42, &.fleche-42::after {
     @include icon("fleche-42");
   }
   
+  &.fleche-43, &.fleche-43::after {
+    @include icon("fleche-43");
+  }
+  
   &.fleche-44, &.fleche-44::after {
     @include icon("fleche-44");
   }
   
-  &.fleche-46, &.fleche-46::after {
-    @include icon("fleche-46");
-  }
-  
-  &.fleche-48, &.fleche-48::after {
-    @include icon("fleche-48");
+  &.fleche-45, &.fleche-45::after {
+    @include icon("fleche-45");
   }
   
   &.fleche-5, &.fleche-5::after {
     @include icon("fleche-5");
   }
   
-  &.fleche-50, &.fleche-50::after {
-    @include icon("fleche-50");
-  }
-  
-  &.fleche-52, &.fleche-52::after {
-    @include icon("fleche-52");
-  }
-  
-  &.fleche-54, &.fleche-54::after {
-    @include icon("fleche-54");
-  }
-  
-  &.fleche-56, &.fleche-56::after {
-    @include icon("fleche-56");
-  }
-  
-  &.fleche-58, &.fleche-58::after {
-    @include icon("fleche-58");
-  }
-  
-  &.fleche-60, &.fleche-60::after {
-    @include icon("fleche-60");
-  }
-  
-  &.fleche-62, &.fleche-62::after {
-    @include icon("fleche-62");
-  }
-  
-  &.fleche-63, &.fleche-63::after {
-    @include icon("fleche-63");
-  }
-  
-  &.fleche-65, &.fleche-65::after {
-    @include icon("fleche-65");
-  }
-  
-  &.fleche-67, &.fleche-67::after {
-    @include icon("fleche-67");
+  &.fleche-6, &.fleche-6::after {
+    @include icon("fleche-6");
   }
   
   &.fleche-7, &.fleche-7::after {
     @include icon("fleche-7");
   }
   
-  &.fleche-70, &.fleche-70::after {
-    @include icon("fleche-70");
-  }
-  
-  &.fleche-72, &.fleche-72::after {
-    @include icon("fleche-72");
-  }
-  
-  &.fleche-74, &.fleche-74::after {
-    @include icon("fleche-74");
-  }
-  
-  &.fleche-75, &.fleche-75::after {
-    @include icon("fleche-75");
-  }
-  
-  &.fleche-77, &.fleche-77::after {
-    @include icon("fleche-77");
-  }
-  
-  &.fleche-79, &.fleche-79::after {
-    @include icon("fleche-79");
-  }
-  
-  &.fleche-82, &.fleche-82::after {
-    @include icon("fleche-82");
-  }
-  
-  &.fleche-83, &.fleche-83::after {
-    @include icon("fleche-83");
-  }
-  
-  &.fleche-85, &.fleche-85::after {
-    @include icon("fleche-85");
-  }
-  
-  &.fleche-88, &.fleche-88::after {
-    @include icon("fleche-88");
-  }
-  
-  &.fleche-89, &.fleche-89::after {
-    @include icon("fleche-89");
+  &.fleche-8, &.fleche-8::after {
+    @include icon("fleche-8");
   }
   
   &.fleche-9, &.fleche-9::after {
     @include icon("fleche-9");
   }
   
-  &.folder-1, &.folder-1::after {
-    @include icon("folder-1");
+  &.fusee-1, &.fusee-1::after {
+    @include icon("fusee-1");
   }
   
-  &.folder-3, &.folder-3::after {
-    @include icon("folder-3");
-  }
-  
-  &.folder-5, &.folder-5::after {
-    @include icon("folder-5");
-  }
-  
-  &.folder-6, &.folder-6::after {
-    @include icon("folder-6");
-  }
-  
-  &.free-1, &.free-1::after {
-    @include icon("free-1");
-  }
-  
-  &.free-2, &.free-2::after {
-    @include icon("free-2");
+  &.fusee-2, &.fusee-2::after {
+    @include icon("fusee-2");
   }
   
   &.gear-1, &.gear-1::after {
     @include icon("gear-1");
-  }
-  
-  &.gear-2, &.gear-2::after {
-    @include icon("gear-2");
   }
   
   &.globe-1, &.globe-1::after {
@@ -765,164 +621,236 @@
     @include icon("graph-1");
   }
   
+  &.graph-2, &.graph-2::after {
+    @include icon("graph-2");
+  }
+  
   &.graph-3, &.graph-3::after {
     @include icon("graph-3");
   }
   
-  &.graph-5, &.graph-5::after {
-    @include icon("graph-5");
+  &.horloge-1, &.horloge-1::after {
+    @include icon("horloge-1");
   }
   
-  &.h-1, &.h-1::after {
-    @include icon("h-1");
+  &.horloge-2, &.horloge-2::after {
+    @include icon("horloge-2");
   }
   
-  &.h-3, &.h-3::after {
-    @include icon("h-3");
+  &.horloge-3, &.horloge-3::after {
+    @include icon("horloge-3");
   }
   
-  &.heart-1, &.heart-1::after {
-    @include icon("heart-1");
+  &.horloge-4, &.horloge-4::after {
+    @include icon("horloge-4");
   }
   
-  &.heart-3, &.heart-3::after {
-    @include icon("heart-3");
+  &.horloge-5, &.horloge-5::after {
+    @include icon("horloge-5");
   }
   
-  &.heart-5, &.heart-5::after {
-    @include icon("heart-5");
+  &.image-1, &.image-1::after {
+    @include icon("image-1");
   }
   
-  &.heart-8, &.heart-8::after {
-    @include icon("heart-8");
+  &.infini-1, &.infini-1::after {
+    @include icon("infini-1");
   }
   
-  &.home-1, &.home-1::after {
-    @include icon("home-1");
+  &.interdit-1, &.interdit-1::after {
+    @include icon("interdit-1");
   }
   
-  &.home-2, &.home-2::after {
-    @include icon("home-2");
+  &.interdit-10, &.interdit-10::after {
+    @include icon("interdit-10");
   }
   
-  &.home-3, &.home-3::after {
-    @include icon("home-3");
+  &.interdit-11, &.interdit-11::after {
+    @include icon("interdit-11");
   }
   
-  &.home-5, &.home-5::after {
-    @include icon("home-5");
+  &.interdit-12, &.interdit-12::after {
+    @include icon("interdit-12");
   }
   
-  &.home-6, &.home-6::after {
-    @include icon("home-6");
+  &.interdit-13, &.interdit-13::after {
+    @include icon("interdit-13");
   }
   
-  &.hubot-1, &.hubot-1::after {
-    @include icon("hubot-1");
+  &.interdit-2, &.interdit-2::after {
+    @include icon("interdit-2");
   }
   
-  &.inf-1, &.inf-1::after {
-    @include icon("inf-1");
+  &.interdit-3, &.interdit-3::after {
+    @include icon("interdit-3");
   }
   
-  &.inf-3, &.inf-3::after {
-    @include icon("inf-3");
+  &.interdit-4, &.interdit-4::after {
+    @include icon("interdit-4");
   }
   
-  &.inf-5, &.inf-5::after {
-    @include icon("inf-5");
+  &.interdit-5, &.interdit-5::after {
+    @include icon("interdit-5");
   }
   
-  &.inf-7, &.inf-7::after {
-    @include icon("inf-7");
+  &.interdit-6, &.interdit-6::after {
+    @include icon("interdit-6");
   }
   
-  &.info-1, &.info-1::after {
-    @include icon("info-1");
+  &.interdit-7, &.interdit-7::after {
+    @include icon("interdit-7");
   }
   
-  &.ital-1, &.ital-1::after {
-    @include icon("ital-1");
+  &.interdit-8, &.interdit-8::after {
+    @include icon("interdit-8");
   }
   
-  &.iter-1, &.iter-1::after {
-    @include icon("iter-1");
+  &.interdit-9, &.interdit-9::after {
+    @include icon("interdit-9");
+  }
+  
+  &.iteration-1, &.iteration-1::after {
+    @include icon("iteration-1");
   }
   
   &.justice-1, &.justice-1::after {
     @include icon("justice-1");
   }
   
-  &.key-1, &.key-1::after {
-    @include icon("key-1");
+  &.lien-1, &.lien-1::after {
+    @include icon("lien-1");
   }
   
-  &.light-1, &.light-1::after {
-    @include icon("light-1");
+  &.lien-2, &.lien-2::after {
+    @include icon("lien-2");
   }
   
-  &.link-1, &.link-1::after {
-    @include icon("link-1");
+  &.lien-3, &.lien-3::after {
+    @include icon("lien-3");
   }
   
-  &.link-3, &.link-3::after {
-    @include icon("link-3");
+  &.lien-4, &.lien-4::after {
+    @include icon("lien-4");
+  }
+  
+  &.lien-5, &.lien-5::after {
+    @include icon("lien-5");
   }
   
   &.link-external-1, &.link-external-1::after {
     @include icon("link-external-1");
   }
   
-  &.list-1, &.list-1::after {
-    @include icon("list-1");
+  &.liste-1, &.liste-1::after {
+    @include icon("liste-1");
   }
   
-  &.list-10, &.list-10::after {
-    @include icon("list-10");
+  &.liste-2, &.liste-2::after {
+    @include icon("liste-2");
   }
   
-  &.list-3, &.list-3::after {
-    @include icon("list-3");
+  &.liste-3, &.liste-3::after {
+    @include icon("liste-3");
   }
   
-  &.list-5, &.list-5::after {
-    @include icon("list-5");
+  &.liste-4, &.liste-4::after {
+    @include icon("liste-4");
   }
   
-  &.list-7, &.list-7::after {
-    @include icon("list-7");
+  &.liste-5, &.liste-5::after {
+    @include icon("liste-5");
   }
   
-  &.list-9, &.list-9::after {
-    @include icon("list-9");
+  &.liste-6, &.liste-6::after {
+    @include icon("liste-6");
   }
   
-  &.loc-1, &.loc-1::after {
-    @include icon("loc-1");
+  &.livre-1, &.livre-1::after {
+    @include icon("livre-1");
   }
   
-  &.lock-1, &.lock-1::after {
-    @include icon("lock-1");
+  &.livre-10, &.livre-10::after {
+    @include icon("livre-10");
   }
   
-  &.lock-3, &.lock-3::after {
-    @include icon("lock-3");
+  &.livre-11, &.livre-11::after {
+    @include icon("livre-11");
+  }
+  
+  &.livre-12, &.livre-12::after {
+    @include icon("livre-12");
+  }
+  
+  &.livre-13, &.livre-13::after {
+    @include icon("livre-13");
+  }
+  
+  &.livre-2, &.livre-2::after {
+    @include icon("livre-2");
+  }
+  
+  &.livre-3, &.livre-3::after {
+    @include icon("livre-3");
+  }
+  
+  &.livre-4, &.livre-4::after {
+    @include icon("livre-4");
+  }
+  
+  &.livre-5, &.livre-5::after {
+    @include icon("livre-5");
+  }
+  
+  &.livre-6, &.livre-6::after {
+    @include icon("livre-6");
+  }
+  
+  &.livre-7, &.livre-7::after {
+    @include icon("livre-7");
+  }
+  
+  &.livre-8, &.livre-8::after {
+    @include icon("livre-8");
+  }
+  
+  &.livre-9, &.livre-9::after {
+    @include icon("livre-9");
+  }
+  
+  &.localisation-1, &.localisation-1::after {
+    @include icon("localisation-1");
+  }
+  
+  &.localisation-2, &.localisation-2::after {
+    @include icon("localisation-2");
+  }
+  
+  &.lune-1, &.lune-1::after {
+    @include icon("lune-1");
   }
   
   &.mail-1, &.mail-1::after {
     @include icon("mail-1");
   }
   
-  &.mail-10, &.mail-10::after {
-    @include icon("mail-10");
+  &.mail-2, &.mail-2::after {
+    @include icon("mail-2");
   }
   
   &.mail-3, &.mail-3::after {
     @include icon("mail-3");
   }
   
+  &.mail-4, &.mail-4::after {
+    @include icon("mail-4");
+  }
+  
   &.mail-5, &.mail-5::after {
     @include icon("mail-5");
+  }
+  
+  &.mail-6, &.mail-6::after {
+    @include icon("mail-6");
   }
   
   &.mail-7, &.mail-7::after {
@@ -933,20 +861,32 @@
     @include icon("mail-8");
   }
   
-  &.marker-1, &.marker-1::after {
-    @include icon("marker-1");
+  &.maison-1, &.maison-1::after {
+    @include icon("maison-1");
+  }
+  
+  &.maison-2, &.maison-2::after {
+    @include icon("maison-2");
+  }
+  
+  &.maison-3, &.maison-3::after {
+    @include icon("maison-3");
+  }
+  
+  &.maison-4, &.maison-4::after {
+    @include icon("maison-4");
+  }
+  
+  &.maison-5, &.maison-5::after {
+    @include icon("maison-5");
   }
   
   &.math-1, &.math-1::after {
     @include icon("math-1");
   }
   
-  &.math-10, &.math-10::after {
-    @include icon("math-10");
-  }
-  
-  &.math-12, &.math-12::after {
-    @include icon("math-12");
+  &.math-2, &.math-2::after {
+    @include icon("math-2");
   }
   
   &.math-3, &.math-3::after {
@@ -973,6 +913,10 @@
     @include icon("math-8");
   }
   
+  &.math-9, &.math-9::after {
+    @include icon("math-9");
+  }
+  
   &.megaphone-1, &.megaphone-1::after {
     @include icon("megaphone-1");
   }
@@ -981,152 +925,168 @@
     @include icon("menu-burger");
   }
   
-  &.moon-1, &.moon-1::after {
-    @include icon("moon-1");
+  &.nuage-1, &.nuage-1::after {
+    @include icon("nuage-1");
   }
   
-  &.mute-1, &.mute-1::after {
-    @include icon("mute-1");
+  &.nuage-2, &.nuage-2::after {
+    @include icon("nuage-2");
   }
   
-  &.mute-3, &.mute-3::after {
-    @include icon("mute-3");
+  &.oeil-1, &.oeil-1::after {
+    @include icon("oeil-1");
   }
   
-  &.nord-1, &.nord-1::after {
-    @include icon("nord-1");
+  &.oeil-2, &.oeil-2::after {
+    @include icon("oeil-2");
   }
   
   &.package-1, &.package-1::after {
     @include icon("package-1");
   }
   
-  &.package-3, &.package-3::after {
-    @include icon("package-3");
+  &.package-2, &.package-2::after {
+    @include icon("package-2");
   }
   
-  &.package-5, &.package-5::after {
-    @include icon("package-5");
+  &.package-3, &.package-3::after {
+    @include icon("package-3");
   }
   
   &.package, &.package::after {
     @include icon("package");
   }
   
-  &.paintbrush-16, &.paintbrush-16::after {
-    @include icon("paintbrush-16");
-  }
-  
   &.panneau-1, &.panneau-1::after {
     @include icon("panneau-1");
-  }
-  
-  &.panneau-3, &.panneau-3::after {
-    @include icon("panneau-3");
-  }
-  
-  &.panneau-4, &.panneau-4::after {
-    @include icon("panneau-4");
-  }
-  
-  &.panneau-7, &.panneau-7::after {
-    @include icon("panneau-7");
-  }
-  
-  &.past-1, &.past-1::after {
-    @include icon("past-1");
-  }
-  
-  &.pen-1, &.pen-1::after {
-    @include icon("pen-1");
   }
   
   &.person-1, &.person-1::after {
     @include icon("person-1");
   }
   
-  &.person-11, &.person-11::after {
-    @include icon("person-11");
+  &.person-2, &.person-2::after {
+    @include icon("person-2");
   }
   
   &.person-3, &.person-3::after {
     @include icon("person-3");
   }
   
+  &.person-4, &.person-4::after {
+    @include icon("person-4");
+  }
+  
   &.person-5, &.person-5::after {
     @include icon("person-5");
   }
   
-  &.person-7, &.person-7::after {
-    @include icon("person-7");
+  &.person-6, &.person-6::after {
+    @include icon("person-6");
   }
   
-  &.person-9, &.person-9::after {
-    @include icon("person-9");
-  }
-  
-  &.picture-1, &.picture-1::after {
-    @include icon("picture-1");
+  &.pignon-1, &.pignon-1::after {
+    @include icon("pignon-1");
   }
   
   &.pin-1, &.pin-1::after {
     @include icon("pin-1");
   }
   
+  &.pinceau-1, &.pinceau-1::after {
+    @include icon("pinceau-1");
+  }
+  
   &.play-1, &.play-1::after {
     @include icon("play-1");
   }
   
-  &.play-3, &.play-3::after {
-    @include icon("play-3");
-  }
-  
-  &.plug-1, &.plug-1::after {
-    @include icon("plug-1");
+  &.play-2, &.play-2::after {
+    @include icon("play-2");
   }
   
   &.plug-3, &.plug-3::after {
     @include icon("plug-3");
   }
   
-  &.plus-16, &.plus-16::after {
-    @include icon("plus-16");
+  &.plus-1, &.plus-1::after {
+    @include icon("plus-1");
   }
   
-  &.plus-circle-16, &.plus-circle-16::after {
-    @include icon("plus-circle-16");
+  &.plus-2, &.plus-2::after {
+    @include icon("plus-2");
   }
   
-  &.point-1, &.point-1::after {
-    @include icon("point-1");
+  &.point-4, &.point-4::after {
+    @include icon("point-4");
   }
   
-  &.point-3, &.point-3::after {
-    @include icon("point-3");
+  &.points-1, &.points-1::after {
+    @include icon("points-1");
   }
   
-  &.point-5, &.point-5::after {
-    @include icon("point-5");
+  &.points-10, &.points-10::after {
+    @include icon("points-10");
   }
   
-  &.point-7, &.point-7::after {
-    @include icon("point-7");
+  &.points-11, &.points-11::after {
+    @include icon("points-11");
   }
   
-  &.point-9, &.point-9::after {
-    @include icon("point-9");
+  &.points-12, &.points-12::after {
+    @include icon("points-12");
+  }
+  
+  &.points-2, &.points-2::after {
+    @include icon("points-2");
+  }
+  
+  &.points-3, &.points-3::after {
+    @include icon("points-3");
+  }
+  
+  &.points-5, &.points-5::after {
+    @include icon("points-5");
+  }
+  
+  &.points-6, &.points-6::after {
+    @include icon("points-6");
+  }
+  
+  &.points-7, &.points-7::after {
+    @include icon("points-7");
+  }
+  
+  &.points-8, &.points-8::after {
+    @include icon("points-8");
+  }
+  
+  &.points-9, &.points-9::after {
+    @include icon("points-9");
   }
   
   &.potion-1, &.potion-1::after {
     @include icon("potion-1");
   }
   
+  &.poubelle-1, &.poubelle-1::after {
+    @include icon("poubelle-1");
+  }
+  
+  &.poubelle-2, &.poubelle-2::after {
+    @include icon("poubelle-2");
+  }
+  
   &.pouce-1, &.pouce-1::after {
     @include icon("pouce-1");
   }
   
-  &.pouce-3, &.pouce-3::after {
-    @include icon("pouce-3");
+  &.pouce-2, &.pouce-2::after {
+    @include icon("pouce-2");
+  }
+  
+  &.prise-1, &.prise-1::after {
+    @include icon("prise-1");
   }
   
   &.puce-1, &.puce-1::after {
@@ -1137,128 +1097,56 @@
     @include icon("pulse-1");
   }
   
-  &.question-1, &.question-1::after {
-    @include icon("question-1");
+  &.recherche-1, &.recherche-1::after {
+    @include icon("recherche-1");
+  }
+  
+  &.recherche-2, &.recherche-2::after {
+    @include icon("recherche-2");
+  }
+  
+  &.recherche-4, &.recherche-4::after {
+    @include icon("recherche-4");
+  }
+  
+  &.recherche-6, &.recherche-6::after {
+    @include icon("recherche-6");
   }
   
   &.robot-1, &.robot-1::after {
     @include icon("robot-1");
   }
   
-  &.rocket-1, &.rocket-1::after {
-    @include icon("rocket-1");
+  &.robot-2, &.robot-2::after {
+    @include icon("robot-2");
   }
   
   &.sablier-1, &.sablier-1::after {
     @include icon("sablier-1");
   }
   
-  &.search-1, &.search-1::after {
-    @include icon("search-1");
+  &.serveur-1, &.serveur-1::after {
+    @include icon("serveur-1");
   }
   
-  &.search-2, &.search-2::after {
-    @include icon("search-2");
+  &.serveur-2, &.serveur-2::after {
+    @include icon("serveur-2");
   }
   
-  &.search-4, &.search-4::after {
-    @include icon("search-4");
+  &.soleil-1, &.soleil-1::after {
+    @include icon("soleil-1");
   }
   
-  &.search-6, &.search-6::after {
-    @include icon("search-6");
+  &.son-1, &.son-1::after {
+    @include icon("son-1");
   }
   
-  &.server-3, &.server-3::after {
-    @include icon("server-3");
+  &.son-2, &.son-2::after {
+    @include icon("son-2");
   }
   
-  &.server-4, &.server-4::after {
-    @include icon("server-4");
-  }
-  
-  &.shield-1, &.shield-1::after {
-    @include icon("shield-1");
-  }
-  
-  &.shield-3, &.shield-3::after {
-    @include icon("shield-3");
-  }
-  
-  &.shield-5, &.shield-5::after {
-    @include icon("shield-5");
-  }
-  
-  &.shield-7, &.shield-7::after {
-    @include icon("shield-7");
-  }
-  
-  &.shield-9, &.shield-9::after {
-    @include icon("shield-9");
-  }
-  
-  &.smile-1, &.smile-1::after {
-    @include icon("smile-1");
-  }
-  
-  &.square-1, &.square-1::after {
-    @include icon("square-1");
-  }
-  
-  &.square-4, &.square-4::after {
-    @include icon("square-4");
-  }
-  
-  &.square-5, &.square-5::after {
-    @include icon("square-5");
-  }
-  
-  &.square-7, &.square-7::after {
-    @include icon("square-7");
-  }
-  
-  &.square-9, &.square-9::after {
-    @include icon("square-9");
-  }
-  
-  &.squirrel-1, &.squirrel-1::after {
-    @include icon("squirrel-1");
-  }
-  
-  &.stack-1, &.stack-1::after {
-    @include icon("stack-1");
-  }
-  
-  &.stack-3, &.stack-3::after {
-    @include icon("stack-3");
-  }
-  
-  &.star-1, &.star-1::after {
-    @include icon("star-1");
-  }
-  
-  &.star-3, &.star-3::after {
-    @include icon("star-3");
-  }
-  
-  &.star-4, &.star-4::after {
-    @include icon("star-4");
-  }
-  
-  &.star-5, &.star-5::after {
-    @include icon("star-5");
-  }
-  
-  &.stop-16, &.stop-16::after {
-    @include icon("stop-16");
-  }
-  
-  &.strikethrough-16, &.strikethrough-16::after {
-    @include icon("strikethrough-16");
-  }
-  
-  &.sun-1, &.sun-1::after {
-    @include icon("sun-1");
+  &.stylo-1, &.stylo-1::after {
+    @include icon("stylo-1");
   }
   
   &.sync-1, &.sync-1::after {
@@ -1269,14 +1157,6 @@
     @include icon("table-1");
   }
   
-  &.tag-1, &.tag-1::after {
-    @include icon("tag-1");
-  }
-  
-  &.target-1, &.target-1::after {
-    @include icon("target-1");
-  }
-  
   &.tel-1, &.tel-1::after {
     @include icon("tel-1");
   }
@@ -1285,12 +1165,12 @@
     @include icon("telescop-1");
   }
   
-  &.telescop-3, &.telescop-3::after {
-    @include icon("telescop-3");
+  &.telescop-2, &.telescop-2::after {
+    @include icon("telescop-2");
   }
   
-  &.telescop-4, &.telescop-4::after {
-    @include icon("telescop-4");
+  &.telescop-3, &.telescop-3::after {
+    @include icon("telescop-3");
   }
   
   &.terminal-1, &.terminal-1::after {
@@ -1301,28 +1181,64 @@
     @include icon("trait-1");
   }
   
+  &.trait-2, &.trait-2::after {
+    @include icon("trait-2");
+  }
+  
   &.trait-3, &.trait-3::after {
     @include icon("trait-3");
   }
   
-  &.trait-5, &.trait-5::after {
-    @include icon("trait-5");
+  &.trait-4, &.trait-4::after {
+    @include icon("trait-4");
   }
   
-  &.trait-7, &.trait-7::after {
-    @include icon("trait-7");
+  &.valid-1, &.valid-1::after {
+    @include icon("valid-1");
   }
   
-  &.trash-1, &.trash-1::after {
-    @include icon("trash-1");
+  &.valid-2, &.valid-2::after {
+    @include icon("valid-2");
   }
   
-  &.trash-2, &.trash-2::after {
-    @include icon("trash-2");
+  &.valid-3, &.valid-3::after {
+    @include icon("valid-3");
+  }
+  
+  &.valid-4, &.valid-4::after {
+    @include icon("valid-4");
+  }
+  
+  &.valid-5, &.valid-5::after {
+    @include icon("valid-5");
+  }
+  
+  &.valid-6, &.valid-6::after {
+    @include icon("valid-6");
+  }
+  
+  &.valid-7, &.valid-7::after {
+    @include icon("valid-7");
+  }
+  
+  &.valid-8, &.valid-8::after {
+    @include icon("valid-8");
+  }
+  
+  &.valid-9, &.valid-9::after {
+    @include icon("valid-9");
+  }
+  
+  &.valided, &.valided::after {
+    @include icon("valided");
   }
   
   &.vcard, &.vcard::after {
     @include icon("vcard");
+  }
+  
+  &.visage-1, &.visage-1::after {
+    @include icon("visage-1");
   }
   
   &.webhook-1, &.webhook-1::after {
@@ -1333,7 +1249,7 @@
     @include icon("wifi-1");
   }
   
-  &.wifi-3, &.wifi-3::after {
-    @include icon("wifi-3");
+  &.wifi-2, &.wifi-2::after {
+    @include icon("wifi-2");
   }
 }
