@@ -93,8 +93,8 @@ html, body {
   font-size: 0;
   background-color: var(--wp--preset--color--primary-700);
   margin-right: 0.5rem;
-  mask-image: url("../../_icons/fleche-29.svg");
-  -webkit-mask-image: url("../../_icons/fleche-29.svg");
+  mask-image: url("../../_icons/fleche-9.svg");
+  -webkit-mask-image: url("../../_icons/fleche-9.svg");
   background-color: var(--wp--preset--color--white);
   position: absolute;
   left: 50%;
@@ -113,7 +113,7 @@ html, body {
 .is-style-couleurs-originales #go-to-top::before {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/fleche-29.svg");
+  background-image: url("../../_icons/fleche-9.svg");
   background-size: 100%;
   background-position: center center;
 }

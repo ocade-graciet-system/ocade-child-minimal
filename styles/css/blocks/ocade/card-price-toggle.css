@@ -13,10 +13,28 @@ avec un override composé (toutes les propriétés listées sont omises) :
 */
 /** Générer des classes border-primary-200 ou encore border-ternary-500 */
 /** Génère des classes border-radius */
+:root {
+  --fond-du-site: #fff;
+}
+
 * {
   box-sizing: border-box;
 }
 
+html, body {
+  background-color: var(--fond-du-site);
+}
+
+/** 8px */
+/** 16px */
+/** 24px */
+/** 32px */
+/** 40px */
+/** 48px */
+/** 56px */
+/** 64px */
+/** 72px */
+/** 80px */
 /*
  * TYPO
  */
@@ -32,41 +50,8 @@ avec un override composé (toutes les propriétés listées sont omises) :
 /** Secondary */
 /** Tertiary */
 /** Supports */
-.wp-block-ocade-blocks-navgrid {
-  justify-content: space-around;
-}
-.wp-block-ocade-blocks-navgrid a.wp-block-ocade-blocks-navgrid-item {
-  position: relative;
-  flex-basis: max-content !important;
-  padding: 0;
-  opacity: 0.8;
-  transition: 0.2s;
-  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
-}
-.wp-block-ocade-blocks-navgrid a.wp-block-ocade-blocks-navgrid-item:hover {
-  opacity: 1;
-}
-.wp-block-ocade-blocks-navgrid a.wp-block-ocade-blocks-navgrid-item:hover figcaption {
-  opacity: 1;
-}
-.wp-block-ocade-blocks-navgrid a.wp-block-ocade-blocks-navgrid-item::after {
-  display: none !important;
-}
-.wp-block-ocade-blocks-navgrid a.wp-block-ocade-blocks-navgrid-item figure {
-  margin: 0;
-}
-.wp-block-ocade-blocks-navgrid a.wp-block-ocade-blocks-navgrid-item figure figcaption {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: 0;
-  padding: 0.5rem 0.3rem;
-  background-color: var(--wp--preset--color--primary-700);
-  height: auto;
-  color: var(--wp--preset--color--white);
-  font-size: 1rem;
-  opacity: 0.65;
+.wp-block-ocade-blocks-card-price-toggle .wp-block-ocade-blocks-card-price-toggle-wrapper .wp-block-ocade-blocks-card-price-toggle-wrapper-item > .wp-block-group:first-child span {
+  color: var(--wp--preset--color--black);
 }
 
-/*# sourceMappingURL=wp-block-ocade-blocks-navgrid.css.map */
+/*# sourceMappingURL=card-price-toggle.css.map */

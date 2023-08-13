@@ -73,8 +73,8 @@
     @include icon("boul-4");
   }
   
-  &.boul-5svg, &.boul-5svg::after {
-    @include icon("boul-5svg", "undefined");
+  &.boul-5, &.boul-5::after {
+    @include icon("boul-5");
   }
   
   &.boul-6, &.boul-6::after {
@@ -155,6 +155,10 @@
   
   &.chapeau-1, &.chapeau-1::after {
     @include icon("chapeau-1");
+  }
+  
+  &.check-10, &.check-10::after {
+    @include icon("check-10");
   }
   
   &.cible-1, &.cible-1::after {
@@ -533,8 +537,8 @@
     @include icon("fleche-34");
   }
   
-  &.fleche-35vg, &.fleche-35vg::after {
-    @include icon("fleche-35vg", "undefined");
+  &.fleche-35, &.fleche-35::after {
+    @include icon("fleche-35");
   }
   
   &.fleche-36, &.fleche-36::after {
@@ -1123,6 +1127,10 @@
   
   &.sablier-1, &.sablier-1::after {
     @include icon("sablier-1");
+  }
+  
+  &.search, &.search::after {
+    @include icon("search");
   }
   
   &.serveur-1, &.serveur-1::after {
