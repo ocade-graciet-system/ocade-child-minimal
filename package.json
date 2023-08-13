@@ -18,7 +18,8 @@
     "lint:scss": "npm run lint:scss-fix && npx stylelint 'styles/scss/*.scss'",
     "lint:scss-fix": "npx stylelint 'styles/scss/*.scss' --fix",
     "pull": "git pull origin master && git checkout --ours styles/css/main.css && git checkout --ours styles/css/main.min.css",
-    "push": "./push.sh"
+    "push": "./push.sh",
+    "test": "(npm run lint:scss && exit 0) || exit 1 && (sh ./run-tests.sh && exit 0) || exit 1"
   },
   "devDependencies": {
     "chokidar-cli": "^3.0.0",
