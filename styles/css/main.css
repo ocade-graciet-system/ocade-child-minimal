@@ -3062,6 +3062,17 @@ html, body {
   background-image: none;
   background-color: transparent !important;
 }
+.icon.ampoule-1, .icon.ampoule-1::after {
+  mask-image: url("../../_icons/ampoule-1.svg");
+  -webkit-mask-image: url("../../_icons/ampoule-1.svg");
+}
+.is-style-couleurs-originales .icon.ampoule-1, .is-style-couleurs-originales .icon.ampoule-1::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/ampoule-1.svg");
+  background-size: 100%;
+  background-position: center center;
+}
 .icon.app-1, .icon.app-1::after {
   mask-image: url("../../_icons/app-1.svg");
   -webkit-mask-image: url("../../_icons/app-1.svg");
@@ -3084,61 +3095,6 @@ html, body {
   background-size: 100%;
   background-position: center center;
 }
-.icon.app-5, .icon.app-5::after {
-  mask-image: url("../../_icons/app-5.svg");
-  -webkit-mask-image: url("../../_icons/app-5.svg");
-}
-.is-style-couleurs-originales .icon.app-5, .is-style-couleurs-originales .icon.app-5::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/app-5.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.archive-1, .icon.archive-1::after {
-  mask-image: url("../../_icons/archive-1.svg");
-  -webkit-mask-image: url("../../_icons/archive-1.svg");
-}
-.is-style-couleurs-originales .icon.archive-1, .is-style-couleurs-originales .icon.archive-1::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/archive-1.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.archive-3, .icon.archive-3::after {
-  mask-image: url("../../_icons/archive-3.svg");
-  -webkit-mask-image: url("../../_icons/archive-3.svg");
-}
-.is-style-couleurs-originales .icon.archive-3, .is-style-couleurs-originales .icon.archive-3::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/archive-3.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.arobase-1, .icon.arobase-1::after {
-  mask-image: url("../../_icons/arobase-1.svg");
-  -webkit-mask-image: url("../../_icons/arobase-1.svg");
-}
-.is-style-couleurs-originales .icon.arobase-1, .is-style-couleurs-originales .icon.arobase-1::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/arobase-1.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.arobase-2, .icon.arobase-2::after {
-  mask-image: url("../../_icons/arobase-2.svg");
-  -webkit-mask-image: url("../../_icons/arobase-2.svg");
-}
-.is-style-couleurs-originales .icon.arobase-2, .is-style-couleurs-originales .icon.arobase-2::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/arobase-2.svg");
-  background-size: 100%;
-  background-position: center center;
-}
 .icon.attention-1, .icon.attention-1::after {
   mask-image: url("../../_icons/attention-1.svg");
   -webkit-mask-image: url("../../_icons/attention-1.svg");
@@ -3150,190 +3106,91 @@ html, body {
   background-size: 100%;
   background-position: center center;
 }
-.icon.attention-4, .icon.attention-4::after {
-  mask-image: url("../../_icons/attention-4.svg");
-  -webkit-mask-image: url("../../_icons/attention-4.svg");
+.icon.attention-2, .icon.attention-2::after {
+  mask-image: url("../../_icons/attention-2.svg");
+  -webkit-mask-image: url("../../_icons/attention-2.svg");
 }
-.is-style-couleurs-originales .icon.attention-4, .is-style-couleurs-originales .icon.attention-4::after {
+.is-style-couleurs-originales .icon.attention-2, .is-style-couleurs-originales .icon.attention-2::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/attention-4.svg");
+  background-image: url("../../_icons/attention-2.svg");
   background-size: 100%;
   background-position: center center;
 }
-.icon.bold-1, .icon.bold-1::after {
-  mask-image: url("../../_icons/bold-1.svg");
-  -webkit-mask-image: url("../../_icons/bold-1.svg");
+.icon.bdd-1, .icon.bdd-1::after {
+  mask-image: url("../../_icons/bdd-1.svg");
+  -webkit-mask-image: url("../../_icons/bdd-1.svg");
 }
-.is-style-couleurs-originales .icon.bold-1, .is-style-couleurs-originales .icon.bold-1::after {
+.is-style-couleurs-originales .icon.bdd-1, .is-style-couleurs-originales .icon.bdd-1::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/bold-1.svg");
+  background-image: url("../../_icons/bdd-1.svg");
   background-size: 100%;
   background-position: center center;
 }
-.icon.bold-3, .icon.bold-3::after {
-  mask-image: url("../../_icons/bold-3.svg");
-  -webkit-mask-image: url("../../_icons/bold-3.svg");
+.icon.bdd-2, .icon.bdd-2::after {
+  mask-image: url("../../_icons/bdd-2.svg");
+  -webkit-mask-image: url("../../_icons/bdd-2.svg");
 }
-.is-style-couleurs-originales .icon.bold-3, .is-style-couleurs-originales .icon.bold-3::after {
+.is-style-couleurs-originales .icon.bdd-2, .is-style-couleurs-originales .icon.bdd-2::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/bold-3.svg");
+  background-image: url("../../_icons/bdd-2.svg");
   background-size: 100%;
   background-position: center center;
 }
-.icon.book-1, .icon.book-1::after {
-  mask-image: url("../../_icons/book-1.svg");
-  -webkit-mask-image: url("../../_icons/book-1.svg");
+.icon.bouclier-1, .icon.bouclier-1::after {
+  mask-image: url("../../_icons/bouclier-1.svg");
+  -webkit-mask-image: url("../../_icons/bouclier-1.svg");
 }
-.is-style-couleurs-originales .icon.book-1, .is-style-couleurs-originales .icon.book-1::after {
+.is-style-couleurs-originales .icon.bouclier-1, .is-style-couleurs-originales .icon.bouclier-1::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/book-1.svg");
+  background-image: url("../../_icons/bouclier-1.svg");
   background-size: 100%;
   background-position: center center;
 }
-.icon.book-11, .icon.book-11::after {
-  mask-image: url("../../_icons/book-11.svg");
-  -webkit-mask-image: url("../../_icons/book-11.svg");
+.icon.bouclier-2, .icon.bouclier-2::after {
+  mask-image: url("../../_icons/bouclier-2.svg");
+  -webkit-mask-image: url("../../_icons/bouclier-2.svg");
 }
-.is-style-couleurs-originales .icon.book-11, .is-style-couleurs-originales .icon.book-11::after {
+.is-style-couleurs-originales .icon.bouclier-2, .is-style-couleurs-originales .icon.bouclier-2::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/book-11.svg");
+  background-image: url("../../_icons/bouclier-2.svg");
   background-size: 100%;
   background-position: center center;
 }
-.icon.book-13, .icon.book-13::after {
-  mask-image: url("../../_icons/book-13.svg");
-  -webkit-mask-image: url("../../_icons/book-13.svg");
+.icon.bouclier-3, .icon.bouclier-3::after {
+  mask-image: url("../../_icons/bouclier-3.svg");
+  -webkit-mask-image: url("../../_icons/bouclier-3.svg");
 }
-.is-style-couleurs-originales .icon.book-13, .is-style-couleurs-originales .icon.book-13::after {
+.is-style-couleurs-originales .icon.bouclier-3, .is-style-couleurs-originales .icon.bouclier-3::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/book-13.svg");
+  background-image: url("../../_icons/bouclier-3.svg");
   background-size: 100%;
   background-position: center center;
 }
-.icon.book-14, .icon.book-14::after {
-  mask-image: url("../../_icons/book-14.svg");
-  -webkit-mask-image: url("../../_icons/book-14.svg");
+.icon.bouclier-4, .icon.bouclier-4::after {
+  mask-image: url("../../_icons/bouclier-4.svg");
+  -webkit-mask-image: url("../../_icons/bouclier-4.svg");
 }
-.is-style-couleurs-originales .icon.book-14, .is-style-couleurs-originales .icon.book-14::after {
+.is-style-couleurs-originales .icon.bouclier-4, .is-style-couleurs-originales .icon.bouclier-4::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/book-14.svg");
+  background-image: url("../../_icons/bouclier-4.svg");
   background-size: 100%;
   background-position: center center;
 }
-.icon.book-15, .icon.book-15::after {
-  mask-image: url("../../_icons/book-15.svg");
-  -webkit-mask-image: url("../../_icons/book-15.svg");
+.icon.bouclier-5, .icon.bouclier-5::after {
+  mask-image: url("../../_icons/bouclier-5.svg");
+  -webkit-mask-image: url("../../_icons/bouclier-5.svg");
 }
-.is-style-couleurs-originales .icon.book-15, .is-style-couleurs-originales .icon.book-15::after {
+.is-style-couleurs-originales .icon.bouclier-5, .is-style-couleurs-originales .icon.bouclier-5::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/book-15.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.book-17, .icon.book-17::after {
-  mask-image: url("../../_icons/book-17.svg");
-  -webkit-mask-image: url("../../_icons/book-17.svg");
-}
-.is-style-couleurs-originales .icon.book-17, .is-style-couleurs-originales .icon.book-17::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/book-17.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.book-18, .icon.book-18::after {
-  mask-image: url("../../_icons/book-18.svg");
-  -webkit-mask-image: url("../../_icons/book-18.svg");
-}
-.is-style-couleurs-originales .icon.book-18, .is-style-couleurs-originales .icon.book-18::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/book-18.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.book-20, .icon.book-20::after {
-  mask-image: url("../../_icons/book-20.svg");
-  -webkit-mask-image: url("../../_icons/book-20.svg");
-}
-.is-style-couleurs-originales .icon.book-20, .is-style-couleurs-originales .icon.book-20::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/book-20.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.book-3, .icon.book-3::after {
-  mask-image: url("../../_icons/book-3.svg");
-  -webkit-mask-image: url("../../_icons/book-3.svg");
-}
-.is-style-couleurs-originales .icon.book-3, .is-style-couleurs-originales .icon.book-3::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/book-3.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.book-5, .icon.book-5::after {
-  mask-image: url("../../_icons/book-5.svg");
-  -webkit-mask-image: url("../../_icons/book-5.svg");
-}
-.is-style-couleurs-originales .icon.book-5, .is-style-couleurs-originales .icon.book-5::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/book-5.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.book-6, .icon.book-6::after {
-  mask-image: url("../../_icons/book-6.svg");
-  -webkit-mask-image: url("../../_icons/book-6.svg");
-}
-.is-style-couleurs-originales .icon.book-6, .is-style-couleurs-originales .icon.book-6::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/book-6.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.book-8, .icon.book-8::after {
-  mask-image: url("../../_icons/book-8.svg");
-  -webkit-mask-image: url("../../_icons/book-8.svg");
-}
-.is-style-couleurs-originales .icon.book-8, .is-style-couleurs-originales .icon.book-8::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/book-8.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.book-9, .icon.book-9::after {
-  mask-image: url("../../_icons/book-9.svg");
-  -webkit-mask-image: url("../../_icons/book-9.svg");
-}
-.is-style-couleurs-originales .icon.book-9, .is-style-couleurs-originales .icon.book-9::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/book-9.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.bord-2, .icon.bord-2::after {
-  mask-image: url("../../_icons/bord-2.svg");
-  -webkit-mask-image: url("../../_icons/bord-2.svg");
-}
-.is-style-couleurs-originales .icon.bord-2, .is-style-couleurs-originales .icon.bord-2::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/bord-2.svg");
+  background-image: url("../../_icons/bouclier-5.svg");
   background-size: 100%;
   background-position: center center;
 }
@@ -3447,28 +3304,6 @@ html, body {
   background-size: 100%;
   background-position: center center;
 }
-.icon.box-1, .icon.box-1::after {
-  mask-image: url("../../_icons/box-1.svg");
-  -webkit-mask-image: url("../../_icons/box-1.svg");
-}
-.is-style-couleurs-originales .icon.box-1, .is-style-couleurs-originales .icon.box-1::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/box-1.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.browser-16, .icon.browser-16::after {
-  mask-image: url("../../_icons/browser-16.svg");
-  -webkit-mask-image: url("../../_icons/browser-16.svg");
-}
-.is-style-couleurs-originales .icon.browser-16, .is-style-couleurs-originales .icon.browser-16::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/browser-16.svg");
-  background-size: 100%;
-  background-position: center center;
-}
 .icon.bug-1, .icon.bug-1::after {
   mask-image: url("../../_icons/bug-1.svg");
   -webkit-mask-image: url("../../_icons/bug-1.svg");
@@ -3480,80 +3315,157 @@ html, body {
   background-size: 100%;
   background-position: center center;
 }
-.icon.buisness, .icon.buisness::after {
-  mask-image: url("../../_icons/buisness.svg");
-  -webkit-mask-image: url("../../_icons/buisness.svg");
+.icon.cadeau-1, .icon.cadeau-1::after {
+  mask-image: url("../../_icons/cadeau-1.svg");
+  -webkit-mask-image: url("../../_icons/cadeau-1.svg");
 }
-.is-style-couleurs-originales .icon.buisness, .is-style-couleurs-originales .icon.buisness::after {
+.is-style-couleurs-originales .icon.cadeau-1, .is-style-couleurs-originales .icon.cadeau-1::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/buisness.svg");
+  background-image: url("../../_icons/cadeau-1.svg");
   background-size: 100%;
   background-position: center center;
 }
-.icon.cache-1, .icon.cache-1::after {
-  mask-image: url("../../_icons/cache-1.svg");
-  -webkit-mask-image: url("../../_icons/cache-1.svg");
+.icon.cadeau-2, .icon.cadeau-2::after {
+  mask-image: url("../../_icons/cadeau-2.svg");
+  -webkit-mask-image: url("../../_icons/cadeau-2.svg");
 }
-.is-style-couleurs-originales .icon.cache-1, .is-style-couleurs-originales .icon.cache-1::after {
+.is-style-couleurs-originales .icon.cadeau-2, .is-style-couleurs-originales .icon.cadeau-2::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/cache-1.svg");
+  background-image: url("../../_icons/cadeau-2.svg");
   background-size: 100%;
   background-position: center center;
 }
-.icon.cache-2, .icon.cache-2::after {
-  mask-image: url("../../_icons/cache-2.svg");
-  -webkit-mask-image: url("../../_icons/cache-2.svg");
+.icon.cadenas-1, .icon.cadenas-1::after {
+  mask-image: url("../../_icons/cadenas-1.svg");
+  -webkit-mask-image: url("../../_icons/cadenas-1.svg");
 }
-.is-style-couleurs-originales .icon.cache-2, .is-style-couleurs-originales .icon.cache-2::after {
+.is-style-couleurs-originales .icon.cadenas-1, .is-style-couleurs-originales .icon.cadenas-1::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/cache-2.svg");
+  background-image: url("../../_icons/cadenas-1.svg");
   background-size: 100%;
   background-position: center center;
 }
-.icon.calendar-1, .icon.calendar-1::after {
-  mask-image: url("../../_icons/calendar-1.svg");
-  -webkit-mask-image: url("../../_icons/calendar-1.svg");
+.icon.cadenas-2, .icon.cadenas-2::after {
+  mask-image: url("../../_icons/cadenas-2.svg");
+  -webkit-mask-image: url("../../_icons/cadenas-2.svg");
 }
-.is-style-couleurs-originales .icon.calendar-1, .is-style-couleurs-originales .icon.calendar-1::after {
+.is-style-couleurs-originales .icon.cadenas-2, .is-style-couleurs-originales .icon.cadenas-2::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/calendar-1.svg");
+  background-image: url("../../_icons/cadenas-2.svg");
   background-size: 100%;
   background-position: center center;
 }
-.icon.card-1, .icon.card-1::after {
-  mask-image: url("../../_icons/card-1.svg");
-  -webkit-mask-image: url("../../_icons/card-1.svg");
+.icon.calendrier-1, .icon.calendrier-1::after {
+  mask-image: url("../../_icons/calendrier-1.svg");
+  -webkit-mask-image: url("../../_icons/calendrier-1.svg");
 }
-.is-style-couleurs-originales .icon.card-1, .is-style-couleurs-originales .icon.card-1::after {
+.is-style-couleurs-originales .icon.calendrier-1, .is-style-couleurs-originales .icon.calendrier-1::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/card-1.svg");
+  background-image: url("../../_icons/calendrier-1.svg");
   background-size: 100%;
   background-position: center center;
 }
-.icon.card-3, .icon.card-3::after {
-  mask-image: url("../../_icons/card-3.svg");
-  -webkit-mask-image: url("../../_icons/card-3.svg");
+.icon.carre-1, .icon.carre-1::after {
+  mask-image: url("../../_icons/carre-1.svg");
+  -webkit-mask-image: url("../../_icons/carre-1.svg");
 }
-.is-style-couleurs-originales .icon.card-3, .is-style-couleurs-originales .icon.card-3::after {
+.is-style-couleurs-originales .icon.carre-1, .is-style-couleurs-originales .icon.carre-1::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/card-3.svg");
+  background-image: url("../../_icons/carre-1.svg");
   background-size: 100%;
   background-position: center center;
 }
-.icon.card-4, .icon.card-4::after {
-  mask-image: url("../../_icons/card-4.svg");
-  -webkit-mask-image: url("../../_icons/card-4.svg");
+.icon.carre-2, .icon.carre-2::after {
+  mask-image: url("../../_icons/carre-2.svg");
+  -webkit-mask-image: url("../../_icons/carre-2.svg");
 }
-.is-style-couleurs-originales .icon.card-4, .is-style-couleurs-originales .icon.card-4::after {
+.is-style-couleurs-originales .icon.carre-2, .is-style-couleurs-originales .icon.carre-2::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/card-4.svg");
+  background-image: url("../../_icons/carre-2.svg");
+  background-size: 100%;
+  background-position: center center;
+}
+.icon.carre-3, .icon.carre-3::after {
+  mask-image: url("../../_icons/carre-3.svg");
+  -webkit-mask-image: url("../../_icons/carre-3.svg");
+}
+.is-style-couleurs-originales .icon.carre-3, .is-style-couleurs-originales .icon.carre-3::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/carre-3.svg");
+  background-size: 100%;
+  background-position: center center;
+}
+.icon.carre-4, .icon.carre-4::after {
+  mask-image: url("../../_icons/carre-4.svg");
+  -webkit-mask-image: url("../../_icons/carre-4.svg");
+}
+.is-style-couleurs-originales .icon.carre-4, .is-style-couleurs-originales .icon.carre-4::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/carre-4.svg");
+  background-size: 100%;
+  background-position: center center;
+}
+.icon.carre-5, .icon.carre-5::after {
+  mask-image: url("../../_icons/carre-5.svg");
+  -webkit-mask-image: url("../../_icons/carre-5.svg");
+}
+.is-style-couleurs-originales .icon.carre-5, .is-style-couleurs-originales .icon.carre-5::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/carre-5.svg");
+  background-size: 100%;
+  background-position: center center;
+}
+.icon.carre-6, .icon.carre-6::after {
+  mask-image: url("../../_icons/carre-6.svg");
+  -webkit-mask-image: url("../../_icons/carre-6.svg");
+}
+.is-style-couleurs-originales .icon.carre-6, .is-style-couleurs-originales .icon.carre-6::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/carre-6.svg");
+  background-size: 100%;
+  background-position: center center;
+}
+.icon.carte-1, .icon.carte-1::after {
+  mask-image: url("../../_icons/carte-1.svg");
+  -webkit-mask-image: url("../../_icons/carte-1.svg");
+}
+.is-style-couleurs-originales .icon.carte-1, .is-style-couleurs-originales .icon.carte-1::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/carte-1.svg");
+  background-size: 100%;
+  background-position: center center;
+}
+.icon.carte-2, .icon.carte-2::after {
+  mask-image: url("../../_icons/carte-2.svg");
+  -webkit-mask-image: url("../../_icons/carte-2.svg");
+}
+.is-style-couleurs-originales .icon.carte-2, .is-style-couleurs-originales .icon.carte-2::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/carte-2.svg");
+  background-size: 100%;
+  background-position: center center;
+}
+.icon.carte-3, .icon.carte-3::after {
+  mask-image: url("../../_icons/carte-3.svg");
+  -webkit-mask-image: url("../../_icons/carte-3.svg");
+}
+.is-style-couleurs-originales .icon.carte-3, .is-style-couleurs-originales .icon.carte-3::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/carte-3.svg");
   background-size: 100%;
   background-position: center center;
 }
@@ -3568,124 +3480,14 @@ html, body {
   background-size: 100%;
   background-position: center center;
 }
-.icon.check-10, .icon.check-10::after {
-  mask-image: url("../../_icons/check-10.svg");
-  -webkit-mask-image: url("../../_icons/check-10.svg");
+.icon.cible-1, .icon.cible-1::after {
+  mask-image: url("../../_icons/cible-1.svg");
+  -webkit-mask-image: url("../../_icons/cible-1.svg");
 }
-.is-style-couleurs-originales .icon.check-10, .is-style-couleurs-originales .icon.check-10::after {
+.is-style-couleurs-originales .icon.cible-1, .is-style-couleurs-originales .icon.cible-1::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/check-10.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.check-11, .icon.check-11::after {
-  mask-image: url("../../_icons/check-11.svg");
-  -webkit-mask-image: url("../../_icons/check-11.svg");
-}
-.is-style-couleurs-originales .icon.check-11, .is-style-couleurs-originales .icon.check-11::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/check-11.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.check-13, .icon.check-13::after {
-  mask-image: url("../../_icons/check-13.svg");
-  -webkit-mask-image: url("../../_icons/check-13.svg");
-}
-.is-style-couleurs-originales .icon.check-13, .is-style-couleurs-originales .icon.check-13::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/check-13.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.check-15, .icon.check-15::after {
-  mask-image: url("../../_icons/check-15.svg");
-  -webkit-mask-image: url("../../_icons/check-15.svg");
-}
-.is-style-couleurs-originales .icon.check-15, .is-style-couleurs-originales .icon.check-15::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/check-15.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.check-17, .icon.check-17::after {
-  mask-image: url("../../_icons/check-17.svg");
-  -webkit-mask-image: url("../../_icons/check-17.svg");
-}
-.is-style-couleurs-originales .icon.check-17, .is-style-couleurs-originales .icon.check-17::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/check-17.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.check-19, .icon.check-19::after {
-  mask-image: url("../../_icons/check-19.svg");
-  -webkit-mask-image: url("../../_icons/check-19.svg");
-}
-.is-style-couleurs-originales .icon.check-19, .is-style-couleurs-originales .icon.check-19::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/check-19.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.check-3, .icon.check-3::after {
-  mask-image: url("../../_icons/check-3.svg");
-  -webkit-mask-image: url("../../_icons/check-3.svg");
-}
-.is-style-couleurs-originales .icon.check-3, .is-style-couleurs-originales .icon.check-3::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/check-3.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.check-5, .icon.check-5::after {
-  mask-image: url("../../_icons/check-5.svg");
-  -webkit-mask-image: url("../../_icons/check-5.svg");
-}
-.is-style-couleurs-originales .icon.check-5, .is-style-couleurs-originales .icon.check-5::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/check-5.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.check-8, .icon.check-8::after {
-  mask-image: url("../../_icons/check-8.svg");
-  -webkit-mask-image: url("../../_icons/check-8.svg");
-}
-.is-style-couleurs-originales .icon.check-8, .is-style-couleurs-originales .icon.check-8::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/check-8.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.checked, .icon.checked::after {
-  mask-image: url("../../_icons/checked.svg");
-  -webkit-mask-image: url("../../_icons/checked.svg");
-}
-.is-style-couleurs-originales .icon.checked, .is-style-couleurs-originales .icon.checked::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/checked.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.circle-1, .icon.circle-1::after {
-  mask-image: url("../../_icons/circle-1.svg");
-  -webkit-mask-image: url("../../_icons/circle-1.svg");
-}
-.is-style-couleurs-originales .icon.circle-1, .is-style-couleurs-originales .icon.circle-1::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/circle-1.svg");
+  background-image: url("../../_icons/cible-1.svg");
   background-size: 100%;
   background-position: center center;
 }
@@ -3700,6 +3502,17 @@ html, body {
   background-size: 100%;
   background-position: center center;
 }
+.icon.cle-2, .icon.cle-2::after {
+  mask-image: url("../../_icons/cle-2.svg");
+  -webkit-mask-image: url("../../_icons/cle-2.svg");
+}
+.is-style-couleurs-originales .icon.cle-2, .is-style-couleurs-originales .icon.cle-2::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/cle-2.svg");
+  background-size: 100%;
+  background-position: center center;
+}
 .icon.cloche-1, .icon.cloche-1::after {
   mask-image: url("../../_icons/cloche-1.svg");
   -webkit-mask-image: url("../../_icons/cloche-1.svg");
@@ -3711,6 +3524,17 @@ html, body {
   background-size: 100%;
   background-position: center center;
 }
+.icon.cloche-2, .icon.cloche-2::after {
+  mask-image: url("../../_icons/cloche-2.svg");
+  -webkit-mask-image: url("../../_icons/cloche-2.svg");
+}
+.is-style-couleurs-originales .icon.cloche-2, .is-style-couleurs-originales .icon.cloche-2::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/cloche-2.svg");
+  background-size: 100%;
+  background-position: center center;
+}
 .icon.cloche-3, .icon.cloche-3::after {
   mask-image: url("../../_icons/cloche-3.svg");
   -webkit-mask-image: url("../../_icons/cloche-3.svg");
@@ -3719,94 +3543,6 @@ html, body {
   mask-image: none;
   -webkit-mask-image: none;
   background-image: url("../../_icons/cloche-3.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.cloche-5, .icon.cloche-5::after {
-  mask-image: url("../../_icons/cloche-5.svg");
-  -webkit-mask-image: url("../../_icons/cloche-5.svg");
-}
-.is-style-couleurs-originales .icon.cloche-5, .is-style-couleurs-originales .icon.cloche-5::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/cloche-5.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.clock-1, .icon.clock-1::after {
-  mask-image: url("../../_icons/clock-1.svg");
-  -webkit-mask-image: url("../../_icons/clock-1.svg");
-}
-.is-style-couleurs-originales .icon.clock-1, .is-style-couleurs-originales .icon.clock-1::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/clock-1.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.clock-3, .icon.clock-3::after {
-  mask-image: url("../../_icons/clock-3.svg");
-  -webkit-mask-image: url("../../_icons/clock-3.svg");
-}
-.is-style-couleurs-originales .icon.clock-3, .is-style-couleurs-originales .icon.clock-3::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/clock-3.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.clock-5, .icon.clock-5::after {
-  mask-image: url("../../_icons/clock-5.svg");
-  -webkit-mask-image: url("../../_icons/clock-5.svg");
-}
-.is-style-couleurs-originales .icon.clock-5, .is-style-couleurs-originales .icon.clock-5::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/clock-5.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.clock-7, .icon.clock-7::after {
-  mask-image: url("../../_icons/clock-7.svg");
-  -webkit-mask-image: url("../../_icons/clock-7.svg");
-}
-.is-style-couleurs-originales .icon.clock-7, .is-style-couleurs-originales .icon.clock-7::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/clock-7.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.clock-8, .icon.clock-8::after {
-  mask-image: url("../../_icons/clock-8.svg");
-  -webkit-mask-image: url("../../_icons/clock-8.svg");
-}
-.is-style-couleurs-originales .icon.clock-8, .is-style-couleurs-originales .icon.clock-8::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/clock-8.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.cloud-1, .icon.cloud-1::after {
-  mask-image: url("../../_icons/cloud-1.svg");
-  -webkit-mask-image: url("../../_icons/cloud-1.svg");
-}
-.is-style-couleurs-originales .icon.cloud-1, .is-style-couleurs-originales .icon.cloud-1::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/cloud-1.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.cloud-3, .icon.cloud-3::after {
-  mask-image: url("../../_icons/cloud-3.svg");
-  -webkit-mask-image: url("../../_icons/cloud-3.svg");
-}
-.is-style-couleurs-originales .icon.cloud-3, .is-style-couleurs-originales .icon.cloud-3::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/cloud-3.svg");
   background-size: 100%;
   background-position: center center;
 }
@@ -3832,6 +3568,17 @@ html, body {
   background-size: 100%;
   background-position: center center;
 }
+.icon.code-3, .icon.code-3::after {
+  mask-image: url("../../_icons/code-3.svg");
+  -webkit-mask-image: url("../../_icons/code-3.svg");
+}
+.is-style-couleurs-originales .icon.code-3, .is-style-couleurs-originales .icon.code-3::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/code-3.svg");
+  background-size: 100%;
+  background-position: center center;
+}
 .icon.code-4, .icon.code-4::after {
   mask-image: url("../../_icons/code-4.svg");
   -webkit-mask-image: url("../../_icons/code-4.svg");
@@ -3843,14 +3590,47 @@ html, body {
   background-size: 100%;
   background-position: center center;
 }
-.icon.code-6, .icon.code-6::after {
-  mask-image: url("../../_icons/code-6.svg");
-  -webkit-mask-image: url("../../_icons/code-6.svg");
+.icon.coeur-1, .icon.coeur-1::after {
+  mask-image: url("../../_icons/coeur-1.svg");
+  -webkit-mask-image: url("../../_icons/coeur-1.svg");
 }
-.is-style-couleurs-originales .icon.code-6, .is-style-couleurs-originales .icon.code-6::after {
+.is-style-couleurs-originales .icon.coeur-1, .is-style-couleurs-originales .icon.coeur-1::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/code-6.svg");
+  background-image: url("../../_icons/coeur-1.svg");
+  background-size: 100%;
+  background-position: center center;
+}
+.icon.coeur-2, .icon.coeur-2::after {
+  mask-image: url("../../_icons/coeur-2.svg");
+  -webkit-mask-image: url("../../_icons/coeur-2.svg");
+}
+.is-style-couleurs-originales .icon.coeur-2, .is-style-couleurs-originales .icon.coeur-2::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/coeur-2.svg");
+  background-size: 100%;
+  background-position: center center;
+}
+.icon.coeur-3, .icon.coeur-3::after {
+  mask-image: url("../../_icons/coeur-3.svg");
+  -webkit-mask-image: url("../../_icons/coeur-3.svg");
+}
+.is-style-couleurs-originales .icon.coeur-3, .is-style-couleurs-originales .icon.coeur-3::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/coeur-3.svg");
+  background-size: 100%;
+  background-position: center center;
+}
+.icon.coeur-4, .icon.coeur-4::after {
+  mask-image: url("../../_icons/coeur-4.svg");
+  -webkit-mask-image: url("../../_icons/coeur-4.svg");
+}
+.is-style-couleurs-originales .icon.coeur-4, .is-style-couleurs-originales .icon.coeur-4::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/coeur-4.svg");
   background-size: 100%;
   background-position: center center;
 }
@@ -3865,6 +3645,17 @@ html, body {
   background-size: 100%;
   background-position: center center;
 }
+.icon.coller-1, .icon.coller-1::after {
+  mask-image: url("../../_icons/coller-1.svg");
+  -webkit-mask-image: url("../../_icons/coller-1.svg");
+}
+.is-style-couleurs-originales .icon.coller-1, .is-style-couleurs-originales .icon.coller-1::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/coller-1.svg");
+  background-size: 100%;
+  background-position: center center;
+}
 .icon.colonnes-1, .icon.colonnes-1::after {
   mask-image: url("../../_icons/colonnes-1.svg");
   -webkit-mask-image: url("../../_icons/colonnes-1.svg");
@@ -3876,14 +3667,14 @@ html, body {
   background-size: 100%;
   background-position: center center;
 }
-.icon.colonnes-3, .icon.colonnes-3::after {
-  mask-image: url("../../_icons/colonnes-3.svg");
-  -webkit-mask-image: url("../../_icons/colonnes-3.svg");
+.icon.colonnes-2, .icon.colonnes-2::after {
+  mask-image: url("../../_icons/colonnes-2.svg");
+  -webkit-mask-image: url("../../_icons/colonnes-2.svg");
 }
-.is-style-couleurs-originales .icon.colonnes-3, .is-style-couleurs-originales .icon.colonnes-3::after {
+.is-style-couleurs-originales .icon.colonnes-2, .is-style-couleurs-originales .icon.colonnes-2::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/colonnes-3.svg");
+  background-image: url("../../_icons/colonnes-2.svg");
   background-size: 100%;
   background-position: center center;
 }
@@ -3898,36 +3689,14 @@ html, body {
   background-size: 100%;
   background-position: center center;
 }
-.icon.comment-11, .icon.comment-11::after {
-  mask-image: url("../../_icons/comment-11.svg");
-  -webkit-mask-image: url("../../_icons/comment-11.svg");
+.icon.comment-2, .icon.comment-2::after {
+  mask-image: url("../../_icons/comment-2.svg");
+  -webkit-mask-image: url("../../_icons/comment-2.svg");
 }
-.is-style-couleurs-originales .icon.comment-11, .is-style-couleurs-originales .icon.comment-11::after {
+.is-style-couleurs-originales .icon.comment-2, .is-style-couleurs-originales .icon.comment-2::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/comment-11.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.comment-13, .icon.comment-13::after {
-  mask-image: url("../../_icons/comment-13.svg");
-  -webkit-mask-image: url("../../_icons/comment-13.svg");
-}
-.is-style-couleurs-originales .icon.comment-13, .is-style-couleurs-originales .icon.comment-13::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/comment-13.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.comment-15, .icon.comment-15::after {
-  mask-image: url("../../_icons/comment-15.svg");
-  -webkit-mask-image: url("../../_icons/comment-15.svg");
-}
-.is-style-couleurs-originales .icon.comment-15, .is-style-couleurs-originales .icon.comment-15::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/comment-15.svg");
+  background-image: url("../../_icons/comment-2.svg");
   background-size: 100%;
   background-position: center center;
 }
@@ -3942,6 +3711,17 @@ html, body {
   background-size: 100%;
   background-position: center center;
 }
+.icon.comment-4, .icon.comment-4::after {
+  mask-image: url("../../_icons/comment-4.svg");
+  -webkit-mask-image: url("../../_icons/comment-4.svg");
+}
+.is-style-couleurs-originales .icon.comment-4, .is-style-couleurs-originales .icon.comment-4::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/comment-4.svg");
+  background-size: 100%;
+  background-position: center center;
+}
 .icon.comment-5, .icon.comment-5::after {
   mask-image: url("../../_icons/comment-5.svg");
   -webkit-mask-image: url("../../_icons/comment-5.svg");
@@ -3950,6 +3730,17 @@ html, body {
   mask-image: none;
   -webkit-mask-image: none;
   background-image: url("../../_icons/comment-5.svg");
+  background-size: 100%;
+  background-position: center center;
+}
+.icon.comment-6, .icon.comment-6::after {
+  mask-image: url("../../_icons/comment-6.svg");
+  -webkit-mask-image: url("../../_icons/comment-6.svg");
+}
+.is-style-couleurs-originales .icon.comment-6, .is-style-couleurs-originales .icon.comment-6::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/comment-6.svg");
   background-size: 100%;
   background-position: center center;
 }
@@ -3964,190 +3755,14 @@ html, body {
   background-size: 100%;
   background-position: center center;
 }
-.icon.comment-9, .icon.comment-9::after {
-  mask-image: url("../../_icons/comment-9.svg");
-  -webkit-mask-image: url("../../_icons/comment-9.svg");
+.icon.comment-8, .icon.comment-8::after {
+  mask-image: url("../../_icons/comment-8.svg");
+  -webkit-mask-image: url("../../_icons/comment-8.svg");
 }
-.is-style-couleurs-originales .icon.comment-9, .is-style-couleurs-originales .icon.comment-9::after {
+.is-style-couleurs-originales .icon.comment-8, .is-style-couleurs-originales .icon.comment-8::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/comment-9.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.commit-10, .icon.commit-10::after {
-  mask-image: url("../../_icons/commit-10.svg");
-  -webkit-mask-image: url("../../_icons/commit-10.svg");
-}
-.is-style-couleurs-originales .icon.commit-10, .is-style-couleurs-originales .icon.commit-10::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/commit-10.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.commit-12, .icon.commit-12::after {
-  mask-image: url("../../_icons/commit-12.svg");
-  -webkit-mask-image: url("../../_icons/commit-12.svg");
-}
-.is-style-couleurs-originales .icon.commit-12, .is-style-couleurs-originales .icon.commit-12::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/commit-12.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.commit-14, .icon.commit-14::after {
-  mask-image: url("../../_icons/commit-14.svg");
-  -webkit-mask-image: url("../../_icons/commit-14.svg");
-}
-.is-style-couleurs-originales .icon.commit-14, .is-style-couleurs-originales .icon.commit-14::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/commit-14.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.commit-16, .icon.commit-16::after {
-  mask-image: url("../../_icons/commit-16.svg");
-  -webkit-mask-image: url("../../_icons/commit-16.svg");
-}
-.is-style-couleurs-originales .icon.commit-16, .is-style-couleurs-originales .icon.commit-16::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/commit-16.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.commit-18, .icon.commit-18::after {
-  mask-image: url("../../_icons/commit-18.svg");
-  -webkit-mask-image: url("../../_icons/commit-18.svg");
-}
-.is-style-couleurs-originales .icon.commit-18, .is-style-couleurs-originales .icon.commit-18::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/commit-18.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.commit-19, .icon.commit-19::after {
-  mask-image: url("../../_icons/commit-19.svg");
-  -webkit-mask-image: url("../../_icons/commit-19.svg");
-}
-.is-style-couleurs-originales .icon.commit-19, .is-style-couleurs-originales .icon.commit-19::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/commit-19.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.commit-2, .icon.commit-2::after {
-  mask-image: url("../../_icons/commit-2.svg");
-  -webkit-mask-image: url("../../_icons/commit-2.svg");
-}
-.is-style-couleurs-originales .icon.commit-2, .is-style-couleurs-originales .icon.commit-2::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/commit-2.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.commit-21, .icon.commit-21::after {
-  mask-image: url("../../_icons/commit-21.svg");
-  -webkit-mask-image: url("../../_icons/commit-21.svg");
-}
-.is-style-couleurs-originales .icon.commit-21, .is-style-couleurs-originales .icon.commit-21::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/commit-21.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.commit-23, .icon.commit-23::after {
-  mask-image: url("../../_icons/commit-23.svg");
-  -webkit-mask-image: url("../../_icons/commit-23.svg");
-}
-.is-style-couleurs-originales .icon.commit-23, .is-style-couleurs-originales .icon.commit-23::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/commit-23.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.commit-4, .icon.commit-4::after {
-  mask-image: url("../../_icons/commit-4.svg");
-  -webkit-mask-image: url("../../_icons/commit-4.svg");
-}
-.is-style-couleurs-originales .icon.commit-4, .is-style-couleurs-originales .icon.commit-4::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/commit-4.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.commit-6, .icon.commit-6::after {
-  mask-image: url("../../_icons/commit-6.svg");
-  -webkit-mask-image: url("../../_icons/commit-6.svg");
-}
-.is-style-couleurs-originales .icon.commit-6, .is-style-couleurs-originales .icon.commit-6::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/commit-6.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.commit-8, .icon.commit-8::after {
-  mask-image: url("../../_icons/commit-8.svg");
-  -webkit-mask-image: url("../../_icons/commit-8.svg");
-}
-.is-style-couleurs-originales .icon.commit-8, .is-style-couleurs-originales .icon.commit-8::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/commit-8.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.container-1, .icon.container-1::after {
-  mask-image: url("../../_icons/container-1.svg");
-  -webkit-mask-image: url("../../_icons/container-1.svg");
-}
-.is-style-couleurs-originales .icon.container-1, .is-style-couleurs-originales .icon.container-1::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/container-1.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.copilot-1, .icon.copilot-1::after {
-  mask-image: url("../../_icons/copilot-1.svg");
-  -webkit-mask-image: url("../../_icons/copilot-1.svg");
-}
-.is-style-couleurs-originales .icon.copilot-1, .is-style-couleurs-originales .icon.copilot-1::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/copilot-1.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.copilot-5, .icon.copilot-5::after {
-  mask-image: url("../../_icons/copilot-5.svg");
-  -webkit-mask-image: url("../../_icons/copilot-5.svg");
-}
-.is-style-couleurs-originales .icon.copilot-5, .is-style-couleurs-originales .icon.copilot-5::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/copilot-5.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.copilot-6, .icon.copilot-6::after {
-  mask-image: url("../../_icons/copilot-6.svg");
-  -webkit-mask-image: url("../../_icons/copilot-6.svg");
-}
-.is-style-couleurs-originales .icon.copilot-6, .is-style-couleurs-originales .icon.copilot-6::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/copilot-6.svg");
+  background-image: url("../../_icons/comment-8.svg");
   background-size: 100%;
   background-position: center center;
 }
@@ -4173,91 +3788,25 @@ html, body {
   background-size: 100%;
   background-position: center center;
 }
-.icon.diam-1, .icon.diam-1::after {
-  mask-image: url("../../_icons/diam-1.svg");
-  -webkit-mask-image: url("../../_icons/diam-1.svg");
+.icon.diamant-1, .icon.diamant-1::after {
+  mask-image: url("../../_icons/diamant-1.svg");
+  -webkit-mask-image: url("../../_icons/diamant-1.svg");
 }
-.is-style-couleurs-originales .icon.diam-1, .is-style-couleurs-originales .icon.diam-1::after {
+.is-style-couleurs-originales .icon.diamant-1, .is-style-couleurs-originales .icon.diamant-1::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/diam-1.svg");
+  background-image: url("../../_icons/diamant-1.svg");
   background-size: 100%;
   background-position: center center;
 }
-.icon.disabled-1, .icon.disabled-1::after {
-  mask-image: url("../../_icons/disabled-1.svg");
-  -webkit-mask-image: url("../../_icons/disabled-1.svg");
+.icon.dieze-1, .icon.dieze-1::after {
+  mask-image: url("../../_icons/dieze-1.svg");
+  -webkit-mask-image: url("../../_icons/dieze-1.svg");
 }
-.is-style-couleurs-originales .icon.disabled-1, .is-style-couleurs-originales .icon.disabled-1::after {
+.is-style-couleurs-originales .icon.dieze-1, .is-style-couleurs-originales .icon.dieze-1::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/disabled-1.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.disabled-11, .icon.disabled-11::after {
-  mask-image: url("../../_icons/disabled-11.svg");
-  -webkit-mask-image: url("../../_icons/disabled-11.svg");
-}
-.is-style-couleurs-originales .icon.disabled-11, .is-style-couleurs-originales .icon.disabled-11::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/disabled-11.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.disabled-14, .icon.disabled-14::after {
-  mask-image: url("../../_icons/disabled-14.svg");
-  -webkit-mask-image: url("../../_icons/disabled-14.svg");
-}
-.is-style-couleurs-originales .icon.disabled-14, .is-style-couleurs-originales .icon.disabled-14::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/disabled-14.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.disabled-3, .icon.disabled-3::after {
-  mask-image: url("../../_icons/disabled-3.svg");
-  -webkit-mask-image: url("../../_icons/disabled-3.svg");
-}
-.is-style-couleurs-originales .icon.disabled-3, .is-style-couleurs-originales .icon.disabled-3::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/disabled-3.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.disabled-4, .icon.disabled-4::after {
-  mask-image: url("../../_icons/disabled-4.svg");
-  -webkit-mask-image: url("../../_icons/disabled-4.svg");
-}
-.is-style-couleurs-originales .icon.disabled-4, .is-style-couleurs-originales .icon.disabled-4::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/disabled-4.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.disabled-6, .icon.disabled-6::after {
-  mask-image: url("../../_icons/disabled-6.svg");
-  -webkit-mask-image: url("../../_icons/disabled-6.svg");
-}
-.is-style-couleurs-originales .icon.disabled-6, .is-style-couleurs-originales .icon.disabled-6::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/disabled-6.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.disabled-8, .icon.disabled-8::after {
-  mask-image: url("../../_icons/disabled-8.svg");
-  -webkit-mask-image: url("../../_icons/disabled-8.svg");
-}
-.is-style-couleurs-originales .icon.disabled-8, .is-style-couleurs-originales .icon.disabled-8::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/disabled-8.svg");
+  background-image: url("../../_icons/dieze-1.svg");
   background-size: 100%;
   background-position: center center;
 }
@@ -4272,36 +3821,102 @@ html, body {
   background-size: 100%;
   background-position: center center;
 }
-.icon.dot-1, .icon.dot-1::after {
-  mask-image: url("../../_icons/dot-1.svg");
-  -webkit-mask-image: url("../../_icons/dot-1.svg");
+.icon.dossier-1, .icon.dossier-1::after {
+  mask-image: url("../../_icons/dossier-1.svg");
+  -webkit-mask-image: url("../../_icons/dossier-1.svg");
 }
-.is-style-couleurs-originales .icon.dot-1, .is-style-couleurs-originales .icon.dot-1::after {
+.is-style-couleurs-originales .icon.dossier-1, .is-style-couleurs-originales .icon.dossier-1::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/dot-1.svg");
+  background-image: url("../../_icons/dossier-1.svg");
   background-size: 100%;
   background-position: center center;
 }
-.icon.dot-3, .icon.dot-3::after {
-  mask-image: url("../../_icons/dot-3.svg");
-  -webkit-mask-image: url("../../_icons/dot-3.svg");
+.icon.dossier-2, .icon.dossier-2::after {
+  mask-image: url("../../_icons/dossier-2.svg");
+  -webkit-mask-image: url("../../_icons/dossier-2.svg");
 }
-.is-style-couleurs-originales .icon.dot-3, .is-style-couleurs-originales .icon.dot-3::after {
+.is-style-couleurs-originales .icon.dossier-2, .is-style-couleurs-originales .icon.dossier-2::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/dot-3.svg");
+  background-image: url("../../_icons/dossier-2.svg");
   background-size: 100%;
   background-position: center center;
 }
-.icon.dot-5, .icon.dot-5::after {
-  mask-image: url("../../_icons/dot-5.svg");
-  -webkit-mask-image: url("../../_icons/dot-5.svg");
+.icon.dossier-3, .icon.dossier-3::after {
+  mask-image: url("../../_icons/dossier-3.svg");
+  -webkit-mask-image: url("../../_icons/dossier-3.svg");
 }
-.is-style-couleurs-originales .icon.dot-5, .is-style-couleurs-originales .icon.dot-5::after {
+.is-style-couleurs-originales .icon.dossier-3, .is-style-couleurs-originales .icon.dossier-3::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/dot-5.svg");
+  background-image: url("../../_icons/dossier-3.svg");
+  background-size: 100%;
+  background-position: center center;
+}
+.icon.dossier-4, .icon.dossier-4::after {
+  mask-image: url("../../_icons/dossier-4.svg");
+  -webkit-mask-image: url("../../_icons/dossier-4.svg");
+}
+.is-style-couleurs-originales .icon.dossier-4, .is-style-couleurs-originales .icon.dossier-4::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/dossier-4.svg");
+  background-size: 100%;
+  background-position: center center;
+}
+.icon.dossier-5, .icon.dossier-5::after {
+  mask-image: url("../../_icons/dossier-5.svg");
+  -webkit-mask-image: url("../../_icons/dossier-5.svg");
+}
+.is-style-couleurs-originales .icon.dossier-5, .is-style-couleurs-originales .icon.dossier-5::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/dossier-5.svg");
+  background-size: 100%;
+  background-position: center center;
+}
+.icon.dossier-6, .icon.dossier-6::after {
+  mask-image: url("../../_icons/dossier-6.svg");
+  -webkit-mask-image: url("../../_icons/dossier-6.svg");
+}
+.is-style-couleurs-originales .icon.dossier-6, .is-style-couleurs-originales .icon.dossier-6::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/dossier-6.svg");
+  background-size: 100%;
+  background-position: center center;
+}
+.icon.dossier-7, .icon.dossier-7::after {
+  mask-image: url("../../_icons/dossier-7.svg");
+  -webkit-mask-image: url("../../_icons/dossier-7.svg");
+}
+.is-style-couleurs-originales .icon.dossier-7, .is-style-couleurs-originales .icon.dossier-7::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/dossier-7.svg");
+  background-size: 100%;
+  background-position: center center;
+}
+.icon.dossier-8, .icon.dossier-8::after {
+  mask-image: url("../../_icons/dossier-8.svg");
+  -webkit-mask-image: url("../../_icons/dossier-8.svg");
+}
+.is-style-couleurs-originales .icon.dossier-8, .is-style-couleurs-originales .icon.dossier-8::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/dossier-8.svg");
+  background-size: 100%;
+  background-position: center center;
+}
+.icon.drapeau-1, .icon.drapeau-1::after {
+  mask-image: url("../../_icons/drapeau-1.svg");
+  -webkit-mask-image: url("../../_icons/drapeau-1.svg");
+}
+.is-style-couleurs-originales .icon.drapeau-1, .is-style-couleurs-originales .icon.drapeau-1::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/drapeau-1.svg");
   background-size: 100%;
   background-position: center center;
 }
@@ -4316,14 +3931,14 @@ html, body {
   background-size: 100%;
   background-position: center center;
 }
-.icon.elips-1, .icon.elips-1::after {
-  mask-image: url("../../_icons/elips-1.svg");
-  -webkit-mask-image: url("../../_icons/elips-1.svg");
+.icon.ecureuil-1, .icon.ecureuil-1::after {
+  mask-image: url("../../_icons/ecureuil-1.svg");
+  -webkit-mask-image: url("../../_icons/ecureuil-1.svg");
 }
-.is-style-couleurs-originales .icon.elips-1, .is-style-couleurs-originales .icon.elips-1::after {
+.is-style-couleurs-originales .icon.ecureuil-1, .is-style-couleurs-originales .icon.ecureuil-1::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/elips-1.svg");
+  background-image: url("../../_icons/ecureuil-1.svg");
   background-size: 100%;
   background-position: center center;
 }
@@ -4338,6 +3953,83 @@ html, body {
   background-size: 100%;
   background-position: center center;
 }
+.icon.etiquette-1, .icon.etiquette-1::after {
+  mask-image: url("../../_icons/etiquette-1.svg");
+  -webkit-mask-image: url("../../_icons/etiquette-1.svg");
+}
+.is-style-couleurs-originales .icon.etiquette-1, .is-style-couleurs-originales .icon.etiquette-1::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/etiquette-1.svg");
+  background-size: 100%;
+  background-position: center center;
+}
+.icon.etoile-1, .icon.etoile-1::after {
+  mask-image: url("../../_icons/etoile-1.svg");
+  -webkit-mask-image: url("../../_icons/etoile-1.svg");
+}
+.is-style-couleurs-originales .icon.etoile-1, .is-style-couleurs-originales .icon.etoile-1::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/etoile-1.svg");
+  background-size: 100%;
+  background-position: center center;
+}
+.icon.etoile-2, .icon.etoile-2::after {
+  mask-image: url("../../_icons/etoile-2.svg");
+  -webkit-mask-image: url("../../_icons/etoile-2.svg");
+}
+.is-style-couleurs-originales .icon.etoile-2, .is-style-couleurs-originales .icon.etoile-2::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/etoile-2.svg");
+  background-size: 100%;
+  background-position: center center;
+}
+.icon.etoile-3, .icon.etoile-3::after {
+  mask-image: url("../../_icons/etoile-3.svg");
+  -webkit-mask-image: url("../../_icons/etoile-3.svg");
+}
+.is-style-couleurs-originales .icon.etoile-3, .is-style-couleurs-originales .icon.etoile-3::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/etoile-3.svg");
+  background-size: 100%;
+  background-position: center center;
+}
+.icon.etoile-4, .icon.etoile-4::after {
+  mask-image: url("../../_icons/etoile-4.svg");
+  -webkit-mask-image: url("../../_icons/etoile-4.svg");
+}
+.is-style-couleurs-originales .icon.etoile-4, .is-style-couleurs-originales .icon.etoile-4::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/etoile-4.svg");
+  background-size: 100%;
+  background-position: center center;
+}
+.icon.etoile-5, .icon.etoile-5::after {
+  mask-image: url("../../_icons/etoile-5.svg");
+  -webkit-mask-image: url("../../_icons/etoile-5.svg");
+}
+.is-style-couleurs-originales .icon.etoile-5, .is-style-couleurs-originales .icon.etoile-5::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/etoile-5.svg");
+  background-size: 100%;
+  background-position: center center;
+}
+.icon.etoile-6, .icon.etoile-6::after {
+  mask-image: url("../../_icons/etoile-6.svg");
+  -webkit-mask-image: url("../../_icons/etoile-6.svg");
+}
+.is-style-couleurs-originales .icon.etoile-6, .is-style-couleurs-originales .icon.etoile-6::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/etoile-6.svg");
+  background-size: 100%;
+  background-position: center center;
+}
 .icon.exit, .icon.exit::after {
   mask-image: url("../../_icons/exit.svg");
   -webkit-mask-image: url("../../_icons/exit.svg");
@@ -4349,135 +4041,113 @@ html, body {
   background-size: 100%;
   background-position: center center;
 }
-.icon.eye-1, .icon.eye-1::after {
-  mask-image: url("../../_icons/eye-1.svg");
-  -webkit-mask-image: url("../../_icons/eye-1.svg");
+.icon.fichier-1, .icon.fichier-1::after {
+  mask-image: url("../../_icons/fichier-1.svg");
+  -webkit-mask-image: url("../../_icons/fichier-1.svg");
 }
-.is-style-couleurs-originales .icon.eye-1, .is-style-couleurs-originales .icon.eye-1::after {
+.is-style-couleurs-originales .icon.fichier-1, .is-style-couleurs-originales .icon.fichier-1::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/eye-1.svg");
+  background-image: url("../../_icons/fichier-1.svg");
   background-size: 100%;
   background-position: center center;
 }
-.icon.eye-3, .icon.eye-3::after {
-  mask-image: url("../../_icons/eye-3.svg");
-  -webkit-mask-image: url("../../_icons/eye-3.svg");
+.icon.fichier-10, .icon.fichier-10::after {
+  mask-image: url("../../_icons/fichier-10.svg");
+  -webkit-mask-image: url("../../_icons/fichier-10.svg");
 }
-.is-style-couleurs-originales .icon.eye-3, .is-style-couleurs-originales .icon.eye-3::after {
+.is-style-couleurs-originales .icon.fichier-10, .is-style-couleurs-originales .icon.fichier-10::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/eye-3.svg");
+  background-image: url("../../_icons/fichier-10.svg");
   background-size: 100%;
   background-position: center center;
 }
-.icon.file-1, .icon.file-1::after {
-  mask-image: url("../../_icons/file-1.svg");
-  -webkit-mask-image: url("../../_icons/file-1.svg");
+.icon.fichier-2, .icon.fichier-2::after {
+  mask-image: url("../../_icons/fichier-2.svg");
+  -webkit-mask-image: url("../../_icons/fichier-2.svg");
 }
-.is-style-couleurs-originales .icon.file-1, .is-style-couleurs-originales .icon.file-1::after {
+.is-style-couleurs-originales .icon.fichier-2, .is-style-couleurs-originales .icon.fichier-2::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/file-1.svg");
+  background-image: url("../../_icons/fichier-2.svg");
   background-size: 100%;
   background-position: center center;
 }
-.icon.file-11, .icon.file-11::after {
-  mask-image: url("../../_icons/file-11.svg");
-  -webkit-mask-image: url("../../_icons/file-11.svg");
+.icon.fichier-3, .icon.fichier-3::after {
+  mask-image: url("../../_icons/fichier-3.svg");
+  -webkit-mask-image: url("../../_icons/fichier-3.svg");
 }
-.is-style-couleurs-originales .icon.file-11, .is-style-couleurs-originales .icon.file-11::after {
+.is-style-couleurs-originales .icon.fichier-3, .is-style-couleurs-originales .icon.fichier-3::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/file-11.svg");
+  background-image: url("../../_icons/fichier-3.svg");
   background-size: 100%;
   background-position: center center;
 }
-.icon.file-12, .icon.file-12::after {
-  mask-image: url("../../_icons/file-12.svg");
-  -webkit-mask-image: url("../../_icons/file-12.svg");
+.icon.fichier-4, .icon.fichier-4::after {
+  mask-image: url("../../_icons/fichier-4.svg");
+  -webkit-mask-image: url("../../_icons/fichier-4.svg");
 }
-.is-style-couleurs-originales .icon.file-12, .is-style-couleurs-originales .icon.file-12::after {
+.is-style-couleurs-originales .icon.fichier-4, .is-style-couleurs-originales .icon.fichier-4::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/file-12.svg");
+  background-image: url("../../_icons/fichier-4.svg");
   background-size: 100%;
   background-position: center center;
 }
-.icon.file-13, .icon.file-13::after {
-  mask-image: url("../../_icons/file-13.svg");
-  -webkit-mask-image: url("../../_icons/file-13.svg");
+.icon.fichier-5, .icon.fichier-5::after {
+  mask-image: url("../../_icons/fichier-5.svg");
+  -webkit-mask-image: url("../../_icons/fichier-5.svg");
 }
-.is-style-couleurs-originales .icon.file-13, .is-style-couleurs-originales .icon.file-13::after {
+.is-style-couleurs-originales .icon.fichier-5, .is-style-couleurs-originales .icon.fichier-5::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/file-13.svg");
+  background-image: url("../../_icons/fichier-5.svg");
   background-size: 100%;
   background-position: center center;
 }
-.icon.file-15, .icon.file-15::after {
-  mask-image: url("../../_icons/file-15.svg");
-  -webkit-mask-image: url("../../_icons/file-15.svg");
+.icon.fichier-6, .icon.fichier-6::after {
+  mask-image: url("../../_icons/fichier-6.svg");
+  -webkit-mask-image: url("../../_icons/fichier-6.svg");
 }
-.is-style-couleurs-originales .icon.file-15, .is-style-couleurs-originales .icon.file-15::after {
+.is-style-couleurs-originales .icon.fichier-6, .is-style-couleurs-originales .icon.fichier-6::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/file-15.svg");
+  background-image: url("../../_icons/fichier-6.svg");
   background-size: 100%;
   background-position: center center;
 }
-.icon.file-3, .icon.file-3::after {
-  mask-image: url("../../_icons/file-3.svg");
-  -webkit-mask-image: url("../../_icons/file-3.svg");
+.icon.fichier-7, .icon.fichier-7::after {
+  mask-image: url("../../_icons/fichier-7.svg");
+  -webkit-mask-image: url("../../_icons/fichier-7.svg");
 }
-.is-style-couleurs-originales .icon.file-3, .is-style-couleurs-originales .icon.file-3::after {
+.is-style-couleurs-originales .icon.fichier-7, .is-style-couleurs-originales .icon.fichier-7::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/file-3.svg");
+  background-image: url("../../_icons/fichier-7.svg");
   background-size: 100%;
   background-position: center center;
 }
-.icon.file-4, .icon.file-4::after {
-  mask-image: url("../../_icons/file-4.svg");
-  -webkit-mask-image: url("../../_icons/file-4.svg");
+.icon.fichier-8, .icon.fichier-8::after {
+  mask-image: url("../../_icons/fichier-8.svg");
+  -webkit-mask-image: url("../../_icons/fichier-8.svg");
 }
-.is-style-couleurs-originales .icon.file-4, .is-style-couleurs-originales .icon.file-4::after {
+.is-style-couleurs-originales .icon.fichier-8, .is-style-couleurs-originales .icon.fichier-8::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/file-4.svg");
+  background-image: url("../../_icons/fichier-8.svg");
   background-size: 100%;
   background-position: center center;
 }
-.icon.file-5, .icon.file-5::after {
-  mask-image: url("../../_icons/file-5.svg");
-  -webkit-mask-image: url("../../_icons/file-5.svg");
+.icon.fichier-9, .icon.fichier-9::after {
+  mask-image: url("../../_icons/fichier-9.svg");
+  -webkit-mask-image: url("../../_icons/fichier-9.svg");
 }
-.is-style-couleurs-originales .icon.file-5, .is-style-couleurs-originales .icon.file-5::after {
+.is-style-couleurs-originales .icon.fichier-9, .is-style-couleurs-originales .icon.fichier-9::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/file-5.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.file-7, .icon.file-7::after {
-  mask-image: url("../../_icons/file-7.svg");
-  -webkit-mask-image: url("../../_icons/file-7.svg");
-}
-.is-style-couleurs-originales .icon.file-7, .is-style-couleurs-originales .icon.file-7::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/file-7.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.file-9, .icon.file-9::after {
-  mask-image: url("../../_icons/file-9.svg");
-  -webkit-mask-image: url("../../_icons/file-9.svg");
-}
-.is-style-couleurs-originales .icon.file-9, .is-style-couleurs-originales .icon.file-9::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/file-9.svg");
+  background-image: url("../../_icons/fichier-9.svg");
   background-size: 100%;
   background-position: center center;
 }
@@ -4503,6 +4173,17 @@ html, body {
   background-size: 100%;
   background-position: center center;
 }
+.icon.film-3, .icon.film-3::after {
+  mask-image: url("../../_icons/film-3.svg");
+  -webkit-mask-image: url("../../_icons/film-3.svg");
+}
+.is-style-couleurs-originales .icon.film-3, .is-style-couleurs-originales .icon.film-3::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/film-3.svg");
+  background-size: 100%;
+  background-position: center center;
+}
 .icon.film-4, .icon.film-4::after {
   mask-image: url("../../_icons/film-4.svg");
   -webkit-mask-image: url("../../_icons/film-4.svg");
@@ -4511,28 +4192,6 @@ html, body {
   mask-image: none;
   -webkit-mask-image: none;
   background-image: url("../../_icons/film-4.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.film-6, .icon.film-6::after {
-  mask-image: url("../../_icons/film-6.svg");
-  -webkit-mask-image: url("../../_icons/film-6.svg");
-}
-.is-style-couleurs-originales .icon.film-6, .is-style-couleurs-originales .icon.film-6::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/film-6.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.flag-1, .icon.flag-1::after {
-  mask-image: url("../../_icons/flag-1.svg");
-  -webkit-mask-image: url("../../_icons/flag-1.svg");
-}
-.is-style-couleurs-originales .icon.flag-1, .is-style-couleurs-originales .icon.flag-1::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/flag-1.svg");
   background-size: 100%;
   background-position: center center;
 }
@@ -4547,17 +4206,6 @@ html, body {
   background-size: 100%;
   background-position: center center;
 }
-.icon.fleche-1-81, .icon.fleche-1-81::after {
-  mask-image: url("../../_icons/fleche-1-81.svg");
-  -webkit-mask-image: url("../../_icons/fleche-1-81.svg");
-}
-.is-style-couleurs-originales .icon.fleche-1-81, .is-style-couleurs-originales .icon.fleche-1-81::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/fleche-1-81.svg");
-  background-size: 100%;
-  background-position: center center;
-}
 .icon.fleche-1, .icon.fleche-1::after {
   mask-image: url("../../_icons/fleche-1.svg");
   -webkit-mask-image: url("../../_icons/fleche-1.svg");
@@ -4566,6 +4214,17 @@ html, body {
   mask-image: none;
   -webkit-mask-image: none;
   background-image: url("../../_icons/fleche-1.svg");
+  background-size: 100%;
+  background-position: center center;
+}
+.icon.fleche-10, .icon.fleche-10::after {
+  mask-image: url("../../_icons/fleche-10.svg");
+  -webkit-mask-image: url("../../_icons/fleche-10.svg");
+}
+.is-style-couleurs-originales .icon.fleche-10, .is-style-couleurs-originales .icon.fleche-10::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/fleche-10.svg");
   background-size: 100%;
   background-position: center center;
 }
@@ -4580,6 +4239,17 @@ html, body {
   background-size: 100%;
   background-position: center center;
 }
+.icon.fleche-12, .icon.fleche-12::after {
+  mask-image: url("../../_icons/fleche-12.svg");
+  -webkit-mask-image: url("../../_icons/fleche-12.svg");
+}
+.is-style-couleurs-originales .icon.fleche-12, .is-style-couleurs-originales .icon.fleche-12::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/fleche-12.svg");
+  background-size: 100%;
+  background-position: center center;
+}
 .icon.fleche-13, .icon.fleche-13::after {
   mask-image: url("../../_icons/fleche-13.svg");
   -webkit-mask-image: url("../../_icons/fleche-13.svg");
@@ -4588,6 +4258,17 @@ html, body {
   mask-image: none;
   -webkit-mask-image: none;
   background-image: url("../../_icons/fleche-13.svg");
+  background-size: 100%;
+  background-position: center center;
+}
+.icon.fleche-14, .icon.fleche-14::after {
+  mask-image: url("../../_icons/fleche-14.svg");
+  -webkit-mask-image: url("../../_icons/fleche-14.svg");
+}
+.is-style-couleurs-originales .icon.fleche-14, .is-style-couleurs-originales .icon.fleche-14::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/fleche-14.svg");
   background-size: 100%;
   background-position: center center;
 }
@@ -4602,6 +4283,17 @@ html, body {
   background-size: 100%;
   background-position: center center;
 }
+.icon.fleche-16, .icon.fleche-16::after {
+  mask-image: url("../../_icons/fleche-16.svg");
+  -webkit-mask-image: url("../../_icons/fleche-16.svg");
+}
+.is-style-couleurs-originales .icon.fleche-16, .is-style-couleurs-originales .icon.fleche-16::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/fleche-16.svg");
+  background-size: 100%;
+  background-position: center center;
+}
 .icon.fleche-17, .icon.fleche-17::after {
   mask-image: url("../../_icons/fleche-17.svg");
   -webkit-mask-image: url("../../_icons/fleche-17.svg");
@@ -4613,6 +4305,17 @@ html, body {
   background-size: 100%;
   background-position: center center;
 }
+.icon.fleche-18, .icon.fleche-18::after {
+  mask-image: url("../../_icons/fleche-18.svg");
+  -webkit-mask-image: url("../../_icons/fleche-18.svg");
+}
+.is-style-couleurs-originales .icon.fleche-18, .is-style-couleurs-originales .icon.fleche-18::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/fleche-18.svg");
+  background-size: 100%;
+  background-position: center center;
+}
 .icon.fleche-19, .icon.fleche-19::after {
   mask-image: url("../../_icons/fleche-19.svg");
   -webkit-mask-image: url("../../_icons/fleche-19.svg");
@@ -4621,6 +4324,28 @@ html, body {
   mask-image: none;
   -webkit-mask-image: none;
   background-image: url("../../_icons/fleche-19.svg");
+  background-size: 100%;
+  background-position: center center;
+}
+.icon.fleche-2, .icon.fleche-2::after {
+  mask-image: url("../../_icons/fleche-2.svg");
+  -webkit-mask-image: url("../../_icons/fleche-2.svg");
+}
+.is-style-couleurs-originales .icon.fleche-2, .is-style-couleurs-originales .icon.fleche-2::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/fleche-2.svg");
+  background-size: 100%;
+  background-position: center center;
+}
+.icon.fleche-20, .icon.fleche-20::after {
+  mask-image: url("../../_icons/fleche-20.svg");
+  -webkit-mask-image: url("../../_icons/fleche-20.svg");
+}
+.is-style-couleurs-originales .icon.fleche-20, .is-style-couleurs-originales .icon.fleche-20::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/fleche-20.svg");
   background-size: 100%;
   background-position: center center;
 }
@@ -4646,6 +4371,17 @@ html, body {
   background-size: 100%;
   background-position: center center;
 }
+.icon.fleche-23, .icon.fleche-23::after {
+  mask-image: url("../../_icons/fleche-23.svg");
+  -webkit-mask-image: url("../../_icons/fleche-23.svg");
+}
+.is-style-couleurs-originales .icon.fleche-23, .is-style-couleurs-originales .icon.fleche-23::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/fleche-23.svg");
+  background-size: 100%;
+  background-position: center center;
+}
 .icon.fleche-24, .icon.fleche-24::after {
   mask-image: url("../../_icons/fleche-24.svg");
   -webkit-mask-image: url("../../_icons/fleche-24.svg");
@@ -4657,6 +4393,17 @@ html, body {
   background-size: 100%;
   background-position: center center;
 }
+.icon.fleche-25, .icon.fleche-25::after {
+  mask-image: url("../../_icons/fleche-25.svg");
+  -webkit-mask-image: url("../../_icons/fleche-25.svg");
+}
+.is-style-couleurs-originales .icon.fleche-25, .is-style-couleurs-originales .icon.fleche-25::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/fleche-25.svg");
+  background-size: 100%;
+  background-position: center center;
+}
 .icon.fleche-26, .icon.fleche-26::after {
   mask-image: url("../../_icons/fleche-26.svg");
   -webkit-mask-image: url("../../_icons/fleche-26.svg");
@@ -4665,6 +4412,28 @@ html, body {
   mask-image: none;
   -webkit-mask-image: none;
   background-image: url("../../_icons/fleche-26.svg");
+  background-size: 100%;
+  background-position: center center;
+}
+.icon.fleche-27, .icon.fleche-27::after {
+  mask-image: url("../../_icons/fleche-27.svg");
+  -webkit-mask-image: url("../../_icons/fleche-27.svg");
+}
+.is-style-couleurs-originales .icon.fleche-27, .is-style-couleurs-originales .icon.fleche-27::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/fleche-27.svg");
+  background-size: 100%;
+  background-position: center center;
+}
+.icon.fleche-28, .icon.fleche-28::after {
+  mask-image: url("../../_icons/fleche-28.svg");
+  -webkit-mask-image: url("../../_icons/fleche-28.svg");
+}
+.is-style-couleurs-originales .icon.fleche-28, .is-style-couleurs-originales .icon.fleche-28::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/fleche-28.svg");
   background-size: 100%;
   background-position: center center;
 }
@@ -4701,6 +4470,28 @@ html, body {
   background-size: 100%;
   background-position: center center;
 }
+.icon.fleche-31, .icon.fleche-31::after {
+  mask-image: url("../../_icons/fleche-31.svg");
+  -webkit-mask-image: url("../../_icons/fleche-31.svg");
+}
+.is-style-couleurs-originales .icon.fleche-31, .is-style-couleurs-originales .icon.fleche-31::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/fleche-31.svg");
+  background-size: 100%;
+  background-position: center center;
+}
+.icon.fleche-32, .icon.fleche-32::after {
+  mask-image: url("../../_icons/fleche-32.svg");
+  -webkit-mask-image: url("../../_icons/fleche-32.svg");
+}
+.is-style-couleurs-originales .icon.fleche-32, .is-style-couleurs-originales .icon.fleche-32::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/fleche-32.svg");
+  background-size: 100%;
+  background-position: center center;
+}
 .icon.fleche-33, .icon.fleche-33::after {
   mask-image: url("../../_icons/fleche-33.svg");
   -webkit-mask-image: url("../../_icons/fleche-33.svg");
@@ -4723,6 +4514,72 @@ html, body {
   background-size: 100%;
   background-position: center center;
 }
+.icon.fleche-35vg, .icon.fleche-35vg::after {
+  mask-image: url("../../_icons/fleche-35vg.undefined");
+  -webkit-mask-image: url("../../_icons/fleche-35vg.undefined");
+}
+.is-style-couleurs-originales .icon.fleche-35vg, .is-style-couleurs-originales .icon.fleche-35vg::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/fleche-35vg.undefined");
+  background-size: 100%;
+  background-position: center center;
+}
+.icon.fleche-36, .icon.fleche-36::after {
+  mask-image: url("../../_icons/fleche-36.svg");
+  -webkit-mask-image: url("../../_icons/fleche-36.svg");
+}
+.is-style-couleurs-originales .icon.fleche-36, .is-style-couleurs-originales .icon.fleche-36::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/fleche-36.svg");
+  background-size: 100%;
+  background-position: center center;
+}
+.icon.fleche-37, .icon.fleche-37::after {
+  mask-image: url("../../_icons/fleche-37.svg");
+  -webkit-mask-image: url("../../_icons/fleche-37.svg");
+}
+.is-style-couleurs-originales .icon.fleche-37, .is-style-couleurs-originales .icon.fleche-37::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/fleche-37.svg");
+  background-size: 100%;
+  background-position: center center;
+}
+.icon.fleche-38, .icon.fleche-38::after {
+  mask-image: url("../../_icons/fleche-38.svg");
+  -webkit-mask-image: url("../../_icons/fleche-38.svg");
+}
+.is-style-couleurs-originales .icon.fleche-38, .is-style-couleurs-originales .icon.fleche-38::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/fleche-38.svg");
+  background-size: 100%;
+  background-position: center center;
+}
+.icon.fleche-39, .icon.fleche-39::after {
+  mask-image: url("../../_icons/fleche-39.svg");
+  -webkit-mask-image: url("../../_icons/fleche-39.svg");
+}
+.is-style-couleurs-originales .icon.fleche-39, .is-style-couleurs-originales .icon.fleche-39::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/fleche-39.svg");
+  background-size: 100%;
+  background-position: center center;
+}
+.icon.fleche-4, .icon.fleche-4::after {
+  mask-image: url("../../_icons/fleche-4.svg");
+  -webkit-mask-image: url("../../_icons/fleche-4.svg");
+}
+.is-style-couleurs-originales .icon.fleche-4, .is-style-couleurs-originales .icon.fleche-4::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/fleche-4.svg");
+  background-size: 100%;
+  background-position: center center;
+}
 .icon.fleche-40, .icon.fleche-40::after {
   mask-image: url("../../_icons/fleche-40.svg");
   -webkit-mask-image: url("../../_icons/fleche-40.svg");
@@ -4731,6 +4588,17 @@ html, body {
   mask-image: none;
   -webkit-mask-image: none;
   background-image: url("../../_icons/fleche-40.svg");
+  background-size: 100%;
+  background-position: center center;
+}
+.icon.fleche-41, .icon.fleche-41::after {
+  mask-image: url("../../_icons/fleche-41.svg");
+  -webkit-mask-image: url("../../_icons/fleche-41.svg");
+}
+.is-style-couleurs-originales .icon.fleche-41, .is-style-couleurs-originales .icon.fleche-41::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/fleche-41.svg");
   background-size: 100%;
   background-position: center center;
 }
@@ -4745,6 +4613,17 @@ html, body {
   background-size: 100%;
   background-position: center center;
 }
+.icon.fleche-43, .icon.fleche-43::after {
+  mask-image: url("../../_icons/fleche-43.svg");
+  -webkit-mask-image: url("../../_icons/fleche-43.svg");
+}
+.is-style-couleurs-originales .icon.fleche-43, .is-style-couleurs-originales .icon.fleche-43::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/fleche-43.svg");
+  background-size: 100%;
+  background-position: center center;
+}
 .icon.fleche-44, .icon.fleche-44::after {
   mask-image: url("../../_icons/fleche-44.svg");
   -webkit-mask-image: url("../../_icons/fleche-44.svg");
@@ -4756,25 +4635,14 @@ html, body {
   background-size: 100%;
   background-position: center center;
 }
-.icon.fleche-46, .icon.fleche-46::after {
-  mask-image: url("../../_icons/fleche-46.svg");
-  -webkit-mask-image: url("../../_icons/fleche-46.svg");
+.icon.fleche-45, .icon.fleche-45::after {
+  mask-image: url("../../_icons/fleche-45.svg");
+  -webkit-mask-image: url("../../_icons/fleche-45.svg");
 }
-.is-style-couleurs-originales .icon.fleche-46, .is-style-couleurs-originales .icon.fleche-46::after {
+.is-style-couleurs-originales .icon.fleche-45, .is-style-couleurs-originales .icon.fleche-45::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/fleche-46.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.fleche-48, .icon.fleche-48::after {
-  mask-image: url("../../_icons/fleche-48.svg");
-  -webkit-mask-image: url("../../_icons/fleche-48.svg");
-}
-.is-style-couleurs-originales .icon.fleche-48, .is-style-couleurs-originales .icon.fleche-48::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/fleche-48.svg");
+  background-image: url("../../_icons/fleche-45.svg");
   background-size: 100%;
   background-position: center center;
 }
@@ -4789,113 +4657,14 @@ html, body {
   background-size: 100%;
   background-position: center center;
 }
-.icon.fleche-50, .icon.fleche-50::after {
-  mask-image: url("../../_icons/fleche-50.svg");
-  -webkit-mask-image: url("../../_icons/fleche-50.svg");
+.icon.fleche-6, .icon.fleche-6::after {
+  mask-image: url("../../_icons/fleche-6.svg");
+  -webkit-mask-image: url("../../_icons/fleche-6.svg");
 }
-.is-style-couleurs-originales .icon.fleche-50, .is-style-couleurs-originales .icon.fleche-50::after {
+.is-style-couleurs-originales .icon.fleche-6, .is-style-couleurs-originales .icon.fleche-6::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/fleche-50.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.fleche-52, .icon.fleche-52::after {
-  mask-image: url("../../_icons/fleche-52.svg");
-  -webkit-mask-image: url("../../_icons/fleche-52.svg");
-}
-.is-style-couleurs-originales .icon.fleche-52, .is-style-couleurs-originales .icon.fleche-52::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/fleche-52.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.fleche-54, .icon.fleche-54::after {
-  mask-image: url("../../_icons/fleche-54.svg");
-  -webkit-mask-image: url("../../_icons/fleche-54.svg");
-}
-.is-style-couleurs-originales .icon.fleche-54, .is-style-couleurs-originales .icon.fleche-54::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/fleche-54.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.fleche-56, .icon.fleche-56::after {
-  mask-image: url("../../_icons/fleche-56.svg");
-  -webkit-mask-image: url("../../_icons/fleche-56.svg");
-}
-.is-style-couleurs-originales .icon.fleche-56, .is-style-couleurs-originales .icon.fleche-56::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/fleche-56.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.fleche-58, .icon.fleche-58::after {
-  mask-image: url("../../_icons/fleche-58.svg");
-  -webkit-mask-image: url("../../_icons/fleche-58.svg");
-}
-.is-style-couleurs-originales .icon.fleche-58, .is-style-couleurs-originales .icon.fleche-58::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/fleche-58.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.fleche-60, .icon.fleche-60::after {
-  mask-image: url("../../_icons/fleche-60.svg");
-  -webkit-mask-image: url("../../_icons/fleche-60.svg");
-}
-.is-style-couleurs-originales .icon.fleche-60, .is-style-couleurs-originales .icon.fleche-60::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/fleche-60.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.fleche-62, .icon.fleche-62::after {
-  mask-image: url("../../_icons/fleche-62.svg");
-  -webkit-mask-image: url("../../_icons/fleche-62.svg");
-}
-.is-style-couleurs-originales .icon.fleche-62, .is-style-couleurs-originales .icon.fleche-62::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/fleche-62.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.fleche-63, .icon.fleche-63::after {
-  mask-image: url("../../_icons/fleche-63.svg");
-  -webkit-mask-image: url("../../_icons/fleche-63.svg");
-}
-.is-style-couleurs-originales .icon.fleche-63, .is-style-couleurs-originales .icon.fleche-63::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/fleche-63.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.fleche-65, .icon.fleche-65::after {
-  mask-image: url("../../_icons/fleche-65.svg");
-  -webkit-mask-image: url("../../_icons/fleche-65.svg");
-}
-.is-style-couleurs-originales .icon.fleche-65, .is-style-couleurs-originales .icon.fleche-65::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/fleche-65.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.fleche-67, .icon.fleche-67::after {
-  mask-image: url("../../_icons/fleche-67.svg");
-  -webkit-mask-image: url("../../_icons/fleche-67.svg");
-}
-.is-style-couleurs-originales .icon.fleche-67, .is-style-couleurs-originales .icon.fleche-67::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/fleche-67.svg");
+  background-image: url("../../_icons/fleche-6.svg");
   background-size: 100%;
   background-position: center center;
 }
@@ -4910,124 +4679,14 @@ html, body {
   background-size: 100%;
   background-position: center center;
 }
-.icon.fleche-70, .icon.fleche-70::after {
-  mask-image: url("../../_icons/fleche-70.svg");
-  -webkit-mask-image: url("../../_icons/fleche-70.svg");
+.icon.fleche-8, .icon.fleche-8::after {
+  mask-image: url("../../_icons/fleche-8.svg");
+  -webkit-mask-image: url("../../_icons/fleche-8.svg");
 }
-.is-style-couleurs-originales .icon.fleche-70, .is-style-couleurs-originales .icon.fleche-70::after {
+.is-style-couleurs-originales .icon.fleche-8, .is-style-couleurs-originales .icon.fleche-8::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/fleche-70.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.fleche-72, .icon.fleche-72::after {
-  mask-image: url("../../_icons/fleche-72.svg");
-  -webkit-mask-image: url("../../_icons/fleche-72.svg");
-}
-.is-style-couleurs-originales .icon.fleche-72, .is-style-couleurs-originales .icon.fleche-72::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/fleche-72.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.fleche-74, .icon.fleche-74::after {
-  mask-image: url("../../_icons/fleche-74.svg");
-  -webkit-mask-image: url("../../_icons/fleche-74.svg");
-}
-.is-style-couleurs-originales .icon.fleche-74, .is-style-couleurs-originales .icon.fleche-74::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/fleche-74.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.fleche-75, .icon.fleche-75::after {
-  mask-image: url("../../_icons/fleche-75.svg");
-  -webkit-mask-image: url("../../_icons/fleche-75.svg");
-}
-.is-style-couleurs-originales .icon.fleche-75, .is-style-couleurs-originales .icon.fleche-75::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/fleche-75.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.fleche-77, .icon.fleche-77::after {
-  mask-image: url("../../_icons/fleche-77.svg");
-  -webkit-mask-image: url("../../_icons/fleche-77.svg");
-}
-.is-style-couleurs-originales .icon.fleche-77, .is-style-couleurs-originales .icon.fleche-77::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/fleche-77.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.fleche-79, .icon.fleche-79::after {
-  mask-image: url("../../_icons/fleche-79.svg");
-  -webkit-mask-image: url("../../_icons/fleche-79.svg");
-}
-.is-style-couleurs-originales .icon.fleche-79, .is-style-couleurs-originales .icon.fleche-79::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/fleche-79.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.fleche-82, .icon.fleche-82::after {
-  mask-image: url("../../_icons/fleche-82.svg");
-  -webkit-mask-image: url("../../_icons/fleche-82.svg");
-}
-.is-style-couleurs-originales .icon.fleche-82, .is-style-couleurs-originales .icon.fleche-82::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/fleche-82.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.fleche-83, .icon.fleche-83::after {
-  mask-image: url("../../_icons/fleche-83.svg");
-  -webkit-mask-image: url("../../_icons/fleche-83.svg");
-}
-.is-style-couleurs-originales .icon.fleche-83, .is-style-couleurs-originales .icon.fleche-83::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/fleche-83.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.fleche-85, .icon.fleche-85::after {
-  mask-image: url("../../_icons/fleche-85.svg");
-  -webkit-mask-image: url("../../_icons/fleche-85.svg");
-}
-.is-style-couleurs-originales .icon.fleche-85, .is-style-couleurs-originales .icon.fleche-85::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/fleche-85.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.fleche-88, .icon.fleche-88::after {
-  mask-image: url("../../_icons/fleche-88.svg");
-  -webkit-mask-image: url("../../_icons/fleche-88.svg");
-}
-.is-style-couleurs-originales .icon.fleche-88, .is-style-couleurs-originales .icon.fleche-88::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/fleche-88.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.fleche-89, .icon.fleche-89::after {
-  mask-image: url("../../_icons/fleche-89.svg");
-  -webkit-mask-image: url("../../_icons/fleche-89.svg");
-}
-.is-style-couleurs-originales .icon.fleche-89, .is-style-couleurs-originales .icon.fleche-89::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/fleche-89.svg");
+  background-image: url("../../_icons/fleche-8.svg");
   background-size: 100%;
   background-position: center center;
 }
@@ -5042,69 +4701,25 @@ html, body {
   background-size: 100%;
   background-position: center center;
 }
-.icon.folder-1, .icon.folder-1::after {
-  mask-image: url("../../_icons/folder-1.svg");
-  -webkit-mask-image: url("../../_icons/folder-1.svg");
+.icon.fusee-1, .icon.fusee-1::after {
+  mask-image: url("../../_icons/fusee-1.svg");
+  -webkit-mask-image: url("../../_icons/fusee-1.svg");
 }
-.is-style-couleurs-originales .icon.folder-1, .is-style-couleurs-originales .icon.folder-1::after {
+.is-style-couleurs-originales .icon.fusee-1, .is-style-couleurs-originales .icon.fusee-1::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/folder-1.svg");
+  background-image: url("../../_icons/fusee-1.svg");
   background-size: 100%;
   background-position: center center;
 }
-.icon.folder-3, .icon.folder-3::after {
-  mask-image: url("../../_icons/folder-3.svg");
-  -webkit-mask-image: url("../../_icons/folder-3.svg");
+.icon.fusee-2, .icon.fusee-2::after {
+  mask-image: url("../../_icons/fusee-2.svg");
+  -webkit-mask-image: url("../../_icons/fusee-2.svg");
 }
-.is-style-couleurs-originales .icon.folder-3, .is-style-couleurs-originales .icon.folder-3::after {
+.is-style-couleurs-originales .icon.fusee-2, .is-style-couleurs-originales .icon.fusee-2::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/folder-3.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.folder-5, .icon.folder-5::after {
-  mask-image: url("../../_icons/folder-5.svg");
-  -webkit-mask-image: url("../../_icons/folder-5.svg");
-}
-.is-style-couleurs-originales .icon.folder-5, .is-style-couleurs-originales .icon.folder-5::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/folder-5.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.folder-6, .icon.folder-6::after {
-  mask-image: url("../../_icons/folder-6.svg");
-  -webkit-mask-image: url("../../_icons/folder-6.svg");
-}
-.is-style-couleurs-originales .icon.folder-6, .is-style-couleurs-originales .icon.folder-6::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/folder-6.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.free-1, .icon.free-1::after {
-  mask-image: url("../../_icons/free-1.svg");
-  -webkit-mask-image: url("../../_icons/free-1.svg");
-}
-.is-style-couleurs-originales .icon.free-1, .is-style-couleurs-originales .icon.free-1::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/free-1.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.free-2, .icon.free-2::after {
-  mask-image: url("../../_icons/free-2.svg");
-  -webkit-mask-image: url("../../_icons/free-2.svg");
-}
-.is-style-couleurs-originales .icon.free-2, .is-style-couleurs-originales .icon.free-2::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/free-2.svg");
+  background-image: url("../../_icons/fusee-2.svg");
   background-size: 100%;
   background-position: center center;
 }
@@ -5116,17 +4731,6 @@ html, body {
   mask-image: none;
   -webkit-mask-image: none;
   background-image: url("../../_icons/gear-1.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.gear-2, .icon.gear-2::after {
-  mask-image: url("../../_icons/gear-2.svg");
-  -webkit-mask-image: url("../../_icons/gear-2.svg");
-}
-.is-style-couleurs-originales .icon.gear-2, .is-style-couleurs-originales .icon.gear-2::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/gear-2.svg");
   background-size: 100%;
   background-position: center center;
 }
@@ -5152,6 +4756,17 @@ html, body {
   background-size: 100%;
   background-position: center center;
 }
+.icon.graph-2, .icon.graph-2::after {
+  mask-image: url("../../_icons/graph-2.svg");
+  -webkit-mask-image: url("../../_icons/graph-2.svg");
+}
+.is-style-couleurs-originales .icon.graph-2, .is-style-couleurs-originales .icon.graph-2::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/graph-2.svg");
+  background-size: 100%;
+  background-position: center center;
+}
 .icon.graph-3, .icon.graph-3::after {
   mask-image: url("../../_icons/graph-3.svg");
   -webkit-mask-image: url("../../_icons/graph-3.svg");
@@ -5163,223 +4778,234 @@ html, body {
   background-size: 100%;
   background-position: center center;
 }
-.icon.graph-5, .icon.graph-5::after {
-  mask-image: url("../../_icons/graph-5.svg");
-  -webkit-mask-image: url("../../_icons/graph-5.svg");
+.icon.horloge-1, .icon.horloge-1::after {
+  mask-image: url("../../_icons/horloge-1.svg");
+  -webkit-mask-image: url("../../_icons/horloge-1.svg");
 }
-.is-style-couleurs-originales .icon.graph-5, .is-style-couleurs-originales .icon.graph-5::after {
+.is-style-couleurs-originales .icon.horloge-1, .is-style-couleurs-originales .icon.horloge-1::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/graph-5.svg");
+  background-image: url("../../_icons/horloge-1.svg");
   background-size: 100%;
   background-position: center center;
 }
-.icon.h-1, .icon.h-1::after {
-  mask-image: url("../../_icons/h-1.svg");
-  -webkit-mask-image: url("../../_icons/h-1.svg");
+.icon.horloge-2, .icon.horloge-2::after {
+  mask-image: url("../../_icons/horloge-2.svg");
+  -webkit-mask-image: url("../../_icons/horloge-2.svg");
 }
-.is-style-couleurs-originales .icon.h-1, .is-style-couleurs-originales .icon.h-1::after {
+.is-style-couleurs-originales .icon.horloge-2, .is-style-couleurs-originales .icon.horloge-2::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/h-1.svg");
+  background-image: url("../../_icons/horloge-2.svg");
   background-size: 100%;
   background-position: center center;
 }
-.icon.h-3, .icon.h-3::after {
-  mask-image: url("../../_icons/h-3.svg");
-  -webkit-mask-image: url("../../_icons/h-3.svg");
+.icon.horloge-3, .icon.horloge-3::after {
+  mask-image: url("../../_icons/horloge-3.svg");
+  -webkit-mask-image: url("../../_icons/horloge-3.svg");
 }
-.is-style-couleurs-originales .icon.h-3, .is-style-couleurs-originales .icon.h-3::after {
+.is-style-couleurs-originales .icon.horloge-3, .is-style-couleurs-originales .icon.horloge-3::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/h-3.svg");
+  background-image: url("../../_icons/horloge-3.svg");
   background-size: 100%;
   background-position: center center;
 }
-.icon.heart-1, .icon.heart-1::after {
-  mask-image: url("../../_icons/heart-1.svg");
-  -webkit-mask-image: url("../../_icons/heart-1.svg");
+.icon.horloge-4, .icon.horloge-4::after {
+  mask-image: url("../../_icons/horloge-4.svg");
+  -webkit-mask-image: url("../../_icons/horloge-4.svg");
 }
-.is-style-couleurs-originales .icon.heart-1, .is-style-couleurs-originales .icon.heart-1::after {
+.is-style-couleurs-originales .icon.horloge-4, .is-style-couleurs-originales .icon.horloge-4::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/heart-1.svg");
+  background-image: url("../../_icons/horloge-4.svg");
   background-size: 100%;
   background-position: center center;
 }
-.icon.heart-3, .icon.heart-3::after {
-  mask-image: url("../../_icons/heart-3.svg");
-  -webkit-mask-image: url("../../_icons/heart-3.svg");
+.icon.horloge-5, .icon.horloge-5::after {
+  mask-image: url("../../_icons/horloge-5.svg");
+  -webkit-mask-image: url("../../_icons/horloge-5.svg");
 }
-.is-style-couleurs-originales .icon.heart-3, .is-style-couleurs-originales .icon.heart-3::after {
+.is-style-couleurs-originales .icon.horloge-5, .is-style-couleurs-originales .icon.horloge-5::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/heart-3.svg");
+  background-image: url("../../_icons/horloge-5.svg");
   background-size: 100%;
   background-position: center center;
 }
-.icon.heart-5, .icon.heart-5::after {
-  mask-image: url("../../_icons/heart-5.svg");
-  -webkit-mask-image: url("../../_icons/heart-5.svg");
+.icon.image-1, .icon.image-1::after {
+  mask-image: url("../../_icons/image-1.svg");
+  -webkit-mask-image: url("../../_icons/image-1.svg");
 }
-.is-style-couleurs-originales .icon.heart-5, .is-style-couleurs-originales .icon.heart-5::after {
+.is-style-couleurs-originales .icon.image-1, .is-style-couleurs-originales .icon.image-1::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/heart-5.svg");
+  background-image: url("../../_icons/image-1.svg");
   background-size: 100%;
   background-position: center center;
 }
-.icon.heart-8, .icon.heart-8::after {
-  mask-image: url("../../_icons/heart-8.svg");
-  -webkit-mask-image: url("../../_icons/heart-8.svg");
+.icon.infini-1, .icon.infini-1::after {
+  mask-image: url("../../_icons/infini-1.svg");
+  -webkit-mask-image: url("../../_icons/infini-1.svg");
 }
-.is-style-couleurs-originales .icon.heart-8, .is-style-couleurs-originales .icon.heart-8::after {
+.is-style-couleurs-originales .icon.infini-1, .is-style-couleurs-originales .icon.infini-1::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/heart-8.svg");
+  background-image: url("../../_icons/infini-1.svg");
   background-size: 100%;
   background-position: center center;
 }
-.icon.home-1, .icon.home-1::after {
-  mask-image: url("../../_icons/home-1.svg");
-  -webkit-mask-image: url("../../_icons/home-1.svg");
+.icon.interdit-1, .icon.interdit-1::after {
+  mask-image: url("../../_icons/interdit-1.svg");
+  -webkit-mask-image: url("../../_icons/interdit-1.svg");
 }
-.is-style-couleurs-originales .icon.home-1, .is-style-couleurs-originales .icon.home-1::after {
+.is-style-couleurs-originales .icon.interdit-1, .is-style-couleurs-originales .icon.interdit-1::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/home-1.svg");
+  background-image: url("../../_icons/interdit-1.svg");
   background-size: 100%;
   background-position: center center;
 }
-.icon.home-2, .icon.home-2::after {
-  mask-image: url("../../_icons/home-2.svg");
-  -webkit-mask-image: url("../../_icons/home-2.svg");
+.icon.interdit-10, .icon.interdit-10::after {
+  mask-image: url("../../_icons/interdit-10.svg");
+  -webkit-mask-image: url("../../_icons/interdit-10.svg");
 }
-.is-style-couleurs-originales .icon.home-2, .is-style-couleurs-originales .icon.home-2::after {
+.is-style-couleurs-originales .icon.interdit-10, .is-style-couleurs-originales .icon.interdit-10::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/home-2.svg");
+  background-image: url("../../_icons/interdit-10.svg");
   background-size: 100%;
   background-position: center center;
 }
-.icon.home-3, .icon.home-3::after {
-  mask-image: url("../../_icons/home-3.svg");
-  -webkit-mask-image: url("../../_icons/home-3.svg");
+.icon.interdit-11, .icon.interdit-11::after {
+  mask-image: url("../../_icons/interdit-11.svg");
+  -webkit-mask-image: url("../../_icons/interdit-11.svg");
 }
-.is-style-couleurs-originales .icon.home-3, .is-style-couleurs-originales .icon.home-3::after {
+.is-style-couleurs-originales .icon.interdit-11, .is-style-couleurs-originales .icon.interdit-11::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/home-3.svg");
+  background-image: url("../../_icons/interdit-11.svg");
   background-size: 100%;
   background-position: center center;
 }
-.icon.home-5, .icon.home-5::after {
-  mask-image: url("../../_icons/home-5.svg");
-  -webkit-mask-image: url("../../_icons/home-5.svg");
+.icon.interdit-12, .icon.interdit-12::after {
+  mask-image: url("../../_icons/interdit-12.svg");
+  -webkit-mask-image: url("../../_icons/interdit-12.svg");
 }
-.is-style-couleurs-originales .icon.home-5, .is-style-couleurs-originales .icon.home-5::after {
+.is-style-couleurs-originales .icon.interdit-12, .is-style-couleurs-originales .icon.interdit-12::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/home-5.svg");
+  background-image: url("../../_icons/interdit-12.svg");
   background-size: 100%;
   background-position: center center;
 }
-.icon.home-6, .icon.home-6::after {
-  mask-image: url("../../_icons/home-6.svg");
-  -webkit-mask-image: url("../../_icons/home-6.svg");
+.icon.interdit-13, .icon.interdit-13::after {
+  mask-image: url("../../_icons/interdit-13.svg");
+  -webkit-mask-image: url("../../_icons/interdit-13.svg");
 }
-.is-style-couleurs-originales .icon.home-6, .is-style-couleurs-originales .icon.home-6::after {
+.is-style-couleurs-originales .icon.interdit-13, .is-style-couleurs-originales .icon.interdit-13::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/home-6.svg");
+  background-image: url("../../_icons/interdit-13.svg");
   background-size: 100%;
   background-position: center center;
 }
-.icon.hubot-1, .icon.hubot-1::after {
-  mask-image: url("../../_icons/hubot-1.svg");
-  -webkit-mask-image: url("../../_icons/hubot-1.svg");
+.icon.interdit-2, .icon.interdit-2::after {
+  mask-image: url("../../_icons/interdit-2.svg");
+  -webkit-mask-image: url("../../_icons/interdit-2.svg");
 }
-.is-style-couleurs-originales .icon.hubot-1, .is-style-couleurs-originales .icon.hubot-1::after {
+.is-style-couleurs-originales .icon.interdit-2, .is-style-couleurs-originales .icon.interdit-2::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/hubot-1.svg");
+  background-image: url("../../_icons/interdit-2.svg");
   background-size: 100%;
   background-position: center center;
 }
-.icon.inf-1, .icon.inf-1::after {
-  mask-image: url("../../_icons/inf-1.svg");
-  -webkit-mask-image: url("../../_icons/inf-1.svg");
+.icon.interdit-3, .icon.interdit-3::after {
+  mask-image: url("../../_icons/interdit-3.svg");
+  -webkit-mask-image: url("../../_icons/interdit-3.svg");
 }
-.is-style-couleurs-originales .icon.inf-1, .is-style-couleurs-originales .icon.inf-1::after {
+.is-style-couleurs-originales .icon.interdit-3, .is-style-couleurs-originales .icon.interdit-3::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/inf-1.svg");
+  background-image: url("../../_icons/interdit-3.svg");
   background-size: 100%;
   background-position: center center;
 }
-.icon.inf-3, .icon.inf-3::after {
-  mask-image: url("../../_icons/inf-3.svg");
-  -webkit-mask-image: url("../../_icons/inf-3.svg");
+.icon.interdit-4, .icon.interdit-4::after {
+  mask-image: url("../../_icons/interdit-4.svg");
+  -webkit-mask-image: url("../../_icons/interdit-4.svg");
 }
-.is-style-couleurs-originales .icon.inf-3, .is-style-couleurs-originales .icon.inf-3::after {
+.is-style-couleurs-originales .icon.interdit-4, .is-style-couleurs-originales .icon.interdit-4::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/inf-3.svg");
+  background-image: url("../../_icons/interdit-4.svg");
   background-size: 100%;
   background-position: center center;
 }
-.icon.inf-5, .icon.inf-5::after {
-  mask-image: url("../../_icons/inf-5.svg");
-  -webkit-mask-image: url("../../_icons/inf-5.svg");
+.icon.interdit-5, .icon.interdit-5::after {
+  mask-image: url("../../_icons/interdit-5.svg");
+  -webkit-mask-image: url("../../_icons/interdit-5.svg");
 }
-.is-style-couleurs-originales .icon.inf-5, .is-style-couleurs-originales .icon.inf-5::after {
+.is-style-couleurs-originales .icon.interdit-5, .is-style-couleurs-originales .icon.interdit-5::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/inf-5.svg");
+  background-image: url("../../_icons/interdit-5.svg");
   background-size: 100%;
   background-position: center center;
 }
-.icon.inf-7, .icon.inf-7::after {
-  mask-image: url("../../_icons/inf-7.svg");
-  -webkit-mask-image: url("../../_icons/inf-7.svg");
+.icon.interdit-6, .icon.interdit-6::after {
+  mask-image: url("../../_icons/interdit-6.svg");
+  -webkit-mask-image: url("../../_icons/interdit-6.svg");
 }
-.is-style-couleurs-originales .icon.inf-7, .is-style-couleurs-originales .icon.inf-7::after {
+.is-style-couleurs-originales .icon.interdit-6, .is-style-couleurs-originales .icon.interdit-6::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/inf-7.svg");
+  background-image: url("../../_icons/interdit-6.svg");
   background-size: 100%;
   background-position: center center;
 }
-.icon.info-1, .icon.info-1::after {
-  mask-image: url("../../_icons/info-1.svg");
-  -webkit-mask-image: url("../../_icons/info-1.svg");
+.icon.interdit-7, .icon.interdit-7::after {
+  mask-image: url("../../_icons/interdit-7.svg");
+  -webkit-mask-image: url("../../_icons/interdit-7.svg");
 }
-.is-style-couleurs-originales .icon.info-1, .is-style-couleurs-originales .icon.info-1::after {
+.is-style-couleurs-originales .icon.interdit-7, .is-style-couleurs-originales .icon.interdit-7::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/info-1.svg");
+  background-image: url("../../_icons/interdit-7.svg");
   background-size: 100%;
   background-position: center center;
 }
-.icon.ital-1, .icon.ital-1::after {
-  mask-image: url("../../_icons/ital-1.svg");
-  -webkit-mask-image: url("../../_icons/ital-1.svg");
+.icon.interdit-8, .icon.interdit-8::after {
+  mask-image: url("../../_icons/interdit-8.svg");
+  -webkit-mask-image: url("../../_icons/interdit-8.svg");
 }
-.is-style-couleurs-originales .icon.ital-1, .is-style-couleurs-originales .icon.ital-1::after {
+.is-style-couleurs-originales .icon.interdit-8, .is-style-couleurs-originales .icon.interdit-8::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/ital-1.svg");
+  background-image: url("../../_icons/interdit-8.svg");
   background-size: 100%;
   background-position: center center;
 }
-.icon.iter-1, .icon.iter-1::after {
-  mask-image: url("../../_icons/iter-1.svg");
-  -webkit-mask-image: url("../../_icons/iter-1.svg");
+.icon.interdit-9, .icon.interdit-9::after {
+  mask-image: url("../../_icons/interdit-9.svg");
+  -webkit-mask-image: url("../../_icons/interdit-9.svg");
 }
-.is-style-couleurs-originales .icon.iter-1, .is-style-couleurs-originales .icon.iter-1::after {
+.is-style-couleurs-originales .icon.interdit-9, .is-style-couleurs-originales .icon.interdit-9::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/iter-1.svg");
+  background-image: url("../../_icons/interdit-9.svg");
+  background-size: 100%;
+  background-position: center center;
+}
+.icon.iteration-1, .icon.iteration-1::after {
+  mask-image: url("../../_icons/iteration-1.svg");
+  -webkit-mask-image: url("../../_icons/iteration-1.svg");
+}
+.is-style-couleurs-originales .icon.iteration-1, .is-style-couleurs-originales .icon.iteration-1::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/iteration-1.svg");
   background-size: 100%;
   background-position: center center;
 }
@@ -5394,47 +5020,58 @@ html, body {
   background-size: 100%;
   background-position: center center;
 }
-.icon.key-1, .icon.key-1::after {
-  mask-image: url("../../_icons/key-1.svg");
-  -webkit-mask-image: url("../../_icons/key-1.svg");
+.icon.lien-1, .icon.lien-1::after {
+  mask-image: url("../../_icons/lien-1.svg");
+  -webkit-mask-image: url("../../_icons/lien-1.svg");
 }
-.is-style-couleurs-originales .icon.key-1, .is-style-couleurs-originales .icon.key-1::after {
+.is-style-couleurs-originales .icon.lien-1, .is-style-couleurs-originales .icon.lien-1::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/key-1.svg");
+  background-image: url("../../_icons/lien-1.svg");
   background-size: 100%;
   background-position: center center;
 }
-.icon.light-1, .icon.light-1::after {
-  mask-image: url("../../_icons/light-1.svg");
-  -webkit-mask-image: url("../../_icons/light-1.svg");
+.icon.lien-2, .icon.lien-2::after {
+  mask-image: url("../../_icons/lien-2.svg");
+  -webkit-mask-image: url("../../_icons/lien-2.svg");
 }
-.is-style-couleurs-originales .icon.light-1, .is-style-couleurs-originales .icon.light-1::after {
+.is-style-couleurs-originales .icon.lien-2, .is-style-couleurs-originales .icon.lien-2::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/light-1.svg");
+  background-image: url("../../_icons/lien-2.svg");
   background-size: 100%;
   background-position: center center;
 }
-.icon.link-1, .icon.link-1::after {
-  mask-image: url("../../_icons/link-1.svg");
-  -webkit-mask-image: url("../../_icons/link-1.svg");
+.icon.lien-3, .icon.lien-3::after {
+  mask-image: url("../../_icons/lien-3.svg");
+  -webkit-mask-image: url("../../_icons/lien-3.svg");
 }
-.is-style-couleurs-originales .icon.link-1, .is-style-couleurs-originales .icon.link-1::after {
+.is-style-couleurs-originales .icon.lien-3, .is-style-couleurs-originales .icon.lien-3::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/link-1.svg");
+  background-image: url("../../_icons/lien-3.svg");
   background-size: 100%;
   background-position: center center;
 }
-.icon.link-3, .icon.link-3::after {
-  mask-image: url("../../_icons/link-3.svg");
-  -webkit-mask-image: url("../../_icons/link-3.svg");
+.icon.lien-4, .icon.lien-4::after {
+  mask-image: url("../../_icons/lien-4.svg");
+  -webkit-mask-image: url("../../_icons/lien-4.svg");
 }
-.is-style-couleurs-originales .icon.link-3, .is-style-couleurs-originales .icon.link-3::after {
+.is-style-couleurs-originales .icon.lien-4, .is-style-couleurs-originales .icon.lien-4::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/link-3.svg");
+  background-image: url("../../_icons/lien-4.svg");
+  background-size: 100%;
+  background-position: center center;
+}
+.icon.lien-5, .icon.lien-5::after {
+  mask-image: url("../../_icons/lien-5.svg");
+  -webkit-mask-image: url("../../_icons/lien-5.svg");
+}
+.is-style-couleurs-originales .icon.lien-5, .is-style-couleurs-originales .icon.lien-5::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/lien-5.svg");
   background-size: 100%;
   background-position: center center;
 }
@@ -5449,102 +5086,245 @@ html, body {
   background-size: 100%;
   background-position: center center;
 }
-.icon.list-1, .icon.list-1::after {
-  mask-image: url("../../_icons/list-1.svg");
-  -webkit-mask-image: url("../../_icons/list-1.svg");
+.icon.liste-1, .icon.liste-1::after {
+  mask-image: url("../../_icons/liste-1.svg");
+  -webkit-mask-image: url("../../_icons/liste-1.svg");
 }
-.is-style-couleurs-originales .icon.list-1, .is-style-couleurs-originales .icon.list-1::after {
+.is-style-couleurs-originales .icon.liste-1, .is-style-couleurs-originales .icon.liste-1::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/list-1.svg");
+  background-image: url("../../_icons/liste-1.svg");
   background-size: 100%;
   background-position: center center;
 }
-.icon.list-10, .icon.list-10::after {
-  mask-image: url("../../_icons/list-10.svg");
-  -webkit-mask-image: url("../../_icons/list-10.svg");
+.icon.liste-2, .icon.liste-2::after {
+  mask-image: url("../../_icons/liste-2.svg");
+  -webkit-mask-image: url("../../_icons/liste-2.svg");
 }
-.is-style-couleurs-originales .icon.list-10, .is-style-couleurs-originales .icon.list-10::after {
+.is-style-couleurs-originales .icon.liste-2, .is-style-couleurs-originales .icon.liste-2::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/list-10.svg");
+  background-image: url("../../_icons/liste-2.svg");
   background-size: 100%;
   background-position: center center;
 }
-.icon.list-3, .icon.list-3::after {
-  mask-image: url("../../_icons/list-3.svg");
-  -webkit-mask-image: url("../../_icons/list-3.svg");
+.icon.liste-3, .icon.liste-3::after {
+  mask-image: url("../../_icons/liste-3.svg");
+  -webkit-mask-image: url("../../_icons/liste-3.svg");
 }
-.is-style-couleurs-originales .icon.list-3, .is-style-couleurs-originales .icon.list-3::after {
+.is-style-couleurs-originales .icon.liste-3, .is-style-couleurs-originales .icon.liste-3::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/list-3.svg");
+  background-image: url("../../_icons/liste-3.svg");
   background-size: 100%;
   background-position: center center;
 }
-.icon.list-5, .icon.list-5::after {
-  mask-image: url("../../_icons/list-5.svg");
-  -webkit-mask-image: url("../../_icons/list-5.svg");
+.icon.liste-4, .icon.liste-4::after {
+  mask-image: url("../../_icons/liste-4.svg");
+  -webkit-mask-image: url("../../_icons/liste-4.svg");
 }
-.is-style-couleurs-originales .icon.list-5, .is-style-couleurs-originales .icon.list-5::after {
+.is-style-couleurs-originales .icon.liste-4, .is-style-couleurs-originales .icon.liste-4::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/list-5.svg");
+  background-image: url("../../_icons/liste-4.svg");
   background-size: 100%;
   background-position: center center;
 }
-.icon.list-7, .icon.list-7::after {
-  mask-image: url("../../_icons/list-7.svg");
-  -webkit-mask-image: url("../../_icons/list-7.svg");
+.icon.liste-5, .icon.liste-5::after {
+  mask-image: url("../../_icons/liste-5.svg");
+  -webkit-mask-image: url("../../_icons/liste-5.svg");
 }
-.is-style-couleurs-originales .icon.list-7, .is-style-couleurs-originales .icon.list-7::after {
+.is-style-couleurs-originales .icon.liste-5, .is-style-couleurs-originales .icon.liste-5::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/list-7.svg");
+  background-image: url("../../_icons/liste-5.svg");
   background-size: 100%;
   background-position: center center;
 }
-.icon.list-9, .icon.list-9::after {
-  mask-image: url("../../_icons/list-9.svg");
-  -webkit-mask-image: url("../../_icons/list-9.svg");
+.icon.liste-6, .icon.liste-6::after {
+  mask-image: url("../../_icons/liste-6.svg");
+  -webkit-mask-image: url("../../_icons/liste-6.svg");
 }
-.is-style-couleurs-originales .icon.list-9, .is-style-couleurs-originales .icon.list-9::after {
+.is-style-couleurs-originales .icon.liste-6, .is-style-couleurs-originales .icon.liste-6::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/list-9.svg");
+  background-image: url("../../_icons/liste-6.svg");
   background-size: 100%;
   background-position: center center;
 }
-.icon.loc-1, .icon.loc-1::after {
-  mask-image: url("../../_icons/loc-1.svg");
-  -webkit-mask-image: url("../../_icons/loc-1.svg");
+.icon.livre-1, .icon.livre-1::after {
+  mask-image: url("../../_icons/livre-1.svg");
+  -webkit-mask-image: url("../../_icons/livre-1.svg");
 }
-.is-style-couleurs-originales .icon.loc-1, .is-style-couleurs-originales .icon.loc-1::after {
+.is-style-couleurs-originales .icon.livre-1, .is-style-couleurs-originales .icon.livre-1::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/loc-1.svg");
+  background-image: url("../../_icons/livre-1.svg");
   background-size: 100%;
   background-position: center center;
 }
-.icon.lock-1, .icon.lock-1::after {
-  mask-image: url("../../_icons/lock-1.svg");
-  -webkit-mask-image: url("../../_icons/lock-1.svg");
+.icon.livre-10, .icon.livre-10::after {
+  mask-image: url("../../_icons/livre-10.svg");
+  -webkit-mask-image: url("../../_icons/livre-10.svg");
 }
-.is-style-couleurs-originales .icon.lock-1, .is-style-couleurs-originales .icon.lock-1::after {
+.is-style-couleurs-originales .icon.livre-10, .is-style-couleurs-originales .icon.livre-10::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/lock-1.svg");
+  background-image: url("../../_icons/livre-10.svg");
   background-size: 100%;
   background-position: center center;
 }
-.icon.lock-3, .icon.lock-3::after {
-  mask-image: url("../../_icons/lock-3.svg");
-  -webkit-mask-image: url("../../_icons/lock-3.svg");
+.icon.livre-11, .icon.livre-11::after {
+  mask-image: url("../../_icons/livre-11.svg");
+  -webkit-mask-image: url("../../_icons/livre-11.svg");
 }
-.is-style-couleurs-originales .icon.lock-3, .is-style-couleurs-originales .icon.lock-3::after {
+.is-style-couleurs-originales .icon.livre-11, .is-style-couleurs-originales .icon.livre-11::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/lock-3.svg");
+  background-image: url("../../_icons/livre-11.svg");
+  background-size: 100%;
+  background-position: center center;
+}
+.icon.livre-12, .icon.livre-12::after {
+  mask-image: url("../../_icons/livre-12.svg");
+  -webkit-mask-image: url("../../_icons/livre-12.svg");
+}
+.is-style-couleurs-originales .icon.livre-12, .is-style-couleurs-originales .icon.livre-12::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/livre-12.svg");
+  background-size: 100%;
+  background-position: center center;
+}
+.icon.livre-13, .icon.livre-13::after {
+  mask-image: url("../../_icons/livre-13.svg");
+  -webkit-mask-image: url("../../_icons/livre-13.svg");
+}
+.is-style-couleurs-originales .icon.livre-13, .is-style-couleurs-originales .icon.livre-13::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/livre-13.svg");
+  background-size: 100%;
+  background-position: center center;
+}
+.icon.livre-2, .icon.livre-2::after {
+  mask-image: url("../../_icons/livre-2.svg");
+  -webkit-mask-image: url("../../_icons/livre-2.svg");
+}
+.is-style-couleurs-originales .icon.livre-2, .is-style-couleurs-originales .icon.livre-2::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/livre-2.svg");
+  background-size: 100%;
+  background-position: center center;
+}
+.icon.livre-3, .icon.livre-3::after {
+  mask-image: url("../../_icons/livre-3.svg");
+  -webkit-mask-image: url("../../_icons/livre-3.svg");
+}
+.is-style-couleurs-originales .icon.livre-3, .is-style-couleurs-originales .icon.livre-3::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/livre-3.svg");
+  background-size: 100%;
+  background-position: center center;
+}
+.icon.livre-4, .icon.livre-4::after {
+  mask-image: url("../../_icons/livre-4.svg");
+  -webkit-mask-image: url("../../_icons/livre-4.svg");
+}
+.is-style-couleurs-originales .icon.livre-4, .is-style-couleurs-originales .icon.livre-4::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/livre-4.svg");
+  background-size: 100%;
+  background-position: center center;
+}
+.icon.livre-5, .icon.livre-5::after {
+  mask-image: url("../../_icons/livre-5.svg");
+  -webkit-mask-image: url("../../_icons/livre-5.svg");
+}
+.is-style-couleurs-originales .icon.livre-5, .is-style-couleurs-originales .icon.livre-5::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/livre-5.svg");
+  background-size: 100%;
+  background-position: center center;
+}
+.icon.livre-6, .icon.livre-6::after {
+  mask-image: url("../../_icons/livre-6.svg");
+  -webkit-mask-image: url("../../_icons/livre-6.svg");
+}
+.is-style-couleurs-originales .icon.livre-6, .is-style-couleurs-originales .icon.livre-6::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/livre-6.svg");
+  background-size: 100%;
+  background-position: center center;
+}
+.icon.livre-7, .icon.livre-7::after {
+  mask-image: url("../../_icons/livre-7.svg");
+  -webkit-mask-image: url("../../_icons/livre-7.svg");
+}
+.is-style-couleurs-originales .icon.livre-7, .is-style-couleurs-originales .icon.livre-7::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/livre-7.svg");
+  background-size: 100%;
+  background-position: center center;
+}
+.icon.livre-8, .icon.livre-8::after {
+  mask-image: url("../../_icons/livre-8.svg");
+  -webkit-mask-image: url("../../_icons/livre-8.svg");
+}
+.is-style-couleurs-originales .icon.livre-8, .is-style-couleurs-originales .icon.livre-8::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/livre-8.svg");
+  background-size: 100%;
+  background-position: center center;
+}
+.icon.livre-9, .icon.livre-9::after {
+  mask-image: url("../../_icons/livre-9.svg");
+  -webkit-mask-image: url("../../_icons/livre-9.svg");
+}
+.is-style-couleurs-originales .icon.livre-9, .is-style-couleurs-originales .icon.livre-9::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/livre-9.svg");
+  background-size: 100%;
+  background-position: center center;
+}
+.icon.localisation-1, .icon.localisation-1::after {
+  mask-image: url("../../_icons/localisation-1.svg");
+  -webkit-mask-image: url("../../_icons/localisation-1.svg");
+}
+.is-style-couleurs-originales .icon.localisation-1, .is-style-couleurs-originales .icon.localisation-1::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/localisation-1.svg");
+  background-size: 100%;
+  background-position: center center;
+}
+.icon.localisation-2, .icon.localisation-2::after {
+  mask-image: url("../../_icons/localisation-2.svg");
+  -webkit-mask-image: url("../../_icons/localisation-2.svg");
+}
+.is-style-couleurs-originales .icon.localisation-2, .is-style-couleurs-originales .icon.localisation-2::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/localisation-2.svg");
+  background-size: 100%;
+  background-position: center center;
+}
+.icon.lune-1, .icon.lune-1::after {
+  mask-image: url("../../_icons/lune-1.svg");
+  -webkit-mask-image: url("../../_icons/lune-1.svg");
+}
+.is-style-couleurs-originales .icon.lune-1, .is-style-couleurs-originales .icon.lune-1::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/lune-1.svg");
   background-size: 100%;
   background-position: center center;
 }
@@ -5559,14 +5339,14 @@ html, body {
   background-size: 100%;
   background-position: center center;
 }
-.icon.mail-10, .icon.mail-10::after {
-  mask-image: url("../../_icons/mail-10.svg");
-  -webkit-mask-image: url("../../_icons/mail-10.svg");
+.icon.mail-2, .icon.mail-2::after {
+  mask-image: url("../../_icons/mail-2.svg");
+  -webkit-mask-image: url("../../_icons/mail-2.svg");
 }
-.is-style-couleurs-originales .icon.mail-10, .is-style-couleurs-originales .icon.mail-10::after {
+.is-style-couleurs-originales .icon.mail-2, .is-style-couleurs-originales .icon.mail-2::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/mail-10.svg");
+  background-image: url("../../_icons/mail-2.svg");
   background-size: 100%;
   background-position: center center;
 }
@@ -5581,6 +5361,17 @@ html, body {
   background-size: 100%;
   background-position: center center;
 }
+.icon.mail-4, .icon.mail-4::after {
+  mask-image: url("../../_icons/mail-4.svg");
+  -webkit-mask-image: url("../../_icons/mail-4.svg");
+}
+.is-style-couleurs-originales .icon.mail-4, .is-style-couleurs-originales .icon.mail-4::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/mail-4.svg");
+  background-size: 100%;
+  background-position: center center;
+}
 .icon.mail-5, .icon.mail-5::after {
   mask-image: url("../../_icons/mail-5.svg");
   -webkit-mask-image: url("../../_icons/mail-5.svg");
@@ -5589,6 +5380,17 @@ html, body {
   mask-image: none;
   -webkit-mask-image: none;
   background-image: url("../../_icons/mail-5.svg");
+  background-size: 100%;
+  background-position: center center;
+}
+.icon.mail-6, .icon.mail-6::after {
+  mask-image: url("../../_icons/mail-6.svg");
+  -webkit-mask-image: url("../../_icons/mail-6.svg");
+}
+.is-style-couleurs-originales .icon.mail-6, .is-style-couleurs-originales .icon.mail-6::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/mail-6.svg");
   background-size: 100%;
   background-position: center center;
 }
@@ -5614,14 +5416,58 @@ html, body {
   background-size: 100%;
   background-position: center center;
 }
-.icon.marker-1, .icon.marker-1::after {
-  mask-image: url("../../_icons/marker-1.svg");
-  -webkit-mask-image: url("../../_icons/marker-1.svg");
+.icon.maison-1, .icon.maison-1::after {
+  mask-image: url("../../_icons/maison-1.svg");
+  -webkit-mask-image: url("../../_icons/maison-1.svg");
 }
-.is-style-couleurs-originales .icon.marker-1, .is-style-couleurs-originales .icon.marker-1::after {
+.is-style-couleurs-originales .icon.maison-1, .is-style-couleurs-originales .icon.maison-1::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/marker-1.svg");
+  background-image: url("../../_icons/maison-1.svg");
+  background-size: 100%;
+  background-position: center center;
+}
+.icon.maison-2, .icon.maison-2::after {
+  mask-image: url("../../_icons/maison-2.svg");
+  -webkit-mask-image: url("../../_icons/maison-2.svg");
+}
+.is-style-couleurs-originales .icon.maison-2, .is-style-couleurs-originales .icon.maison-2::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/maison-2.svg");
+  background-size: 100%;
+  background-position: center center;
+}
+.icon.maison-3, .icon.maison-3::after {
+  mask-image: url("../../_icons/maison-3.svg");
+  -webkit-mask-image: url("../../_icons/maison-3.svg");
+}
+.is-style-couleurs-originales .icon.maison-3, .is-style-couleurs-originales .icon.maison-3::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/maison-3.svg");
+  background-size: 100%;
+  background-position: center center;
+}
+.icon.maison-4, .icon.maison-4::after {
+  mask-image: url("../../_icons/maison-4.svg");
+  -webkit-mask-image: url("../../_icons/maison-4.svg");
+}
+.is-style-couleurs-originales .icon.maison-4, .is-style-couleurs-originales .icon.maison-4::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/maison-4.svg");
+  background-size: 100%;
+  background-position: center center;
+}
+.icon.maison-5, .icon.maison-5::after {
+  mask-image: url("../../_icons/maison-5.svg");
+  -webkit-mask-image: url("../../_icons/maison-5.svg");
+}
+.is-style-couleurs-originales .icon.maison-5, .is-style-couleurs-originales .icon.maison-5::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/maison-5.svg");
   background-size: 100%;
   background-position: center center;
 }
@@ -5636,25 +5482,14 @@ html, body {
   background-size: 100%;
   background-position: center center;
 }
-.icon.math-10, .icon.math-10::after {
-  mask-image: url("../../_icons/math-10.svg");
-  -webkit-mask-image: url("../../_icons/math-10.svg");
+.icon.math-2, .icon.math-2::after {
+  mask-image: url("../../_icons/math-2.svg");
+  -webkit-mask-image: url("../../_icons/math-2.svg");
 }
-.is-style-couleurs-originales .icon.math-10, .is-style-couleurs-originales .icon.math-10::after {
+.is-style-couleurs-originales .icon.math-2, .is-style-couleurs-originales .icon.math-2::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/math-10.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.math-12, .icon.math-12::after {
-  mask-image: url("../../_icons/math-12.svg");
-  -webkit-mask-image: url("../../_icons/math-12.svg");
-}
-.is-style-couleurs-originales .icon.math-12, .is-style-couleurs-originales .icon.math-12::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/math-12.svg");
+  background-image: url("../../_icons/math-2.svg");
   background-size: 100%;
   background-position: center center;
 }
@@ -5724,6 +5559,17 @@ html, body {
   background-size: 100%;
   background-position: center center;
 }
+.icon.math-9, .icon.math-9::after {
+  mask-image: url("../../_icons/math-9.svg");
+  -webkit-mask-image: url("../../_icons/math-9.svg");
+}
+.is-style-couleurs-originales .icon.math-9, .is-style-couleurs-originales .icon.math-9::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/math-9.svg");
+  background-size: 100%;
+  background-position: center center;
+}
 .icon.megaphone-1, .icon.megaphone-1::after {
   mask-image: url("../../_icons/megaphone-1.svg");
   -webkit-mask-image: url("../../_icons/megaphone-1.svg");
@@ -5746,47 +5592,47 @@ html, body {
   background-size: 100%;
   background-position: center center;
 }
-.icon.moon-1, .icon.moon-1::after {
-  mask-image: url("../../_icons/moon-1.svg");
-  -webkit-mask-image: url("../../_icons/moon-1.svg");
+.icon.nuage-1, .icon.nuage-1::after {
+  mask-image: url("../../_icons/nuage-1.svg");
+  -webkit-mask-image: url("../../_icons/nuage-1.svg");
 }
-.is-style-couleurs-originales .icon.moon-1, .is-style-couleurs-originales .icon.moon-1::after {
+.is-style-couleurs-originales .icon.nuage-1, .is-style-couleurs-originales .icon.nuage-1::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/moon-1.svg");
+  background-image: url("../../_icons/nuage-1.svg");
   background-size: 100%;
   background-position: center center;
 }
-.icon.mute-1, .icon.mute-1::after {
-  mask-image: url("../../_icons/mute-1.svg");
-  -webkit-mask-image: url("../../_icons/mute-1.svg");
+.icon.nuage-2, .icon.nuage-2::after {
+  mask-image: url("../../_icons/nuage-2.svg");
+  -webkit-mask-image: url("../../_icons/nuage-2.svg");
 }
-.is-style-couleurs-originales .icon.mute-1, .is-style-couleurs-originales .icon.mute-1::after {
+.is-style-couleurs-originales .icon.nuage-2, .is-style-couleurs-originales .icon.nuage-2::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/mute-1.svg");
+  background-image: url("../../_icons/nuage-2.svg");
   background-size: 100%;
   background-position: center center;
 }
-.icon.mute-3, .icon.mute-3::after {
-  mask-image: url("../../_icons/mute-3.svg");
-  -webkit-mask-image: url("../../_icons/mute-3.svg");
+.icon.oeil-1, .icon.oeil-1::after {
+  mask-image: url("../../_icons/oeil-1.svg");
+  -webkit-mask-image: url("../../_icons/oeil-1.svg");
 }
-.is-style-couleurs-originales .icon.mute-3, .is-style-couleurs-originales .icon.mute-3::after {
+.is-style-couleurs-originales .icon.oeil-1, .is-style-couleurs-originales .icon.oeil-1::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/mute-3.svg");
+  background-image: url("../../_icons/oeil-1.svg");
   background-size: 100%;
   background-position: center center;
 }
-.icon.nord-1, .icon.nord-1::after {
-  mask-image: url("../../_icons/nord-1.svg");
-  -webkit-mask-image: url("../../_icons/nord-1.svg");
+.icon.oeil-2, .icon.oeil-2::after {
+  mask-image: url("../../_icons/oeil-2.svg");
+  -webkit-mask-image: url("../../_icons/oeil-2.svg");
 }
-.is-style-couleurs-originales .icon.nord-1, .is-style-couleurs-originales .icon.nord-1::after {
+.is-style-couleurs-originales .icon.oeil-2, .is-style-couleurs-originales .icon.oeil-2::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/nord-1.svg");
+  background-image: url("../../_icons/oeil-2.svg");
   background-size: 100%;
   background-position: center center;
 }
@@ -5801,6 +5647,17 @@ html, body {
   background-size: 100%;
   background-position: center center;
 }
+.icon.package-2, .icon.package-2::after {
+  mask-image: url("../../_icons/package-2.svg");
+  -webkit-mask-image: url("../../_icons/package-2.svg");
+}
+.is-style-couleurs-originales .icon.package-2, .is-style-couleurs-originales .icon.package-2::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/package-2.svg");
+  background-size: 100%;
+  background-position: center center;
+}
 .icon.package-3, .icon.package-3::after {
   mask-image: url("../../_icons/package-3.svg");
   -webkit-mask-image: url("../../_icons/package-3.svg");
@@ -5809,17 +5666,6 @@ html, body {
   mask-image: none;
   -webkit-mask-image: none;
   background-image: url("../../_icons/package-3.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.package-5, .icon.package-5::after {
-  mask-image: url("../../_icons/package-5.svg");
-  -webkit-mask-image: url("../../_icons/package-5.svg");
-}
-.is-style-couleurs-originales .icon.package-5, .is-style-couleurs-originales .icon.package-5::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/package-5.svg");
   background-size: 100%;
   background-position: center center;
 }
@@ -5834,17 +5680,6 @@ html, body {
   background-size: 100%;
   background-position: center center;
 }
-.icon.paintbrush-16, .icon.paintbrush-16::after {
-  mask-image: url("../../_icons/paintbrush-16.svg");
-  -webkit-mask-image: url("../../_icons/paintbrush-16.svg");
-}
-.is-style-couleurs-originales .icon.paintbrush-16, .is-style-couleurs-originales .icon.paintbrush-16::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/paintbrush-16.svg");
-  background-size: 100%;
-  background-position: center center;
-}
 .icon.panneau-1, .icon.panneau-1::after {
   mask-image: url("../../_icons/panneau-1.svg");
   -webkit-mask-image: url("../../_icons/panneau-1.svg");
@@ -5853,61 +5688,6 @@ html, body {
   mask-image: none;
   -webkit-mask-image: none;
   background-image: url("../../_icons/panneau-1.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.panneau-3, .icon.panneau-3::after {
-  mask-image: url("../../_icons/panneau-3.svg");
-  -webkit-mask-image: url("../../_icons/panneau-3.svg");
-}
-.is-style-couleurs-originales .icon.panneau-3, .is-style-couleurs-originales .icon.panneau-3::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/panneau-3.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.panneau-4, .icon.panneau-4::after {
-  mask-image: url("../../_icons/panneau-4.svg");
-  -webkit-mask-image: url("../../_icons/panneau-4.svg");
-}
-.is-style-couleurs-originales .icon.panneau-4, .is-style-couleurs-originales .icon.panneau-4::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/panneau-4.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.panneau-7, .icon.panneau-7::after {
-  mask-image: url("../../_icons/panneau-7.svg");
-  -webkit-mask-image: url("../../_icons/panneau-7.svg");
-}
-.is-style-couleurs-originales .icon.panneau-7, .is-style-couleurs-originales .icon.panneau-7::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/panneau-7.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.past-1, .icon.past-1::after {
-  mask-image: url("../../_icons/past-1.svg");
-  -webkit-mask-image: url("../../_icons/past-1.svg");
-}
-.is-style-couleurs-originales .icon.past-1, .is-style-couleurs-originales .icon.past-1::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/past-1.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.pen-1, .icon.pen-1::after {
-  mask-image: url("../../_icons/pen-1.svg");
-  -webkit-mask-image: url("../../_icons/pen-1.svg");
-}
-.is-style-couleurs-originales .icon.pen-1, .is-style-couleurs-originales .icon.pen-1::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/pen-1.svg");
   background-size: 100%;
   background-position: center center;
 }
@@ -5922,14 +5702,14 @@ html, body {
   background-size: 100%;
   background-position: center center;
 }
-.icon.person-11, .icon.person-11::after {
-  mask-image: url("../../_icons/person-11.svg");
-  -webkit-mask-image: url("../../_icons/person-11.svg");
+.icon.person-2, .icon.person-2::after {
+  mask-image: url("../../_icons/person-2.svg");
+  -webkit-mask-image: url("../../_icons/person-2.svg");
 }
-.is-style-couleurs-originales .icon.person-11, .is-style-couleurs-originales .icon.person-11::after {
+.is-style-couleurs-originales .icon.person-2, .is-style-couleurs-originales .icon.person-2::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/person-11.svg");
+  background-image: url("../../_icons/person-2.svg");
   background-size: 100%;
   background-position: center center;
 }
@@ -5944,6 +5724,17 @@ html, body {
   background-size: 100%;
   background-position: center center;
 }
+.icon.person-4, .icon.person-4::after {
+  mask-image: url("../../_icons/person-4.svg");
+  -webkit-mask-image: url("../../_icons/person-4.svg");
+}
+.is-style-couleurs-originales .icon.person-4, .is-style-couleurs-originales .icon.person-4::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/person-4.svg");
+  background-size: 100%;
+  background-position: center center;
+}
 .icon.person-5, .icon.person-5::after {
   mask-image: url("../../_icons/person-5.svg");
   -webkit-mask-image: url("../../_icons/person-5.svg");
@@ -5955,36 +5746,25 @@ html, body {
   background-size: 100%;
   background-position: center center;
 }
-.icon.person-7, .icon.person-7::after {
-  mask-image: url("../../_icons/person-7.svg");
-  -webkit-mask-image: url("../../_icons/person-7.svg");
+.icon.person-6, .icon.person-6::after {
+  mask-image: url("../../_icons/person-6.svg");
+  -webkit-mask-image: url("../../_icons/person-6.svg");
 }
-.is-style-couleurs-originales .icon.person-7, .is-style-couleurs-originales .icon.person-7::after {
+.is-style-couleurs-originales .icon.person-6, .is-style-couleurs-originales .icon.person-6::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/person-7.svg");
+  background-image: url("../../_icons/person-6.svg");
   background-size: 100%;
   background-position: center center;
 }
-.icon.person-9, .icon.person-9::after {
-  mask-image: url("../../_icons/person-9.svg");
-  -webkit-mask-image: url("../../_icons/person-9.svg");
+.icon.pignon-1, .icon.pignon-1::after {
+  mask-image: url("../../_icons/pignon-1.svg");
+  -webkit-mask-image: url("../../_icons/pignon-1.svg");
 }
-.is-style-couleurs-originales .icon.person-9, .is-style-couleurs-originales .icon.person-9::after {
+.is-style-couleurs-originales .icon.pignon-1, .is-style-couleurs-originales .icon.pignon-1::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/person-9.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.picture-1, .icon.picture-1::after {
-  mask-image: url("../../_icons/picture-1.svg");
-  -webkit-mask-image: url("../../_icons/picture-1.svg");
-}
-.is-style-couleurs-originales .icon.picture-1, .is-style-couleurs-originales .icon.picture-1::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/picture-1.svg");
+  background-image: url("../../_icons/pignon-1.svg");
   background-size: 100%;
   background-position: center center;
 }
@@ -5999,6 +5779,17 @@ html, body {
   background-size: 100%;
   background-position: center center;
 }
+.icon.pinceau-1, .icon.pinceau-1::after {
+  mask-image: url("../../_icons/pinceau-1.svg");
+  -webkit-mask-image: url("../../_icons/pinceau-1.svg");
+}
+.is-style-couleurs-originales .icon.pinceau-1, .is-style-couleurs-originales .icon.pinceau-1::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/pinceau-1.svg");
+  background-size: 100%;
+  background-position: center center;
+}
 .icon.play-1, .icon.play-1::after {
   mask-image: url("../../_icons/play-1.svg");
   -webkit-mask-image: url("../../_icons/play-1.svg");
@@ -6010,25 +5801,14 @@ html, body {
   background-size: 100%;
   background-position: center center;
 }
-.icon.play-3, .icon.play-3::after {
-  mask-image: url("../../_icons/play-3.svg");
-  -webkit-mask-image: url("../../_icons/play-3.svg");
+.icon.play-2, .icon.play-2::after {
+  mask-image: url("../../_icons/play-2.svg");
+  -webkit-mask-image: url("../../_icons/play-2.svg");
 }
-.is-style-couleurs-originales .icon.play-3, .is-style-couleurs-originales .icon.play-3::after {
+.is-style-couleurs-originales .icon.play-2, .is-style-couleurs-originales .icon.play-2::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/play-3.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.plug-1, .icon.plug-1::after {
-  mask-image: url("../../_icons/plug-1.svg");
-  -webkit-mask-image: url("../../_icons/plug-1.svg");
-}
-.is-style-couleurs-originales .icon.plug-1, .is-style-couleurs-originales .icon.plug-1::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/plug-1.svg");
+  background-image: url("../../_icons/play-2.svg");
   background-size: 100%;
   background-position: center center;
 }
@@ -6043,80 +5823,157 @@ html, body {
   background-size: 100%;
   background-position: center center;
 }
-.icon.plus-16, .icon.plus-16::after {
-  mask-image: url("../../_icons/plus-16.svg");
-  -webkit-mask-image: url("../../_icons/plus-16.svg");
+.icon.plus-1, .icon.plus-1::after {
+  mask-image: url("../../_icons/plus-1.svg");
+  -webkit-mask-image: url("../../_icons/plus-1.svg");
 }
-.is-style-couleurs-originales .icon.plus-16, .is-style-couleurs-originales .icon.plus-16::after {
+.is-style-couleurs-originales .icon.plus-1, .is-style-couleurs-originales .icon.plus-1::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/plus-16.svg");
+  background-image: url("../../_icons/plus-1.svg");
   background-size: 100%;
   background-position: center center;
 }
-.icon.plus-circle-16, .icon.plus-circle-16::after {
-  mask-image: url("../../_icons/plus-circle-16.svg");
-  -webkit-mask-image: url("../../_icons/plus-circle-16.svg");
+.icon.plus-2, .icon.plus-2::after {
+  mask-image: url("../../_icons/plus-2.svg");
+  -webkit-mask-image: url("../../_icons/plus-2.svg");
 }
-.is-style-couleurs-originales .icon.plus-circle-16, .is-style-couleurs-originales .icon.plus-circle-16::after {
+.is-style-couleurs-originales .icon.plus-2, .is-style-couleurs-originales .icon.plus-2::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/plus-circle-16.svg");
+  background-image: url("../../_icons/plus-2.svg");
   background-size: 100%;
   background-position: center center;
 }
-.icon.point-1, .icon.point-1::after {
-  mask-image: url("../../_icons/point-1.svg");
-  -webkit-mask-image: url("../../_icons/point-1.svg");
+.icon.point-4, .icon.point-4::after {
+  mask-image: url("../../_icons/point-4.svg");
+  -webkit-mask-image: url("../../_icons/point-4.svg");
 }
-.is-style-couleurs-originales .icon.point-1, .is-style-couleurs-originales .icon.point-1::after {
+.is-style-couleurs-originales .icon.point-4, .is-style-couleurs-originales .icon.point-4::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/point-1.svg");
+  background-image: url("../../_icons/point-4.svg");
   background-size: 100%;
   background-position: center center;
 }
-.icon.point-3, .icon.point-3::after {
-  mask-image: url("../../_icons/point-3.svg");
-  -webkit-mask-image: url("../../_icons/point-3.svg");
+.icon.points-1, .icon.points-1::after {
+  mask-image: url("../../_icons/points-1.svg");
+  -webkit-mask-image: url("../../_icons/points-1.svg");
 }
-.is-style-couleurs-originales .icon.point-3, .is-style-couleurs-originales .icon.point-3::after {
+.is-style-couleurs-originales .icon.points-1, .is-style-couleurs-originales .icon.points-1::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/point-3.svg");
+  background-image: url("../../_icons/points-1.svg");
   background-size: 100%;
   background-position: center center;
 }
-.icon.point-5, .icon.point-5::after {
-  mask-image: url("../../_icons/point-5.svg");
-  -webkit-mask-image: url("../../_icons/point-5.svg");
+.icon.points-10, .icon.points-10::after {
+  mask-image: url("../../_icons/points-10.svg");
+  -webkit-mask-image: url("../../_icons/points-10.svg");
 }
-.is-style-couleurs-originales .icon.point-5, .is-style-couleurs-originales .icon.point-5::after {
+.is-style-couleurs-originales .icon.points-10, .is-style-couleurs-originales .icon.points-10::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/point-5.svg");
+  background-image: url("../../_icons/points-10.svg");
   background-size: 100%;
   background-position: center center;
 }
-.icon.point-7, .icon.point-7::after {
-  mask-image: url("../../_icons/point-7.svg");
-  -webkit-mask-image: url("../../_icons/point-7.svg");
+.icon.points-11, .icon.points-11::after {
+  mask-image: url("../../_icons/points-11.svg");
+  -webkit-mask-image: url("../../_icons/points-11.svg");
 }
-.is-style-couleurs-originales .icon.point-7, .is-style-couleurs-originales .icon.point-7::after {
+.is-style-couleurs-originales .icon.points-11, .is-style-couleurs-originales .icon.points-11::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/point-7.svg");
+  background-image: url("../../_icons/points-11.svg");
   background-size: 100%;
   background-position: center center;
 }
-.icon.point-9, .icon.point-9::after {
-  mask-image: url("../../_icons/point-9.svg");
-  -webkit-mask-image: url("../../_icons/point-9.svg");
+.icon.points-12, .icon.points-12::after {
+  mask-image: url("../../_icons/points-12.svg");
+  -webkit-mask-image: url("../../_icons/points-12.svg");
 }
-.is-style-couleurs-originales .icon.point-9, .is-style-couleurs-originales .icon.point-9::after {
+.is-style-couleurs-originales .icon.points-12, .is-style-couleurs-originales .icon.points-12::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/point-9.svg");
+  background-image: url("../../_icons/points-12.svg");
+  background-size: 100%;
+  background-position: center center;
+}
+.icon.points-2, .icon.points-2::after {
+  mask-image: url("../../_icons/points-2.svg");
+  -webkit-mask-image: url("../../_icons/points-2.svg");
+}
+.is-style-couleurs-originales .icon.points-2, .is-style-couleurs-originales .icon.points-2::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/points-2.svg");
+  background-size: 100%;
+  background-position: center center;
+}
+.icon.points-3, .icon.points-3::after {
+  mask-image: url("../../_icons/points-3.svg");
+  -webkit-mask-image: url("../../_icons/points-3.svg");
+}
+.is-style-couleurs-originales .icon.points-3, .is-style-couleurs-originales .icon.points-3::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/points-3.svg");
+  background-size: 100%;
+  background-position: center center;
+}
+.icon.points-5, .icon.points-5::after {
+  mask-image: url("../../_icons/points-5.svg");
+  -webkit-mask-image: url("../../_icons/points-5.svg");
+}
+.is-style-couleurs-originales .icon.points-5, .is-style-couleurs-originales .icon.points-5::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/points-5.svg");
+  background-size: 100%;
+  background-position: center center;
+}
+.icon.points-6, .icon.points-6::after {
+  mask-image: url("../../_icons/points-6.svg");
+  -webkit-mask-image: url("../../_icons/points-6.svg");
+}
+.is-style-couleurs-originales .icon.points-6, .is-style-couleurs-originales .icon.points-6::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/points-6.svg");
+  background-size: 100%;
+  background-position: center center;
+}
+.icon.points-7, .icon.points-7::after {
+  mask-image: url("../../_icons/points-7.svg");
+  -webkit-mask-image: url("../../_icons/points-7.svg");
+}
+.is-style-couleurs-originales .icon.points-7, .is-style-couleurs-originales .icon.points-7::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/points-7.svg");
+  background-size: 100%;
+  background-position: center center;
+}
+.icon.points-8, .icon.points-8::after {
+  mask-image: url("../../_icons/points-8.svg");
+  -webkit-mask-image: url("../../_icons/points-8.svg");
+}
+.is-style-couleurs-originales .icon.points-8, .is-style-couleurs-originales .icon.points-8::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/points-8.svg");
+  background-size: 100%;
+  background-position: center center;
+}
+.icon.points-9, .icon.points-9::after {
+  mask-image: url("../../_icons/points-9.svg");
+  -webkit-mask-image: url("../../_icons/points-9.svg");
+}
+.is-style-couleurs-originales .icon.points-9, .is-style-couleurs-originales .icon.points-9::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/points-9.svg");
   background-size: 100%;
   background-position: center center;
 }
@@ -6131,6 +5988,28 @@ html, body {
   background-size: 100%;
   background-position: center center;
 }
+.icon.poubelle-1, .icon.poubelle-1::after {
+  mask-image: url("../../_icons/poubelle-1.svg");
+  -webkit-mask-image: url("../../_icons/poubelle-1.svg");
+}
+.is-style-couleurs-originales .icon.poubelle-1, .is-style-couleurs-originales .icon.poubelle-1::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/poubelle-1.svg");
+  background-size: 100%;
+  background-position: center center;
+}
+.icon.poubelle-2, .icon.poubelle-2::after {
+  mask-image: url("../../_icons/poubelle-2.svg");
+  -webkit-mask-image: url("../../_icons/poubelle-2.svg");
+}
+.is-style-couleurs-originales .icon.poubelle-2, .is-style-couleurs-originales .icon.poubelle-2::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/poubelle-2.svg");
+  background-size: 100%;
+  background-position: center center;
+}
 .icon.pouce-1, .icon.pouce-1::after {
   mask-image: url("../../_icons/pouce-1.svg");
   -webkit-mask-image: url("../../_icons/pouce-1.svg");
@@ -6142,14 +6021,25 @@ html, body {
   background-size: 100%;
   background-position: center center;
 }
-.icon.pouce-3, .icon.pouce-3::after {
-  mask-image: url("../../_icons/pouce-3.svg");
-  -webkit-mask-image: url("../../_icons/pouce-3.svg");
+.icon.pouce-2, .icon.pouce-2::after {
+  mask-image: url("../../_icons/pouce-2.svg");
+  -webkit-mask-image: url("../../_icons/pouce-2.svg");
 }
-.is-style-couleurs-originales .icon.pouce-3, .is-style-couleurs-originales .icon.pouce-3::after {
+.is-style-couleurs-originales .icon.pouce-2, .is-style-couleurs-originales .icon.pouce-2::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/pouce-3.svg");
+  background-image: url("../../_icons/pouce-2.svg");
+  background-size: 100%;
+  background-position: center center;
+}
+.icon.prise-1, .icon.prise-1::after {
+  mask-image: url("../../_icons/prise-1.svg");
+  -webkit-mask-image: url("../../_icons/prise-1.svg");
+}
+.is-style-couleurs-originales .icon.prise-1, .is-style-couleurs-originales .icon.prise-1::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/prise-1.svg");
   background-size: 100%;
   background-position: center center;
 }
@@ -6175,14 +6065,47 @@ html, body {
   background-size: 100%;
   background-position: center center;
 }
-.icon.question-1, .icon.question-1::after {
-  mask-image: url("../../_icons/question-1.svg");
-  -webkit-mask-image: url("../../_icons/question-1.svg");
+.icon.recherche-1, .icon.recherche-1::after {
+  mask-image: url("../../_icons/recherche-1.svg");
+  -webkit-mask-image: url("../../_icons/recherche-1.svg");
 }
-.is-style-couleurs-originales .icon.question-1, .is-style-couleurs-originales .icon.question-1::after {
+.is-style-couleurs-originales .icon.recherche-1, .is-style-couleurs-originales .icon.recherche-1::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/question-1.svg");
+  background-image: url("../../_icons/recherche-1.svg");
+  background-size: 100%;
+  background-position: center center;
+}
+.icon.recherche-2, .icon.recherche-2::after {
+  mask-image: url("../../_icons/recherche-2.svg");
+  -webkit-mask-image: url("../../_icons/recherche-2.svg");
+}
+.is-style-couleurs-originales .icon.recherche-2, .is-style-couleurs-originales .icon.recherche-2::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/recherche-2.svg");
+  background-size: 100%;
+  background-position: center center;
+}
+.icon.recherche-4, .icon.recherche-4::after {
+  mask-image: url("../../_icons/recherche-4.svg");
+  -webkit-mask-image: url("../../_icons/recherche-4.svg");
+}
+.is-style-couleurs-originales .icon.recherche-4, .is-style-couleurs-originales .icon.recherche-4::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/recherche-4.svg");
+  background-size: 100%;
+  background-position: center center;
+}
+.icon.recherche-6, .icon.recherche-6::after {
+  mask-image: url("../../_icons/recherche-6.svg");
+  -webkit-mask-image: url("../../_icons/recherche-6.svg");
+}
+.is-style-couleurs-originales .icon.recherche-6, .is-style-couleurs-originales .icon.recherche-6::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/recherche-6.svg");
   background-size: 100%;
   background-position: center center;
 }
@@ -6197,14 +6120,14 @@ html, body {
   background-size: 100%;
   background-position: center center;
 }
-.icon.rocket-1, .icon.rocket-1::after {
-  mask-image: url("../../_icons/rocket-1.svg");
-  -webkit-mask-image: url("../../_icons/rocket-1.svg");
+.icon.robot-2, .icon.robot-2::after {
+  mask-image: url("../../_icons/robot-2.svg");
+  -webkit-mask-image: url("../../_icons/robot-2.svg");
 }
-.is-style-couleurs-originales .icon.rocket-1, .is-style-couleurs-originales .icon.rocket-1::after {
+.is-style-couleurs-originales .icon.robot-2, .is-style-couleurs-originales .icon.robot-2::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/rocket-1.svg");
+  background-image: url("../../_icons/robot-2.svg");
   background-size: 100%;
   background-position: center center;
 }
@@ -6219,300 +6142,69 @@ html, body {
   background-size: 100%;
   background-position: center center;
 }
-.icon.search-1, .icon.search-1::after {
-  mask-image: url("../../_icons/search-1.svg");
-  -webkit-mask-image: url("../../_icons/search-1.svg");
+.icon.serveur-1, .icon.serveur-1::after {
+  mask-image: url("../../_icons/serveur-1.svg");
+  -webkit-mask-image: url("../../_icons/serveur-1.svg");
 }
-.is-style-couleurs-originales .icon.search-1, .is-style-couleurs-originales .icon.search-1::after {
+.is-style-couleurs-originales .icon.serveur-1, .is-style-couleurs-originales .icon.serveur-1::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/search-1.svg");
+  background-image: url("../../_icons/serveur-1.svg");
   background-size: 100%;
   background-position: center center;
 }
-.icon.search-2, .icon.search-2::after {
-  mask-image: url("../../_icons/search-2.svg");
-  -webkit-mask-image: url("../../_icons/search-2.svg");
+.icon.serveur-2, .icon.serveur-2::after {
+  mask-image: url("../../_icons/serveur-2.svg");
+  -webkit-mask-image: url("../../_icons/serveur-2.svg");
 }
-.is-style-couleurs-originales .icon.search-2, .is-style-couleurs-originales .icon.search-2::after {
+.is-style-couleurs-originales .icon.serveur-2, .is-style-couleurs-originales .icon.serveur-2::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/search-2.svg");
+  background-image: url("../../_icons/serveur-2.svg");
   background-size: 100%;
   background-position: center center;
 }
-.icon.search-4, .icon.search-4::after {
-  mask-image: url("../../_icons/search-4.svg");
-  -webkit-mask-image: url("../../_icons/search-4.svg");
+.icon.soleil-1, .icon.soleil-1::after {
+  mask-image: url("../../_icons/soleil-1.svg");
+  -webkit-mask-image: url("../../_icons/soleil-1.svg");
 }
-.is-style-couleurs-originales .icon.search-4, .is-style-couleurs-originales .icon.search-4::after {
+.is-style-couleurs-originales .icon.soleil-1, .is-style-couleurs-originales .icon.soleil-1::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/search-4.svg");
+  background-image: url("../../_icons/soleil-1.svg");
   background-size: 100%;
   background-position: center center;
 }
-.icon.search-6, .icon.search-6::after {
-  mask-image: url("../../_icons/search-6.svg");
-  -webkit-mask-image: url("../../_icons/search-6.svg");
+.icon.son-1, .icon.son-1::after {
+  mask-image: url("../../_icons/son-1.svg");
+  -webkit-mask-image: url("../../_icons/son-1.svg");
 }
-.is-style-couleurs-originales .icon.search-6, .is-style-couleurs-originales .icon.search-6::after {
+.is-style-couleurs-originales .icon.son-1, .is-style-couleurs-originales .icon.son-1::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/search-6.svg");
+  background-image: url("../../_icons/son-1.svg");
   background-size: 100%;
   background-position: center center;
 }
-.icon.server-3, .icon.server-3::after {
-  mask-image: url("../../_icons/server-3.svg");
-  -webkit-mask-image: url("../../_icons/server-3.svg");
+.icon.son-2, .icon.son-2::after {
+  mask-image: url("../../_icons/son-2.svg");
+  -webkit-mask-image: url("../../_icons/son-2.svg");
 }
-.is-style-couleurs-originales .icon.server-3, .is-style-couleurs-originales .icon.server-3::after {
+.is-style-couleurs-originales .icon.son-2, .is-style-couleurs-originales .icon.son-2::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/server-3.svg");
+  background-image: url("../../_icons/son-2.svg");
   background-size: 100%;
   background-position: center center;
 }
-.icon.server-4, .icon.server-4::after {
-  mask-image: url("../../_icons/server-4.svg");
-  -webkit-mask-image: url("../../_icons/server-4.svg");
+.icon.stylo-1, .icon.stylo-1::after {
+  mask-image: url("../../_icons/stylo-1.svg");
+  -webkit-mask-image: url("../../_icons/stylo-1.svg");
 }
-.is-style-couleurs-originales .icon.server-4, .is-style-couleurs-originales .icon.server-4::after {
+.is-style-couleurs-originales .icon.stylo-1, .is-style-couleurs-originales .icon.stylo-1::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/server-4.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.shield-1, .icon.shield-1::after {
-  mask-image: url("../../_icons/shield-1.svg");
-  -webkit-mask-image: url("../../_icons/shield-1.svg");
-}
-.is-style-couleurs-originales .icon.shield-1, .is-style-couleurs-originales .icon.shield-1::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/shield-1.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.shield-3, .icon.shield-3::after {
-  mask-image: url("../../_icons/shield-3.svg");
-  -webkit-mask-image: url("../../_icons/shield-3.svg");
-}
-.is-style-couleurs-originales .icon.shield-3, .is-style-couleurs-originales .icon.shield-3::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/shield-3.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.shield-5, .icon.shield-5::after {
-  mask-image: url("../../_icons/shield-5.svg");
-  -webkit-mask-image: url("../../_icons/shield-5.svg");
-}
-.is-style-couleurs-originales .icon.shield-5, .is-style-couleurs-originales .icon.shield-5::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/shield-5.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.shield-7, .icon.shield-7::after {
-  mask-image: url("../../_icons/shield-7.svg");
-  -webkit-mask-image: url("../../_icons/shield-7.svg");
-}
-.is-style-couleurs-originales .icon.shield-7, .is-style-couleurs-originales .icon.shield-7::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/shield-7.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.shield-9, .icon.shield-9::after {
-  mask-image: url("../../_icons/shield-9.svg");
-  -webkit-mask-image: url("../../_icons/shield-9.svg");
-}
-.is-style-couleurs-originales .icon.shield-9, .is-style-couleurs-originales .icon.shield-9::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/shield-9.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.smile-1, .icon.smile-1::after {
-  mask-image: url("../../_icons/smile-1.svg");
-  -webkit-mask-image: url("../../_icons/smile-1.svg");
-}
-.is-style-couleurs-originales .icon.smile-1, .is-style-couleurs-originales .icon.smile-1::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/smile-1.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.square-1, .icon.square-1::after {
-  mask-image: url("../../_icons/square-1.svg");
-  -webkit-mask-image: url("../../_icons/square-1.svg");
-}
-.is-style-couleurs-originales .icon.square-1, .is-style-couleurs-originales .icon.square-1::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/square-1.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.square-4, .icon.square-4::after {
-  mask-image: url("../../_icons/square-4.svg");
-  -webkit-mask-image: url("../../_icons/square-4.svg");
-}
-.is-style-couleurs-originales .icon.square-4, .is-style-couleurs-originales .icon.square-4::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/square-4.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.square-5, .icon.square-5::after {
-  mask-image: url("../../_icons/square-5.svg");
-  -webkit-mask-image: url("../../_icons/square-5.svg");
-}
-.is-style-couleurs-originales .icon.square-5, .is-style-couleurs-originales .icon.square-5::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/square-5.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.square-7, .icon.square-7::after {
-  mask-image: url("../../_icons/square-7.svg");
-  -webkit-mask-image: url("../../_icons/square-7.svg");
-}
-.is-style-couleurs-originales .icon.square-7, .is-style-couleurs-originales .icon.square-7::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/square-7.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.square-9, .icon.square-9::after {
-  mask-image: url("../../_icons/square-9.svg");
-  -webkit-mask-image: url("../../_icons/square-9.svg");
-}
-.is-style-couleurs-originales .icon.square-9, .is-style-couleurs-originales .icon.square-9::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/square-9.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.squirrel-1, .icon.squirrel-1::after {
-  mask-image: url("../../_icons/squirrel-1.svg");
-  -webkit-mask-image: url("../../_icons/squirrel-1.svg");
-}
-.is-style-couleurs-originales .icon.squirrel-1, .is-style-couleurs-originales .icon.squirrel-1::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/squirrel-1.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.stack-1, .icon.stack-1::after {
-  mask-image: url("../../_icons/stack-1.svg");
-  -webkit-mask-image: url("../../_icons/stack-1.svg");
-}
-.is-style-couleurs-originales .icon.stack-1, .is-style-couleurs-originales .icon.stack-1::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/stack-1.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.stack-3, .icon.stack-3::after {
-  mask-image: url("../../_icons/stack-3.svg");
-  -webkit-mask-image: url("../../_icons/stack-3.svg");
-}
-.is-style-couleurs-originales .icon.stack-3, .is-style-couleurs-originales .icon.stack-3::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/stack-3.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.star-1, .icon.star-1::after {
-  mask-image: url("../../_icons/star-1.svg");
-  -webkit-mask-image: url("../../_icons/star-1.svg");
-}
-.is-style-couleurs-originales .icon.star-1, .is-style-couleurs-originales .icon.star-1::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/star-1.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.star-3, .icon.star-3::after {
-  mask-image: url("../../_icons/star-3.svg");
-  -webkit-mask-image: url("../../_icons/star-3.svg");
-}
-.is-style-couleurs-originales .icon.star-3, .is-style-couleurs-originales .icon.star-3::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/star-3.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.star-4, .icon.star-4::after {
-  mask-image: url("../../_icons/star-4.svg");
-  -webkit-mask-image: url("../../_icons/star-4.svg");
-}
-.is-style-couleurs-originales .icon.star-4, .is-style-couleurs-originales .icon.star-4::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/star-4.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.star-5, .icon.star-5::after {
-  mask-image: url("../../_icons/star-5.svg");
-  -webkit-mask-image: url("../../_icons/star-5.svg");
-}
-.is-style-couleurs-originales .icon.star-5, .is-style-couleurs-originales .icon.star-5::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/star-5.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.stop-16, .icon.stop-16::after {
-  mask-image: url("../../_icons/stop-16.svg");
-  -webkit-mask-image: url("../../_icons/stop-16.svg");
-}
-.is-style-couleurs-originales .icon.stop-16, .is-style-couleurs-originales .icon.stop-16::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/stop-16.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.strikethrough-16, .icon.strikethrough-16::after {
-  mask-image: url("../../_icons/strikethrough-16.svg");
-  -webkit-mask-image: url("../../_icons/strikethrough-16.svg");
-}
-.is-style-couleurs-originales .icon.strikethrough-16, .is-style-couleurs-originales .icon.strikethrough-16::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/strikethrough-16.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.sun-1, .icon.sun-1::after {
-  mask-image: url("../../_icons/sun-1.svg");
-  -webkit-mask-image: url("../../_icons/sun-1.svg");
-}
-.is-style-couleurs-originales .icon.sun-1, .is-style-couleurs-originales .icon.sun-1::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/sun-1.svg");
+  background-image: url("../../_icons/stylo-1.svg");
   background-size: 100%;
   background-position: center center;
 }
@@ -6538,28 +6230,6 @@ html, body {
   background-size: 100%;
   background-position: center center;
 }
-.icon.tag-1, .icon.tag-1::after {
-  mask-image: url("../../_icons/tag-1.svg");
-  -webkit-mask-image: url("../../_icons/tag-1.svg");
-}
-.is-style-couleurs-originales .icon.tag-1, .is-style-couleurs-originales .icon.tag-1::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/tag-1.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.target-1, .icon.target-1::after {
-  mask-image: url("../../_icons/target-1.svg");
-  -webkit-mask-image: url("../../_icons/target-1.svg");
-}
-.is-style-couleurs-originales .icon.target-1, .is-style-couleurs-originales .icon.target-1::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/target-1.svg");
-  background-size: 100%;
-  background-position: center center;
-}
 .icon.tel-1, .icon.tel-1::after {
   mask-image: url("../../_icons/tel-1.svg");
   -webkit-mask-image: url("../../_icons/tel-1.svg");
@@ -6582,6 +6252,17 @@ html, body {
   background-size: 100%;
   background-position: center center;
 }
+.icon.telescop-2, .icon.telescop-2::after {
+  mask-image: url("../../_icons/telescop-2.svg");
+  -webkit-mask-image: url("../../_icons/telescop-2.svg");
+}
+.is-style-couleurs-originales .icon.telescop-2, .is-style-couleurs-originales .icon.telescop-2::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/telescop-2.svg");
+  background-size: 100%;
+  background-position: center center;
+}
 .icon.telescop-3, .icon.telescop-3::after {
   mask-image: url("../../_icons/telescop-3.svg");
   -webkit-mask-image: url("../../_icons/telescop-3.svg");
@@ -6590,17 +6271,6 @@ html, body {
   mask-image: none;
   -webkit-mask-image: none;
   background-image: url("../../_icons/telescop-3.svg");
-  background-size: 100%;
-  background-position: center center;
-}
-.icon.telescop-4, .icon.telescop-4::after {
-  mask-image: url("../../_icons/telescop-4.svg");
-  -webkit-mask-image: url("../../_icons/telescop-4.svg");
-}
-.is-style-couleurs-originales .icon.telescop-4, .is-style-couleurs-originales .icon.telescop-4::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/telescop-4.svg");
   background-size: 100%;
   background-position: center center;
 }
@@ -6626,6 +6296,17 @@ html, body {
   background-size: 100%;
   background-position: center center;
 }
+.icon.trait-2, .icon.trait-2::after {
+  mask-image: url("../../_icons/trait-2.svg");
+  -webkit-mask-image: url("../../_icons/trait-2.svg");
+}
+.is-style-couleurs-originales .icon.trait-2, .is-style-couleurs-originales .icon.trait-2::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/trait-2.svg");
+  background-size: 100%;
+  background-position: center center;
+}
 .icon.trait-3, .icon.trait-3::after {
   mask-image: url("../../_icons/trait-3.svg");
   -webkit-mask-image: url("../../_icons/trait-3.svg");
@@ -6637,47 +6318,124 @@ html, body {
   background-size: 100%;
   background-position: center center;
 }
-.icon.trait-5, .icon.trait-5::after {
-  mask-image: url("../../_icons/trait-5.svg");
-  -webkit-mask-image: url("../../_icons/trait-5.svg");
+.icon.trait-4, .icon.trait-4::after {
+  mask-image: url("../../_icons/trait-4.svg");
+  -webkit-mask-image: url("../../_icons/trait-4.svg");
 }
-.is-style-couleurs-originales .icon.trait-5, .is-style-couleurs-originales .icon.trait-5::after {
+.is-style-couleurs-originales .icon.trait-4, .is-style-couleurs-originales .icon.trait-4::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/trait-5.svg");
+  background-image: url("../../_icons/trait-4.svg");
   background-size: 100%;
   background-position: center center;
 }
-.icon.trait-7, .icon.trait-7::after {
-  mask-image: url("../../_icons/trait-7.svg");
-  -webkit-mask-image: url("../../_icons/trait-7.svg");
+.icon.valid-1, .icon.valid-1::after {
+  mask-image: url("../../_icons/valid-1.svg");
+  -webkit-mask-image: url("../../_icons/valid-1.svg");
 }
-.is-style-couleurs-originales .icon.trait-7, .is-style-couleurs-originales .icon.trait-7::after {
+.is-style-couleurs-originales .icon.valid-1, .is-style-couleurs-originales .icon.valid-1::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/trait-7.svg");
+  background-image: url("../../_icons/valid-1.svg");
   background-size: 100%;
   background-position: center center;
 }
-.icon.trash-1, .icon.trash-1::after {
-  mask-image: url("../../_icons/trash-1.svg");
-  -webkit-mask-image: url("../../_icons/trash-1.svg");
+.icon.valid-2, .icon.valid-2::after {
+  mask-image: url("../../_icons/valid-2.svg");
+  -webkit-mask-image: url("../../_icons/valid-2.svg");
 }
-.is-style-couleurs-originales .icon.trash-1, .is-style-couleurs-originales .icon.trash-1::after {
+.is-style-couleurs-originales .icon.valid-2, .is-style-couleurs-originales .icon.valid-2::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/trash-1.svg");
+  background-image: url("../../_icons/valid-2.svg");
   background-size: 100%;
   background-position: center center;
 }
-.icon.trash-2, .icon.trash-2::after {
-  mask-image: url("../../_icons/trash-2.svg");
-  -webkit-mask-image: url("../../_icons/trash-2.svg");
+.icon.valid-3, .icon.valid-3::after {
+  mask-image: url("../../_icons/valid-3.svg");
+  -webkit-mask-image: url("../../_icons/valid-3.svg");
 }
-.is-style-couleurs-originales .icon.trash-2, .is-style-couleurs-originales .icon.trash-2::after {
+.is-style-couleurs-originales .icon.valid-3, .is-style-couleurs-originales .icon.valid-3::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/trash-2.svg");
+  background-image: url("../../_icons/valid-3.svg");
+  background-size: 100%;
+  background-position: center center;
+}
+.icon.valid-4, .icon.valid-4::after {
+  mask-image: url("../../_icons/valid-4.svg");
+  -webkit-mask-image: url("../../_icons/valid-4.svg");
+}
+.is-style-couleurs-originales .icon.valid-4, .is-style-couleurs-originales .icon.valid-4::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/valid-4.svg");
+  background-size: 100%;
+  background-position: center center;
+}
+.icon.valid-5, .icon.valid-5::after {
+  mask-image: url("../../_icons/valid-5.svg");
+  -webkit-mask-image: url("../../_icons/valid-5.svg");
+}
+.is-style-couleurs-originales .icon.valid-5, .is-style-couleurs-originales .icon.valid-5::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/valid-5.svg");
+  background-size: 100%;
+  background-position: center center;
+}
+.icon.valid-6, .icon.valid-6::after {
+  mask-image: url("../../_icons/valid-6.svg");
+  -webkit-mask-image: url("../../_icons/valid-6.svg");
+}
+.is-style-couleurs-originales .icon.valid-6, .is-style-couleurs-originales .icon.valid-6::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/valid-6.svg");
+  background-size: 100%;
+  background-position: center center;
+}
+.icon.valid-7, .icon.valid-7::after {
+  mask-image: url("../../_icons/valid-7.svg");
+  -webkit-mask-image: url("../../_icons/valid-7.svg");
+}
+.is-style-couleurs-originales .icon.valid-7, .is-style-couleurs-originales .icon.valid-7::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/valid-7.svg");
+  background-size: 100%;
+  background-position: center center;
+}
+.icon.valid-8, .icon.valid-8::after {
+  mask-image: url("../../_icons/valid-8.svg");
+  -webkit-mask-image: url("../../_icons/valid-8.svg");
+}
+.is-style-couleurs-originales .icon.valid-8, .is-style-couleurs-originales .icon.valid-8::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/valid-8.svg");
+  background-size: 100%;
+  background-position: center center;
+}
+.icon.valid-9, .icon.valid-9::after {
+  mask-image: url("../../_icons/valid-9.svg");
+  -webkit-mask-image: url("../../_icons/valid-9.svg");
+}
+.is-style-couleurs-originales .icon.valid-9, .is-style-couleurs-originales .icon.valid-9::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/valid-9.svg");
+  background-size: 100%;
+  background-position: center center;
+}
+.icon.valided, .icon.valided::after {
+  mask-image: url("../../_icons/valided.svg");
+  -webkit-mask-image: url("../../_icons/valided.svg");
+}
+.is-style-couleurs-originales .icon.valided, .is-style-couleurs-originales .icon.valided::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/valided.svg");
   background-size: 100%;
   background-position: center center;
 }
@@ -6689,6 +6447,17 @@ html, body {
   mask-image: none;
   -webkit-mask-image: none;
   background-image: url("../../_icons/vcard.svg");
+  background-size: 100%;
+  background-position: center center;
+}
+.icon.visage-1, .icon.visage-1::after {
+  mask-image: url("../../_icons/visage-1.svg");
+  -webkit-mask-image: url("../../_icons/visage-1.svg");
+}
+.is-style-couleurs-originales .icon.visage-1, .is-style-couleurs-originales .icon.visage-1::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/visage-1.svg");
   background-size: 100%;
   background-position: center center;
 }
@@ -6714,14 +6483,14 @@ html, body {
   background-size: 100%;
   background-position: center center;
 }
-.icon.wifi-3, .icon.wifi-3::after {
-  mask-image: url("../../_icons/wifi-3.svg");
-  -webkit-mask-image: url("../../_icons/wifi-3.svg");
+.icon.wifi-2, .icon.wifi-2::after {
+  mask-image: url("../../_icons/wifi-2.svg");
+  -webkit-mask-image: url("../../_icons/wifi-2.svg");
 }
-.is-style-couleurs-originales .icon.wifi-3, .is-style-couleurs-originales .icon.wifi-3::after {
+.is-style-couleurs-originales .icon.wifi-2, .is-style-couleurs-originales .icon.wifi-2::after {
   mask-image: none;
   -webkit-mask-image: none;
-  background-image: url("../../_icons/wifi-3.svg");
+  background-image: url("../../_icons/wifi-2.svg");
   background-size: 100%;
   background-position: center center;
 }
