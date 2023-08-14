@@ -39,6 +39,12 @@ a {
 p {
   margin-top: 1rem;
   margin-bottom: 1rem;
+
+  em {
+    font-style: italic;
+    font-size: inherit;
+    color: inherit;
+  }
 }
 
 h1 {
