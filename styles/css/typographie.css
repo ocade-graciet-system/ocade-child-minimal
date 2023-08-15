@@ -1,0 +1,203 @@
+@charset "UTF-8";
+/* CLEMUX DESIGN SYSTEM */
+/* TYPOGRAPHY
+Utilisation de la mixin :
+exemple d'utilisation simple :
+  @include typo("title-xxl");
+avec un breakpoint : (les règles associées à title-xxl-sm sont déclarées pour une taille d'écran > $bp-sm)
+  @include typo("title-xxl-sm", "sm");
+avec un override simple : (la propriété déclarée en override est omise)
+  @include typo("title-xxl", 0, "font-family");
+avec un override composé (toutes les propriétés listées sont omises) :
+  @include typo("title-xxl", 0, "font-family" "font-size"); // les propriétés à omettre sont séparées par une espace
+*/
+/** Générer des classes border-primary-200 ou encore border-ternary-500 */
+/** Génère des classes border-radius */
+:root {
+  --fond-du-site: #fff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  background-color: var(--fond-du-site);
+}
+
+/** 8px */
+/** 16px */
+/** 24px */
+/** 32px */
+/** 40px */
+/** 48px */
+/** 56px */
+/** 64px */
+/** 72px */
+/** 80px */
+/*
+ * TYPO
+ */
+/** CLEMUX DESIGN SYSTEM */
+/* Breakpoints */
+/* Colors
+* Les couleurs --wp-preset--color--* sont définies dans le fichier functions.php. On peut les faire variées directement dans Thèmes -> Personnaliser -> Couleurs
+* Ici on associe ces valeurs présent dans le BO à des variables plus parlantes
+*/
+/** Black */
+/** White */
+/** Primary */
+/** Secondary */
+/** Tertiary */
+/** Supports */
+* {
+  font-family: "Wix Madefor Display";
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 150%;
+  letter-spacing: 0.04rem;
+  caret-color: var(--wp--preset--color--primary-700);
+  accent-color: var(--wp--preset--color--primary-700);
+  color: var(--wp--preset--color--black);
+}
+
+::selection {
+  background-color: var(--wp--preset--color--primary-700);
+  color: var(--wp--preset--color--white);
+}
+
+html {
+  scroll-padding-top: 125px;
+} /* décalage du scroll de 50px */
+a {
+  display: inline-flex;
+  align-items: center;
+  padding: 0 0.3rem;
+  color: var(--wp--preset--color--primary-700);
+  text-decoration: underline;
+}
+@media (max-width: 992px) {
+  a {
+    min-height: 3rem; /** Height mobile friendly */
+    padding: 0 1rem;
+  }
+}
+a:hover {
+  color: var(--wp--preset--color--primary-600);
+}
+a.wp-block-mailto::before {
+  background-color: var(--wp--preset--color--primary-700);
+}
+
+p {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+p em {
+  font-style: italic;
+  font-size: inherit;
+  color: inherit;
+}
+
+h1 {
+  margin-bottom: 2rem;
+}
+h1:not(.tab-title),
+h1:not(.tab-title) a {
+  font-family: "Wix Madefor Display";
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 150%;
+  letter-spacing: 0.04rem;
+}
+
+h2 {
+  margin-bottom: 1.5rem;
+}
+h2:not(.tab-title),
+h2:not(.tab-title) a {
+  font-family: "Wix Madefor Display";
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 150%;
+  letter-spacing: 0.04rem;
+}
+@media (min-width: 576px) {
+  h2:not(.tab-title),
+  h2:not(.tab-title) a {
+    font-family: "Wix Madefor Display";
+  }
+}
+@media (min-width: 576px) {
+  h2:not(.tab-title),
+  h2:not(.tab-title) a {
+    font-weight: 700;
+  }
+}
+@media (min-width: 576px) {
+  h2:not(.tab-title),
+  h2:not(.tab-title) a {
+    font-size: 1.875rem;
+  }
+}
+@media (min-width: 576px) {
+  h2:not(.tab-title),
+  h2:not(.tab-title) a {
+    line-height: 150%;
+  }
+}
+@media (min-width: 576px) {
+  h2:not(.tab-title),
+  h2:not(.tab-title) a {
+    letter-spacing: 0.0375rem;
+  }
+}
+h3 {
+  margin-bottom: 1rem;
+}
+h3:not(.tab-title),
+h3:not(.tab-title) a {
+  font-family: "Wix Madefor Display";
+  font-weight: 700;
+  font-size: 1.675rem;
+  line-height: 150%;
+  letter-spacing: 0.01675rem;
+}
+
+h4 {
+  margin-bottom: 0.5rem;
+}
+h4:not(.tab-title),
+h4:not(.tab-title) a {
+  font-family: "Wix Madefor Display";
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 150%;
+  letter-spacing: 0.015rem;
+}
+
+h5 {
+  margin-bottom: 0.5rem;
+}
+h5:not(.tab-title),
+h5:not(.tab-title) a {
+  font-family: "Wix Madefor Display";
+  font-weight: 700;
+  font-size: 1.375rem;
+  line-height: 150%;
+  letter-spacing: 0.01375rem;
+}
+
+h6 {
+  margin-bottom: 0.5rem;
+}
+h6:not(.tab-title),
+h6:not(.tab-title) a {
+  font-family: "Wix Madefor Display";
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 150%;
+  letter-spacing: 0.0125rem;
+}
+
+/*# sourceMappingURL=typographie.css.map */

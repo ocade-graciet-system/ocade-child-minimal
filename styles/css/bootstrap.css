@@ -1,0 +1,112 @@
+@charset "UTF-8";
+/* CLEMUX DESIGN SYSTEM */
+/* TYPOGRAPHY
+Utilisation de la mixin :
+exemple d'utilisation simple :
+  @include typo("title-xxl");
+avec un breakpoint : (les règles associées à title-xxl-sm sont déclarées pour une taille d'écran > $bp-sm)
+  @include typo("title-xxl-sm", "sm");
+avec un override simple : (la propriété déclarée en override est omise)
+  @include typo("title-xxl", 0, "font-family");
+avec un override composé (toutes les propriétés listées sont omises) :
+  @include typo("title-xxl", 0, "font-family" "font-size"); // les propriétés à omettre sont séparées par une espace
+*/
+/** Générer des classes border-primary-200 ou encore border-ternary-500 */
+/** Génère des classes border-radius */
+:root {
+  --fond-du-site: #fff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  background-color: var(--fond-du-site);
+}
+
+/** 8px */
+/** 16px */
+/** 24px */
+/** 32px */
+/** 40px */
+/** 48px */
+/** 56px */
+/** 64px */
+/** 72px */
+/** 80px */
+/*
+ * TYPO
+ */
+/** CLEMUX DESIGN SYSTEM */
+/* Breakpoints */
+/* Colors
+* Les couleurs --wp-preset--color--* sont définies dans le fichier functions.php. On peut les faire variées directement dans Thèmes -> Personnaliser -> Couleurs
+* Ici on associe ces valeurs présent dans le BO à des variables plus parlantes
+*/
+/** Black */
+/** White */
+/** Primary */
+/** Secondary */
+/** Tertiary */
+/** Supports */
+/** BORDER */
+/** Génération de border radius */
+.border-radius-0 {
+  border-radius: 0px !important;
+}
+
+.border-radius-1 {
+  border-radius: 1px !important;
+}
+
+.border-radius-2 {
+  border-radius: 2px !important;
+}
+
+.border-radius-3 {
+  border-radius: 3px !important;
+}
+
+.border-radius-4 {
+  border-radius: 4px !important;
+}
+
+.border-radius-5 {
+  border-radius: 5px !important;
+}
+
+.border-radius-6 {
+  border-radius: 6px !important;
+}
+
+.border-radius-7 {
+  border-radius: 7px !important;
+}
+
+.border-radius-8 {
+  border-radius: 8px !important;
+}
+
+.border-radius-9 {
+  border-radius: 9px !important;
+}
+
+.border-radius-10 {
+  border-radius: 10px !important;
+}
+
+/** Génère les classes .border-primary-700, .border-secondary-500,= ou encore .border-ternary-200 */
+.border-primary-700 {
+  border: 1px solid var(--wp--preset--color--primary-700) !important;
+}
+
+.border-secondary-700 {
+  border: 1px solid var(--wp--preset--color--secondary-700) !important;
+}
+
+.border-ternary-700 {
+  border: 1px solid var(--wp--preset--color--ternary-700) !important;
+}
+
+/*# sourceMappingURL=bootstrap.css.map */
