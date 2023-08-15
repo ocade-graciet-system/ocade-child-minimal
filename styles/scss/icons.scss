@@ -1169,6 +1169,10 @@
     @include icon("tel-1");
   }
   
+  &.tel, &.tel::after {
+    @include icon("tel");
+  }
+  
   &.telescop-1, &.telescop-1::after {
     @include icon("telescop-1");
   }

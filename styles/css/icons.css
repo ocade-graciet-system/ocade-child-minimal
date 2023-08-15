@@ -3274,6 +3274,17 @@ html, body {
   background-size: 100%;
   background-position: center center;
 }
+.icon.tel, .icon.tel::after {
+  mask-image: url("../../_icons/tel.svg");
+  -webkit-mask-image: url("../../_icons/tel.svg");
+}
+.is-style-couleurs-originales .icon.tel, .is-style-couleurs-originales .icon.tel::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/tel.svg");
+  background-size: 100%;
+  background-position: center center;
+}
 .icon.telescop-1, .icon.telescop-1::after {
   mask-image: url("../../_icons/telescop-1.svg");
   -webkit-mask-image: url("../../_icons/telescop-1.svg");

@@ -38,4 +38,40 @@
     margin-top: $espacement-10;
     margin-bottom: $espacement-10;
   }
+
+
+
+
+
+
+
+  &.is-style-padding-top-bottom-0 { 
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  &.is-style-padding-top-bottom-1 { 
+    padding-top: $espacement-2;
+    padding-bottom: $espacement-2;
+  }
+
+  &.is-style-padding-top-bottom-2 { 
+    padding-top: $espacement-4;
+    padding-bottom: $espacement-4;
+  }
+
+  &.is-style-padding-top-bottom-3 { 
+    padding-top: $espacement-6;
+    padding-bottom: $espacement-6;
+  }
+
+  &.is-style-padding-top-bottom-4 { 
+    padding-top: $espacement-8;
+    padding-bottom: $espacement-8;
+  }
+
+  &.is-style-padding-top-bottom-5 { 
+    padding-top: $espacement-10;
+    padding-bottom: $espacement-10;
+  }
 }
