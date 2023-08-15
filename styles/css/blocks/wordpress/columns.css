@@ -1,0 +1,118 @@
+@charset "UTF-8";
+/* CLEMUX DESIGN SYSTEM */
+/* TYPOGRAPHY
+Utilisation de la mixin :
+exemple d'utilisation simple :
+  @include typo("title-xxl");
+avec un breakpoint : (les règles associées à title-xxl-sm sont déclarées pour une taille d'écran > $bp-sm)
+  @include typo("title-xxl-sm", "sm");
+avec un override simple : (la propriété déclarée en override est omise)
+  @include typo("title-xxl", 0, "font-family");
+avec un override composé (toutes les propriétés listées sont omises) :
+  @include typo("title-xxl", 0, "font-family" "font-size"); // les propriétés à omettre sont séparées par une espace
+*/
+/** Générer des classes border-primary-200 ou encore border-ternary-500 */
+/** Génère des classes border-radius */
+:root {
+  --fond-du-site: #fff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  background-color: var(--fond-du-site);
+}
+
+/** 8px */
+/** 16px */
+/** 24px */
+/** 32px */
+/** 40px */
+/** 48px */
+/** 56px */
+/** 64px */
+/** 72px */
+/** 80px */
+/*
+ * TYPO
+ */
+/** CLEMUX DESIGN SYSTEM */
+/* Breakpoints */
+/* Colors
+* Les couleurs --wp-preset--color--* sont définies dans le fichier functions.php. On peut les faire variées directement dans Thèmes -> Personnaliser -> Couleurs
+* Ici on associe ces valeurs présent dans le BO à des variables plus parlantes
+*/
+/** Black */
+/** White */
+/** Primary */
+/** Secondary */
+/** Tertiary */
+/** Supports */
+.wp-block-columns {
+  margin-bottom: 0;
+  /** Card Price comparatif */
+}
+.wp-block-columns.is-style-espacement-0 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.wp-block-columns.is-style-espacement-1 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.wp-block-columns.is-style-espacement-2 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.wp-block-columns.is-style-espacement-3 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.wp-block-columns.is-style-espacement-4 {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+.wp-block-columns.is-style-espacement-5 {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.wp-block-columns.is-style-card-price {
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap !important;
+}
+.wp-block-columns.is-style-card-price > .wp-block-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-width: 300px;
+  max-width: 400px;
+  padding: 2rem;
+  background-color: #f9f6f6;
+  border: 1px solid var(--wp--preset--color--black);
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 1px 3px 0, rgba(0, 0, 0, 0.06) 0 1px 2px 0;
+}
+.wp-block-columns.is-style-card-price > .wp-block-column h1, .wp-block-columns.is-style-card-price > .wp-block-column h2, .wp-block-columns.is-style-card-price > .wp-block-column h3, .wp-block-columns.is-style-card-price > .wp-block-column h4, .wp-block-columns.is-style-card-price > .wp-block-column h5, .wp-block-columns.is-style-card-price > .wp-block-column h6 {
+  margin: 1rem 0;
+  border-bottom: 1px solid var(--wp--preset--color--black);
+}
+.wp-block-columns.is-style-card-price > .wp-block-column h1 + p strong, .wp-block-columns.is-style-card-price > .wp-block-column h2 + p strong, .wp-block-columns.is-style-card-price > .wp-block-column h3 + p strong, .wp-block-columns.is-style-card-price > .wp-block-column h4 + p strong, .wp-block-columns.is-style-card-price > .wp-block-column h5 + p strong, .wp-block-columns.is-style-card-price > .wp-block-column h6 + p strong {
+  font-size: 2rem;
+}
+.wp-block-columns.is-style-card-price > .wp-block-column ul {
+  width: 100%;
+}
+.wp-block-columns.is-style-card-price > .wp-block-column a {
+  border-radius: 4px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  opacity: 0.95;
+}
+.wp-block-columns.is-style-card-price > .wp-block-column a:hover {
+  opacity: 1;
+}
+
+/*# sourceMappingURL=columns.css.map */

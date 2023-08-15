@@ -1,0 +1,108 @@
+@charset "UTF-8";
+/* CLEMUX DESIGN SYSTEM */
+/* TYPOGRAPHY
+Utilisation de la mixin :
+exemple d'utilisation simple :
+  @include typo("title-xxl");
+avec un breakpoint : (les règles associées à title-xxl-sm sont déclarées pour une taille d'écran > $bp-sm)
+  @include typo("title-xxl-sm", "sm");
+avec un override simple : (la propriété déclarée en override est omise)
+  @include typo("title-xxl", 0, "font-family");
+avec un override composé (toutes les propriétés listées sont omises) :
+  @include typo("title-xxl", 0, "font-family" "font-size"); // les propriétés à omettre sont séparées par une espace
+*/
+/** Générer des classes border-primary-200 ou encore border-ternary-500 */
+/** Génère des classes border-radius */
+:root {
+  --fond-du-site: #fff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  background-color: var(--fond-du-site);
+}
+
+/** 8px */
+/** 16px */
+/** 24px */
+/** 32px */
+/** 40px */
+/** 48px */
+/** 56px */
+/** 64px */
+/** 72px */
+/** 80px */
+/*
+ * TYPO
+ */
+/** CLEMUX DESIGN SYSTEM */
+/* Breakpoints */
+/* Colors
+* Les couleurs --wp-preset--color--* sont définies dans le fichier functions.php. On peut les faire variées directement dans Thèmes -> Personnaliser -> Couleurs
+* Ici on associe ces valeurs présent dans le BO à des variables plus parlantes
+*/
+/** Black */
+/** White */
+/** Primary */
+/** Secondary */
+/** Tertiary */
+/** Supports */
+.wp-block-buttons {
+  column-gap: 10px;
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+}
+.wp-block-buttons .wp-block-button {
+  /** Border transparent + background jaune + ecriture violette */
+  /** "Contour" Border jaune + background transparent */
+  /** Spécification Contour 2 */
+  /** Border transparent + background violet + ecriture gris/blanc */
+}
+.wp-block-buttons .wp-block-button .wp-element-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 32px;
+  color: var(--wp--preset--color--primary-500);
+  background-color: var(--wp--preset--color--secondary-700);
+  box-shadow: 0px 2px 14px rgba(0, 0, 0, 0.16);
+  border-radius: 100px;
+  border: 1px solid transparent;
+  font-weight: 600;
+  opacity: 0.85;
+}
+.wp-block-buttons .wp-block-button .wp-element-button::after {
+  margin-right: 0 !important;
+}
+.wp-block-buttons .wp-block-button .wp-element-button:hover {
+  opacity: 1;
+}
+.wp-block-buttons .wp-block-button.is-style-outline .wp-element-button, .wp-block-buttons .wp-block-button.is-style-contour-2 .wp-element-button, .wp-block-buttons .wp-block-button.is-style-contour-3 .wp-element-button, .wp-block-buttons .wp-block-button.is-style-contour-4 .wp-element-button {
+  color: var(--wp--preset--color--secondary-700);
+  background-color: transparent;
+  border-color: var(--wp--preset--color--secondary-700);
+  box-shadow: none;
+}
+.wp-block-buttons .wp-block-button.is-style-contour-2 .wp-element-button {
+  color: var(--wp--preset--color--primary-700);
+  background-color: transparent;
+  border-color: var(--wp--preset--color--primary-700);
+}
+.wp-block-buttons .wp-block-button.is-style-variation-2 .wp-element-button, .wp-block-buttons .wp-block-button.is-style-variation-3 .wp-element-button, .wp-block-buttons .wp-block-button.is-style-variation-4 .wp-element-button {
+  color: var(--wp--preset--color--supports-1000);
+  background-color: var(--wp--preset--color--primary-700);
+  box-shadow: 0px 2px 14px rgba(0, 0, 0, 0.16);
+}
+
+/** UNIQUEMENT DANS GUTENBERG */
+.editor-styles-wrapper .wp-block-button .wp-element-button {
+  padding: 8px 32px;
+  color: var(--wp--preset--color--primary-500);
+  background-color: var(--wp--preset--color--secondary-700);
+  border-radius: 100px;
+}
+
+/*# sourceMappingURL=buttons.css.map */

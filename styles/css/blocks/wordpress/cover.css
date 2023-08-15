@@ -1,0 +1,76 @@
+@charset "UTF-8";
+/* CLEMUX DESIGN SYSTEM */
+/* TYPOGRAPHY
+Utilisation de la mixin :
+exemple d'utilisation simple :
+  @include typo("title-xxl");
+avec un breakpoint : (les règles associées à title-xxl-sm sont déclarées pour une taille d'écran > $bp-sm)
+  @include typo("title-xxl-sm", "sm");
+avec un override simple : (la propriété déclarée en override est omise)
+  @include typo("title-xxl", 0, "font-family");
+avec un override composé (toutes les propriétés listées sont omises) :
+  @include typo("title-xxl", 0, "font-family" "font-size"); // les propriétés à omettre sont séparées par une espace
+*/
+/** Générer des classes border-primary-200 ou encore border-ternary-500 */
+/** Génère des classes border-radius */
+:root {
+  --fond-du-site: #fff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  background-color: var(--fond-du-site);
+}
+
+/** 8px */
+/** 16px */
+/** 24px */
+/** 32px */
+/** 40px */
+/** 48px */
+/** 56px */
+/** 64px */
+/** 72px */
+/** 80px */
+/*
+ * TYPO
+ */
+/** CLEMUX DESIGN SYSTEM */
+/* Breakpoints */
+/* Colors
+* Les couleurs --wp-preset--color--* sont définies dans le fichier functions.php. On peut les faire variées directement dans Thèmes -> Personnaliser -> Couleurs
+* Ici on associe ces valeurs présent dans le BO à des variables plus parlantes
+*/
+/** Black */
+/** White */
+/** Primary */
+/** Secondary */
+/** Tertiary */
+/** Supports */
+.wp-block-cover h1, .wp-block-cover h2, .wp-block-cover h3, .wp-block-cover h4, .wp-block-cover h5, .wp-block-cover h6 {
+  margin-bottom: 1rem;
+}
+.wp-block-cover h1 strong, .wp-block-cover h2 strong, .wp-block-cover h3 strong, .wp-block-cover h4 strong, .wp-block-cover h5 strong, .wp-block-cover h6 strong {
+  color: var(--wp--preset--color--secondary-700);
+}
+.wp-block-cover p {
+  max-width: min(1280px, 100%);
+  margin: 1rem auto;
+}
+.wp-block-cover p strong {
+  color: var(--wp--preset--color--secondary-700);
+}
+.wp-block-cover ul li {
+  color: var(--wp--preset--color--white);
+}
+.wp-block-cover ul li::before {
+  background-color: var(--wp--preset--color--white);
+}
+.wp-block-cover ul li.is-style-checked::before {
+  background-color: var(--wp--preset--color--white);
+}
+
+/*# sourceMappingURL=cover.css.map */
