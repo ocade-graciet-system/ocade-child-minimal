@@ -91,7 +91,7 @@ const createFolder = async (path, ecrase = false) => {
         // On ajoute à l'objet fontFamilies le code CSS 
         // @font-face pour chaque famille de font
         if (!fontFamilies[familyName]) fontFamilies[familyName] = [];
-        fontFamilies[familyName].push(`url("./fonts/${file}") format("${formats[extension]}")`);
+        fontFamilies[familyName].push(`url("./${file}") format("${formats[extension]}")`);
       }
     });
 
