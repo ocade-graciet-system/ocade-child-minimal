@@ -117,11 +117,10 @@ const mergeSources = (jsons) => {
   return jsons[1];
 }
 
-const downloadFonts = async (fonts) => {
-  createFolder(fontsPath);
+const downloadFonts = async (fonts, fileFontCss) => {
   const url = "https://fonts.googleapis.com/css2?"+fonts.map(e => getUrlParam(e)).join("&")+"&display=swap";
   console.log("  GFonts API URL:\n"+url);
-  let fontCss = '@charset "utf-8";\n\n';
+  // let fontCss = '@charset "utf-8";\n\n';
   let fontsJson = [];
   for (const userAgent of userAgents) {
     const rep = await fetch(url, { headers: { "User-Agent": userAgent } });
@@ -143,25 +142,28 @@ const downloadFonts = async (fonts) => {
       let filename = url.includes("?")
         ? url.split(/[=&]/g)[1]+".svg"
         : url.split("/").reverse()[0];
-      filename = fontface["font-weight"]+"_"+filename;
+        const familyName = fontface['font-family'].replace(/'/g, "").replace(/"/g, "").replace(/\s/g, "_").trim();
+      filename = fontface["font-weight"] + "_" + familyName + "_" + filename;
       if (!fs.existsSync(fontsPath+"/"+filename)) {
-        if (await getFont(url, fontsPath+"/"+filename, "")) {
-          console.info(`✅ ${url}`)
-        } else {
-          console.error(`❌ ${url}`);
-        }
-      } else {
-        console.log("⏭️ "+filename+" skipped");
-      }
+        if (await getFont(url, fontsPath+"/"+filename, "")) console.info(`✅ ${url}`)
+        else console.error(`❌ ${url}`);
+      } else console.log("⏭️ "+filename+" skipped");
       let newSrc = src.replace(url, "./"+filename);
       JsonForCSS[fontfaceIndex].src[srcIndex] = newSrc;
       fontface.src[srcIndex] = newSrc;
     }
+    
     JsonForCSS[fontfaceIndex].src = JsonForCSS[fontfaceIndex].src.join(",\n       ");
-    fontCss += "@font-face {\n  "
-    fontCss += Object.entries(JsonForCSS[fontfaceIndex])
-      .map(([key, value]) => key+": "+value)
-      .join(";\n  ")+";\n}\n\n";
+    const fontFaceDeclaration = "@font-face {\n  "
+      + Object.entries(JsonForCSS[fontfaceIndex])
+        .map(([key, value]) => key + ": " + value)
+        .join(";\n  ") + ";\n}\n\n";
+
+    // Vérifiez si cette déclaration existe déjà dans fileFontCss
+    if (!fileFontCss.includes(fontFaceDeclaration)) {
+      fileFontCss += fontFaceDeclaration;
+    }
+
     fontface.src = fontface.src.map(e => {
       e = e.replace("url(", "");
       e = e.replace(/\)(.*)$/, "");
@@ -169,7 +171,7 @@ const downloadFonts = async (fonts) => {
     });
   }
   /** Ecriture du contenu CSS avec les nouveaux liens dans le fichier font.css */
-  write("./fonts/fonts.css", fontCss);
+  write("./fonts/fonts.css", fileFontCss);
 };
 
 if (require.main === module) {
