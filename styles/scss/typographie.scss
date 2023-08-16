@@ -49,10 +49,11 @@ p {
 
 h1 {
   margin-bottom: $espacement-4;
-
+  
   &:not(.tab-title) {
     &,
     a {
+      @include typo("title-xxl-sm");
       @include typo("title-xxl-sm");
     }
   }
@@ -66,6 +67,7 @@ h2 {
     a {
       @include typo("title-xl");
       @include typo("title-xl-sm", $bp-sm);
+      @include typo("title-xxl");
     }
   }
 }
@@ -77,6 +79,7 @@ h3 {
     &,
     a {
       @include typo("title-l");
+      @include typo("title-xl-sm");
     }
   }
 }
@@ -88,6 +91,7 @@ h4 {
     &,
     a {
       @include typo("title-m");
+      @include typo("title-xl");
     }
   }
 }
@@ -99,6 +103,7 @@ h5 {
     &,
     a {
       @include typo("title-s");
+      @include typo("title-l");
     }
   }
 }
