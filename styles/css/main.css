@@ -333,6 +333,7 @@ a[href*="app.seve-up.com"]::after {
   background-image: url("../../_icons/exit.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .is-style-couleurs-originales a[href*="app.seve-up.com"]::after {
   mask-image: none;
@@ -373,6 +374,7 @@ a:not([href=""]):not([href*="#"]):not([href="/"]):not([href*="#pll_switcher"]):n
   background-image: url("../../_icons/exit.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .is-style-couleurs-originales a:not([href=""]):not([href*="#"]):not([href="/"]):not([href*="#pll_switcher"]):not([href*="SOUSDOMAINE.ocade.eu"]):not([href^="tel:"]):not([href^="fax:"]):not([href^="mailto:"]):not([href*="app.seve-up.com"])::after {
   mask-image: none;
@@ -730,6 +732,7 @@ html, body {
   background-image: url("../../_icons/fleche-9.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 #go-to-top::after {
   display: none !important;
@@ -807,7 +810,6 @@ header {
   margin-left: calc(50% - 50vw);
   margin-right: calc(50% - 50vw);
   background-color: var(--wp--preset--color--white);
-  overflow: hidden;
 }
 header.is-header-sticky, header.is-breadcrumb-sticky {
   position: sticky;
@@ -2481,6 +2483,7 @@ ul li.is-style-star::before {
   background-image: url("../../_icons/star-3.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 ul li.is-style-square::before {
   mask-image: url("../../_icons/square-1.svg");
@@ -2493,6 +2496,7 @@ ul li.is-style-square::before {
   background-image: url("../../_icons/square-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 ul li.is-style-circle::before {
   mask-image: url("../../_icons/circle-1.svg");
@@ -2509,6 +2513,7 @@ ul li.is-style-circle::before {
   background-image: url("../../_icons/circle-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 ul li.is-style-checked::before {
   mask-image: url("../../_icons/check-10.svg");
@@ -2522,6 +2527,7 @@ ul li.is-style-checked::before {
   background-image: url("../../_icons/check-10.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 ul li.is-style-disabled {
   color: rgb(192, 0, 0);
@@ -2539,6 +2545,7 @@ ul li.is-style-disabled::before {
   background-image: url("../../_icons/disabled.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 
 /** Pour avoir les icones dans l'éditeur */
@@ -2552,6 +2559,7 @@ ul li.is-style-disabled::before {
   background-image: url("../../../../_icons/checked.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .editor-styles-wrapper ul li.is-style-disabled::before {
   mask-image: url("../../../../_icons/disabled.svg");
@@ -2563,6 +2571,7 @@ ul li.is-style-disabled::before {
   background-image: url("../../../../_icons/disabled.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 
 /* CLEMUX DESIGN SYSTEM */
@@ -2748,6 +2757,7 @@ nav.wp-block-navigation button.wp-block-navigation__responsive-container-open::b
   background-image: url("../../_icons/menu-burger.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 nav.wp-block-navigation button.wp-block-navigation__responsive-container-open:hover::before {
   background-color: var(--wp--preset--color--primary-700);
@@ -3052,6 +3062,7 @@ html, body {
   background-image: url("../../_icons/ampoule-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.app-1, .icon.app-1::after {
   mask-image: url("../../_icons/app-1.svg");
@@ -3063,6 +3074,7 @@ html, body {
   background-image: url("../../_icons/app-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.app-2, .icon.app-2::after {
   mask-image: url("../../_icons/app-2.svg");
@@ -3074,6 +3086,7 @@ html, body {
   background-image: url("../../_icons/app-2.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.attention-1, .icon.attention-1::after {
   mask-image: url("../../_icons/attention-1.svg");
@@ -3085,6 +3098,7 @@ html, body {
   background-image: url("../../_icons/attention-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.attention-2, .icon.attention-2::after {
   mask-image: url("../../_icons/attention-2.svg");
@@ -3096,6 +3110,7 @@ html, body {
   background-image: url("../../_icons/attention-2.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.bdd-1, .icon.bdd-1::after {
   mask-image: url("../../_icons/bdd-1.svg");
@@ -3107,6 +3122,7 @@ html, body {
   background-image: url("../../_icons/bdd-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.bdd-2, .icon.bdd-2::after {
   mask-image: url("../../_icons/bdd-2.svg");
@@ -3118,6 +3134,7 @@ html, body {
   background-image: url("../../_icons/bdd-2.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.bouclier-1, .icon.bouclier-1::after {
   mask-image: url("../../_icons/bouclier-1.svg");
@@ -3129,6 +3146,7 @@ html, body {
   background-image: url("../../_icons/bouclier-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.bouclier-2, .icon.bouclier-2::after {
   mask-image: url("../../_icons/bouclier-2.svg");
@@ -3140,6 +3158,7 @@ html, body {
   background-image: url("../../_icons/bouclier-2.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.bouclier-3, .icon.bouclier-3::after {
   mask-image: url("../../_icons/bouclier-3.svg");
@@ -3151,6 +3170,7 @@ html, body {
   background-image: url("../../_icons/bouclier-3.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.bouclier-4, .icon.bouclier-4::after {
   mask-image: url("../../_icons/bouclier-4.svg");
@@ -3162,6 +3182,7 @@ html, body {
   background-image: url("../../_icons/bouclier-4.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.bouclier-5, .icon.bouclier-5::after {
   mask-image: url("../../_icons/bouclier-5.svg");
@@ -3173,6 +3194,7 @@ html, body {
   background-image: url("../../_icons/bouclier-5.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.boul-1, .icon.boul-1::after {
   mask-image: url("../../_icons/boul-1.svg");
@@ -3184,6 +3206,7 @@ html, body {
   background-image: url("../../_icons/boul-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.boul-10, .icon.boul-10::after {
   mask-image: url("../../_icons/boul-10.svg");
@@ -3195,6 +3218,7 @@ html, body {
   background-image: url("../../_icons/boul-10.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.boul-2, .icon.boul-2::after {
   mask-image: url("../../_icons/boul-2.svg");
@@ -3206,6 +3230,7 @@ html, body {
   background-image: url("../../_icons/boul-2.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.boul-3, .icon.boul-3::after {
   mask-image: url("../../_icons/boul-3.svg");
@@ -3217,6 +3242,7 @@ html, body {
   background-image: url("../../_icons/boul-3.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.boul-4, .icon.boul-4::after {
   mask-image: url("../../_icons/boul-4.svg");
@@ -3228,6 +3254,7 @@ html, body {
   background-image: url("../../_icons/boul-4.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.boul-5, .icon.boul-5::after {
   mask-image: url("../../_icons/boul-5.svg");
@@ -3239,6 +3266,7 @@ html, body {
   background-image: url("../../_icons/boul-5.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.boul-6, .icon.boul-6::after {
   mask-image: url("../../_icons/boul-6.svg");
@@ -3250,6 +3278,7 @@ html, body {
   background-image: url("../../_icons/boul-6.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.boul-7, .icon.boul-7::after {
   mask-image: url("../../_icons/boul-7.svg");
@@ -3261,6 +3290,7 @@ html, body {
   background-image: url("../../_icons/boul-7.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.boul-8, .icon.boul-8::after {
   mask-image: url("../../_icons/boul-8.svg");
@@ -3272,6 +3302,7 @@ html, body {
   background-image: url("../../_icons/boul-8.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.boul-9, .icon.boul-9::after {
   mask-image: url("../../_icons/boul-9.svg");
@@ -3283,6 +3314,7 @@ html, body {
   background-image: url("../../_icons/boul-9.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.bug-1, .icon.bug-1::after {
   mask-image: url("../../_icons/bug-1.svg");
@@ -3294,6 +3326,7 @@ html, body {
   background-image: url("../../_icons/bug-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.cadeau-1, .icon.cadeau-1::after {
   mask-image: url("../../_icons/cadeau-1.svg");
@@ -3305,6 +3338,7 @@ html, body {
   background-image: url("../../_icons/cadeau-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.cadeau-2, .icon.cadeau-2::after {
   mask-image: url("../../_icons/cadeau-2.svg");
@@ -3316,6 +3350,7 @@ html, body {
   background-image: url("../../_icons/cadeau-2.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.cadenas-1, .icon.cadenas-1::after {
   mask-image: url("../../_icons/cadenas-1.svg");
@@ -3327,6 +3362,7 @@ html, body {
   background-image: url("../../_icons/cadenas-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.cadenas-2, .icon.cadenas-2::after {
   mask-image: url("../../_icons/cadenas-2.svg");
@@ -3338,6 +3374,7 @@ html, body {
   background-image: url("../../_icons/cadenas-2.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.calendrier-1, .icon.calendrier-1::after {
   mask-image: url("../../_icons/calendrier-1.svg");
@@ -3349,6 +3386,7 @@ html, body {
   background-image: url("../../_icons/calendrier-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.carre-1, .icon.carre-1::after {
   mask-image: url("../../_icons/carre-1.svg");
@@ -3360,6 +3398,7 @@ html, body {
   background-image: url("../../_icons/carre-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.carre-2, .icon.carre-2::after {
   mask-image: url("../../_icons/carre-2.svg");
@@ -3371,6 +3410,7 @@ html, body {
   background-image: url("../../_icons/carre-2.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.carre-3, .icon.carre-3::after {
   mask-image: url("../../_icons/carre-3.svg");
@@ -3382,6 +3422,7 @@ html, body {
   background-image: url("../../_icons/carre-3.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.carre-4, .icon.carre-4::after {
   mask-image: url("../../_icons/carre-4.svg");
@@ -3393,6 +3434,7 @@ html, body {
   background-image: url("../../_icons/carre-4.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.carre-5, .icon.carre-5::after {
   mask-image: url("../../_icons/carre-5.svg");
@@ -3404,6 +3446,7 @@ html, body {
   background-image: url("../../_icons/carre-5.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.carre-6, .icon.carre-6::after {
   mask-image: url("../../_icons/carre-6.svg");
@@ -3415,6 +3458,7 @@ html, body {
   background-image: url("../../_icons/carre-6.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.carte-1, .icon.carte-1::after {
   mask-image: url("../../_icons/carte-1.svg");
@@ -3426,6 +3470,7 @@ html, body {
   background-image: url("../../_icons/carte-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.carte-2, .icon.carte-2::after {
   mask-image: url("../../_icons/carte-2.svg");
@@ -3437,6 +3482,7 @@ html, body {
   background-image: url("../../_icons/carte-2.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.carte-3, .icon.carte-3::after {
   mask-image: url("../../_icons/carte-3.svg");
@@ -3448,6 +3494,7 @@ html, body {
   background-image: url("../../_icons/carte-3.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.chapeau-1, .icon.chapeau-1::after {
   mask-image: url("../../_icons/chapeau-1.svg");
@@ -3459,6 +3506,7 @@ html, body {
   background-image: url("../../_icons/chapeau-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.check-10, .icon.check-10::after {
   mask-image: url("../../_icons/check-10.svg");
@@ -3470,6 +3518,7 @@ html, body {
   background-image: url("../../_icons/check-10.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.cible-1, .icon.cible-1::after {
   mask-image: url("../../_icons/cible-1.svg");
@@ -3481,6 +3530,7 @@ html, body {
   background-image: url("../../_icons/cible-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.cle-1, .icon.cle-1::after {
   mask-image: url("../../_icons/cle-1.svg");
@@ -3492,6 +3542,7 @@ html, body {
   background-image: url("../../_icons/cle-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.cle-2, .icon.cle-2::after {
   mask-image: url("../../_icons/cle-2.svg");
@@ -3503,6 +3554,7 @@ html, body {
   background-image: url("../../_icons/cle-2.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.cloche-1, .icon.cloche-1::after {
   mask-image: url("../../_icons/cloche-1.svg");
@@ -3514,6 +3566,7 @@ html, body {
   background-image: url("../../_icons/cloche-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.cloche-2, .icon.cloche-2::after {
   mask-image: url("../../_icons/cloche-2.svg");
@@ -3525,6 +3578,7 @@ html, body {
   background-image: url("../../_icons/cloche-2.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.cloche-3, .icon.cloche-3::after {
   mask-image: url("../../_icons/cloche-3.svg");
@@ -3536,6 +3590,7 @@ html, body {
   background-image: url("../../_icons/cloche-3.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.code-1, .icon.code-1::after {
   mask-image: url("../../_icons/code-1.svg");
@@ -3547,6 +3602,7 @@ html, body {
   background-image: url("../../_icons/code-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.code-2, .icon.code-2::after {
   mask-image: url("../../_icons/code-2.svg");
@@ -3558,6 +3614,7 @@ html, body {
   background-image: url("../../_icons/code-2.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.code-3, .icon.code-3::after {
   mask-image: url("../../_icons/code-3.svg");
@@ -3569,6 +3626,7 @@ html, body {
   background-image: url("../../_icons/code-3.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.code-4, .icon.code-4::after {
   mask-image: url("../../_icons/code-4.svg");
@@ -3580,6 +3638,7 @@ html, body {
   background-image: url("../../_icons/code-4.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.coeur-1, .icon.coeur-1::after {
   mask-image: url("../../_icons/coeur-1.svg");
@@ -3591,6 +3650,7 @@ html, body {
   background-image: url("../../_icons/coeur-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.coeur-2, .icon.coeur-2::after {
   mask-image: url("../../_icons/coeur-2.svg");
@@ -3602,6 +3662,7 @@ html, body {
   background-image: url("../../_icons/coeur-2.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.coeur-3, .icon.coeur-3::after {
   mask-image: url("../../_icons/coeur-3.svg");
@@ -3613,6 +3674,7 @@ html, body {
   background-image: url("../../_icons/coeur-3.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.coeur-4, .icon.coeur-4::after {
   mask-image: url("../../_icons/coeur-4.svg");
@@ -3624,6 +3686,7 @@ html, body {
   background-image: url("../../_icons/coeur-4.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.coffre-1, .icon.coffre-1::after {
   mask-image: url("../../_icons/coffre-1.svg");
@@ -3635,6 +3698,7 @@ html, body {
   background-image: url("../../_icons/coffre-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.coller-1, .icon.coller-1::after {
   mask-image: url("../../_icons/coller-1.svg");
@@ -3646,6 +3710,7 @@ html, body {
   background-image: url("../../_icons/coller-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.colonnes-1, .icon.colonnes-1::after {
   mask-image: url("../../_icons/colonnes-1.svg");
@@ -3657,6 +3722,7 @@ html, body {
   background-image: url("../../_icons/colonnes-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.colonnes-2, .icon.colonnes-2::after {
   mask-image: url("../../_icons/colonnes-2.svg");
@@ -3668,6 +3734,7 @@ html, body {
   background-image: url("../../_icons/colonnes-2.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.comment-1, .icon.comment-1::after {
   mask-image: url("../../_icons/comment-1.svg");
@@ -3679,6 +3746,7 @@ html, body {
   background-image: url("../../_icons/comment-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.comment-2, .icon.comment-2::after {
   mask-image: url("../../_icons/comment-2.svg");
@@ -3690,6 +3758,7 @@ html, body {
   background-image: url("../../_icons/comment-2.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.comment-3, .icon.comment-3::after {
   mask-image: url("../../_icons/comment-3.svg");
@@ -3701,6 +3770,7 @@ html, body {
   background-image: url("../../_icons/comment-3.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.comment-4, .icon.comment-4::after {
   mask-image: url("../../_icons/comment-4.svg");
@@ -3712,6 +3782,7 @@ html, body {
   background-image: url("../../_icons/comment-4.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.comment-5, .icon.comment-5::after {
   mask-image: url("../../_icons/comment-5.svg");
@@ -3723,6 +3794,7 @@ html, body {
   background-image: url("../../_icons/comment-5.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.comment-6, .icon.comment-6::after {
   mask-image: url("../../_icons/comment-6.svg");
@@ -3734,6 +3806,7 @@ html, body {
   background-image: url("../../_icons/comment-6.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.comment-7, .icon.comment-7::after {
   mask-image: url("../../_icons/comment-7.svg");
@@ -3745,6 +3818,7 @@ html, body {
   background-image: url("../../_icons/comment-7.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.comment-8, .icon.comment-8::after {
   mask-image: url("../../_icons/comment-8.svg");
@@ -3756,6 +3830,7 @@ html, body {
   background-image: url("../../_icons/comment-8.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.copy-1, .icon.copy-1::after {
   mask-image: url("../../_icons/copy-1.svg");
@@ -3767,6 +3842,7 @@ html, body {
   background-image: url("../../_icons/copy-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.coupe-1, .icon.coupe-1::after {
   mask-image: url("../../_icons/coupe-1.svg");
@@ -3778,6 +3854,7 @@ html, body {
   background-image: url("../../_icons/coupe-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.diamant-1, .icon.diamant-1::after {
   mask-image: url("../../_icons/diamant-1.svg");
@@ -3789,6 +3866,7 @@ html, body {
   background-image: url("../../_icons/diamant-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.dieze-1, .icon.dieze-1::after {
   mask-image: url("../../_icons/dieze-1.svg");
@@ -3800,6 +3878,7 @@ html, body {
   background-image: url("../../_icons/dieze-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.disabled, .icon.disabled::after {
   mask-image: url("../../_icons/disabled.svg");
@@ -3811,6 +3890,7 @@ html, body {
   background-image: url("../../_icons/disabled.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.dossier-1, .icon.dossier-1::after {
   mask-image: url("../../_icons/dossier-1.svg");
@@ -3822,6 +3902,7 @@ html, body {
   background-image: url("../../_icons/dossier-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.dossier-2, .icon.dossier-2::after {
   mask-image: url("../../_icons/dossier-2.svg");
@@ -3833,6 +3914,7 @@ html, body {
   background-image: url("../../_icons/dossier-2.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.dossier-3, .icon.dossier-3::after {
   mask-image: url("../../_icons/dossier-3.svg");
@@ -3844,6 +3926,7 @@ html, body {
   background-image: url("../../_icons/dossier-3.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.dossier-4, .icon.dossier-4::after {
   mask-image: url("../../_icons/dossier-4.svg");
@@ -3855,6 +3938,7 @@ html, body {
   background-image: url("../../_icons/dossier-4.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.dossier-5, .icon.dossier-5::after {
   mask-image: url("../../_icons/dossier-5.svg");
@@ -3866,6 +3950,7 @@ html, body {
   background-image: url("../../_icons/dossier-5.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.dossier-6, .icon.dossier-6::after {
   mask-image: url("../../_icons/dossier-6.svg");
@@ -3877,6 +3962,7 @@ html, body {
   background-image: url("../../_icons/dossier-6.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.dossier-7, .icon.dossier-7::after {
   mask-image: url("../../_icons/dossier-7.svg");
@@ -3888,6 +3974,7 @@ html, body {
   background-image: url("../../_icons/dossier-7.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.dossier-8, .icon.dossier-8::after {
   mask-image: url("../../_icons/dossier-8.svg");
@@ -3899,6 +3986,7 @@ html, body {
   background-image: url("../../_icons/dossier-8.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.drapeau-1, .icon.drapeau-1::after {
   mask-image: url("../../_icons/drapeau-1.svg");
@@ -3910,6 +3998,7 @@ html, body {
   background-image: url("../../_icons/drapeau-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.eclair-1, .icon.eclair-1::after {
   mask-image: url("../../_icons/eclair-1.svg");
@@ -3921,6 +4010,7 @@ html, body {
   background-image: url("../../_icons/eclair-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.ecureuil-1, .icon.ecureuil-1::after {
   mask-image: url("../../_icons/ecureuil-1.svg");
@@ -3932,6 +4022,7 @@ html, body {
   background-image: url("../../_icons/ecureuil-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.etandard, .icon.etandard::after {
   mask-image: url("../../_icons/etandard.svg");
@@ -3943,6 +4034,7 @@ html, body {
   background-image: url("../../_icons/etandard.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.etiquette-1, .icon.etiquette-1::after {
   mask-image: url("../../_icons/etiquette-1.svg");
@@ -3954,6 +4046,7 @@ html, body {
   background-image: url("../../_icons/etiquette-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.etoile-1, .icon.etoile-1::after {
   mask-image: url("../../_icons/etoile-1.svg");
@@ -3965,6 +4058,7 @@ html, body {
   background-image: url("../../_icons/etoile-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.etoile-2, .icon.etoile-2::after {
   mask-image: url("../../_icons/etoile-2.svg");
@@ -3976,6 +4070,7 @@ html, body {
   background-image: url("../../_icons/etoile-2.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.etoile-3, .icon.etoile-3::after {
   mask-image: url("../../_icons/etoile-3.svg");
@@ -3987,6 +4082,7 @@ html, body {
   background-image: url("../../_icons/etoile-3.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.etoile-4, .icon.etoile-4::after {
   mask-image: url("../../_icons/etoile-4.svg");
@@ -3998,6 +4094,7 @@ html, body {
   background-image: url("../../_icons/etoile-4.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.etoile-5, .icon.etoile-5::after {
   mask-image: url("../../_icons/etoile-5.svg");
@@ -4009,6 +4106,7 @@ html, body {
   background-image: url("../../_icons/etoile-5.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.etoile-6, .icon.etoile-6::after {
   mask-image: url("../../_icons/etoile-6.svg");
@@ -4020,6 +4118,7 @@ html, body {
   background-image: url("../../_icons/etoile-6.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.exit, .icon.exit::after {
   mask-image: url("../../_icons/exit.svg");
@@ -4031,6 +4130,7 @@ html, body {
   background-image: url("../../_icons/exit.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.fichier-1, .icon.fichier-1::after {
   mask-image: url("../../_icons/fichier-1.svg");
@@ -4042,6 +4142,7 @@ html, body {
   background-image: url("../../_icons/fichier-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.fichier-10, .icon.fichier-10::after {
   mask-image: url("../../_icons/fichier-10.svg");
@@ -4053,6 +4154,7 @@ html, body {
   background-image: url("../../_icons/fichier-10.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.fichier-2, .icon.fichier-2::after {
   mask-image: url("../../_icons/fichier-2.svg");
@@ -4064,6 +4166,7 @@ html, body {
   background-image: url("../../_icons/fichier-2.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.fichier-3, .icon.fichier-3::after {
   mask-image: url("../../_icons/fichier-3.svg");
@@ -4075,6 +4178,7 @@ html, body {
   background-image: url("../../_icons/fichier-3.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.fichier-4, .icon.fichier-4::after {
   mask-image: url("../../_icons/fichier-4.svg");
@@ -4086,6 +4190,7 @@ html, body {
   background-image: url("../../_icons/fichier-4.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.fichier-5, .icon.fichier-5::after {
   mask-image: url("../../_icons/fichier-5.svg");
@@ -4097,6 +4202,7 @@ html, body {
   background-image: url("../../_icons/fichier-5.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.fichier-6, .icon.fichier-6::after {
   mask-image: url("../../_icons/fichier-6.svg");
@@ -4108,6 +4214,7 @@ html, body {
   background-image: url("../../_icons/fichier-6.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.fichier-7, .icon.fichier-7::after {
   mask-image: url("../../_icons/fichier-7.svg");
@@ -4119,6 +4226,7 @@ html, body {
   background-image: url("../../_icons/fichier-7.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.fichier-8, .icon.fichier-8::after {
   mask-image: url("../../_icons/fichier-8.svg");
@@ -4130,6 +4238,7 @@ html, body {
   background-image: url("../../_icons/fichier-8.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.fichier-9, .icon.fichier-9::after {
   mask-image: url("../../_icons/fichier-9.svg");
@@ -4141,6 +4250,7 @@ html, body {
   background-image: url("../../_icons/fichier-9.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.film-1, .icon.film-1::after {
   mask-image: url("../../_icons/film-1.svg");
@@ -4152,6 +4262,7 @@ html, body {
   background-image: url("../../_icons/film-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.film-2, .icon.film-2::after {
   mask-image: url("../../_icons/film-2.svg");
@@ -4163,6 +4274,7 @@ html, body {
   background-image: url("../../_icons/film-2.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.film-3, .icon.film-3::after {
   mask-image: url("../../_icons/film-3.svg");
@@ -4174,6 +4286,7 @@ html, body {
   background-image: url("../../_icons/film-3.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.film-4, .icon.film-4::after {
   mask-image: url("../../_icons/film-4.svg");
@@ -4185,6 +4298,7 @@ html, body {
   background-image: url("../../_icons/film-4.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.flamme-1, .icon.flamme-1::after {
   mask-image: url("../../_icons/flamme-1.svg");
@@ -4196,6 +4310,7 @@ html, body {
   background-image: url("../../_icons/flamme-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.fleche-1, .icon.fleche-1::after {
   mask-image: url("../../_icons/fleche-1.svg");
@@ -4207,6 +4322,7 @@ html, body {
   background-image: url("../../_icons/fleche-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.fleche-10, .icon.fleche-10::after {
   mask-image: url("../../_icons/fleche-10.svg");
@@ -4218,6 +4334,7 @@ html, body {
   background-image: url("../../_icons/fleche-10.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.fleche-11, .icon.fleche-11::after {
   mask-image: url("../../_icons/fleche-11.svg");
@@ -4229,6 +4346,7 @@ html, body {
   background-image: url("../../_icons/fleche-11.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.fleche-12, .icon.fleche-12::after {
   mask-image: url("../../_icons/fleche-12.svg");
@@ -4240,6 +4358,7 @@ html, body {
   background-image: url("../../_icons/fleche-12.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.fleche-13, .icon.fleche-13::after {
   mask-image: url("../../_icons/fleche-13.svg");
@@ -4251,6 +4370,7 @@ html, body {
   background-image: url("../../_icons/fleche-13.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.fleche-14, .icon.fleche-14::after {
   mask-image: url("../../_icons/fleche-14.svg");
@@ -4262,6 +4382,7 @@ html, body {
   background-image: url("../../_icons/fleche-14.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.fleche-15, .icon.fleche-15::after {
   mask-image: url("../../_icons/fleche-15.svg");
@@ -4273,6 +4394,7 @@ html, body {
   background-image: url("../../_icons/fleche-15.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.fleche-16, .icon.fleche-16::after {
   mask-image: url("../../_icons/fleche-16.svg");
@@ -4284,6 +4406,7 @@ html, body {
   background-image: url("../../_icons/fleche-16.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.fleche-17, .icon.fleche-17::after {
   mask-image: url("../../_icons/fleche-17.svg");
@@ -4295,6 +4418,7 @@ html, body {
   background-image: url("../../_icons/fleche-17.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.fleche-18, .icon.fleche-18::after {
   mask-image: url("../../_icons/fleche-18.svg");
@@ -4306,6 +4430,7 @@ html, body {
   background-image: url("../../_icons/fleche-18.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.fleche-19, .icon.fleche-19::after {
   mask-image: url("../../_icons/fleche-19.svg");
@@ -4317,6 +4442,7 @@ html, body {
   background-image: url("../../_icons/fleche-19.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.fleche-2, .icon.fleche-2::after {
   mask-image: url("../../_icons/fleche-2.svg");
@@ -4328,6 +4454,7 @@ html, body {
   background-image: url("../../_icons/fleche-2.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.fleche-20, .icon.fleche-20::after {
   mask-image: url("../../_icons/fleche-20.svg");
@@ -4339,6 +4466,7 @@ html, body {
   background-image: url("../../_icons/fleche-20.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.fleche-21, .icon.fleche-21::after {
   mask-image: url("../../_icons/fleche-21.svg");
@@ -4350,6 +4478,7 @@ html, body {
   background-image: url("../../_icons/fleche-21.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.fleche-22, .icon.fleche-22::after {
   mask-image: url("../../_icons/fleche-22.svg");
@@ -4361,6 +4490,7 @@ html, body {
   background-image: url("../../_icons/fleche-22.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.fleche-23, .icon.fleche-23::after {
   mask-image: url("../../_icons/fleche-23.svg");
@@ -4372,6 +4502,7 @@ html, body {
   background-image: url("../../_icons/fleche-23.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.fleche-24, .icon.fleche-24::after {
   mask-image: url("../../_icons/fleche-24.svg");
@@ -4383,6 +4514,7 @@ html, body {
   background-image: url("../../_icons/fleche-24.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.fleche-25, .icon.fleche-25::after {
   mask-image: url("../../_icons/fleche-25.svg");
@@ -4394,6 +4526,7 @@ html, body {
   background-image: url("../../_icons/fleche-25.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.fleche-26, .icon.fleche-26::after {
   mask-image: url("../../_icons/fleche-26.svg");
@@ -4405,6 +4538,7 @@ html, body {
   background-image: url("../../_icons/fleche-26.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.fleche-27, .icon.fleche-27::after {
   mask-image: url("../../_icons/fleche-27.svg");
@@ -4416,6 +4550,7 @@ html, body {
   background-image: url("../../_icons/fleche-27.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.fleche-28, .icon.fleche-28::after {
   mask-image: url("../../_icons/fleche-28.svg");
@@ -4427,6 +4562,7 @@ html, body {
   background-image: url("../../_icons/fleche-28.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.fleche-29, .icon.fleche-29::after {
   mask-image: url("../../_icons/fleche-29.svg");
@@ -4438,6 +4574,7 @@ html, body {
   background-image: url("../../_icons/fleche-29.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.fleche-3, .icon.fleche-3::after {
   mask-image: url("../../_icons/fleche-3.svg");
@@ -4449,6 +4586,7 @@ html, body {
   background-image: url("../../_icons/fleche-3.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.fleche-30, .icon.fleche-30::after {
   mask-image: url("../../_icons/fleche-30.svg");
@@ -4460,6 +4598,7 @@ html, body {
   background-image: url("../../_icons/fleche-30.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.fleche-31, .icon.fleche-31::after {
   mask-image: url("../../_icons/fleche-31.svg");
@@ -4471,6 +4610,7 @@ html, body {
   background-image: url("../../_icons/fleche-31.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.fleche-32, .icon.fleche-32::after {
   mask-image: url("../../_icons/fleche-32.svg");
@@ -4482,6 +4622,7 @@ html, body {
   background-image: url("../../_icons/fleche-32.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.fleche-33, .icon.fleche-33::after {
   mask-image: url("../../_icons/fleche-33.svg");
@@ -4493,6 +4634,7 @@ html, body {
   background-image: url("../../_icons/fleche-33.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.fleche-34, .icon.fleche-34::after {
   mask-image: url("../../_icons/fleche-34.svg");
@@ -4504,6 +4646,7 @@ html, body {
   background-image: url("../../_icons/fleche-34.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.fleche-35, .icon.fleche-35::after {
   mask-image: url("../../_icons/fleche-35.svg");
@@ -4515,6 +4658,7 @@ html, body {
   background-image: url("../../_icons/fleche-35.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.fleche-36, .icon.fleche-36::after {
   mask-image: url("../../_icons/fleche-36.svg");
@@ -4526,6 +4670,7 @@ html, body {
   background-image: url("../../_icons/fleche-36.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.fleche-37, .icon.fleche-37::after {
   mask-image: url("../../_icons/fleche-37.svg");
@@ -4537,6 +4682,7 @@ html, body {
   background-image: url("../../_icons/fleche-37.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.fleche-38, .icon.fleche-38::after {
   mask-image: url("../../_icons/fleche-38.svg");
@@ -4548,6 +4694,7 @@ html, body {
   background-image: url("../../_icons/fleche-38.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.fleche-39, .icon.fleche-39::after {
   mask-image: url("../../_icons/fleche-39.svg");
@@ -4559,6 +4706,7 @@ html, body {
   background-image: url("../../_icons/fleche-39.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.fleche-4, .icon.fleche-4::after {
   mask-image: url("../../_icons/fleche-4.svg");
@@ -4570,6 +4718,7 @@ html, body {
   background-image: url("../../_icons/fleche-4.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.fleche-40, .icon.fleche-40::after {
   mask-image: url("../../_icons/fleche-40.svg");
@@ -4581,6 +4730,7 @@ html, body {
   background-image: url("../../_icons/fleche-40.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.fleche-41, .icon.fleche-41::after {
   mask-image: url("../../_icons/fleche-41.svg");
@@ -4592,6 +4742,7 @@ html, body {
   background-image: url("../../_icons/fleche-41.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.fleche-42, .icon.fleche-42::after {
   mask-image: url("../../_icons/fleche-42.svg");
@@ -4603,6 +4754,7 @@ html, body {
   background-image: url("../../_icons/fleche-42.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.fleche-43, .icon.fleche-43::after {
   mask-image: url("../../_icons/fleche-43.svg");
@@ -4614,6 +4766,7 @@ html, body {
   background-image: url("../../_icons/fleche-43.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.fleche-44, .icon.fleche-44::after {
   mask-image: url("../../_icons/fleche-44.svg");
@@ -4625,6 +4778,7 @@ html, body {
   background-image: url("../../_icons/fleche-44.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.fleche-45, .icon.fleche-45::after {
   mask-image: url("../../_icons/fleche-45.svg");
@@ -4636,6 +4790,7 @@ html, body {
   background-image: url("../../_icons/fleche-45.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.fleche-5, .icon.fleche-5::after {
   mask-image: url("../../_icons/fleche-5.svg");
@@ -4647,6 +4802,7 @@ html, body {
   background-image: url("../../_icons/fleche-5.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.fleche-6, .icon.fleche-6::after {
   mask-image: url("../../_icons/fleche-6.svg");
@@ -4658,6 +4814,7 @@ html, body {
   background-image: url("../../_icons/fleche-6.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.fleche-7, .icon.fleche-7::after {
   mask-image: url("../../_icons/fleche-7.svg");
@@ -4669,6 +4826,7 @@ html, body {
   background-image: url("../../_icons/fleche-7.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.fleche-8, .icon.fleche-8::after {
   mask-image: url("../../_icons/fleche-8.svg");
@@ -4680,6 +4838,7 @@ html, body {
   background-image: url("../../_icons/fleche-8.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.fleche-9, .icon.fleche-9::after {
   mask-image: url("../../_icons/fleche-9.svg");
@@ -4691,6 +4850,7 @@ html, body {
   background-image: url("../../_icons/fleche-9.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.fusee-1, .icon.fusee-1::after {
   mask-image: url("../../_icons/fusee-1.svg");
@@ -4702,6 +4862,7 @@ html, body {
   background-image: url("../../_icons/fusee-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.fusee-2, .icon.fusee-2::after {
   mask-image: url("../../_icons/fusee-2.svg");
@@ -4713,6 +4874,7 @@ html, body {
   background-image: url("../../_icons/fusee-2.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.gear-1, .icon.gear-1::after {
   mask-image: url("../../_icons/gear-1.svg");
@@ -4724,6 +4886,7 @@ html, body {
   background-image: url("../../_icons/gear-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.globe-1, .icon.globe-1::after {
   mask-image: url("../../_icons/globe-1.svg");
@@ -4735,6 +4898,7 @@ html, body {
   background-image: url("../../_icons/globe-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.graph-1, .icon.graph-1::after {
   mask-image: url("../../_icons/graph-1.svg");
@@ -4746,6 +4910,7 @@ html, body {
   background-image: url("../../_icons/graph-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.graph-2, .icon.graph-2::after {
   mask-image: url("../../_icons/graph-2.svg");
@@ -4757,6 +4922,7 @@ html, body {
   background-image: url("../../_icons/graph-2.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.graph-3, .icon.graph-3::after {
   mask-image: url("../../_icons/graph-3.svg");
@@ -4768,6 +4934,7 @@ html, body {
   background-image: url("../../_icons/graph-3.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.horloge-1, .icon.horloge-1::after {
   mask-image: url("../../_icons/horloge-1.svg");
@@ -4779,6 +4946,7 @@ html, body {
   background-image: url("../../_icons/horloge-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.horloge-2, .icon.horloge-2::after {
   mask-image: url("../../_icons/horloge-2.svg");
@@ -4790,6 +4958,7 @@ html, body {
   background-image: url("../../_icons/horloge-2.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.horloge-3, .icon.horloge-3::after {
   mask-image: url("../../_icons/horloge-3.svg");
@@ -4801,6 +4970,7 @@ html, body {
   background-image: url("../../_icons/horloge-3.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.horloge-4, .icon.horloge-4::after {
   mask-image: url("../../_icons/horloge-4.svg");
@@ -4812,6 +4982,7 @@ html, body {
   background-image: url("../../_icons/horloge-4.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.horloge-5, .icon.horloge-5::after {
   mask-image: url("../../_icons/horloge-5.svg");
@@ -4823,6 +4994,7 @@ html, body {
   background-image: url("../../_icons/horloge-5.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.image-1, .icon.image-1::after {
   mask-image: url("../../_icons/image-1.svg");
@@ -4834,6 +5006,7 @@ html, body {
   background-image: url("../../_icons/image-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.infini-1, .icon.infini-1::after {
   mask-image: url("../../_icons/infini-1.svg");
@@ -4845,6 +5018,7 @@ html, body {
   background-image: url("../../_icons/infini-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.interdit-1, .icon.interdit-1::after {
   mask-image: url("../../_icons/interdit-1.svg");
@@ -4856,6 +5030,7 @@ html, body {
   background-image: url("../../_icons/interdit-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.interdit-10, .icon.interdit-10::after {
   mask-image: url("../../_icons/interdit-10.svg");
@@ -4867,6 +5042,7 @@ html, body {
   background-image: url("../../_icons/interdit-10.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.interdit-11, .icon.interdit-11::after {
   mask-image: url("../../_icons/interdit-11.svg");
@@ -4878,6 +5054,7 @@ html, body {
   background-image: url("../../_icons/interdit-11.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.interdit-12, .icon.interdit-12::after {
   mask-image: url("../../_icons/interdit-12.svg");
@@ -4889,6 +5066,7 @@ html, body {
   background-image: url("../../_icons/interdit-12.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.interdit-13, .icon.interdit-13::after {
   mask-image: url("../../_icons/interdit-13.svg");
@@ -4900,6 +5078,7 @@ html, body {
   background-image: url("../../_icons/interdit-13.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.interdit-2, .icon.interdit-2::after {
   mask-image: url("../../_icons/interdit-2.svg");
@@ -4911,6 +5090,7 @@ html, body {
   background-image: url("../../_icons/interdit-2.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.interdit-3, .icon.interdit-3::after {
   mask-image: url("../../_icons/interdit-3.svg");
@@ -4922,6 +5102,7 @@ html, body {
   background-image: url("../../_icons/interdit-3.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.interdit-4, .icon.interdit-4::after {
   mask-image: url("../../_icons/interdit-4.svg");
@@ -4933,6 +5114,7 @@ html, body {
   background-image: url("../../_icons/interdit-4.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.interdit-5, .icon.interdit-5::after {
   mask-image: url("../../_icons/interdit-5.svg");
@@ -4944,6 +5126,7 @@ html, body {
   background-image: url("../../_icons/interdit-5.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.interdit-6, .icon.interdit-6::after {
   mask-image: url("../../_icons/interdit-6.svg");
@@ -4955,6 +5138,7 @@ html, body {
   background-image: url("../../_icons/interdit-6.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.interdit-7, .icon.interdit-7::after {
   mask-image: url("../../_icons/interdit-7.svg");
@@ -4966,6 +5150,7 @@ html, body {
   background-image: url("../../_icons/interdit-7.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.interdit-8, .icon.interdit-8::after {
   mask-image: url("../../_icons/interdit-8.svg");
@@ -4977,6 +5162,7 @@ html, body {
   background-image: url("../../_icons/interdit-8.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.interdit-9, .icon.interdit-9::after {
   mask-image: url("../../_icons/interdit-9.svg");
@@ -4988,6 +5174,7 @@ html, body {
   background-image: url("../../_icons/interdit-9.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.iteration-1, .icon.iteration-1::after {
   mask-image: url("../../_icons/iteration-1.svg");
@@ -4999,6 +5186,7 @@ html, body {
   background-image: url("../../_icons/iteration-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.justice-1, .icon.justice-1::after {
   mask-image: url("../../_icons/justice-1.svg");
@@ -5010,6 +5198,7 @@ html, body {
   background-image: url("../../_icons/justice-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.lien-1, .icon.lien-1::after {
   mask-image: url("../../_icons/lien-1.svg");
@@ -5021,6 +5210,7 @@ html, body {
   background-image: url("../../_icons/lien-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.lien-2, .icon.lien-2::after {
   mask-image: url("../../_icons/lien-2.svg");
@@ -5032,6 +5222,7 @@ html, body {
   background-image: url("../../_icons/lien-2.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.lien-3, .icon.lien-3::after {
   mask-image: url("../../_icons/lien-3.svg");
@@ -5043,6 +5234,7 @@ html, body {
   background-image: url("../../_icons/lien-3.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.lien-4, .icon.lien-4::after {
   mask-image: url("../../_icons/lien-4.svg");
@@ -5054,6 +5246,7 @@ html, body {
   background-image: url("../../_icons/lien-4.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.lien-5, .icon.lien-5::after {
   mask-image: url("../../_icons/lien-5.svg");
@@ -5065,6 +5258,7 @@ html, body {
   background-image: url("../../_icons/lien-5.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.link-external-1, .icon.link-external-1::after {
   mask-image: url("../../_icons/link-external-1.svg");
@@ -5076,6 +5270,7 @@ html, body {
   background-image: url("../../_icons/link-external-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.liste-1, .icon.liste-1::after {
   mask-image: url("../../_icons/liste-1.svg");
@@ -5087,6 +5282,7 @@ html, body {
   background-image: url("../../_icons/liste-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.liste-2, .icon.liste-2::after {
   mask-image: url("../../_icons/liste-2.svg");
@@ -5098,6 +5294,7 @@ html, body {
   background-image: url("../../_icons/liste-2.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.liste-3, .icon.liste-3::after {
   mask-image: url("../../_icons/liste-3.svg");
@@ -5109,6 +5306,7 @@ html, body {
   background-image: url("../../_icons/liste-3.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.liste-4, .icon.liste-4::after {
   mask-image: url("../../_icons/liste-4.svg");
@@ -5120,6 +5318,7 @@ html, body {
   background-image: url("../../_icons/liste-4.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.liste-5, .icon.liste-5::after {
   mask-image: url("../../_icons/liste-5.svg");
@@ -5131,6 +5330,7 @@ html, body {
   background-image: url("../../_icons/liste-5.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.liste-6, .icon.liste-6::after {
   mask-image: url("../../_icons/liste-6.svg");
@@ -5142,6 +5342,7 @@ html, body {
   background-image: url("../../_icons/liste-6.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.livre-1, .icon.livre-1::after {
   mask-image: url("../../_icons/livre-1.svg");
@@ -5153,6 +5354,7 @@ html, body {
   background-image: url("../../_icons/livre-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.livre-10, .icon.livre-10::after {
   mask-image: url("../../_icons/livre-10.svg");
@@ -5164,6 +5366,7 @@ html, body {
   background-image: url("../../_icons/livre-10.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.livre-11, .icon.livre-11::after {
   mask-image: url("../../_icons/livre-11.svg");
@@ -5175,6 +5378,7 @@ html, body {
   background-image: url("../../_icons/livre-11.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.livre-12, .icon.livre-12::after {
   mask-image: url("../../_icons/livre-12.svg");
@@ -5186,6 +5390,7 @@ html, body {
   background-image: url("../../_icons/livre-12.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.livre-13, .icon.livre-13::after {
   mask-image: url("../../_icons/livre-13.svg");
@@ -5197,6 +5402,7 @@ html, body {
   background-image: url("../../_icons/livre-13.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.livre-2, .icon.livre-2::after {
   mask-image: url("../../_icons/livre-2.svg");
@@ -5208,6 +5414,7 @@ html, body {
   background-image: url("../../_icons/livre-2.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.livre-3, .icon.livre-3::after {
   mask-image: url("../../_icons/livre-3.svg");
@@ -5219,6 +5426,7 @@ html, body {
   background-image: url("../../_icons/livre-3.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.livre-4, .icon.livre-4::after {
   mask-image: url("../../_icons/livre-4.svg");
@@ -5230,6 +5438,7 @@ html, body {
   background-image: url("../../_icons/livre-4.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.livre-5, .icon.livre-5::after {
   mask-image: url("../../_icons/livre-5.svg");
@@ -5241,6 +5450,7 @@ html, body {
   background-image: url("../../_icons/livre-5.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.livre-6, .icon.livre-6::after {
   mask-image: url("../../_icons/livre-6.svg");
@@ -5252,6 +5462,7 @@ html, body {
   background-image: url("../../_icons/livre-6.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.livre-7, .icon.livre-7::after {
   mask-image: url("../../_icons/livre-7.svg");
@@ -5263,6 +5474,7 @@ html, body {
   background-image: url("../../_icons/livre-7.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.livre-8, .icon.livre-8::after {
   mask-image: url("../../_icons/livre-8.svg");
@@ -5274,6 +5486,7 @@ html, body {
   background-image: url("../../_icons/livre-8.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.livre-9, .icon.livre-9::after {
   mask-image: url("../../_icons/livre-9.svg");
@@ -5285,6 +5498,7 @@ html, body {
   background-image: url("../../_icons/livre-9.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.localisation-1, .icon.localisation-1::after {
   mask-image: url("../../_icons/localisation-1.svg");
@@ -5296,6 +5510,7 @@ html, body {
   background-image: url("../../_icons/localisation-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.localisation-2, .icon.localisation-2::after {
   mask-image: url("../../_icons/localisation-2.svg");
@@ -5307,6 +5522,7 @@ html, body {
   background-image: url("../../_icons/localisation-2.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.lune-1, .icon.lune-1::after {
   mask-image: url("../../_icons/lune-1.svg");
@@ -5318,6 +5534,7 @@ html, body {
   background-image: url("../../_icons/lune-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.mail-1, .icon.mail-1::after {
   mask-image: url("../../_icons/mail-1.svg");
@@ -5329,6 +5546,7 @@ html, body {
   background-image: url("../../_icons/mail-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.mail-2, .icon.mail-2::after {
   mask-image: url("../../_icons/mail-2.svg");
@@ -5340,6 +5558,7 @@ html, body {
   background-image: url("../../_icons/mail-2.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.mail-3, .icon.mail-3::after {
   mask-image: url("../../_icons/mail-3.svg");
@@ -5351,6 +5570,7 @@ html, body {
   background-image: url("../../_icons/mail-3.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.mail-4, .icon.mail-4::after {
   mask-image: url("../../_icons/mail-4.svg");
@@ -5362,6 +5582,7 @@ html, body {
   background-image: url("../../_icons/mail-4.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.mail-5, .icon.mail-5::after {
   mask-image: url("../../_icons/mail-5.svg");
@@ -5373,6 +5594,7 @@ html, body {
   background-image: url("../../_icons/mail-5.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.mail-6, .icon.mail-6::after {
   mask-image: url("../../_icons/mail-6.svg");
@@ -5384,6 +5606,7 @@ html, body {
   background-image: url("../../_icons/mail-6.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.mail-7, .icon.mail-7::after {
   mask-image: url("../../_icons/mail-7.svg");
@@ -5395,6 +5618,7 @@ html, body {
   background-image: url("../../_icons/mail-7.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.mail-8, .icon.mail-8::after {
   mask-image: url("../../_icons/mail-8.svg");
@@ -5406,6 +5630,7 @@ html, body {
   background-image: url("../../_icons/mail-8.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.maison-1, .icon.maison-1::after {
   mask-image: url("../../_icons/maison-1.svg");
@@ -5417,6 +5642,7 @@ html, body {
   background-image: url("../../_icons/maison-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.maison-2, .icon.maison-2::after {
   mask-image: url("../../_icons/maison-2.svg");
@@ -5428,6 +5654,7 @@ html, body {
   background-image: url("../../_icons/maison-2.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.maison-3, .icon.maison-3::after {
   mask-image: url("../../_icons/maison-3.svg");
@@ -5439,6 +5666,7 @@ html, body {
   background-image: url("../../_icons/maison-3.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.maison-4, .icon.maison-4::after {
   mask-image: url("../../_icons/maison-4.svg");
@@ -5450,6 +5678,7 @@ html, body {
   background-image: url("../../_icons/maison-4.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.maison-5, .icon.maison-5::after {
   mask-image: url("../../_icons/maison-5.svg");
@@ -5461,6 +5690,7 @@ html, body {
   background-image: url("../../_icons/maison-5.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.math-1, .icon.math-1::after {
   mask-image: url("../../_icons/math-1.svg");
@@ -5472,6 +5702,7 @@ html, body {
   background-image: url("../../_icons/math-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.math-2, .icon.math-2::after {
   mask-image: url("../../_icons/math-2.svg");
@@ -5483,6 +5714,7 @@ html, body {
   background-image: url("../../_icons/math-2.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.math-3, .icon.math-3::after {
   mask-image: url("../../_icons/math-3.svg");
@@ -5494,6 +5726,7 @@ html, body {
   background-image: url("../../_icons/math-3.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.math-4, .icon.math-4::after {
   mask-image: url("../../_icons/math-4.svg");
@@ -5505,6 +5738,7 @@ html, body {
   background-image: url("../../_icons/math-4.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.math-5, .icon.math-5::after {
   mask-image: url("../../_icons/math-5.svg");
@@ -5516,6 +5750,7 @@ html, body {
   background-image: url("../../_icons/math-5.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.math-6, .icon.math-6::after {
   mask-image: url("../../_icons/math-6.svg");
@@ -5527,6 +5762,7 @@ html, body {
   background-image: url("../../_icons/math-6.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.math-7, .icon.math-7::after {
   mask-image: url("../../_icons/math-7.svg");
@@ -5538,6 +5774,7 @@ html, body {
   background-image: url("../../_icons/math-7.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.math-8, .icon.math-8::after {
   mask-image: url("../../_icons/math-8.svg");
@@ -5549,6 +5786,7 @@ html, body {
   background-image: url("../../_icons/math-8.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.math-9, .icon.math-9::after {
   mask-image: url("../../_icons/math-9.svg");
@@ -5560,6 +5798,7 @@ html, body {
   background-image: url("../../_icons/math-9.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.megaphone-1, .icon.megaphone-1::after {
   mask-image: url("../../_icons/megaphone-1.svg");
@@ -5571,6 +5810,7 @@ html, body {
   background-image: url("../../_icons/megaphone-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.menu-burger, .icon.menu-burger::after {
   mask-image: url("../../_icons/menu-burger.svg");
@@ -5582,6 +5822,7 @@ html, body {
   background-image: url("../../_icons/menu-burger.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.nuage-1, .icon.nuage-1::after {
   mask-image: url("../../_icons/nuage-1.svg");
@@ -5593,6 +5834,7 @@ html, body {
   background-image: url("../../_icons/nuage-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.nuage-2, .icon.nuage-2::after {
   mask-image: url("../../_icons/nuage-2.svg");
@@ -5604,6 +5846,7 @@ html, body {
   background-image: url("../../_icons/nuage-2.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.oeil-1, .icon.oeil-1::after {
   mask-image: url("../../_icons/oeil-1.svg");
@@ -5615,6 +5858,7 @@ html, body {
   background-image: url("../../_icons/oeil-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.oeil-2, .icon.oeil-2::after {
   mask-image: url("../../_icons/oeil-2.svg");
@@ -5626,6 +5870,7 @@ html, body {
   background-image: url("../../_icons/oeil-2.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.package-1, .icon.package-1::after {
   mask-image: url("../../_icons/package-1.svg");
@@ -5637,6 +5882,7 @@ html, body {
   background-image: url("../../_icons/package-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.package-2, .icon.package-2::after {
   mask-image: url("../../_icons/package-2.svg");
@@ -5648,6 +5894,7 @@ html, body {
   background-image: url("../../_icons/package-2.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.package-3, .icon.package-3::after {
   mask-image: url("../../_icons/package-3.svg");
@@ -5659,6 +5906,7 @@ html, body {
   background-image: url("../../_icons/package-3.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.package, .icon.package::after {
   mask-image: url("../../_icons/package.svg");
@@ -5670,6 +5918,7 @@ html, body {
   background-image: url("../../_icons/package.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.panneau-1, .icon.panneau-1::after {
   mask-image: url("../../_icons/panneau-1.svg");
@@ -5681,6 +5930,7 @@ html, body {
   background-image: url("../../_icons/panneau-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.person-1, .icon.person-1::after {
   mask-image: url("../../_icons/person-1.svg");
@@ -5692,6 +5942,7 @@ html, body {
   background-image: url("../../_icons/person-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.person-2, .icon.person-2::after {
   mask-image: url("../../_icons/person-2.svg");
@@ -5703,6 +5954,7 @@ html, body {
   background-image: url("../../_icons/person-2.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.person-3, .icon.person-3::after {
   mask-image: url("../../_icons/person-3.svg");
@@ -5714,6 +5966,7 @@ html, body {
   background-image: url("../../_icons/person-3.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.person-4, .icon.person-4::after {
   mask-image: url("../../_icons/person-4.svg");
@@ -5725,6 +5978,7 @@ html, body {
   background-image: url("../../_icons/person-4.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.person-5, .icon.person-5::after {
   mask-image: url("../../_icons/person-5.svg");
@@ -5736,6 +5990,7 @@ html, body {
   background-image: url("../../_icons/person-5.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.person-6, .icon.person-6::after {
   mask-image: url("../../_icons/person-6.svg");
@@ -5747,6 +6002,7 @@ html, body {
   background-image: url("../../_icons/person-6.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.pignon-1, .icon.pignon-1::after {
   mask-image: url("../../_icons/pignon-1.svg");
@@ -5758,6 +6014,7 @@ html, body {
   background-image: url("../../_icons/pignon-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.pin-1, .icon.pin-1::after {
   mask-image: url("../../_icons/pin-1.svg");
@@ -5769,6 +6026,7 @@ html, body {
   background-image: url("../../_icons/pin-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.pinceau-1, .icon.pinceau-1::after {
   mask-image: url("../../_icons/pinceau-1.svg");
@@ -5780,6 +6038,7 @@ html, body {
   background-image: url("../../_icons/pinceau-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.play-1, .icon.play-1::after {
   mask-image: url("../../_icons/play-1.svg");
@@ -5791,6 +6050,7 @@ html, body {
   background-image: url("../../_icons/play-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.play-2, .icon.play-2::after {
   mask-image: url("../../_icons/play-2.svg");
@@ -5802,6 +6062,7 @@ html, body {
   background-image: url("../../_icons/play-2.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.plug-3, .icon.plug-3::after {
   mask-image: url("../../_icons/plug-3.svg");
@@ -5813,6 +6074,7 @@ html, body {
   background-image: url("../../_icons/plug-3.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.plus-1, .icon.plus-1::after {
   mask-image: url("../../_icons/plus-1.svg");
@@ -5824,6 +6086,7 @@ html, body {
   background-image: url("../../_icons/plus-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.plus-2, .icon.plus-2::after {
   mask-image: url("../../_icons/plus-2.svg");
@@ -5835,6 +6098,7 @@ html, body {
   background-image: url("../../_icons/plus-2.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.point-4, .icon.point-4::after {
   mask-image: url("../../_icons/point-4.svg");
@@ -5846,6 +6110,7 @@ html, body {
   background-image: url("../../_icons/point-4.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.points-1, .icon.points-1::after {
   mask-image: url("../../_icons/points-1.svg");
@@ -5857,6 +6122,7 @@ html, body {
   background-image: url("../../_icons/points-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.points-10, .icon.points-10::after {
   mask-image: url("../../_icons/points-10.svg");
@@ -5868,6 +6134,7 @@ html, body {
   background-image: url("../../_icons/points-10.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.points-11, .icon.points-11::after {
   mask-image: url("../../_icons/points-11.svg");
@@ -5879,6 +6146,7 @@ html, body {
   background-image: url("../../_icons/points-11.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.points-12, .icon.points-12::after {
   mask-image: url("../../_icons/points-12.svg");
@@ -5890,6 +6158,7 @@ html, body {
   background-image: url("../../_icons/points-12.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.points-2, .icon.points-2::after {
   mask-image: url("../../_icons/points-2.svg");
@@ -5901,6 +6170,7 @@ html, body {
   background-image: url("../../_icons/points-2.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.points-3, .icon.points-3::after {
   mask-image: url("../../_icons/points-3.svg");
@@ -5912,6 +6182,7 @@ html, body {
   background-image: url("../../_icons/points-3.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.points-5, .icon.points-5::after {
   mask-image: url("../../_icons/points-5.svg");
@@ -5923,6 +6194,7 @@ html, body {
   background-image: url("../../_icons/points-5.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.points-6, .icon.points-6::after {
   mask-image: url("../../_icons/points-6.svg");
@@ -5934,6 +6206,7 @@ html, body {
   background-image: url("../../_icons/points-6.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.points-7, .icon.points-7::after {
   mask-image: url("../../_icons/points-7.svg");
@@ -5945,6 +6218,7 @@ html, body {
   background-image: url("../../_icons/points-7.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.points-8, .icon.points-8::after {
   mask-image: url("../../_icons/points-8.svg");
@@ -5956,6 +6230,7 @@ html, body {
   background-image: url("../../_icons/points-8.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.points-9, .icon.points-9::after {
   mask-image: url("../../_icons/points-9.svg");
@@ -5967,6 +6242,7 @@ html, body {
   background-image: url("../../_icons/points-9.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.potion-1, .icon.potion-1::after {
   mask-image: url("../../_icons/potion-1.svg");
@@ -5978,6 +6254,7 @@ html, body {
   background-image: url("../../_icons/potion-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.poubelle-1, .icon.poubelle-1::after {
   mask-image: url("../../_icons/poubelle-1.svg");
@@ -5989,6 +6266,7 @@ html, body {
   background-image: url("../../_icons/poubelle-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.poubelle-2, .icon.poubelle-2::after {
   mask-image: url("../../_icons/poubelle-2.svg");
@@ -6000,6 +6278,7 @@ html, body {
   background-image: url("../../_icons/poubelle-2.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.pouce-1, .icon.pouce-1::after {
   mask-image: url("../../_icons/pouce-1.svg");
@@ -6011,6 +6290,7 @@ html, body {
   background-image: url("../../_icons/pouce-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.pouce-2, .icon.pouce-2::after {
   mask-image: url("../../_icons/pouce-2.svg");
@@ -6022,6 +6302,7 @@ html, body {
   background-image: url("../../_icons/pouce-2.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.prise-1, .icon.prise-1::after {
   mask-image: url("../../_icons/prise-1.svg");
@@ -6033,6 +6314,7 @@ html, body {
   background-image: url("../../_icons/prise-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.puce-1, .icon.puce-1::after {
   mask-image: url("../../_icons/puce-1.svg");
@@ -6044,6 +6326,7 @@ html, body {
   background-image: url("../../_icons/puce-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.pulse-1, .icon.pulse-1::after {
   mask-image: url("../../_icons/pulse-1.svg");
@@ -6055,6 +6338,7 @@ html, body {
   background-image: url("../../_icons/pulse-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.recherche-1, .icon.recherche-1::after {
   mask-image: url("../../_icons/recherche-1.svg");
@@ -6066,6 +6350,7 @@ html, body {
   background-image: url("../../_icons/recherche-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.recherche-2, .icon.recherche-2::after {
   mask-image: url("../../_icons/recherche-2.svg");
@@ -6077,6 +6362,7 @@ html, body {
   background-image: url("../../_icons/recherche-2.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.recherche-4, .icon.recherche-4::after {
   mask-image: url("../../_icons/recherche-4.svg");
@@ -6088,6 +6374,7 @@ html, body {
   background-image: url("../../_icons/recherche-4.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.recherche-6, .icon.recherche-6::after {
   mask-image: url("../../_icons/recherche-6.svg");
@@ -6099,6 +6386,7 @@ html, body {
   background-image: url("../../_icons/recherche-6.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.robot-1, .icon.robot-1::after {
   mask-image: url("../../_icons/robot-1.svg");
@@ -6110,6 +6398,7 @@ html, body {
   background-image: url("../../_icons/robot-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.robot-2, .icon.robot-2::after {
   mask-image: url("../../_icons/robot-2.svg");
@@ -6121,6 +6410,7 @@ html, body {
   background-image: url("../../_icons/robot-2.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.sablier-1, .icon.sablier-1::after {
   mask-image: url("../../_icons/sablier-1.svg");
@@ -6132,6 +6422,7 @@ html, body {
   background-image: url("../../_icons/sablier-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.search, .icon.search::after {
   mask-image: url("../../_icons/search.svg");
@@ -6143,6 +6434,7 @@ html, body {
   background-image: url("../../_icons/search.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.serveur-1, .icon.serveur-1::after {
   mask-image: url("../../_icons/serveur-1.svg");
@@ -6154,6 +6446,7 @@ html, body {
   background-image: url("../../_icons/serveur-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.serveur-2, .icon.serveur-2::after {
   mask-image: url("../../_icons/serveur-2.svg");
@@ -6165,6 +6458,7 @@ html, body {
   background-image: url("../../_icons/serveur-2.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.soleil-1, .icon.soleil-1::after {
   mask-image: url("../../_icons/soleil-1.svg");
@@ -6176,6 +6470,7 @@ html, body {
   background-image: url("../../_icons/soleil-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.son-1, .icon.son-1::after {
   mask-image: url("../../_icons/son-1.svg");
@@ -6187,6 +6482,7 @@ html, body {
   background-image: url("../../_icons/son-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.son-2, .icon.son-2::after {
   mask-image: url("../../_icons/son-2.svg");
@@ -6198,6 +6494,7 @@ html, body {
   background-image: url("../../_icons/son-2.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.stylo-1, .icon.stylo-1::after {
   mask-image: url("../../_icons/stylo-1.svg");
@@ -6209,6 +6506,7 @@ html, body {
   background-image: url("../../_icons/stylo-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.sync-1, .icon.sync-1::after {
   mask-image: url("../../_icons/sync-1.svg");
@@ -6220,6 +6518,7 @@ html, body {
   background-image: url("../../_icons/sync-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.table-1, .icon.table-1::after {
   mask-image: url("../../_icons/table-1.svg");
@@ -6231,6 +6530,7 @@ html, body {
   background-image: url("../../_icons/table-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.tel-1, .icon.tel-1::after {
   mask-image: url("../../_icons/tel-1.svg");
@@ -6242,6 +6542,7 @@ html, body {
   background-image: url("../../_icons/tel-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.tel, .icon.tel::after {
   mask-image: url("../../_icons/tel.svg");
@@ -6253,6 +6554,7 @@ html, body {
   background-image: url("../../_icons/tel.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.telescop-1, .icon.telescop-1::after {
   mask-image: url("../../_icons/telescop-1.svg");
@@ -6264,6 +6566,7 @@ html, body {
   background-image: url("../../_icons/telescop-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.telescop-2, .icon.telescop-2::after {
   mask-image: url("../../_icons/telescop-2.svg");
@@ -6275,6 +6578,7 @@ html, body {
   background-image: url("../../_icons/telescop-2.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.telescop-3, .icon.telescop-3::after {
   mask-image: url("../../_icons/telescop-3.svg");
@@ -6286,6 +6590,7 @@ html, body {
   background-image: url("../../_icons/telescop-3.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.terminal-1, .icon.terminal-1::after {
   mask-image: url("../../_icons/terminal-1.svg");
@@ -6297,6 +6602,7 @@ html, body {
   background-image: url("../../_icons/terminal-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.trait-1, .icon.trait-1::after {
   mask-image: url("../../_icons/trait-1.svg");
@@ -6308,6 +6614,7 @@ html, body {
   background-image: url("../../_icons/trait-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.trait-2, .icon.trait-2::after {
   mask-image: url("../../_icons/trait-2.svg");
@@ -6319,6 +6626,7 @@ html, body {
   background-image: url("../../_icons/trait-2.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.trait-3, .icon.trait-3::after {
   mask-image: url("../../_icons/trait-3.svg");
@@ -6330,6 +6638,7 @@ html, body {
   background-image: url("../../_icons/trait-3.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.trait-4, .icon.trait-4::after {
   mask-image: url("../../_icons/trait-4.svg");
@@ -6341,6 +6650,7 @@ html, body {
   background-image: url("../../_icons/trait-4.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.valid-1, .icon.valid-1::after {
   mask-image: url("../../_icons/valid-1.svg");
@@ -6352,6 +6662,7 @@ html, body {
   background-image: url("../../_icons/valid-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.valid-2, .icon.valid-2::after {
   mask-image: url("../../_icons/valid-2.svg");
@@ -6363,6 +6674,7 @@ html, body {
   background-image: url("../../_icons/valid-2.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.valid-3, .icon.valid-3::after {
   mask-image: url("../../_icons/valid-3.svg");
@@ -6374,6 +6686,7 @@ html, body {
   background-image: url("../../_icons/valid-3.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.valid-4, .icon.valid-4::after {
   mask-image: url("../../_icons/valid-4.svg");
@@ -6385,6 +6698,7 @@ html, body {
   background-image: url("../../_icons/valid-4.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.valid-5, .icon.valid-5::after {
   mask-image: url("../../_icons/valid-5.svg");
@@ -6396,6 +6710,7 @@ html, body {
   background-image: url("../../_icons/valid-5.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.valid-6, .icon.valid-6::after {
   mask-image: url("../../_icons/valid-6.svg");
@@ -6407,6 +6722,7 @@ html, body {
   background-image: url("../../_icons/valid-6.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.valid-7, .icon.valid-7::after {
   mask-image: url("../../_icons/valid-7.svg");
@@ -6418,6 +6734,7 @@ html, body {
   background-image: url("../../_icons/valid-7.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.valid-8, .icon.valid-8::after {
   mask-image: url("../../_icons/valid-8.svg");
@@ -6429,6 +6746,7 @@ html, body {
   background-image: url("../../_icons/valid-8.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.valid-9, .icon.valid-9::after {
   mask-image: url("../../_icons/valid-9.svg");
@@ -6440,6 +6758,7 @@ html, body {
   background-image: url("../../_icons/valid-9.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.valided, .icon.valided::after {
   mask-image: url("../../_icons/valided.svg");
@@ -6451,6 +6770,7 @@ html, body {
   background-image: url("../../_icons/valided.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.vcard, .icon.vcard::after {
   mask-image: url("../../_icons/vcard.svg");
@@ -6462,6 +6782,7 @@ html, body {
   background-image: url("../../_icons/vcard.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.visage-1, .icon.visage-1::after {
   mask-image: url("../../_icons/visage-1.svg");
@@ -6473,6 +6794,7 @@ html, body {
   background-image: url("../../_icons/visage-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.webhook-1, .icon.webhook-1::after {
   mask-image: url("../../_icons/webhook-1.svg");
@@ -6484,6 +6806,7 @@ html, body {
   background-image: url("../../_icons/webhook-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.wifi-1, .icon.wifi-1::after {
   mask-image: url("../../_icons/wifi-1.svg");
@@ -6495,6 +6818,7 @@ html, body {
   background-image: url("../../_icons/wifi-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .icon.wifi-2, .icon.wifi-2::after {
   mask-image: url("../../_icons/wifi-2.svg");
@@ -6506,6 +6830,7 @@ html, body {
   background-image: url("../../_icons/wifi-2.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 
 /** Templates */

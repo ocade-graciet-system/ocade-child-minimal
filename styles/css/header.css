@@ -61,7 +61,6 @@ header {
   margin-left: calc(50% - 50vw);
   margin-right: calc(50% - 50vw);
   background-color: var(--wp--preset--color--white);
-  overflow: hidden;
 }
 header.is-header-sticky, header.is-breadcrumb-sticky {
   position: sticky;

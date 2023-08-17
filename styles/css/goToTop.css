@@ -116,6 +116,7 @@ html, body {
   background-image: url("../../_icons/fleche-9.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 #go-to-top::after {
   display: none !important;

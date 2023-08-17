@@ -105,6 +105,7 @@ ul li.is-style-star::before {
   background-image: url("../../_icons/star-3.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 ul li.is-style-square::before {
   mask-image: url("../../_icons/square-1.svg");
@@ -117,6 +118,7 @@ ul li.is-style-square::before {
   background-image: url("../../_icons/square-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 ul li.is-style-circle::before {
   mask-image: url("../../_icons/circle-1.svg");
@@ -133,6 +135,7 @@ ul li.is-style-circle::before {
   background-image: url("../../_icons/circle-1.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 ul li.is-style-checked::before {
   mask-image: url("../../_icons/check-10.svg");
@@ -146,6 +149,7 @@ ul li.is-style-checked::before {
   background-image: url("../../_icons/check-10.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 ul li.is-style-disabled {
   color: rgb(192, 0, 0);
@@ -163,6 +167,7 @@ ul li.is-style-disabled::before {
   background-image: url("../../_icons/disabled.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 
 /** Pour avoir les icones dans l'éditeur */
@@ -176,6 +181,7 @@ ul li.is-style-disabled::before {
   background-image: url("../../../../_icons/checked.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 .editor-styles-wrapper ul li.is-style-disabled::before {
   mask-image: url("../../../../_icons/disabled.svg");
@@ -187,6 +193,7 @@ ul li.is-style-disabled::before {
   background-image: url("../../../../_icons/disabled.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 
 /*# sourceMappingURL=list.css.map */

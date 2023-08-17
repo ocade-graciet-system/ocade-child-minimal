@@ -113,6 +113,7 @@ nav.wp-block-navigation button.wp-block-navigation__responsive-container-open::b
   background-image: url("../../_icons/menu-burger.svg");
   background-size: 100%;
   background-position: center center;
+  background-color: transparent !important;
 }
 nav.wp-block-navigation button.wp-block-navigation__responsive-container-open:hover::before {
   background-color: var(--wp--preset--color--primary-700);
