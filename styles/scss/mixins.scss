@@ -114,6 +114,7 @@ avec un override composé (toutes les propriétés listées sont omises) :
     background-image: url("#{$path}#{$name}.#{$suffix}");
     background-size: 100%;
     background-position: center center;
+    background-color: transparent !important;
   }
 } 
 
