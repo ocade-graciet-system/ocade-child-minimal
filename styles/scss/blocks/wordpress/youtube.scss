@@ -1,0 +1,10 @@
+@import "../../config.scss";
+
+.wp-block-embed {
+  iframe {
+    @media (min-width: $bp-xl) {
+      width: 700px;
+      height: 394px;
+    }
+  }
+}
