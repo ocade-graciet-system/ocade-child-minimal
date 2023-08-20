@@ -1,0 +1,244 @@
+@charset "UTF-8";
+/* CLEMUX DESIGN SYSTEM */
+/* TYPOGRAPHY
+Utilisation de la mixin :
+exemple d'utilisation simple :
+  @include typo("title-xxl");
+avec un breakpoint : (les règles associées à title-xxl-sm sont déclarées pour une taille d'écran > $bp-sm)
+  @include typo("title-xxl-sm", "sm");
+avec un override simple : (la propriété déclarée en override est omise)
+  @include typo("title-xxl", 0, "font-family");
+avec un override composé (toutes les propriétés listées sont omises) :
+  @include typo("title-xxl", 0, "font-family" "font-size"); // les propriétés à omettre sont séparées par une espace
+*/
+/** Générer des classes border-primary-200 ou encore border-ternary-500 */
+/** Génère des classes border-radius */
+/** 🚀 Les variables scss générales seront accessible dans le site via le :root permettant à ocade-blocks de pouvoir appliquer des designs et des logiques modifié dans le theme enfants (exemple les espacements) */
+:root {
+  --fond-du-site: #fff;
+  --espacement-1: .5rem; /** 8px */
+  --espacement-2: 1rem; /** 16px */
+  --espacement-3: 1.5rem; /** 24px */
+  --espacement-4: 2rem; /** 32px */
+  --espacement-5: 2.5rem; /** 40px */
+  --espacement-6: 3rem; /** 48px */
+  --espacement-7: 3.5rem; /** 56px */
+  --espacement-8: 4rem; /** 64px */
+  --espacement-9: 4.5rem; /** 72px */
+  --espacement-10: 5rem; /** 80px */
+  --aligncontent: 1280px;
+  --alignwide: 1440px;
+  --alignfull: 100vw;
+  --bp-xs: 450px;
+  --bp-sm: 576px;
+  --bp-md: 768px;
+  --bp-lg: 992px;
+  --bp-xl: 1280px;
+  --bp-xxl: 1440px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  background-color: var(--fond-du-site);
+}
+
+/*
+ * TYPO
+ */
+/** CLEMUX DESIGN SYSTEM */
+/* Breakpoints */
+/* Colors
+* Les couleurs --wp-preset--color--* sont définies dans le fichier functions.php. On peut les faire variées directement dans Thèmes -> Personnaliser -> Couleurs
+* Ici on associe ces valeurs présent dans le BO à des variables plus parlantes
+*/
+/** Black */
+/** White */
+/** Primary */
+/** Secondary */
+/** Tertiary */
+/** Supports */
+footer .wp-block-group {
+  padding-top: 4rem;
+  padding-bottom: 6rem;
+}
+@media (min-width: 600px) {
+  footer .wp-block-group {
+    padding-bottom: 4rem;
+  }
+}
+footer .wp-block-group .wp-block-columns {
+  justify-content: center;
+  column-gap: 3.5rem;
+  flex-wrap: wrap !important;
+}
+footer .wp-block-group .wp-block-columns .wp-block-column {
+  display: flex;
+  flex: 0 0 max-content;
+  flex-direction: column;
+  align-items: center;
+}
+footer .wp-block-group .wp-block-columns .wp-block-column .wp-block-group {
+  align-items: center;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+@media (min-width: 600px) {
+  footer .wp-block-group .wp-block-columns .wp-block-column .wp-block-group {
+    align-items: flex-start;
+  }
+}
+footer .wp-block-group .wp-block-columns .wp-block-column .wp-block-group .wp-block-ocade-blocks-icon {
+  width: 1.5rem !important;
+  height: 1.5rem !important;
+  background-color: transparent !important;
+  border: none !important;
+}
+footer .wp-block-group .wp-block-columns .wp-block-column .wp-block-ocade-blocks-mailto {
+  color: var(--wp--preset--color--white);
+}
+@media (min-width: 782px) {
+  footer .wp-block-group .wp-block-columns .wp-block-column .wp-block-ocade-blocks-mailto {
+    margin-left: 0;
+    padding: 0;
+  }
+}
+footer .wp-block-group .wp-block-columns .wp-block-column .wp-block-ocade-blocks-mailto::before {
+  mask-image: url("../../_icons/arobase-2.svg");
+  -webkit-mask-image: url("../../_icons/arobase-2.svg");
+  width: 1rem;
+  height: 1rem;
+  color: var(--wp--preset--color--secondary-700);
+}
+footer .wp-block-group .wp-block-columns .wp-block-column p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+@media (min-width: 600px) {
+  footer .wp-block-group .wp-block-columns .wp-block-column p {
+    margin-bottom: 0.5rem;
+  }
+}
+@media (min-width: 782px) {
+  footer .wp-block-group .wp-block-columns .wp-block-column p {
+    align-self: flex-start;
+  }
+}
+footer .wp-block-group .wp-block-columns .wp-block-column p strong {
+  color: var(--wp--preset--color--white);
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+footer .wp-block-group .wp-block-columns .wp-block-column p a {
+  color: var(--wp--preset--color--white);
+  min-height: 1rem;
+}
+footer .wp-block-group .wp-block-columns .wp-block-column p time {
+  color: inherit;
+}
+footer .wp-block-group .wp-block-columns .wp-block-column p .content {
+  color: inherit;
+}
+footer .wp-block-group .wp-block-columns .wp-block-column p.seve-up {
+  color: var(--wp--preset--color--white);
+  font-size: 3rem;
+  font-weight: 700;
+}
+footer .wp-block-group .wp-block-columns .wp-block-column p.seve-up strong {
+  color: var(--wp--preset--color--secondary-700);
+  font-size: 3rem;
+  font-weight: 700;
+}
+footer .wp-block-group .wp-block-columns .wp-block-column p.wp-block-site-tagline {
+  font-weight: 600;
+  text-align: center;
+}
+@media (min-width: 782px) {
+  footer .wp-block-group .wp-block-columns .wp-block-column p.wp-block-site-tagline {
+    text-align: left;
+  }
+}
+footer .wp-block-group .wp-block-columns .wp-block-column p,
+footer .wp-block-group .wp-block-columns .wp-block-column .wp-block-group {
+  max-width: 250px;
+}
+footer .wp-block-group .wp-block-columns .wp-block-column time + p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+footer .wp-block-group .wp-block-columns .wp-block-column .wp-block-ocade-blocks-footer-menu a[href="#header"] {
+  filter: grayscale(100%);
+  cursor: default;
+}
+footer .wp-block-group .wp-block-columns .wp-block-column .wp-block-ocade-blocks-footer-menu a[href="#header"].no-top {
+  filter: grayscale(0%);
+  cursor: pointer;
+}
+
+/* stylelint-disable-next-line no-descending-specificity */
+.footer-flag-nav {
+  position: relative;
+  z-index: 999;
+  width: 50px;
+  height: 50px;
+}
+.footer-flag-nav .footer-flag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: inherit;
+  background-color: var(--wp--preset--color--supports-200);
+  border-radius: 100%;
+  border: 6px outset var(--wp--preset--color--supports-600);
+}
+.footer-flag-nav .footer-flag img {
+  width: 24px; /** Garder pour opti google speed insights */
+  height: 17px; /** Garder pour opti google speed insights */
+}
+.footer-flag-nav .footer-flag + .footer-flags-list {
+  display: none;
+  position: absolute;
+  left: calc(100% + 0.5rem);
+  bottom: 2.5rem;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+  width: 300px;
+  /* stylelint-disable-next-line no-descending-specificity */
+}
+.footer-flag-nav .footer-flag + .footer-flags-list li {
+  /* stylelint-disable-next-line no-descending-specificity */
+}
+.footer-flag-nav .footer-flag + .footer-flags-list li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  min-height: 44px;
+  min-width: 44px;
+  background-color: var(--wp--preset--color--supports-300);
+  border-radius: 100%;
+  border: 0.25rem inset var(--wp--preset--color--supports-600);
+}
+.footer-flag-nav .footer-flag + .footer-flags-list li a:hover {
+  background-color: var(--wp--preset--color--supports-300);
+}
+.footer-flag-nav .footer-flag + .footer-flags-list li a img {
+  width: 24px; /** Garder pour opti google speed insights */
+  height: 17px; /** Garder pour opti google speed insights */
+}
+.footer-flag-nav:hover {
+  cursor: pointer;
+}
+.footer-flag-nav:hover .footer-flag {
+  background-color: var(--wp--preset--color--supports-200);
+}
+.footer-flag-nav.open .footer-flag {
+  background-color: var(--wp--preset--color--supports-200);
+}
+.footer-flag-nav.open .footer-flags-list {
+  display: flex !important;
+}
+
+/*# sourceMappingURL=footer.css.map */
