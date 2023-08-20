@@ -13,6 +13,12 @@
   font-size: 100%;
 }
 
+html,
+body,
+* { scroll-behavior: smooth; }
+
+*.aligncenter { text-align: center; }
+
 html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;

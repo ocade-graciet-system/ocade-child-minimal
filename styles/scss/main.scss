@@ -4,50 +4,25 @@
 @use "sass:map";
 @use "sass:color";
 
-@import "./breadcrumb.scss";
 @import "./config.scss";
-@import "./bootstrap.scss";
 @import "./external_links.scss";
-@import "./footer.scss";
 @import "./goToTop.scss";
-@import "./header.scss";
 @import "./layout.scss";
-@import "./misc.scss";
 @import "./mixins.scss";
 @import "./normalize.scss"; 
 @import "./typographie.scss";
-@import "./back-office.scss";
-
-/** Blocks */
-@import "./blocks/formulaire.scss";
-@import "./blocks/install-app.scss";
-
-/** Blocks Kadence */
-@import "./blocks/kadence/accordion.scss";
-@import "./blocks/kadence/advancedgallery.scss";
-@import "./blocks/kadence/testimonials.scss";
 
 /** Blocks Ocade */
-@import "./blocks/ocade/card-price-toggle.scss";
-@import "./blocks/ocade/install-app.scss";
 
-/** Blocks Wordpress */
-@import "./blocks/wordpress/buttons.scss";
-@import "./blocks/wordpress/categories.scss";
-@import "./blocks/wordpress/columns.scss";
-@import "./blocks/wordpress/cover.scss";
-@import "./blocks/wordpress/group.scss";
-@import "./blocks/wordpress/image.scss";
-@import "./blocks/wordpress/list.scss";
-@import "./blocks/wordpress/media-text.scss";
-@import "./blocks/wordpress/navigation.scss";
-@import "./blocks/wordpress/youtube.scss";
+/** Blocks Kadence */
 
-/** IOS */
-@import "./ios/form.scss";
+/** Blocks Ocade */
 
 /** Automatic Génération By Script */
 @import "./icons.scss";
 
-/** Templates */
-@import "./templates/category.scss";
+/** Templates Wordpress (Page catégories, Pages des articles ....) */
+@import "./templates/breadcrumb.scss"; /** Breadcrumb Ocade Minimal */
+@import "./templates/category.scss"; /** Page catégorie Ocade Minimal */
+@import "./templates/footer.scss"; /** Footer (Ancien avant custom block) */
+@import "./templates/header.scss"; /** Header Ocade Minimal */

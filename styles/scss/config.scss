@@ -7,28 +7,50 @@
 @import "./mixins.scss";
 @import "./load.scss";
 
+/** 🚀 Les variables scss générales seront accessible dans le site via le :root permettant à ocade-blocks de pouvoir appliquer des designs et des logiques modifié dans le theme enfants (exemple les espacements) */
 :root {
   --fond-du-site: #fff; // Couleur de la fond du site. Sert pour déterminer la couleur de body, html mais aussi pour le bloc ocade-blocks/table lorsqu'il à des arrondie de bordures élever + effet sticky de sa première ligne.
+  --espacement-1: .5rem; /** 8px */
+  --espacement-2: 1rem; /** 16px */
+  --espacement-3: 1.5rem; /** 24px */
+  --espacement-4: 2rem; /** 32px */
+  --espacement-5: 2.5rem; /** 40px */
+  --espacement-6: 3rem; /** 48px */
+  --espacement-7: 3.5rem; /** 56px */
+  --espacement-8: 4rem; /** 64px */
+  --espacement-9: 4.5rem; /** 72px */
+  --espacement-10: 5rem; /** 80px */
+
+  --aligncontent: 1280px;
+  --alignwide: 1440px;
+  --alignfull: 100vw;
+
+  --bp-xs: 450px;
+  --bp-sm: 576px;
+  --bp-md: 768px;
+  --bp-lg: 992px;
+  --bp-xl: 1280px;
+  --bp-xxl: 1440px;
 }
 
 * { box-sizing: border-box; }
 
 html, body { background-color: var(--fond-du-site); }
 
-$aligncontent: 1280px;
-$alignwide: 1440px;
-$alignfull: 100vw;
+$aligncontent: var(--aligncontent);
+$alignwide: var(--alignwide);
+$alignfull: var(--alignfull);
 
-$espacement-1: .5rem; /** 8px */
-$espacement-2: 1rem; /** 16px */
-$espacement-3: 1.5rem; /** 24px */
-$espacement-4: 2rem; /** 32px */
-$espacement-5: 2.5rem; /** 40px */
-$espacement-6: 3rem; /** 48px */
-$espacement-7: 3.5rem; /** 56px */
-$espacement-8: 4rem; /** 64px */
-$espacement-9: 4.5rem; /** 72px */
-$espacement-10: 5rem; /** 80px */
+$espacement-1: var(--espacement-1);
+$espacement-2: var(--espacement-2);
+$espacement-3: var(--espacement-3);
+$espacement-4: var(--espacement-4);
+$espacement-5: var(--espacement-5);
+$espacement-6: var(--espacement-6);
+$espacement-7: var(--espacement-7);
+$espacement-8: var(--espacement-8);
+$espacement-9: var(--espacement-9);
+$espacement-10: var(--espacement-10);
 
 /*
  * TYPO
@@ -200,12 +222,12 @@ $cds: (
 );
 
 /* Breakpoints */
-$bp-xs: 450px;
-$bp-sm: 576px;
-$bp-md: 768px;
-$bp-lg: 992px;
-$bp-xl: 1280px;
-$bp-xxl: 1440px;
+$bp-xs: var(--bp-xs);
+$bp-sm: var(--bp-sm);
+$bp-md: var(--bp-md);
+$bp-lg: var(--bp-lg);
+$bp-xl: var(--bp-xl);
+$bp-xxl: var(--bp-xxl);
 $bp: (
   "xs": $bp-xs,
   "sm": $bp-sm,
