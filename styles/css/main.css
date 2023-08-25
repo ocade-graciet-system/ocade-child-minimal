@@ -163,7 +163,7 @@ a[href*="app.seve-up.com"]::after {
   background-color: transparent !important;
 }
 
-a:not([href=""]):not([href*="#"]):not([href="/"]):not([href*="#pll_switcher"]):not([href*="SOUSDOMAINE.docker.localhost"]):not([href^="tel:"]):not([href^="fax:"]):not([href^="mailto:"]):not([href*="app.seve-up.com"])::after {
+a:not([href=""]):not([href*="#"]):not([href="/"]):not([href*="#pll_switcher"]):not([href*="SOUSDOMAINE.ocade.eu"]):not([href^="tel:"]):not([href^="fax:"]):not([href^="mailto:"]):not([href*="app.seve-up.com"])::after {
   mask-image: url("../../_icons/exit.svg");
   -webkit-mask-image: url("../../_icons/exit.svg");
   content: "";
@@ -189,7 +189,7 @@ a:not([href=""]):not([href*="#"]):not([href="/"]):not([href*="#pll_switcher"]):n
   margin-left: 0.2rem;
   background-color: currentcolor;
 }
-.is-style-couleurs-originales a:not([href=""]):not([href*="#"]):not([href="/"]):not([href*="#pll_switcher"]):not([href*="SOUSDOMAINE.docker.localhost"]):not([href^="tel:"]):not([href^="fax:"]):not([href^="mailto:"]):not([href*="app.seve-up.com"])::after {
+.is-style-couleurs-originales a:not([href=""]):not([href*="#"]):not([href="/"]):not([href*="#pll_switcher"]):not([href*="SOUSDOMAINE.ocade.eu"]):not([href^="tel:"]):not([href^="fax:"]):not([href^="mailto:"]):not([href*="app.seve-up.com"])::after {
   mask-image: none;
   -webkit-mask-image: none;
   background-image: url("../../_icons/exit.svg");
@@ -197,7 +197,7 @@ a:not([href=""]):not([href*="#"]):not([href="/"]):not([href*="#pll_switcher"]):n
   background-position: center center;
   background-color: transparent !important;
 }
-.is-style-couleurs-originales a:not([href=""]):not([href*="#"]):not([href="/"]):not([href*="#pll_switcher"]):not([href*="SOUSDOMAINE.docker.localhost"]):not([href^="tel:"]):not([href^="fax:"]):not([href^="mailto:"]):not([href*="app.seve-up.com"])::after {
+.is-style-couleurs-originales a:not([href=""]):not([href*="#"]):not([href="/"]):not([href*="#pll_switcher"]):not([href*="SOUSDOMAINE.ocade.eu"]):not([href^="tel:"]):not([href^="fax:"]):not([href^="mailto:"]):not([href*="app.seve-up.com"])::after {
   mask-image: none;
   -webkit-mask-image: none;
   background-image: none;
