@@ -5,6 +5,10 @@
   @include icon-base();
 
   
+  &.README, &.README::after {
+    @include icon("README", "md");
+  }
+  
   &.ampoule-1, &.ampoule-1::after {
     @include icon("ampoule-1");
   }
@@ -23,30 +27,6 @@
   
   &.attention-2, &.attention-2::after {
     @include icon("attention-2");
-  }
-  
-  &.batsort-chauve-souris-1, &.batsort-chauve-souris-1::after {
-    @include icon("batsort-chauve-souris-1");
-  }
-  
-  &.batsort-chauve-souris-2, &.batsort-chauve-souris-2::after {
-    @include icon("batsort-chauve-souris-2");
-  }
-  
-  &.batsort-chauve-souris-3, &.batsort-chauve-souris-3::after {
-    @include icon("batsort-chauve-souris-3");
-  }
-  
-  &.batsort-chauve-souris-4, &.batsort-chauve-souris-4::after {
-    @include icon("batsort-chauve-souris-4");
-  }
-  
-  &.batsort-chauve-souris-5, &.batsort-chauve-souris-5::after {
-    @include icon("batsort-chauve-souris-5");
-  }
-  
-  &.batsort-chauve-souris-6, &.batsort-chauve-souris-6::after {
-    @include icon("batsort-chauve-souris-6");
   }
   
   &.bdd-1, &.bdd-1::after {
@@ -565,6 +545,10 @@
     @include icon("fleche-34");
   }
   
+  &.fleche-35, &.fleche-35::after {
+    @include icon("fleche-35");
+  }
+  
   &.fleche-35vg, &.fleche-35vg::after {
     @include icon("fleche-35vg", "undefined");
   }
@@ -633,6 +617,10 @@
     @include icon("fleche-9");
   }
   
+  &.functions, &.functions::after {
+    @include icon("functions", "php");
+  }
+  
   &.fusee-1, &.fusee-1::after {
     @include icon("fusee-1");
   }
@@ -679,6 +667,10 @@
   
   &.horloge-5, &.horloge-5::after {
     @include icon("horloge-5");
+  }
+  
+  &.icons, &.icons::after {
+    @include icon("icons", "js");
   }
   
   &.image-1, &.image-1::after {
@@ -1097,6 +1089,10 @@
     @include icon("points-9");
   }
   
+  &.postcss, &.postcss::after {
+    @include icon("postcss", "config");
+  }
+  
   &.potion-1, &.potion-1::after {
     @include icon("potion-1");
   }
@@ -1129,6 +1125,10 @@
     @include icon("pulse-1");
   }
   
+  &.readme, &.readme::after {
+    @include icon("readme", "png");
+  }
+  
   &.recherche-1, &.recherche-1::after {
     @include icon("recherche-1");
   }
@@ -1153,8 +1153,24 @@
     @include icon("robot-2");
   }
   
+  &.run-push, &.run-push::after {
+    @include icon("run-push", "sh");
+  }
+  
+  &.run-tests, &.run-tests::after {
+    @include icon("run-tests", "sh");
+  }
+  
   &.sablier-1, &.sablier-1::after {
     @include icon("sablier-1");
+  }
+  
+  &.screenshot, &.screenshot::after {
+    @include icon("screenshot", "png");
+  }
+  
+  &.search, &.search::after {
+    @include icon("search");
   }
   
   &.serveur-1, &.serveur-1::after {
@@ -1185,6 +1201,10 @@
     @include icon("star-3");
   }
   
+  &.style, &.style::after {
+    @include icon("style", "css");
+  }
+  
   &.stylo-1, &.stylo-1::after {
     @include icon("stylo-1");
   }
@@ -1199,6 +1219,10 @@
   
   &.tel-1, &.tel-1::after {
     @include icon("tel-1");
+  }
+  
+  &.tel, &.tel::after {
+    @include icon("tel");
   }
   
   &.telescop-1, &.telescop-1::after {

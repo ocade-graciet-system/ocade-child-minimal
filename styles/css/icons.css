@@ -83,6 +83,18 @@ html, body {
   background-image: none;
   background-color: transparent !important;
 }
+.icon.README, .icon.README::after {
+  mask-image: url("../../_icons/README.md");
+  -webkit-mask-image: url("../../_icons/README.md");
+}
+.is-style-couleurs-originales .icon.README, .is-style-couleurs-originales .icon.README::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/README.md");
+  background-size: 100%;
+  background-position: center center;
+  background-color: transparent !important;
+}
 .icon.ampoule-1, .icon.ampoule-1::after {
   mask-image: url("../../_icons/ampoule-1.svg");
   -webkit-mask-image: url("../../_icons/ampoule-1.svg");
@@ -139,78 +151,6 @@ html, body {
   mask-image: none;
   -webkit-mask-image: none;
   background-image: url("../../_icons/attention-2.svg");
-  background-size: 100%;
-  background-position: center center;
-  background-color: transparent !important;
-}
-.icon.batsort-chauve-souris-1, .icon.batsort-chauve-souris-1::after {
-  mask-image: url("../../_icons/batsort-chauve-souris-1.svg");
-  -webkit-mask-image: url("../../_icons/batsort-chauve-souris-1.svg");
-}
-.is-style-couleurs-originales .icon.batsort-chauve-souris-1, .is-style-couleurs-originales .icon.batsort-chauve-souris-1::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/batsort-chauve-souris-1.svg");
-  background-size: 100%;
-  background-position: center center;
-  background-color: transparent !important;
-}
-.icon.batsort-chauve-souris-2, .icon.batsort-chauve-souris-2::after {
-  mask-image: url("../../_icons/batsort-chauve-souris-2.svg");
-  -webkit-mask-image: url("../../_icons/batsort-chauve-souris-2.svg");
-}
-.is-style-couleurs-originales .icon.batsort-chauve-souris-2, .is-style-couleurs-originales .icon.batsort-chauve-souris-2::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/batsort-chauve-souris-2.svg");
-  background-size: 100%;
-  background-position: center center;
-  background-color: transparent !important;
-}
-.icon.batsort-chauve-souris-3, .icon.batsort-chauve-souris-3::after {
-  mask-image: url("../../_icons/batsort-chauve-souris-3.svg");
-  -webkit-mask-image: url("../../_icons/batsort-chauve-souris-3.svg");
-}
-.is-style-couleurs-originales .icon.batsort-chauve-souris-3, .is-style-couleurs-originales .icon.batsort-chauve-souris-3::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/batsort-chauve-souris-3.svg");
-  background-size: 100%;
-  background-position: center center;
-  background-color: transparent !important;
-}
-.icon.batsort-chauve-souris-4, .icon.batsort-chauve-souris-4::after {
-  mask-image: url("../../_icons/batsort-chauve-souris-4.svg");
-  -webkit-mask-image: url("../../_icons/batsort-chauve-souris-4.svg");
-}
-.is-style-couleurs-originales .icon.batsort-chauve-souris-4, .is-style-couleurs-originales .icon.batsort-chauve-souris-4::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/batsort-chauve-souris-4.svg");
-  background-size: 100%;
-  background-position: center center;
-  background-color: transparent !important;
-}
-.icon.batsort-chauve-souris-5, .icon.batsort-chauve-souris-5::after {
-  mask-image: url("../../_icons/batsort-chauve-souris-5.svg");
-  -webkit-mask-image: url("../../_icons/batsort-chauve-souris-5.svg");
-}
-.is-style-couleurs-originales .icon.batsort-chauve-souris-5, .is-style-couleurs-originales .icon.batsort-chauve-souris-5::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/batsort-chauve-souris-5.svg");
-  background-size: 100%;
-  background-position: center center;
-  background-color: transparent !important;
-}
-.icon.batsort-chauve-souris-6, .icon.batsort-chauve-souris-6::after {
-  mask-image: url("../../_icons/batsort-chauve-souris-6.svg");
-  -webkit-mask-image: url("../../_icons/batsort-chauve-souris-6.svg");
-}
-.is-style-couleurs-originales .icon.batsort-chauve-souris-6, .is-style-couleurs-originales .icon.batsort-chauve-souris-6::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/batsort-chauve-souris-6.svg");
   background-size: 100%;
   background-position: center center;
   background-color: transparent !important;
@@ -1763,6 +1703,18 @@ html, body {
   background-position: center center;
   background-color: transparent !important;
 }
+.icon.fleche-35, .icon.fleche-35::after {
+  mask-image: url("../../_icons/fleche-35.svg");
+  -webkit-mask-image: url("../../_icons/fleche-35.svg");
+}
+.is-style-couleurs-originales .icon.fleche-35, .is-style-couleurs-originales .icon.fleche-35::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/fleche-35.svg");
+  background-size: 100%;
+  background-position: center center;
+  background-color: transparent !important;
+}
 .icon.fleche-35vg, .icon.fleche-35vg::after {
   mask-image: url("../../_icons/fleche-35vg.undefined");
   -webkit-mask-image: url("../../_icons/fleche-35vg.undefined");
@@ -1967,6 +1919,18 @@ html, body {
   background-position: center center;
   background-color: transparent !important;
 }
+.icon.functions, .icon.functions::after {
+  mask-image: url("../../_icons/functions.php");
+  -webkit-mask-image: url("../../_icons/functions.php");
+}
+.is-style-couleurs-originales .icon.functions, .is-style-couleurs-originales .icon.functions::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/functions.php");
+  background-size: 100%;
+  background-position: center center;
+  background-color: transparent !important;
+}
 .icon.fusee-1, .icon.fusee-1::after {
   mask-image: url("../../_icons/fusee-1.svg");
   -webkit-mask-image: url("../../_icons/fusee-1.svg");
@@ -2107,6 +2071,18 @@ html, body {
   mask-image: none;
   -webkit-mask-image: none;
   background-image: url("../../_icons/horloge-5.svg");
+  background-size: 100%;
+  background-position: center center;
+  background-color: transparent !important;
+}
+.icon.icons, .icon.icons::after {
+  mask-image: url("../../_icons/icons.js");
+  -webkit-mask-image: url("../../_icons/icons.js");
+}
+.is-style-couleurs-originales .icon.icons, .is-style-couleurs-originales .icon.icons::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/icons.js");
   background-size: 100%;
   background-position: center center;
   background-color: transparent !important;
@@ -3359,6 +3335,18 @@ html, body {
   background-position: center center;
   background-color: transparent !important;
 }
+.icon.postcss, .icon.postcss::after {
+  mask-image: url("../../_icons/postcss.config");
+  -webkit-mask-image: url("../../_icons/postcss.config");
+}
+.is-style-couleurs-originales .icon.postcss, .is-style-couleurs-originales .icon.postcss::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/postcss.config");
+  background-size: 100%;
+  background-position: center center;
+  background-color: transparent !important;
+}
 .icon.potion-1, .icon.potion-1::after {
   mask-image: url("../../_icons/potion-1.svg");
   -webkit-mask-image: url("../../_icons/potion-1.svg");
@@ -3455,6 +3443,18 @@ html, body {
   background-position: center center;
   background-color: transparent !important;
 }
+.icon.readme, .icon.readme::after {
+  mask-image: url("../../_icons/readme.png");
+  -webkit-mask-image: url("../../_icons/readme.png");
+}
+.is-style-couleurs-originales .icon.readme, .is-style-couleurs-originales .icon.readme::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/readme.png");
+  background-size: 100%;
+  background-position: center center;
+  background-color: transparent !important;
+}
 .icon.recherche-1, .icon.recherche-1::after {
   mask-image: url("../../_icons/recherche-1.svg");
   -webkit-mask-image: url("../../_icons/recherche-1.svg");
@@ -3527,6 +3527,30 @@ html, body {
   background-position: center center;
   background-color: transparent !important;
 }
+.icon.run-push, .icon.run-push::after {
+  mask-image: url("../../_icons/run-push.sh");
+  -webkit-mask-image: url("../../_icons/run-push.sh");
+}
+.is-style-couleurs-originales .icon.run-push, .is-style-couleurs-originales .icon.run-push::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/run-push.sh");
+  background-size: 100%;
+  background-position: center center;
+  background-color: transparent !important;
+}
+.icon.run-tests, .icon.run-tests::after {
+  mask-image: url("../../_icons/run-tests.sh");
+  -webkit-mask-image: url("../../_icons/run-tests.sh");
+}
+.is-style-couleurs-originales .icon.run-tests, .is-style-couleurs-originales .icon.run-tests::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/run-tests.sh");
+  background-size: 100%;
+  background-position: center center;
+  background-color: transparent !important;
+}
 .icon.sablier-1, .icon.sablier-1::after {
   mask-image: url("../../_icons/sablier-1.svg");
   -webkit-mask-image: url("../../_icons/sablier-1.svg");
@@ -3535,6 +3559,30 @@ html, body {
   mask-image: none;
   -webkit-mask-image: none;
   background-image: url("../../_icons/sablier-1.svg");
+  background-size: 100%;
+  background-position: center center;
+  background-color: transparent !important;
+}
+.icon.screenshot, .icon.screenshot::after {
+  mask-image: url("../../_icons/screenshot.png");
+  -webkit-mask-image: url("../../_icons/screenshot.png");
+}
+.is-style-couleurs-originales .icon.screenshot, .is-style-couleurs-originales .icon.screenshot::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/screenshot.png");
+  background-size: 100%;
+  background-position: center center;
+  background-color: transparent !important;
+}
+.icon.search, .icon.search::after {
+  mask-image: url("../../_icons/search.svg");
+  -webkit-mask-image: url("../../_icons/search.svg");
+}
+.is-style-couleurs-originales .icon.search, .is-style-couleurs-originales .icon.search::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/search.svg");
   background-size: 100%;
   background-position: center center;
   background-color: transparent !important;
@@ -3623,6 +3671,18 @@ html, body {
   background-position: center center;
   background-color: transparent !important;
 }
+.icon.style, .icon.style::after {
+  mask-image: url("../../_icons/style.css");
+  -webkit-mask-image: url("../../_icons/style.css");
+}
+.is-style-couleurs-originales .icon.style, .is-style-couleurs-originales .icon.style::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/style.css");
+  background-size: 100%;
+  background-position: center center;
+  background-color: transparent !important;
+}
 .icon.stylo-1, .icon.stylo-1::after {
   mask-image: url("../../_icons/stylo-1.svg");
   -webkit-mask-image: url("../../_icons/stylo-1.svg");
@@ -3667,6 +3727,18 @@ html, body {
   mask-image: none;
   -webkit-mask-image: none;
   background-image: url("../../_icons/tel-1.svg");
+  background-size: 100%;
+  background-position: center center;
+  background-color: transparent !important;
+}
+.icon.tel, .icon.tel::after {
+  mask-image: url("../../_icons/tel.svg");
+  -webkit-mask-image: url("../../_icons/tel.svg");
+}
+.is-style-couleurs-originales .icon.tel, .is-style-couleurs-originales .icon.tel::after {
+  mask-image: none;
+  -webkit-mask-image: none;
+  background-image: url("../../_icons/tel.svg");
   background-size: 100%;
   background-position: center center;
   background-color: transparent !important;
