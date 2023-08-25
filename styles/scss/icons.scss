@@ -661,10 +661,6 @@
     @include icon("horloge-5");
   }
   
-  &.icons, &.icons::after {
-    @include icon("icons", "js");
-  }
-  
   &.image-1, &.image-1::after {
     @include icon("image-1");
   }
@@ -1081,10 +1077,6 @@
     @include icon("points-9");
   }
   
-  &.postcss, &.postcss::after {
-    @include icon("postcss", "config");
-  }
-  
   &.potion-1, &.potion-1::after {
     @include icon("potion-1");
   }
@@ -1183,10 +1175,6 @@
   
   &.star-3, &.star-3::after {
     @include icon("star-3");
-  }
-  
-  &.style, &.style::after {
-    @include icon("style", "css");
   }
   
   &.stylo-1, &.stylo-1::after {

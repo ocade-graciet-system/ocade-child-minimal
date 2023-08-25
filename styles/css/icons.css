@@ -2051,18 +2051,6 @@ html, body {
   background-position: center center;
   background-color: transparent !important;
 }
-.icon.icons, .icon.icons::after {
-  mask-image: url("../../_icons/icons.js");
-  -webkit-mask-image: url("../../_icons/icons.js");
-}
-.is-style-couleurs-originales .icon.icons, .is-style-couleurs-originales .icon.icons::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/icons.js");
-  background-size: 100%;
-  background-position: center center;
-  background-color: transparent !important;
-}
 .icon.image-1, .icon.image-1::after {
   mask-image: url("../../_icons/image-1.svg");
   -webkit-mask-image: url("../../_icons/image-1.svg");
@@ -3311,18 +3299,6 @@ html, body {
   background-position: center center;
   background-color: transparent !important;
 }
-.icon.postcss, .icon.postcss::after {
-  mask-image: url("../../_icons/postcss.config");
-  -webkit-mask-image: url("../../_icons/postcss.config");
-}
-.is-style-couleurs-originales .icon.postcss, .is-style-couleurs-originales .icon.postcss::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/postcss.config");
-  background-size: 100%;
-  background-position: center center;
-  background-color: transparent !important;
-}
 .icon.potion-1, .icon.potion-1::after {
   mask-image: url("../../_icons/potion-1.svg");
   -webkit-mask-image: url("../../_icons/potion-1.svg");
@@ -3619,18 +3595,6 @@ html, body {
   mask-image: none;
   -webkit-mask-image: none;
   background-image: url("../../_icons/star-3.svg");
-  background-size: 100%;
-  background-position: center center;
-  background-color: transparent !important;
-}
-.icon.style, .icon.style::after {
-  mask-image: url("../../_icons/style.css");
-  -webkit-mask-image: url("../../_icons/style.css");
-}
-.is-style-couleurs-originales .icon.style, .is-style-couleurs-originales .icon.style::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/style.css");
   background-size: 100%;
   background-position: center center;
   background-color: transparent !important;
