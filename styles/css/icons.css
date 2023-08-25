@@ -83,18 +83,6 @@ html, body {
   background-image: none;
   background-color: transparent !important;
 }
-.icon.README, .icon.README::after {
-  mask-image: url("../../_icons/README.md");
-  -webkit-mask-image: url("../../_icons/README.md");
-}
-.is-style-couleurs-originales .icon.README, .is-style-couleurs-originales .icon.README::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/README.md");
-  background-size: 100%;
-  background-position: center center;
-  background-color: transparent !important;
-}
 .icon.ampoule-1, .icon.ampoule-1::after {
   mask-image: url("../../_icons/ampoule-1.svg");
   -webkit-mask-image: url("../../_icons/ampoule-1.svg");
@@ -1711,18 +1699,6 @@ html, body {
   mask-image: none;
   -webkit-mask-image: none;
   background-image: url("../../_icons/fleche-35.svg");
-  background-size: 100%;
-  background-position: center center;
-  background-color: transparent !important;
-}
-.icon.fleche-35vg, .icon.fleche-35vg::after {
-  mask-image: url("../../_icons/fleche-35vg.undefined");
-  -webkit-mask-image: url("../../_icons/fleche-35vg.undefined");
-}
-.is-style-couleurs-originales .icon.fleche-35vg, .is-style-couleurs-originales .icon.fleche-35vg::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/fleche-35vg.undefined");
   background-size: 100%;
   background-position: center center;
   background-color: transparent !important;
@@ -3523,30 +3499,6 @@ html, body {
   mask-image: none;
   -webkit-mask-image: none;
   background-image: url("../../_icons/robot-2.svg");
-  background-size: 100%;
-  background-position: center center;
-  background-color: transparent !important;
-}
-.icon.run-push, .icon.run-push::after {
-  mask-image: url("../../_icons/run-push.sh");
-  -webkit-mask-image: url("../../_icons/run-push.sh");
-}
-.is-style-couleurs-originales .icon.run-push, .is-style-couleurs-originales .icon.run-push::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/run-push.sh");
-  background-size: 100%;
-  background-position: center center;
-  background-color: transparent !important;
-}
-.icon.run-tests, .icon.run-tests::after {
-  mask-image: url("../../_icons/run-tests.sh");
-  -webkit-mask-image: url("../../_icons/run-tests.sh");
-}
-.is-style-couleurs-originales .icon.run-tests, .is-style-couleurs-originales .icon.run-tests::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/run-tests.sh");
   background-size: 100%;
   background-position: center center;
   background-color: transparent !important;

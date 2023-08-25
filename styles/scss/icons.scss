@@ -5,10 +5,6 @@
   @include icon-base();
 
   
-  &.README, &.README::after {
-    @include icon("README", "md");
-  }
-  
   &.ampoule-1, &.ampoule-1::after {
     @include icon("ampoule-1");
   }
@@ -547,10 +543,6 @@
   
   &.fleche-35, &.fleche-35::after {
     @include icon("fleche-35");
-  }
-  
-  &.fleche-35vg, &.fleche-35vg::after {
-    @include icon("fleche-35vg", "undefined");
   }
   
   &.fleche-36, &.fleche-36::after {
@@ -1151,14 +1143,6 @@
   
   &.robot-2, &.robot-2::after {
     @include icon("robot-2");
-  }
-  
-  &.run-push, &.run-push::after {
-    @include icon("run-push", "sh");
-  }
-  
-  &.run-tests, &.run-tests::after {
-    @include icon("run-tests", "sh");
   }
   
   &.sablier-1, &.sablier-1::after {

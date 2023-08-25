@@ -163,7 +163,7 @@ a[href*="app.seve-up.com"]::after {
   background-color: transparent !important;
 }
 
-a:not([href=""]):not([href*="#"]):not([href="/"]):not([href*="#pll_switcher"]):not([href*="SOUSDOMAINE.ocade.eu"]):not([href^="tel:"]):not([href^="fax:"]):not([href^="mailto:"]):not([href*="app.seve-up.com"])::after {
+a:not([href=""]):not([href*="#"]):not([href="/"]):not([href*="#pll_switcher"]):not([href*="SOUSDOMAINE.docker.localhost"]):not([href^="tel:"]):not([href^="fax:"]):not([href^="mailto:"]):not([href*="app.seve-up.com"])::after {
   mask-image: url("../../_icons/exit.svg");
   -webkit-mask-image: url("../../_icons/exit.svg");
   content: "";
@@ -189,7 +189,7 @@ a:not([href=""]):not([href*="#"]):not([href="/"]):not([href*="#pll_switcher"]):n
   margin-left: 0.2rem;
   background-color: currentcolor;
 }
-.is-style-couleurs-originales a:not([href=""]):not([href*="#"]):not([href="/"]):not([href*="#pll_switcher"]):not([href*="SOUSDOMAINE.ocade.eu"]):not([href^="tel:"]):not([href^="fax:"]):not([href^="mailto:"]):not([href*="app.seve-up.com"])::after {
+.is-style-couleurs-originales a:not([href=""]):not([href*="#"]):not([href="/"]):not([href*="#pll_switcher"]):not([href*="SOUSDOMAINE.docker.localhost"]):not([href^="tel:"]):not([href^="fax:"]):not([href^="mailto:"]):not([href*="app.seve-up.com"])::after {
   mask-image: none;
   -webkit-mask-image: none;
   background-image: url("../../_icons/exit.svg");
@@ -197,7 +197,7 @@ a:not([href=""]):not([href*="#"]):not([href="/"]):not([href*="#pll_switcher"]):n
   background-position: center center;
   background-color: transparent !important;
 }
-.is-style-couleurs-originales a:not([href=""]):not([href*="#"]):not([href="/"]):not([href*="#pll_switcher"]):not([href*="SOUSDOMAINE.ocade.eu"]):not([href^="tel:"]):not([href^="fax:"]):not([href^="mailto:"]):not([href*="app.seve-up.com"])::after {
+.is-style-couleurs-originales a:not([href=""]):not([href*="#"]):not([href="/"]):not([href*="#pll_switcher"]):not([href*="SOUSDOMAINE.docker.localhost"]):not([href^="tel:"]):not([href^="fax:"]):not([href^="mailto:"]):not([href*="app.seve-up.com"])::after {
   mask-image: none;
   -webkit-mask-image: none;
   background-image: none;
@@ -924,18 +924,6 @@ html, body {
   mask-image: none;
   -webkit-mask-image: none;
   background-image: none;
-  background-color: transparent !important;
-}
-.icon.README, .icon.README::after {
-  mask-image: url("../../_icons/README.md");
-  -webkit-mask-image: url("../../_icons/README.md");
-}
-.is-style-couleurs-originales .icon.README, .is-style-couleurs-originales .icon.README::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/README.md");
-  background-size: 100%;
-  background-position: center center;
   background-color: transparent !important;
 }
 .icon.ampoule-1, .icon.ampoule-1::after {
@@ -2554,18 +2542,6 @@ html, body {
   mask-image: none;
   -webkit-mask-image: none;
   background-image: url("../../_icons/fleche-35.svg");
-  background-size: 100%;
-  background-position: center center;
-  background-color: transparent !important;
-}
-.icon.fleche-35vg, .icon.fleche-35vg::after {
-  mask-image: url("../../_icons/fleche-35vg.undefined");
-  -webkit-mask-image: url("../../_icons/fleche-35vg.undefined");
-}
-.is-style-couleurs-originales .icon.fleche-35vg, .is-style-couleurs-originales .icon.fleche-35vg::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/fleche-35vg.undefined");
   background-size: 100%;
   background-position: center center;
   background-color: transparent !important;
@@ -4366,30 +4342,6 @@ html, body {
   mask-image: none;
   -webkit-mask-image: none;
   background-image: url("../../_icons/robot-2.svg");
-  background-size: 100%;
-  background-position: center center;
-  background-color: transparent !important;
-}
-.icon.run-push, .icon.run-push::after {
-  mask-image: url("../../_icons/run-push.sh");
-  -webkit-mask-image: url("../../_icons/run-push.sh");
-}
-.is-style-couleurs-originales .icon.run-push, .is-style-couleurs-originales .icon.run-push::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/run-push.sh");
-  background-size: 100%;
-  background-position: center center;
-  background-color: transparent !important;
-}
-.icon.run-tests, .icon.run-tests::after {
-  mask-image: url("../../_icons/run-tests.sh");
-  -webkit-mask-image: url("../../_icons/run-tests.sh");
-}
-.is-style-couleurs-originales .icon.run-tests, .is-style-couleurs-originales .icon.run-tests::after {
-  mask-image: none;
-  -webkit-mask-image: none;
-  background-image: url("../../_icons/run-tests.sh");
   background-size: 100%;
   background-position: center center;
   background-color: transparent !important;
