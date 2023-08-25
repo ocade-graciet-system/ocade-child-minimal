@@ -689,7 +689,7 @@ html, body {
 /** Tertiary */
 /** Supports */
 * {
-  font-family: "Wix Madefor Display";
+  font-family: "arial,sans-serif";
   font-weight: 400;
   font-size: var(--espacement-2);
   line-height: 150%;
@@ -742,7 +742,7 @@ h1 {
 }
 h1:not(.tab-title),
 h1:not(.tab-title) a {
-  font-family: "Wix Madefor Display";
+  font-family: "arial,sans-serif";
   font-weight: 700;
   font-size: var(--espacement-4);
   line-height: 150%;
@@ -754,7 +754,7 @@ h2 {
 }
 h2:not(.tab-title),
 h2:not(.tab-title) a {
-  font-family: "Wix Madefor Display";
+  font-family: "arial,sans-serif";
   font-weight: 700;
   font-size: var(--espacement-4);
   line-height: 150%;
@@ -763,7 +763,7 @@ h2:not(.tab-title) a {
 @media (min-width: var(--bp-sm)) {
   h2:not(.tab-title),
   h2:not(.tab-title) a {
-    font-family: "Wix Madefor Display";
+    font-family: "arial,sans-serif";
   }
 }
 @media (min-width: var(--bp-sm)) {
@@ -795,7 +795,7 @@ h3 {
 }
 h3:not(.tab-title),
 h3:not(.tab-title) a {
-  font-family: "Wix Madefor Display";
+  font-family: "arial,sans-serif";
   font-weight: 700;
   font-size: 1.675rem;
   line-height: 150%;
@@ -807,7 +807,7 @@ h4 {
 }
 h4:not(.tab-title),
 h4:not(.tab-title) a {
-  font-family: "Wix Madefor Display";
+  font-family: "arial,sans-serif";
   font-weight: 700;
   font-size: var(--espacement-3);
   line-height: 150%;
@@ -819,7 +819,7 @@ h5 {
 }
 h5:not(.tab-title),
 h5:not(.tab-title) a {
-  font-family: "Wix Madefor Display";
+  font-family: "arial,sans-serif";
   font-weight: 700;
   font-size: 1.375rem;
   line-height: 150%;
@@ -831,7 +831,7 @@ h6 {
 }
 h6:not(.tab-title),
 h6:not(.tab-title) a {
-  font-family: "Wix Madefor Display";
+  font-family: "arial,sans-serif";
   font-weight: 700;
   font-size: 1.25rem;
   line-height: 150%;
