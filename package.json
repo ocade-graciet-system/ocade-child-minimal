@@ -3,9 +3,8 @@
     "commande-developpement": "$domaine doit pointer sur l'url du projet localhost pour ne pas voir les icons lien externe"
   },
   "scripts": {
-    "init": "npm install && npm run icons && npm run fonts && npm run build:editor-css && git add . && git commit . -m '🚀 Initialisaton du projet' && git push origin master --force",
-    "init-clone": "npm install && npm run icons && npm run fonts && npm run build:editor-css",
-    "start": "npm run clean && npm-run-all --parallel developpement fonts icons watch:* build:editor-css build",
+    "init": "npm install && npm run icons && npm run fonts && git add . && git commit . -m '🚀 Initialisaton du projet' && git push origin master --force",
+    "start": "npm-run-all --parallel developpement fonts icons watch:* build",
     "developpement": "echo '' > styles/scss/load.scss && echo '$domaine: \"SOUSDOMAINE.docker.localhost\";' > styles/scss/load.scss",
     "production": "echo '' > styles/scss/load.scss && echo '$domaine: \"SOUSDOMAINE.ocade.eu\";' > styles/scss/load.scss && npm run scss-to-css && npm run build",
     "build": "find styles/css/ -type f -name '*.css' ! -name '*.min.css' -exec sh -c 'cleancss -o \"${1%.css}.min.css\" \"$1\"' _ {} \\;",
@@ -18,9 +17,12 @@
     "lint:scss": "npm run lint:scss-fix && npx stylelint 'styles/scss/*.scss'",
     "lint:scss-fix": "npx stylelint 'styles/scss/*.scss' --fix",
     "pull": "git pull origin master && git checkout --ours styles/css/main.css && git checkout --ours styles/css/main.min.css",
-    "push": "./push.sh",
-    "test": "(npm run lint:scss && exit 0) || exit 1 && (sh ./run-tests.sh && exit 0) || exit 1",
-    "clean": "rm -rf styles/css/* && echo '/** Fichier Automatique */' > styles/css/main.css"
+    "push": "./push.sh"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint:scss"
+    }
   },
   "devDependencies": {
     "chokidar-cli": "^3.0.0",

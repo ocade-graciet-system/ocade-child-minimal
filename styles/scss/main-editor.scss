@@ -1,0 +1,27 @@
+/** 🚀 Si le design de votre block n'est pas présent dans le back-office, il faut l'ajouter dans le thème enfant, functions.php */
+@charset "UTF-8";
+
+@use "sass:map";
+@use "sass:color";
+
+@import "./config.scss";
+@import "./external_links.scss";
+@import "./goToTop.scss";
+@import "./layout.scss";
+@import "./mixins.scss";
+@import "./normalize.scss"; 
+@import "./typographie.scss";
+
+/** Blocks Ocade */
+
+/** Blocks Kadence */
+
+/** Blocks Ocade */
+
+/** Automatic Génération By Script */
+@import "./icons.scss";
+
+/** Templates Wordpress (Page catégories, Pages des articles ....) */
+@import "./templates/breadcrumb.scss"; /** Breadcrumb Ocade Minimal */
+@import "./templates/category.scss"; /** Page catégorie Ocade Minimal */
+@import "./templates/header.scss"; /** Header Ocade Minimal */
