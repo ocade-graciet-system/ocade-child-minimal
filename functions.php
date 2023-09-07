@@ -21,19 +21,6 @@ function enqueue_editor_styles() {
   $stylesheet_dir = get_stylesheet_directory();
   $stylesheet_uri = get_stylesheet_directory_uri();
 
-  $blocksFileCss = [
-    "icons",
-    "bootstrap",
-    "blocks/wordpress/buttons",
-    "blocks/wordpress/columns",
-    "blocks/wordpress/list",
-  ];
-  
-  foreach ($blocksFileCss as $blockFileCss) {
-    $style_id = 'ocade-blocks-editor-styles-' . str_replace('/', '-', $blockFileCss);
-    wp_enqueue_style( $style_id, $stylesheet_uri . '/styles/css/' . $blockFileCss . '.min.css' );
-  }
-
   if (file_exists($stylesheet_dir . '/styles/css/main-editor.min.css')) {  /** main-editor.min.css est un  */
     wp_enqueue_style( 'editor-style-main', $stylesheet_uri . '/styles/css/main-editor.min.css');
   }
@@ -45,5 +32,3 @@ add_action( 'enqueue_block_editor_assets', 'OcadeChild\enqueue_editor_styles' );
 
 /** Suppression des commentaires dans WordPress */
 require_once( get_stylesheet_directory() . '/includes/functions/RemoveComments.php' );
-/** Ajout de Matomo */
-// require_once( get_stylesheet_directory() . '/includes/functions/Matomo.php' );
