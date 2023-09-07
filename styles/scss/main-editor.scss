@@ -4,24 +4,26 @@
 @use "sass:map";
 @use "sass:color";
 
-@import "./config.scss";
-@import "./external_links.scss";
-@import "./goToTop.scss";
-@import "./layout.scss";
-@import "./mixins.scss";
-@import "./normalize.scss"; 
-@import "./typographie.scss";
+.editor-styles-wrapper {
+  @import "./config.scss";
+  @import "./external_links.scss";
+  @import "./goToTop.scss";
+  @import "./layout.scss";
+  @import "./mixins.scss";
+  @import "./normalize.scss";
+  @import "./typographie.scss";
 
-/** Blocks Ocade */
+  /** Blocks Ocade */
 
-/** Blocks Kadence */
+  /** Blocks Kadence */
 
-/** Blocks Ocade */
+  /** Blocks Ocade */
 
-/** Automatic Génération By Script */
-@import "./icons.scss";
+  /** Automatic Génération By Script */
+  @import "./icons.scss";
 
-/** Templates Wordpress (Page catégories, Pages des articles ....) */
-@import "./templates/breadcrumb.scss"; /** Breadcrumb Ocade Minimal */
-@import "./templates/category.scss"; /** Page catégorie Ocade Minimal */
-@import "./templates/header.scss"; /** Header Ocade Minimal */
+  /** Templates Wordpress (Page catégories, Pages des articles ....) */
+  @import "./templates/breadcrumb.scss"; /** Breadcrumb Ocade Minimal */
+  @import "./templates/category.scss"; /** Page catégorie Ocade Minimal */
+  @import "./templates/header.scss"; /** Header Ocade Minimal */
+}
