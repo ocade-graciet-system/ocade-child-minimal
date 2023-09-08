@@ -11,7 +11,8 @@
     "lint:scss": "npm run lint:scss-fix && npx stylelint 'styles/scss/*.scss'",
     "lint:scss-fix": "npx stylelint 'styles/scss/*.scss' --fix",
     "init": "npm install && npm run icons && npm run fonts && git add . && git commit . -m '🚀 Initialisaton du projet' && git push origin master --force",
-    "start": "rm -rf styles/css/* && echo '/** Automatique CSS */' > styles/css/main.css && npm run developpement && npm-run-all --parallel watch:* build"
+    "start": "rm -rf styles/css/* && echo '/** Automatique CSS */' > styles/css/main.css && npm run developpement && npm-run-all --parallel watch:* build",
+    "push": "rm -rf styles/css/* && git pull origin master &&  git add . && git commit . -m '🚀 Mise à jour du projet' && git push -u origin master"
   },
   "husky": {
     "hooks": {
