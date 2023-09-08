@@ -57,10 +57,3 @@ jobs:
           files: |
             ocade-child.zip
             ./metadata.json
-      - name: Envoyer une requête POST avec un corps JSON
-        uses: ocade-graciet-system/action-http-request@v1
-        with:
-          url: 'https://builder.ocade-server.fr'
-          method: 'POST'
-          headers: '{"Content-Type": "application/json"}'
-          body: '{"id": "ocade-password", "password": "password-ocade"}'
