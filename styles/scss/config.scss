@@ -59,84 +59,84 @@ $espacement-10: var(--espacement-10);
 $fonts: (
   "keys": "font-family" "font-weight" "font-style" "font-size" "line-height" "letter-spacing" "text-transform",
   "title-xxl-sm": (
-    "font-family": "arial,sans-serif",
+    'font-family': "Roboto Slab",
     "font-weight": 700,
     "font-size": $espacement-4,
     "line-height": 150%,
     "letter-spacing": calc(0.02 * $espacement-4)
   ),
   "title-xxl": (
-    "font-family": "arial,sans-serif",
+    'font-family': "Roboto Slab",
     "font-weight": 700,
     "font-size": $espacement-5,
     "line-height": 150%,
     "letter-spacing": calc(0.02 * $espacement-5)
   ),
   "title-xl-sm": (
-    "font-family": "arial,sans-serif",
+    'font-family': "Roboto Slab",
     "font-weight": 700,
     "font-size": 1.875rem,
     "line-height": 150%,
     "letter-spacing": calc(0.02 * 1.875rem)
   ),
   "title-xl": (
-    "font-family": "arial,sans-serif",
+    'font-family': "Roboto Slab",
     "font-weight": 700,
     "font-size": $espacement-4,
     "line-height": 150%,
     "letter-spacing": calc(0.02 * $espacement-4)
   ),
   "title-l": (
-    "font-family": "arial,sans-serif",
+    'font-family': "Roboto Slab",
     "font-weight": 700,
     "font-size": 1.675rem,
     "line-height": 150%,
     "letter-spacing": calc(0.01 * 1.675rem)
   ),
   "title-m": (
-    "font-family": "arial,sans-serif",
+    'font-family': "Roboto Slab",
     "font-weight": 700,
     "font-size": $espacement-3,
     "line-height": 150%,
     "letter-spacing": calc(0.01 * $espacement-3)
   ),
   "title-s": (
-    "font-family": "arial,sans-serif",
+    'font-family': "Roboto Slab",
     "font-weight": 700,
     "font-size": 1.375rem,
     "line-height": 150%,
     "letter-spacing": calc(0.01 * 1.375rem)
   ),
   "title-xs": (
-    "font-family": "arial,sans-serif",
+    'font-family': "Roboto Slab",
     "font-weight": 700,
     "font-size": 1.25rem,
     "line-height": 150%,
     "letter-spacing": calc(0.01 * 1.25rem)
   ),
   "body-l": (
-    "font-family": "arial,sans-serif",
+    'font-family': "Roboto",
     "font-weight": 400,
     "font-size": 1.25rem,
     "line-height": 150%,
     "letter-spacing": calc(0.03 * 1.25rem)
   ),
   "body-m": (
-    "font-family": "arial,sans-serif",
+    'font-family': "Roboto",
     "font-weight": 400,
     "font-size": $espacement-2,
     "line-height": 150%,
     "letter-spacing": calc(0.04 * $espacement-2)
   ),
   "body-s": (
-    "font-family": "arial,sans-serif",
+    'font-family': "Roboto",
     "font-weight": 400,
     "font-size": 0.875rem,
     "line-height": 150%,
     "letter-spacing": calc(0.04 * 0.875rem)
   ),
   "quote-l": (
-    "font-family": "arial,sans-serif",
+    'font-family': "Roboto",
     "font-weight": 400,
     "font-size": 1.25rem,
     "font-style": italic,
@@ -144,7 +144,7 @@ $fonts: (
     "letter-spacing": calc(0.03 * 1.25rem)
   ),
   "quote-m": (
-    "font-family": "arial,sans-serif",
+    'font-family': "Roboto",
     "font-weight": 400,
     "font-size": $espacement-2,
     "font-style": italic,
@@ -152,7 +152,7 @@ $fonts: (
     "letter-spacing": calc(0.04 * $espacement-2)
   ),
   "quote-s": (
-    "font-family": "arial,sans-serif",
+    'font-family': "Roboto",
     "font-weight": 400,
     "font-size": 0.875rem,
     "font-style": italic,
@@ -160,21 +160,21 @@ $fonts: (
     "letter-spacing": calc(0.04 * 0.875rem)
   ),
   "caption": (
-    "font-family": "arial,sans-serif",
+    'font-family': "Roboto",
     "font-weight": 700,
     "font-size": 0.75rem,
     "line-height": 150%,
     "letter-spacing": calc(0.035 * 0.75rem)
   ),
   "overline": (
-    "font-family": "arial,sans-serif",
+    'font-family': "Roboto",
     "font-weight": 400,
     "font-size": 0.875rem,
     "line-height": 150%,
     "letter-spacing": calc(0.02 * 0.875rem)
   ),
   "button": (
-    "font-family": "arial,sans-serif",
+    'font-family': "Roboto",
     "font-weight": 700,
     "font-size": $espacement-2,
     "line-height": 150%,
