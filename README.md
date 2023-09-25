@@ -55,3 +55,10 @@ Thème Wordpress enfant by Ocade Système.
   }
 }
 ```
+
+## Réactiver les commentaires ?
+Commenter dans le fichier `functions.php`
+```php
+/** Suppression des commentaires dans WordPress */
+// require_once( get_stylesheet_directory() . '/includes/functions/RemoveComments.php' );
+```
