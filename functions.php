@@ -33,24 +33,4 @@ function enqueue_editor_styles() {
 }
 add_action('enqueue_block_editor_assets', 'OcadeChild\enqueue_editor_styles');
 
-
-/** Cacher menus dans l'admin bar du back-office */
-function custom_admin_css() {
-  echo '<style>
-  /** Cache le menu commentaires */
-  #menu-comments {
-    display: none;
-  }
-  
-  /** Réglages Kadence blocks */
-  #toplevel_page_kadence-blocks {
-    display: none;
-  }
-
-  /** Loco Translate */
-  #toplevel_page_loco {
-    display: none;
-  }
-  </style>';
-}
-add_action('admin_head', 'OcadeChild\custom_admin_css');
+require_once plugin_dir_path(__FILE__) . 'includes/functions/Custom-Bo.php';
