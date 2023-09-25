@@ -31,4 +31,4 @@ function enqueue_editor_styles() {
 add_action( 'enqueue_block_editor_assets', 'OcadeChild\enqueue_editor_styles' );
 
 /** Suppression des commentaires dans WordPress */
-require_once( get_stylesheet_directory() . '/includes/functions/RemoveComments.php' );
+// require_once( get_stylesheet_directory() . '/includes/functions/RemoveComments.php' );
