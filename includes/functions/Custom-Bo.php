@@ -49,6 +49,34 @@ function Add_custom_color_item_admin_menu() {
     background-image: none !important;
   }
 
+  #toplevel_page_ocade-settings .wp-menu-image.svg,
+  #toplevel_page_ocade .wp-menu-image.svg {
+    background-color: #E6E7E8;
+  }
+
+  #menu-posts-header .wp-menu-image.svg,
+  #menu-posts-footer .wp-menu-image.svg {
+    background-color: #55ACEE;
+  }
+
+  #menu-posts-404 .wp-menu-image.svg {
+    background-color: #F4900C;
+  }
+
+  #menu-posts-archives .wp-menu-image.svg,
+  #menu-posts-categorie .wp-menu-image.svg {
+    background-color: #78B159;
+  }
+
+  #menu-posts-ocade-maps .wp-menu-image.svg {
+    background-color: #AA8ED6;
+  }
+
+  #menu-posts-produits .wp-menu-image.svg,
+  #menu-posts-categories-produits .wp-menu-image.svg {
+    background-color: #C1694F;
+  }
+
   #toplevel_page_ocade-settings a,
   #toplevel_page_ocade a,
   #menu-posts-header a,
