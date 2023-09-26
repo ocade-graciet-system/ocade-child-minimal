@@ -32,5 +32,3 @@ function enqueue_editor_styles() {
   }
 }
 add_action('enqueue_block_editor_assets', 'OcadeChild\enqueue_editor_styles');
-
-require_once plugin_dir_path(__FILE__) . 'includes/functions/Custom-Bo.php';
