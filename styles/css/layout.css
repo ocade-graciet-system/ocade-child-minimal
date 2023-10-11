@@ -62,18 +62,24 @@ html, body {
 /** Supports */
 /* Définit la taille maximale du contenu du site */
 .container-body {
-  max-width: min(95vw, var(--aligncontent));
+  max-width: min(95vw, var(--aligncontent)); /** 1280px */
   margin: 0 auto;
 }
 
 /* Définit la largeur maximale des blocs alignwide et alignfull */
-.alignwide {
+/** Deuxième règle: s'applique dans le Front + dans le BO */
+/** troisième règle: s'applique dans le Front + dans le BO car les fichier main-editor sont wrapper par la class .editor-styles-wrapper donc .editor-styles-wrapper body n'existe pas dans le BO */
+.alignwide,
+.alignwide.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)),
+body .alignwide.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
   margin-left: auto;
   margin-right: auto;
   max-width: min(95vw, 1280px);
 }
 @media (min-width: 1439px) {
-  .alignwide {
+  .alignwide,
+  .alignwide.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)),
+  body .alignwide.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
     max-width: var(--alignwide);
     margin-left: calc((var(--alignwide) - var(--aligncontent)) / 2 * -1); /* décalage pour centrer */
     margin-right: calc((var(--alignwide) - var(--aligncontent)) / 2 * -1); /* décalage pour centrer */
@@ -81,7 +87,11 @@ html, body {
 }
 
 /* Si vous souhaitez que les blocs alignfull occupent 100% de la largeur de l'écran, utilisez ce code à la place */
-.alignfull {
+/** Deuxième règle: s'applique dans le Front + dans le BO */
+/** troisième règle: s'applique dans le Front + dans le BO car les fichier main-editor sont wrapper par la class .editor-styles-wrapper donc .editor-styles-wrapper body n'existe pas dans le BO */
+.alignfull,
+.alignfull.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)),
+body .alignfull.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
   margin-left: calc(50% - 50vw);
   margin-right: calc(50% - 50vw);
   max-width: var(--alignfull);
