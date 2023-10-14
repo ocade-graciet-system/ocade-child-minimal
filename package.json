@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "production": "echo '' > styles/scss/load.scss && echo '$domaine: \"SOUSDOMAINE.ocade.eu\";' > styles/scss/load.scss && npm run scss-to-css && npm run build",
+    "production": "echo '' > styles/scss/load.scss && echo '$domaine: \"SOUSDOMAINE.ocade-systeme.fr\";' > styles/scss/load.scss && npm run scss-to-css && npm run build",
     "developpement": "echo '' > styles/scss/load.scss && echo '$domaine: \"SOUSDOMAINE.docker.localhost\";' > styles/scss/load.scss",
     "icons": "node scripts/icons.js",
     "fonts": "node scripts/fonts.js",
