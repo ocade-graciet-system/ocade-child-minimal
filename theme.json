@@ -2,51 +2,47 @@
   "version": 2,
   "settings": {
     "supports": {
-      "disableCustomColors": true
+      "disableCustomColors": false
     },
     "layout": {
-        "contentSize": "1280px",
-        "wideSize": "1440px"
+      "contentSize": "1280px"
     },
     "border": {
-      "radius": false,
-      "color": false,
-      "style": false,
-      "width": false
+      "radius": true,
+      "color": true,
+      "style": true,
+      "width": true
     },
     "spacing": {
-      "margin": false,
-      "padding": false,
-      "blockGap": null,
-      "units": [ "px", "em", "rem", "vh", "vw" ]
+      "margin": true,
+      "padding": true,
+      "blockGap": ".25rem",
+      "units": ["px", "em", "rem", "vh", "vw", "%"]
     },
     "color": {
       "background": true,
       "text": true,
       "link": true,
-      "custom": false,
-      "customDuotone": false,
+      "custom": true,
+      "customDuotone": true,
       "customGradient": true,
-			"defaultDuotone": false,
-      "defaultPalette": false,
-      "defaultGradient": false,
-      "gradients": [
-        {
-          "slug": "purple-to-blue",
-          "gradient": "linear-gradient(180deg, #360F8C 0%, #5A19E9 100%)",
-          "name": "Purple to Blue"
-        }
-      ],
+      "defaultDuotone": true,
+      "defaultPalette": true,
+      "defaultGradient": true,
       "duotone": [
-        { "name": "Primary 700", "slug": "primary-700", "colors": [ "#cc1871", "#f9449e" ] }
+        {
+          "name": "Primary 700",
+          "slug": "primary-700",
+          "colors": ["#cc1871", "#f9449e"]
+        }
       ]
     },
     "typography": {
       "lineHeight": true,
       "dropCap": true,
       "fluid": true,
-      "fontStyle": false,
-      "fontWeight": false,
+      "fontStyle": true,
+      "fontWeight": true,
       "letterSpacing": true,
       "textDecoration": true,
       "textTransform": true,
@@ -56,19 +52,21 @@
         { "name": "Normal", "slug": "normal", "size": "16px" },
         { "name": "Large", "slug": "large", "size": "20px" },
         { "name": "XL", "slug": "xl", "size": "32px" },
-        { "name": "XXL", "slug": "xxl", "size": "50px"}
+        { "name": "XXL", "slug": "xxl", "size": "50px" },
+        { "name": "XXXL", "slug": "xxxl", "size": "80px" },
+        { "name": "XXXXL", "slug": "xxxxl", "size": "100px" },
+        { "name": "XXXXXL", "slug": "xxxxxl", "size": "120px" }
       ]
     }
   },
   "blocks": {
     "core/paragraph": {
-        "color": {},
-        "custom": {},
-        "layout": {},
-        "spacing": {},
-        "typography": {}
+      "color": {},
+      "custom": {},
+      "layout": {},
+      "spacing": {},
+      "typography": {}
     },
-    "core/heading": {},
-    "etc": {}
+    "core/heading": {}
   }
 }
