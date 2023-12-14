@@ -73,10 +73,10 @@ Commenter dans le fichier `functions.php`
 Structure des dossiers et fichiers dans le thème enfant :
 
 themes/
-`└──` montgolfiere-sensation/
-    `└──` registerBlocksStyles/
-        `├──` registerBlocksStyles.js
-        `└──` registerBlocksStyle.php
+└── montgolfiere-sensation/
+└── registerBlocksStyles/
+├── registerBlocksStyles.js
+└── registerBlocksStyle.php
 
 ### Intégration dans `function.php`
 Inclure le fichier `registerBlocksStyles` dans le fichier `functions.php` du thème enfant.
