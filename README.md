@@ -62,3 +62,61 @@ Commenter dans le fichier `functions.php`
 /** Suppression des commentaires dans WordPress */
 // require_once( get_stylesheet_directory() . '/includes/functions/RemoveComments.php' );
 ```
+
+# Customisation d'un Bloc WordPress dans un Thème Enfant 🚀
+
+## Introduction
+🎯 **Objectif :** Créer une structure dans le thème enfant permettant de modifier la logique d'un bloc WordPress, offrant ainsi plus de flexibilité aux intégrateurs.
+
+## Développement
+### Architecture Requise
+Structure des dossiers et fichiers dans le thème enfant :
+
+themes/
+└── montgolfiere-sensation/
+└── registerBlocksStyles/
+├── registerBlocksStyles.js
+└── registerBlocksStyle.php
+
+php
+
+
+### Intégration dans `function.php`
+Inclure le fichier `registerBlocksStyles` dans le fichier `functions.php` du thème enfant.
+
+### Étapes de Personnalisation
+
+#### 1. Ajouter le Hook pour Personnaliser le Block Editor
+```php
+add_action('enqueue_block_editor_assets', function () {
+    $theme = wp_get_theme();
+    $child_theme_path = $theme->get_stylesheet_directory();
+    $script_path = $child_theme_path . '/registerBlocksStyles/registerBlocksStyles.js';
+
+    if (file_exists($script_path)) {
+        wp_enqueue_script(
+            'registerBlocksStyles',
+            get_stylesheet_directory_uri() . '/registerBlocksStyles/registerBlocksStyles.js',
+            array('wp-blocks', 'wp-dom'),
+            filemtime(get_stylesheet_directory(__FILE__) . '/registerBlocksStyles/registerBlocksStyles.js'),
+            false
+        );
+    } else {
+        error_log("Dans le fichier " . __FILE__ . " un des fichiers du thème enfant n'est pas trouvé pour enregistrer les styles de blocks");
+    }
+});
+
+2. Ajouter la Logique de Customisation dans le Fichier JavaScript
+
+js
+
+(function () {
+    const { registerBlockStyle } = typeof wp.blocks !== "undefined" ? wp.blocks : {};
+    wp.domReady(() => {
+        if (registerBlockStyle) {
+            registerBlockStyle("core/group", [
+                { label: "Nuages 1", name: "nuages-1" },
+            ]);
+        }
+    });
+})();
