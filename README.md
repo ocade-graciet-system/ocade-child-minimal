@@ -108,6 +108,7 @@ add_action('enqueue_block_editor_assets', function () {
 
 2. Ajouter la Logique de Customisation dans le Fichier JavaScript
 
+```
 ```js
 // Fichier registerBlocksStyles.js
 (function () {
