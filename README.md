@@ -78,10 +78,6 @@ themes/
         ├── registerBlocksStyles.js
         └── registerBlocksStyle.php
 
-
-php
-
-
 ### Intégration dans `function.php`
 Inclure le fichier `registerBlocksStyles` dans le fichier `functions.php` du thème enfant.
 
