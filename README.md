@@ -87,6 +87,7 @@ Inclure le fichier `registerBlocksStyles` dans le fichier `functions.php` du thÃ
 
 #### 1. Ajouter le Hook pour Personnaliser le Block Editor
 ```php
+// Fichier registerBlocksStyles.php
 add_action('enqueue_block_editor_assets', function () {
     $theme = wp_get_theme();
     $child_theme_path = $theme->get_stylesheet_directory();
@@ -107,8 +108,8 @@ add_action('enqueue_block_editor_assets', function () {
 
 2. Ajouter la Logique de Customisation dans le Fichier JavaScript
 
-js
-
+```js
+// Fichier registerBlocksStyles.js
 (function () {
     const { registerBlockStyle } = typeof wp.blocks !== "undefined" ? wp.blocks : {};
     wp.domReady(() => {
@@ -119,3 +120,5 @@ js
         }
     });
 })();
+
+```
