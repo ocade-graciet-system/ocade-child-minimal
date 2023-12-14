@@ -105,10 +105,10 @@ add_action('enqueue_block_editor_assets', function () {
         error_log("Dans le fichier " . __FILE__ . " un des fichiers du thème enfant n'est pas trouvé pour enregistrer les styles de blocks");
     }
 });
-
-2. Ajouter la Logique de Customisation dans le Fichier JavaScript
-
 ```
+
+#### 2. Ajouter la Logique de Customisation dans le Fichier JavaScript
+ 
 ```js
 // Fichier registerBlocksStyles.js
 (function () {
