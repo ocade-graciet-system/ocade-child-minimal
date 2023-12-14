@@ -63,7 +63,7 @@ Commenter dans le fichier `functions.php`
 // require_once( get_stylesheet_directory() . '/includes/functions/RemoveComments.php' );
 ```
 
-# Customisation d'un Bloc WordPress dans un Thème Enfant 🚀
+# Customisation d'un Block WordPress dans un Thème Enfant 🚀
 
 ## Introduction
 🎯 **Objectif :** Créer une structure dans le thème enfant permettant de modifier la logique d'un bloc WordPress, offrant ainsi plus de flexibilité aux intégrateurs.
@@ -74,9 +74,10 @@ Structure des dossiers et fichiers dans le thème enfant :
 
 themes/
 └── montgolfiere-sensation/
-└── registerBlocksStyles/
-├── registerBlocksStyles.js
-└── registerBlocksStyle.php
+    └── registerBlocksStyles/
+        ├── registerBlocksStyles.js
+        └── registerBlocksStyle.php
+
 
 php
 
