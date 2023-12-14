@@ -75,9 +75,9 @@ Structure des dossiers et fichiers dans le thème enfant :
 ```sh
 themes/
   └── montgolfiere-sensation/
-    └── registerBlocksStyles/
-        ├── registerBlocksStyles.js
-        └── registerBlocksStyle.php
+       └── registerBlocksStyles/
+            ├── registerBlocksStyles.js
+            └── registerBlocksStyle.php
 ```
 
 ### Intégration dans `function.php`
