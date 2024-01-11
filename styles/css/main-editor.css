@@ -755,7 +755,6 @@
   letter-spacing: calc(0.04 * var(--espacement-2));
   caret-color: var(--wp--preset--color--primary-700);
   accent-color: var(--wp--preset--color--primary-700);
-  color: var(--wp--preset--color--black);
 }
 .editor-styles-wrapper ::selection {
   background-color: var(--wp--preset--color--primary-700);
