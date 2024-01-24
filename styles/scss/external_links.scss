@@ -17,6 +17,6 @@
 }
 
 // Règle pour gérer tous les autres liens
-a:not([href=""]):not([href*="#"]):not([href="/"]):not([href*="#pll_switcher"]):not([href*="#{$domaine}"]):not([href^="tel:"]):not([href^="fax:"]):not([href^="mailto:"])::after {
+a:not([href=""]):not([href*="#"]):not([href^="/"]):not([href*="#pll_switcher"]):not([href*="#{$domaine}"]):not([href^="tel:"]):not([href^="fax:"]):not([href^="mailto:"])::after {
   @include linkStyle;
 }
