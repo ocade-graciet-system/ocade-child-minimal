@@ -82,7 +82,7 @@ a {
   display: inline-flex;
   align-items: center;
   padding: 0 0.3rem;
-  color: var(--wp--preset--color--primary-700);
+  color: var(--wp--preset--color--links-in-text);
   text-decoration: underline;
 }
 @media (max-width: var(--bp-lg)) {
