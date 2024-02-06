@@ -2,8 +2,10 @@
 
 header {
   /** 🧙‍♂️ --hauteur-au-dessus-navigation-principale est fournit en javascript pas header.php */
- 
-  top: calc(-1 * var(--hauteur-au-dessus-navigation-principale)); /** Si position sticky: ajuster en fonction des taille d'écran pour que le menu soit positionner sur le bandeau des pages */
+
+  top: calc(
+    -1 * var(--hauteur-au-dessus-navigation-principale)
+  ); /** Si position sticky: ajuster en fonction des taille d'écran pour que le menu soit positionner sur le bandeau des pages */
   position: unset;
   z-index: 9999;
   right: 0;
@@ -14,7 +16,22 @@ header {
   background-color: $white;
 
   &.is-header-sticky,
-  &.is-breadcrumb-sticky { position: sticky; }
+  &.is-breadcrumb-sticky {
+    position: sticky;
+  }
 
-  > .wp-block-group { position: relative; }
+  > .wp-block-group {
+    position: relative;
+  }
+}
+
+/** Ajouter du padding autout du menu ouvert sur menu uniquement. */
+@media (max-width: 600px) {
+  body#header
+    header
+    nav.wp-block-navigation
+    div.wp-block-navigation__responsive-container-content
+    ul.is-responsive {
+    padding: 1rem;
+  }
 }
