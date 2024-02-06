@@ -30,8 +30,9 @@ header {
   body#header
     header
     nav.wp-block-navigation
+    .is-menu-open
     div.wp-block-navigation__responsive-container-content
-    ul.is-responsive {
+    ul {
     padding: 1rem;
   }
 }
