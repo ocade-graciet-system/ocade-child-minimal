@@ -5042,6 +5042,12 @@ header > .wp-block-group {
   position: relative;
 }
 
+/** Ajouter du padding autout du menu ouvert sur menu uniquement. */
+@media (max-width: 600px) {
+  body#header header nav.wp-block-navigation div.wp-block-navigation__responsive-container-content ul.is-responsive {
+    padding: 1rem;
+  }
+}
 /** Header Ocade Minimal */
 
 /*# sourceMappingURL=main.css.map */

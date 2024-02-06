@@ -302,6 +302,7 @@
   /** Secondary */
   /** Tertiary */
   /** Supports */
+  /** Ajouter du padding autout du menu ouvert sur menu uniquement. */
   /** Header Ocade Minimal */
 }
 .editor-styles-wrapper :root {
@@ -4966,6 +4967,11 @@
 }
 .editor-styles-wrapper header > .wp-block-group {
   position: relative;
+}
+@media (max-width: 600px) {
+  .editor-styles-wrapper body#header header nav.wp-block-navigation div.wp-block-navigation__responsive-container-content ul.is-responsive {
+    padding: 1rem;
+  }
 }
 
 /*# sourceMappingURL=main-editor.css.map */
