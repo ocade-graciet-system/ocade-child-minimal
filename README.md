@@ -123,3 +123,47 @@ add_action('enqueue_block_editor_assets', function () {
 })();
 
 ```
+
+#### 3. Correction du problème de doublon de css dans le front
+```js 
+npm install cssnano
+```
+* Ajuster le package.json en ajoutant les lignes "postcss" et "production"
+```
+{
+  "scripts": {
+    "production": "echo '' > styles/scss/load.scss && echo '$domaine: \"SOUSDOMAINE.ocade-systeme.fr\";' > styles/scss/load.scss && npm run scss-to-css && npm run postcss && npm run build",
+    "developpement": "echo '' > styles/scss/load.scss && echo '$domaine: \"SOUSDOMAINE.docker.localhost\";' > styles/scss/load.scss",
+    "icons": "node scripts/icons.js",
+    "fonts": "node scripts/fonts.js",
+    "build": "find styles/css/ -type f -name '*.css' ! -name '*.min.css' -exec sh -c 'cleancss -o \"${1%.css}.min.css\" \"$1\"' _ {} \\;",
+    "scss-to-css": "sass styles/scss/:styles/css/ --load-path=styles/scss/load.scss",
+    "watch:scss": "sass --watch styles/scss/:styles/css/ --load-path=styles/scss/load.scss",
+    "watch:minify": "chokidar 'styles/css/**/*.css' '!styles/css/**/*.min.css' -c 'npm run build'",
+    "lint:scss": "npm run lint:scss-fix && npx stylelint 'styles/scss/*.scss'",
+    "lint:scss-fix": "npx stylelint 'styles/scss/*.scss' --fix",
+    "init": "npm install && npm run icons && npm run fonts && git add . && git commit . -m '🚀 Initialisaton du projet' && git push origin master --force",
+    "start": "rm -rf styles/css/* && echo '/** Automatique CSS */' > styles/css/main.css && npm run developpement && npm-run-all --parallel watch:* build",
+    "push": "rm -rf styles/css/* && git pull origin master &&  git add . && git commit . -m '🚀 Mise à jour du projet' && git push -u origin master",
+    "init-clone": "npm install && npm run icons && npm run build",
+    "postcss": "postcss styles/css/*.css --use cssnano --dir styles/css/"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint:scss"
+    }
+  },
+  "devDependencies": {
+    "chokidar-cli": "^3.0.0",
+    "clean-css-cli": "^5.6.2",
+    "husky": "^8.0.3",
+    "npm-run-all": "^4.1.5",
+    "postcss-cli": "^10.1.0",
+    "postcss-prefixwrap": "^1.39.1",
+    "postcss-scss": "^4.0.6",
+    "sass": "^1.59.2",
+    "stylelint": "^15.6.2",
+    "stylelint-config-standard": "^33.0.0"
+  }
+}
+```
