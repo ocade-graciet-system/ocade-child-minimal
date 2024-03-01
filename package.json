@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "production": "echo '' > styles/scss/load.scss && echo '$domaine: \"SOUSDOMAINE.ocade-systeme.fr\";' > styles/scss/load.scss && npm run scss-to-css && npm run build",
+    "production": "echo '' > styles/scss/load.scss && echo '$domaine: \"SOUSDOMAINE.ocade-systeme.fr\";' > styles/scss/load.scss && npm run scss-to-css && npm run postcss && npm run build",
     "developpement": "echo '' > styles/scss/load.scss && echo '$domaine: \"SOUSDOMAINE.docker.localhost\";' > styles/scss/load.scss",
     "icons": "node scripts/icons.js",
     "fonts": "node scripts/fonts.js",
@@ -13,7 +13,8 @@
     "init": "npm install && npm run icons && npm run fonts && git add . && git commit . -m '🚀 Initialisaton du projet' && git push origin master --force",
     "start": "rm -rf styles/css/* && echo '/** Automatique CSS */' > styles/css/main.css && npm run developpement && npm-run-all --parallel watch:* build",
     "push": "rm -rf styles/css/* && git pull origin master &&  git add . && git commit . -m '🚀 Mise à jour du projet' && git push -u origin master",
-    "init-clone": "npm install && npm run icons && npm run build"
+    "init-clone": "npm install && npm run icons && npm run build",
+    "postcss": "postcss styles/css/*.css --use cssnano --dir styles/css/"
   },
   "husky": {
     "hooks": {

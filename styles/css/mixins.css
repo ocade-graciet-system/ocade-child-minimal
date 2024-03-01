@@ -1,17 +1,2 @@
-@charset "UTF-8";
-/* CLEMUX DESIGN SYSTEM */
-/* TYPOGRAPHY
-Utilisation de la mixin :
-exemple d'utilisation simple :
-  @include typo("title-xxl");
-avec un breakpoint : (les règles associées à title-xxl-sm sont déclarées pour une taille d'écran > $bp-sm)
-  @include typo("title-xxl-sm", "sm");
-avec un override simple : (la propriété déclarée en override est omise)
-  @include typo("title-xxl", 0, "font-family");
-avec un override composé (toutes les propriétés listées sont omises) :
-  @include typo("title-xxl", 0, "font-family" "font-size"); // les propriétés à omettre sont séparées par une espace
-*/
-/** Générer des classes border-primary-200 ou encore border-ternary-500 */
-/** Génère des classes border-radius */
 
-/*# sourceMappingURL=mixins.css.map */
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJtaXhpbnMuY3NzIn0= */
