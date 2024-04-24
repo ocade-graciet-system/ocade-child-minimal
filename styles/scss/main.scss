@@ -16,7 +16,9 @@
 
 /** Blocks Kadence */
 
-/** Blocks Ocade */
+/** Blocks Wordpress */
+@import "./blocks/wordpress/group/style.scss";
+@import "./blocks/wordpress/group/editor.scss";
 
 /** Automatic Génération By Script */
 @import "./icons.scss";
