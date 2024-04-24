@@ -1,2 +1,100 @@
-:root{--fond-du-site:#fff;--espacement-1:.5rem;--espacement-2:1rem;--espacement-3:1.5rem;--espacement-4:2rem;--espacement-5:2.5rem;--espacement-6:3rem;--espacement-7:3.5rem;--espacement-8:4rem;--espacement-9:4.5rem;--espacement-10:5rem;--aligncontent:1280px;--alignwide:1440px;--alignfull:100vw;--bp-xs:450px;--bp-sm:576px;--bp-md:768px;--bp-lg:992px;--bp-xl:1280px;--bp-xxl:1440px}*{box-sizing:border-box}body,html{background-color:var(--fond-du-site)}.container-body{margin:0 auto;max-width:min(95vw,var(--aligncontent))}.alignwide,.alignwide.is-layout-constrained>:where(:not(.alignleft):not(.alignright):not(.alignfull)),body .alignwide.is-layout-constrained>:where(:not(.alignleft):not(.alignright):not(.alignfull)){margin-left:auto;margin-right:auto;max-width:min(95vw,1280px)}@media (min-width:1439px){.alignwide,.alignwide.is-layout-constrained>:where(:not(.alignleft):not(.alignright):not(.alignfull)),body .alignwide.is-layout-constrained>:where(:not(.alignleft):not(.alignright):not(.alignfull)){margin-left:calc((var(--alignwide) - var(--aligncontent))/2*-1);margin-right:calc((var(--alignwide) - var(--aligncontent))/2*-1);max-width:var(--alignwide)}}.alignfull,.alignfull.is-layout-constrained>:where(:not(.alignleft):not(.alignright):not(.alignfull)),body .alignfull.is-layout-constrained>:where(:not(.alignleft):not(.alignright):not(.alignfull)){margin-left:calc(50% - 50vw);margin-right:calc(50% - 50vw);max-width:var(--alignfull)}
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Njc3MvY29uZmlnLnNjc3MiLCJsYXlvdXQuY3NzIiwiLi4vc2Nzcy9sYXlvdXQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFVQSxNQUNFLG1CQUFBLENBQ0Esb0JBQUEsQ0FDQSxtQkFBQSxDQUNBLHFCQUFBLENBQ0EsbUJBQUEsQ0FDQSxxQkFBQSxDQUNBLG1CQUFBLENBQ0EscUJBQUEsQ0FDQSxtQkFBQSxDQUNBLHFCQUFBLENBQ0Esb0JBQUEsQ0FFQSxxQkFBQSxDQUNBLGtCQUFBLENBQ0EsaUJBQUEsQ0FFQSxhQUFBLENBQ0EsYUFBQSxDQUNBLGFBQUEsQ0FDQSxhQUFBLENBQ0EsY0FBQSxDQUNBLGVDS0YsQ0RGQSxFQUFJLHFCQ01KLENESkEsVUFBYSxvQ0NRYixDQzFDQSxnQkFFRSxhQUFBLENBREEsdUNEOERGLENDdkRBLHNNQUdFLGdCQUFBLENBQ0EsaUJBQUEsQ0FDQSwwQkQ2REYsQ0MzREUsMEJBUEYsc01BU0ksK0RBQUEsQ0FHQSxnRUFBQSxDQUpBLDBCRGtFRixDQUNGLENDdERBLHNNQUdFLDRCQUFBLENBQ0EsNkJBQUEsQ0FDQSwwQkQ0REYiLCJmaWxlIjoibGF5b3V0LmNzcyJ9 */
+@charset "UTF-8";
+/* CLEMUX DESIGN SYSTEM */
+/* TYPOGRAPHY
+Utilisation de la mixin :
+exemple d'utilisation simple :
+  @include typo("title-xxl");
+avec un breakpoint : (les règles associées à title-xxl-sm sont déclarées pour une taille d'écran > $bp-sm)
+  @include typo("title-xxl-sm", "sm");
+avec un override simple : (la propriété déclarée en override est omise)
+  @include typo("title-xxl", 0, "font-family");
+avec un override composé (toutes les propriétés listées sont omises) :
+  @include typo("title-xxl", 0, "font-family" "font-size"); // les propriétés à omettre sont séparées par une espace
+*/
+/** Générer des classes border-primary-200 ou encore border-ternary-500 */
+/** Génère des classes border-radius */
+/** 🚀 Les variables scss générales seront accessible dans le site via le :root permettant à ocade-blocks de pouvoir appliquer des designs et des logiques modifié dans le theme enfants (exemple les espacements) */
+:root {
+  --fond-du-site: #fff;
+  --espacement-1: .5rem; /** 8px */
+  --espacement-2: 1rem; /** 16px */
+  --espacement-3: 1.5rem; /** 24px */
+  --espacement-4: 2rem; /** 32px */
+  --espacement-5: 2.5rem; /** 40px */
+  --espacement-6: 3rem; /** 48px */
+  --espacement-7: 3.5rem; /** 56px */
+  --espacement-8: 4rem; /** 64px */
+  --espacement-9: 4.5rem; /** 72px */
+  --espacement-10: 5rem; /** 80px */
+  --aligncontent: 1280px;
+  --alignwide: 1440px;
+  --alignfull: 100vw;
+  --bp-xs: 450px;
+  --bp-sm: 576px;
+  --bp-md: 768px;
+  --bp-lg: 992px;
+  --bp-xl: 1280px;
+  --bp-xxl: 1440px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  background-color: var(--fond-du-site);
+}
+
+/*
+ * TYPO
+ */
+/** CLEMUX DESIGN SYSTEM */
+/* Breakpoints */
+/* Colors
+* Les couleurs --wp-preset--color--* sont définies dans le fichier functions.php. On peut les faire variées directement dans Thèmes -> Personnaliser -> Couleurs
+* Ici on associe ces valeurs présent dans le BO à des variables plus parlantes
+*/
+/** Black */
+/** White */
+/** Primary */
+/** Secondary */
+/** Tertiary */
+/** Supports */
+/* Définit la taille maximale du contenu du site */
+.container-body {
+  max-width: min(95vw, var(--aligncontent)); /** 1280px */
+  margin: 0 auto;
+}
+
+/* Définit la largeur maximale des blocs alignwide et alignfull */
+/** Deuxième règle: s'applique dans le Front + dans le BO */
+/** troisième règle: s'applique dans le Front + dans le BO car les fichier main-editor sont wrapper par la class .editor-styles-wrapper donc .editor-styles-wrapper body n'existe pas dans le BO */
+.alignwide,
+.alignwide.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)),
+body .alignwide.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: min(95vw, 1280px);
+}
+@media (min-width: 1439px) {
+  .alignwide,
+  .alignwide.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)),
+  body .alignwide.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+    max-width: var(--alignwide);
+    margin-left: calc((var(--alignwide) - var(--aligncontent)) / 2 * -1); /* décalage pour centrer */
+    margin-right: calc((var(--alignwide) - var(--aligncontent)) / 2 * -1); /* décalage pour centrer */
+  }
+}
+
+/* Si vous souhaitez que les blocs alignfull occupent 100% de la largeur de l'écran, utilisez ce code à la place */
+/** Deuxième règle: s'applique dans le Front + dans le BO */
+/** troisième règle: s'applique dans le Front + dans le BO car les fichier main-editor sont wrapper par la class .editor-styles-wrapper donc .editor-styles-wrapper body n'existe pas dans le BO */
+.alignfull,
+.alignfull.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)),
+body .alignfull.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  max-width: var(--alignfull);
+}
+
+/*# sourceMappingURL=layout.css.map */
