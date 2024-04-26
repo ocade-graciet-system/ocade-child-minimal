@@ -7,7 +7,7 @@ Thème Wordpress enfant by Ocade Système.
 ## Design Cassé dans le BO ?
 * Pour ne pas tout redévelopper dans le BO, on a chargé le styles.min.css et main-editor.min.css. Le problème est que les fichiers style.scss (normalement dev pour le front) n'avait pas de classe wrapper pour l'éditeur. On a donc wrapper tout les imports du loader scss avec la class `.editor-styles-wrapper`, exemple:
 ```scss
-.editor-styles-wrapper {
+.editor-styles-wrapper { 
   @import "./config.scss";
   @import "./external_links.scss";
   @import "./goToTop.scss";
