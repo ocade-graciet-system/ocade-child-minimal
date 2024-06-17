@@ -32,5 +32,8 @@
     "sass": "^1.59.2",
     "stylelint": "^15.6.2",
     "stylelint-config-standard": "^33.0.0"
+  },
+  "dependencies": {
+    "cssnano": "^7.0.2"
   }
 }
