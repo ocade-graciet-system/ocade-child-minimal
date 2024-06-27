@@ -4,6 +4,31 @@
 
 Thème Wordpress enfant by Ocade Système.
 
+## Ajouter une font manuellement
+1. Dans le thème enfant, à la racine, ajouter un fichier `font.css`.
+2. Voici un exemple de contenu de ce fichier:
+```css
+@charset "utf-8";
+
+@font-face {
+  font-family: 'Open Sans Cond';
+  src: url(./fonts/open-sans-cond-light.ttf) format('truetype');
+}
+```
+4. Dans le fichier `functions.php` ajouter ce bout de code:
+```php
+// Charge rle fichier font.css dans le front du site. Il se trouve dans le thème enfant à la racine
+function theme_enqueue_styles() {
+  // Enqueue parent styles
+  wp_enqueue_style('parent-style', get_template_directory_uri() . '/style.css');
+
+  // Enqueue child theme styles including the font.css
+  wp_enqueue_style('child-style', get_stylesheet_directory_uri() . '/font.css', array('parent-style'));
+}
+add_action('wp_enqueue_scripts', __NAMESPACE__ . '\theme_enqueue_styles');
+```
+5. dans le dossier `fonts` ajouter les fichiers des fonts (ici au format ttf). Pour information, la structure du css peut etre vu dans le projet initiatik si besoin.
+
 ## Design Cassé dans le BO ?
 * Pour ne pas tout redévelopper dans le BO, on a chargé le styles.min.css et main-editor.min.css. Le problème est que les fichiers style.scss (normalement dev pour le front) n'avait pas de classe wrapper pour l'éditeur. On a donc wrapper tout les imports du loader scss avec la class `.editor-styles-wrapper`, exemple:
 ```scss
