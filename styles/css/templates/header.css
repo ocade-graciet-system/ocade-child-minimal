@@ -85,5 +85,8 @@ header > .wp-block-group {
     padding: 1rem;
   }
 }
+a:not([href=""]):not([href*="#"]):not([href^="/"]):not([href*="#pll_switcher"]):not([href*="SOUSDOMAINE.docker.localhost"]):not([href^="tel:"]):not([href^="fax:"]):not([href^="mailto:"])::after {
+  display: none !important;
+}
 
 /*# sourceMappingURL=header.css.map */

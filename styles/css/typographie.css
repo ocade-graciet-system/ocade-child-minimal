@@ -1,2 +1,212 @@
-:root{--fond-du-site:#fff;--espacement-1:.5rem;--espacement-2:1rem;--espacement-3:1.5rem;--espacement-4:2rem;--espacement-5:2.5rem;--espacement-6:3rem;--espacement-7:3.5rem;--espacement-8:4rem;--espacement-9:4.5rem;--espacement-10:5rem;--aligncontent:1280px;--alignwide:1440px;--alignfull:100vw;--bp-xs:450px;--bp-sm:576px;--bp-md:768px;--bp-lg:992px;--bp-xl:1280px;--bp-xxl:1440px}*{box-sizing:border-box}body,html{background-color:var(--fond-du-site)}*{accent-color:var(--wp--preset--color--primary-700);caret-color:var(--wp--preset--color--primary-700);font-family:Roboto;font-size:var(--espacement-2);font-weight:400;letter-spacing:calc(var(--espacement-2)*.04);line-height:150%}::selection{background-color:var(--wp--preset--color--primary-700);color:var(--wp--preset--color--white)}html{scroll-padding-top:125px}a{align-items:center;color:var(--wp--preset--color--links-in-text);display:inline-flex;padding:0 .3rem;text-decoration:underline}@media (max-width:var(--bp-lg )){a{min-height:3rem;padding:0 1rem}}a:hover{color:var(--wp--preset--color--primary-600)}a.wp-block-mailto:before{background-color:var(--wp--preset--color--primary-700)}p{margin-bottom:1rem;margin-top:1rem}p em{color:inherit;font-size:inherit;font-style:italic}h1{margin-bottom:var(--espacement-4)}h1:not(.tab-title),h1:not(.tab-title) a{font-family:Roboto Slab;font-size:var(--espacement-4);font-weight:700;letter-spacing:calc(var(--espacement-4)*.02);line-height:150%}h2{margin-bottom:var(--espacement-3)}h2:not(.tab-title),h2:not(.tab-title) a{font-family:Roboto Slab;font-size:var(--espacement-4);font-weight:700;letter-spacing:calc(var(--espacement-4)*.02);line-height:150%}@media (min-width:var(--bp-sm )){h2:not(.tab-title),h2:not(.tab-title) a{font-family:Roboto Slab;font-size:1.875rem;font-weight:700;letter-spacing:.0375rem;line-height:150%}}h3{margin-bottom:var(--espacement-2)}h3:not(.tab-title),h3:not(.tab-title) a{font-family:Roboto Slab;font-size:1.675rem;font-weight:700;letter-spacing:.01675rem;line-height:150%}h4{margin-bottom:var(--espacement-1)}h4:not(.tab-title),h4:not(.tab-title) a{font-family:Roboto Slab;font-size:var(--espacement-3);font-weight:700;letter-spacing:calc(var(--espacement-3)*.01);line-height:150%}h5{margin-bottom:var(--espacement-1)}h5:not(.tab-title),h5:not(.tab-title) a{font-family:Roboto Slab;font-size:1.375rem;font-weight:700;letter-spacing:.01375rem;line-height:150%}h6{margin-bottom:var(--espacement-1)}h6:not(.tab-title),h6:not(.tab-title) a{font-family:Roboto Slab;font-size:1.25rem;font-weight:700;letter-spacing:.0125rem;line-height:150%}
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Njc3MvY29uZmlnLnNjc3MiLCJ0eXBvZ3JhcGhpZS5jc3MiLCIuLi9zY3NzL3R5cG9ncmFwaGllLnNjc3MiLCIuLi9zY3NzL21peGlucy5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQVVBLE1BQ0UsbUJBQUEsQ0FDQSxvQkFBQSxDQUNBLG1CQUFBLENBQ0EscUJBQUEsQ0FDQSxtQkFBQSxDQUNBLHFCQUFBLENBQ0EsbUJBQUEsQ0FDQSxxQkFBQSxDQUNBLG1CQUFBLENBQ0EscUJBQUEsQ0FDQSxvQkFBQSxDQUVBLHFCQUFBLENBQ0Esa0JBQUEsQ0FDQSxpQkFBQSxDQUVBLGFBQUEsQ0FDQSxhQUFBLENBQ0EsYUFBQSxDQUNBLGFBQUEsQ0FDQSxjQUFBLENBQ0EsZUNLRixDREZBLEVBQUkscUJDTUosQ0RKQSxVQUFhLG9DQ1FiLENDM0NBLEVBSUUsa0RGMlBhLENFNVBiLGlERjRQYSxDRzdMUCxrQkFBQSxDQUFBLDZCQUFBLENBQUEsZUFBQSxDQUFBLDRDQUFBLENBQUEsZ0JGRVIsQ0M1REEsWUFDRSxzREZzUGEsQ0VyUGIscUNEK0RGLENDNURBLEtBQU8sd0JEZ0VQLENDOURBLEVBRUUsa0JBQUEsQ0FFQSw2Q0FBQSxDQUhBLG1CQUFBLENBRUEsZUFBQSxDQUVBLHlCRGdFRixDQzlERSxpQ0FQRixFQVFJLGVBQUEsQ0FDQSxjRGlFRixDQUNGLENDL0RFLFFBQVUsMkNEa0VaLENDL0RJLHlCQUNFLHNERGlFTixDQzVEQSxFQUVFLGtCQUFBLENBREEsZURnRUYsQ0M3REUsS0FHRSxhQUFBLENBREEsaUJBQUEsQ0FEQSxpQkRpRUosQ0MzREEsR0FDRSxpQ0Q4REYsQ0MzREksd0NDZUksdUJBQUEsQ0FBQSw2QkFBQSxDQUFBLGVBQUEsQ0FBQSw0Q0FBQSxDQUFBLGdCRm9EUixDQzVEQSxHQUNFLGlDRCtERixDQzVESSx3Q0NJSSx1QkFBQSxDQUFBLDZCQUFBLENBQUEsZUFBQSxDQUFBLDRDQUFBLENBQUEsZ0JGZ0VSLENFNURRLGlDRFJKLHdDQ1NNLHVCQUFBLENBQUEsa0JBQUEsQ0FBQSxlQUFBLENBQUEsdUJBQUEsQ0FBQSxnQkZnRVIsQ0FDRixDQ2xFQSxHQUNFLGlDRDRGRixDQ3pGSSx3Q0NSSSx1QkFBQSxDQUFBLGtCQUFBLENBQUEsZUFBQSxDQUFBLHdCQUFBLENBQUEsZ0JGeUdSLENDMUZBLEdBQ0UsaUNENkZGLENDMUZJLHdDQ25CSSx1QkFBQSxDQUFBLDZCQUFBLENBQUEsZUFBQSxDQUFBLDRDQUFBLENBQUEsZ0JGcUhSLENDM0ZBLEdBQ0UsaUNEOEZGLENDM0ZJLHdDQzlCSSx1QkFBQSxDQUFBLGtCQUFBLENBQUEsZUFBQSxDQUFBLHdCQUFBLENBQUEsZ0JGaUlSLENDNUZBLEdBQ0UsaUNEK0ZGLENDNUZJLHdDQ3pDSSx1QkFBQSxDQUFBLGlCQUFBLENBQUEsZUFBQSxDQUFBLHVCQUFBLENBQUEsZ0JGNklSIiwiZmlsZSI6InR5cG9ncmFwaGllLmNzcyJ9 */
+@charset "UTF-8";
+/* CLEMUX DESIGN SYSTEM */
+/* TYPOGRAPHY
+Utilisation de la mixin :
+exemple d'utilisation simple :
+  @include typo("title-xxl");
+avec un breakpoint : (les règles associées à title-xxl-sm sont déclarées pour une taille d'écran > $bp-sm)
+  @include typo("title-xxl-sm", "sm");
+avec un override simple : (la propriété déclarée en override est omise)
+  @include typo("title-xxl", 0, "font-family");
+avec un override composé (toutes les propriétés listées sont omises) :
+  @include typo("title-xxl", 0, "font-family" "font-size"); // les propriétés à omettre sont séparées par une espace
+*/
+/** Générer des classes border-primary-200 ou encore border-ternary-500 */
+/** Génère des classes border-radius */
+/** 🚀 Les variables scss générales seront accessible dans le site via le :root permettant à ocade-blocks de pouvoir appliquer des designs et des logiques modifié dans le theme enfants (exemple les espacements) */
+:root {
+  --fond-du-site: #fff;
+  --espacement-1: .5rem; /** 8px */
+  --espacement-2: 1rem; /** 16px */
+  --espacement-3: 1.5rem; /** 24px */
+  --espacement-4: 2rem; /** 32px */
+  --espacement-5: 2.5rem; /** 40px */
+  --espacement-6: 3rem; /** 48px */
+  --espacement-7: 3.5rem; /** 56px */
+  --espacement-8: 4rem; /** 64px */
+  --espacement-9: 4.5rem; /** 72px */
+  --espacement-10: 5rem; /** 80px */
+  --aligncontent: 1280px;
+  --alignwide: 1440px;
+  --alignfull: 100vw;
+  --bp-xs: 450px;
+  --bp-sm: 576px;
+  --bp-md: 768px;
+  --bp-lg: 992px;
+  --bp-xl: 1280px;
+  --bp-xxl: 1440px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  background-color: var(--fond-du-site);
+}
+
+/*
+ * TYPO
+ */
+/** CLEMUX DESIGN SYSTEM */
+/* Breakpoints */
+/* Colors
+* Les couleurs --wp-preset--color--* sont définies dans le fichier functions.php. On peut les faire variées directement dans Thèmes -> Personnaliser -> Couleurs
+* Ici on associe ces valeurs présent dans le BO à des variables plus parlantes
+*/
+/** Black */
+/** White */
+/** Primary */
+/** Secondary */
+/** Tertiary */
+/** Supports */
+* {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: var(--espacement-2);
+  line-height: 150%;
+  letter-spacing: calc(0.04 * var(--espacement-2));
+  caret-color: var(--wp--preset--color--primary-700);
+  accent-color: var(--wp--preset--color--primary-700);
+}
+
+::selection {
+  background-color: var(--wp--preset--color--primary-700);
+  color: var(--wp--preset--color--white);
+}
+
+html {
+  scroll-padding-top: 125px;
+} /* décalage du scroll de XXX px */
+a {
+  display: inline-flex;
+  align-items: center;
+  padding: 0 0.3rem;
+  color: var(--wp--preset--color--links-in-text);
+  text-decoration: underline;
+}
+@media (max-width: var(--bp-lg)) {
+  a {
+    min-height: 3rem; /** Height mobile friendly */
+    padding: 0 1rem;
+  }
+}
+a:hover {
+  color: var(--wp--preset--color--primary-600);
+}
+a.wp-block-mailto::before {
+  background-color: var(--wp--preset--color--primary-700);
+}
+
+p {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+p em {
+  font-style: italic;
+  font-size: inherit;
+  color: inherit;
+}
+
+h1 {
+  margin-bottom: var(--espacement-4);
+}
+h1:not(.tab-title),
+h1:not(.tab-title) a {
+  font-family: "Roboto Slab";
+  font-weight: 700;
+  font-size: var(--espacement-4);
+  line-height: 150%;
+  letter-spacing: calc(0.02 * var(--espacement-4));
+}
+
+h2 {
+  margin-bottom: var(--espacement-3);
+}
+h2:not(.tab-title),
+h2:not(.tab-title) a {
+  font-family: "Roboto Slab";
+  font-weight: 700;
+  font-size: var(--espacement-4);
+  line-height: 150%;
+  letter-spacing: calc(0.02 * var(--espacement-4));
+}
+@media (min-width: var(--bp-sm)) {
+  h2:not(.tab-title),
+  h2:not(.tab-title) a {
+    font-family: "Roboto Slab";
+  }
+}
+@media (min-width: var(--bp-sm)) {
+  h2:not(.tab-title),
+  h2:not(.tab-title) a {
+    font-weight: 700;
+  }
+}
+@media (min-width: var(--bp-sm)) {
+  h2:not(.tab-title),
+  h2:not(.tab-title) a {
+    font-size: 1.875rem;
+  }
+}
+@media (min-width: var(--bp-sm)) {
+  h2:not(.tab-title),
+  h2:not(.tab-title) a {
+    line-height: 150%;
+  }
+}
+@media (min-width: var(--bp-sm)) {
+  h2:not(.tab-title),
+  h2:not(.tab-title) a {
+    letter-spacing: 0.0375rem;
+  }
+}
+h3 {
+  margin-bottom: var(--espacement-2);
+}
+h3:not(.tab-title),
+h3:not(.tab-title) a {
+  font-family: "Roboto Slab";
+  font-weight: 700;
+  font-size: 1.675rem;
+  line-height: 150%;
+  letter-spacing: 0.01675rem;
+}
+
+h4 {
+  margin-bottom: var(--espacement-1);
+}
+h4:not(.tab-title),
+h4:not(.tab-title) a {
+  font-family: "Roboto Slab";
+  font-weight: 700;
+  font-size: var(--espacement-3);
+  line-height: 150%;
+  letter-spacing: calc(0.01 * var(--espacement-3));
+}
+
+h5 {
+  margin-bottom: var(--espacement-1);
+}
+h5:not(.tab-title),
+h5:not(.tab-title) a {
+  font-family: "Roboto Slab";
+  font-weight: 700;
+  font-size: 1.375rem;
+  line-height: 150%;
+  letter-spacing: 0.01375rem;
+}
+
+h6 {
+  margin-bottom: var(--espacement-1);
+}
+h6:not(.tab-title),
+h6:not(.tab-title) a {
+  font-family: "Roboto Slab";
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 150%;
+  letter-spacing: 0.0125rem;
+}
+
+/*# sourceMappingURL=typographie.css.map */
