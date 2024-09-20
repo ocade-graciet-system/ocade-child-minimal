@@ -810,3 +810,16 @@ Fichier `styles/scss/templates/mega-menu.scss`:
 ```
 
 Lancer npm run start pour compiler tout ça et voir le résultat dans le navigateur.
+
+# Mise en place Méga Menu
+1. Ajouter les différents code ci-dessus.
+2. Créer un menu wordpress classique.
+3. Ajouter la classe CSS `mega-menu` sur le bloc core/navigation.
+4. Pour avoir un logo dans le menu il faut utiliser le champs `titre de navigation` et mettre une image <img src="chemin-de-image" />. Ajouter la classe `logo` sur ce block.``
+5. ATTENTION: le menu doit etre géré uniquement depuis le bloc core/navigation dans la section HEADER sinon il faudra le réimporter a chaque fois.
+6. Comment doit-je remplir les liens du header ?
+  * `Texte`: C'est le texte affiché sur le lien.
+  * `Lien`: Lien vers la page de destination
+  * `Description`: description affiché uniquement si le lien n'a pas d'enfant (bloc wordpress fonctionne ainsi).
+  * `Attribut rel`: image qui sera affiché au survol du lien dans le méga menu desktop.
+    
