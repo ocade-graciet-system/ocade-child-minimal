@@ -40,3 +40,8 @@ header {
 a:not([href=""]):not([href*="#"]):not([href^="/"]):not([href*="#pll_switcher"]):not([href*="SOUSDOMAINE.docker.localhost"]):not([href^="tel:"]):not([href^="fax:"]):not([href^="mailto:"])::after {
   display: none !important;
 }
+
+/** Désactiver le lien sur les sous-menus (btn flèche) car peut provoquer des carré blanc (problème axed) */
+.wp-block-navigation .wp-block-navigation__submenu-icon {
+  pointer-events: none !important;
+}
