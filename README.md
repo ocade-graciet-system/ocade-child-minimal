@@ -1,4 +1,4 @@
-# Ocade Child Minimal
+# Ocade Child Minimal | **SITE_NAME**
 
 ![Readme](./readme.png)
 
