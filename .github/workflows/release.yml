@@ -1,59 +1,76 @@
-name: Increment Version and Release
+name: Build and Release Theme
+
 on:
   push:
     branches:
       - master
-  release:
-    types: [published]
+
 permissions:
   contents: write
-  packages: write
-  actions: write
 
 jobs:
-  incremental-version:
+  build:
     runs-on: ubuntu-latest
+    if: github.run_number > 1 && !contains(github.event.head_commit.message, 'NORUN') # Workflow s'exécute uniquement si pas le premier commit et qu'il n'y a pas NORUN dans le message du commit.
+
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout Repository
+        uses: actions/checkout@v3
         with:
-          persist-credentials: false
           fetch-depth: 0
-      - uses: actions/setup-node@v2
-        with:
-          node-version: '16.x'
-          registry-url: 'https://npm.pkg.github.com'
-      - name: Install dependencies
-        run: npm install
-      - name: Build production assets
-        run: npm run production
-      - name: Git config
+
+      - name: Fetch Tags
         run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git config --global pull.rebase true
-          git add .
-          git commit . -m "[bot] Updated Styles For Production" || true
-      - name: Increment action step
-        id: increment
-        uses: ocade-graciet-system/action-wp-metadata@v1
-        with:
-          indexFile: 'style.css' # Entrée du plugin(~fichier.php pour plugin) ou style.css(thème)
-      - name: Commit new comment version
+          git fetch --tags
+          git tag
+
+      - name: Get and Increment Version
+        id: get_version
         run: |
-          git commit style.css -m "[bot] Updated library version"
-      - name: Push new version to master branch
-        uses: ocade-graciet-system/action-push-master@v1
+          LAST_TAG=$(git describe --tags --abbrev=0 2>/dev/null || echo "1.0.0")
+          IFS='.' read -r MAJOR MINOR PATCH <<< "$LAST_TAG"
+          PATCH=$((PATCH + 1))
+          NEW_VERSION="$MAJOR.$MINOR.$PATCH"
+          while git rev-parse "refs/tags/$NEW_VERSION" >/dev/null 2>&1; do
+            PATCH=$((PATCH + 1))
+            NEW_VERSION="$MAJOR.$MINOR.$PATCH"
+          done
+          echo "VERSION=$NEW_VERSION" >> $GITHUB_ENV
+
+      - name: Update Version in style.css
+        run: |
+          sed -i "s/\(Version:\s*\)[0-9.]*/\1$VERSION/" style.css
+
+      - name: Create version.txt
+        run: echo $VERSION > version.txt
+
+      - name: Create Theme ZIP
+        run: |
+          zip -r **NOM_DEPOT_GITHUB**.zip * .[^.]* -x ".git/*" ".github/*" "README.md" "*.zip"
+
+      - name: Commit Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add style.css version.txt
+          git commit -m "Update version to $VERSION" || echo "No changes to commit"
+          git push origin master
+
+      - name: Create Git Tag
+        run: |
+          git tag $VERSION
+          git push origin $VERSION
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v1
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: master
-      - run: zip --symlinks -r ocade-child.zip ./*
-      - name: Publish release
-        uses: "ocade-graciet-system/action-releases@v1"
-        with:
-          repo_token: "${{ secrets.GITHUB_TOKEN }}"
-          automatic_release_tag: "${{ steps.increment.outputs.version }}"
-          prerelease: true
-          title: "${{ steps.increment.outputs.version }}"
+          tag_name: ${{ env.VERSION }}
+          name: "Release ${{ env.VERSION }}"
+          body: "Nouvelle version : ${{ env.VERSION }}"
+          draft: false
+          prerelease: false
           files: |
-            ocade-child.zip
-            ./metadata.json
+            **NOM_DEPOT_GITHUB**.zip
+            version.txt
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
