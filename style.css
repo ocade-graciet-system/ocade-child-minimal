@@ -1,9 +1,11 @@
 /*!
-Theme Name: NOMCLIENT
-Description: THEMECLIENT
-Author: Valentin Charrier
-Author URI: https://www.ocade-systeme.fr/
 Template: ocade-minimal
-Version:                                                                                1.0.79
+Theme Name: **SITE_NAME**
+Theme URI: https://github.com/**NOM_ORGANISATION_GITHUB**/**NOM_DEPOT_GITHUB**
+Author URI: https://www.ocade-systeme.fr/
+Description: Thème enfant de **SITE_NAME**
+Version: 1.0.79
+Author: Valentin Charrier
 License: Propriétaire
+Text Domain: **NOM_DEPOT_GITHUB**
 */
