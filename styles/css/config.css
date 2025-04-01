@@ -1,2 +1,64 @@
-:root{--fond-du-site:#fff;--espacement-1:.5rem;--espacement-2:1rem;--espacement-3:1.5rem;--espacement-4:2rem;--espacement-5:2.5rem;--espacement-6:3rem;--espacement-7:3.5rem;--espacement-8:4rem;--espacement-9:4.5rem;--espacement-10:5rem;--aligncontent:1280px;--alignwide:1440px;--alignfull:100vw;--bp-xs:450px;--bp-sm:576px;--bp-md:768px;--bp-lg:992px;--bp-xl:1280px;--bp-xxl:1440px}*{box-sizing:border-box}body,html{background-color:var(--fond-du-site)}
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Njc3MvY29uZmlnLnNjc3MiLCJjb25maWcuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQVVBLE1BQ0UsbUJBQUEsQ0FDQSxvQkFBQSxDQUNBLG1CQUFBLENBQ0EscUJBQUEsQ0FDQSxtQkFBQSxDQUNBLHFCQUFBLENBQ0EsbUJBQUEsQ0FDQSxxQkFBQSxDQUNBLG1CQUFBLENBQ0EscUJBQUEsQ0FDQSxvQkFBQSxDQUVBLHFCQUFBLENBQ0Esa0JBQUEsQ0FDQSxpQkFBQSxDQUVBLGFBQUEsQ0FDQSxhQUFBLENBQ0EsYUFBQSxDQUNBLGFBQUEsQ0FDQSxjQUFBLENBQ0EsZUNLRixDREZBLEVBQUkscUJDTUosQ0RKQSxVQUFhLG9DQ1FiIiwiZmlsZSI6ImNvbmZpZy5jc3MifQ== */
+@charset "UTF-8";
+/* CLEMUX DESIGN SYSTEM */
+/* TYPOGRAPHY
+Utilisation de la mixin :
+exemple d'utilisation simple :
+  @include typo("title-xxl");
+avec un breakpoint : (les règles associées à title-xxl-sm sont déclarées pour une taille d'écran > $bp-sm)
+  @include typo("title-xxl-sm", "sm");
+avec un override simple : (la propriété déclarée en override est omise)
+  @include typo("title-xxl", 0, "font-family");
+avec un override composé (toutes les propriétés listées sont omises) :
+  @include typo("title-xxl", 0, "font-family" "font-size"); // les propriétés à omettre sont séparées par une espace
+*/
+/** Générer des classes border-primary-200 ou encore border-ternary-500 */
+/** Génère des classes border-radius */
+/** 🚀 Les variables scss générales seront accessible dans le site via le :root permettant à ocade-blocks de pouvoir appliquer des designs et des logiques modifié dans le theme enfants (exemple les espacements) */
+:root {
+  --fond-du-site: #fff;
+  --espacement-1: .5rem; /** 8px */
+  --espacement-2: 1rem; /** 16px */
+  --espacement-3: 1.5rem; /** 24px */
+  --espacement-4: 2rem; /** 32px */
+  --espacement-5: 2.5rem; /** 40px */
+  --espacement-6: 3rem; /** 48px */
+  --espacement-7: 3.5rem; /** 56px */
+  --espacement-8: 4rem; /** 64px */
+  --espacement-9: 4.5rem; /** 72px */
+  --espacement-10: 5rem; /** 80px */
+  --aligncontent: 1280px;
+  --alignwide: 1440px;
+  --alignfull: 100vw;
+  --bp-xs: 450px;
+  --bp-sm: 576px;
+  --bp-md: 768px;
+  --bp-lg: 992px;
+  --bp-xl: 1280px;
+  --bp-xxl: 1440px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  background-color: var(--fond-du-site);
+}
+
+/*
+ * TYPO
+ */
+/** CLEMUX DESIGN SYSTEM */
+/* Breakpoints */
+/* Colors
+* Les couleurs --wp-preset--color--* sont définies dans le fichier functions.php. On peut les faire variées directement dans Thèmes -> Personnaliser -> Couleurs
+* Ici on associe ces valeurs présent dans le BO à des variables plus parlantes
+*/
+/** Black */
+/** White */
+/** Primary */
+/** Secondary */
+/** Tertiary */
+/** Supports */
+
+/*# sourceMappingURL=config.css.map */
