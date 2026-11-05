@@ -48,7 +48,18 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: master
-      - run: zip --symlinks -r **NOM_DEPOT_GITHUB**.zip ./*
+      - name: Créer l'archive .zip avec un dossier racine au nom du paquet
+        run: |
+          # Le zip DOIT contenir un dossier racine au nom du paquet : sans lui, WordPress 7.1.4+ installe
+          # la mise à jour dans un dossier au nom aléatoire (ex. <paquet>-O2QfDfqGGQmh7GkU) et désactive le plugin.
+          PKG_NAME="${{ github.event.repository.name }}"
+          mkdir -p "$RUNNER_TEMP/pkg/$PKG_NAME"
+          for item in ./*; do
+            if [ -e "$item" ]; then cp -a "$item" "$RUNNER_TEMP/pkg/$PKG_NAME/"; fi
+          done
+          (cd "$RUNNER_TEMP/pkg" && zip --symlinks -rq "$GITHUB_WORKSPACE/**NOM_DEPOT_GITHUB**.zip" "$PKG_NAME")
+          unzip -l "**NOM_DEPOT_GITHUB**.zip" | head -15
+          test -n "$(ls -A "$RUNNER_TEMP/pkg/$PKG_NAME")"
       - name: Publish release
         uses: "ocade-graciet-system/action-releases@v1"
         with:
